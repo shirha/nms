@@ -1,0 +1,1160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Frontiers</title>
+<style> 
+@font-face {font-family: "NMS Geo"; src: url("geonms-webfont.ttf");}
+@font-face {font-family: "NMS Glyphs"; src: url("NMS-Glyphs-Mono.ttf");}
+h2 {text-align: center; max-width: 800px; font-size: 1.25em;}
+body {background: url("screenshot.jpg") fixed no-repeat; background-size: cover; font-size: 18px;}
+table {border-spacing: 0;}
+td {padding: 0;}
+div {padding-left: 10px;}
+img {height: 18px; vertical-align: middle; margin-bottom: 4px;}
+.poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; font-style: normal;}
+/*.pol {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; border-radius: 5px; border: 1px solid #888;}*/
+.tr {background-color: greenyellow; color: black;}  /* traveler - #BD104C; https://giggster.com/guide/complementary-colors/ */
+.bh {background-color: #E1C16E;}    /* #ffcfff; lightgrey; black hole */
+.bl {background-color: #b0e0ff;}   /* powderblue; storm crystal */
+.rd {background-color: pink;}         /* predator */
+.gr {background-color: #99ff66;} 
+.on {background-color: #f8f8f8;} /* #f8f8f8 */
+.co {background-color: #d9b3ff;} /* #debde4; corrupted */
+.yl {background-color: yellow;} 
+.br {background-color: #D2B48C;}        /* horrific nest */
+.bio {padding-left:30px;}
+.cc {height: 24px; margin: 0; padding-left: 0;}
+.badge {display: inline-block; padding: 0;}
+.badge div {display: inline-block; padding: 0;}
+blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
+.bq {font-style: italic; color: #551a8b;} /* navy;} */
+.stroke {
+  background: lightgrey; /* border: 1px solid #222; */ color: white; font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+/* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+.s, .p {padding-top: 8px;} 
+td {vertical-align: top;}
+button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
+.gl {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; height: 22px; display: inline-block; padding:0;} 
+span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
+.k {font-family: "NMS Kerned"; font-weight: bold;} 
+.disabled {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; color: #a0a0a0;} 
+.dot {border-radius: 50%; border: 1px solid black; height: 10px; width: 10px; display: inline-block; margin-left: 8px;}
+.fl td::first-letter {font-weight: normal;}
+.c {display: inline-block; vertical-align: top; padding-top: 8px;}
+.pl:link {color: #551a8b;} .pl:visited {color: #551a8b !important;} .pl:hover {color: #0000ee;}
+.sy:link {color: #0000ee;} .sy:visited {color: #0000ee !important;} .sy:hover {color: #551a8b;}
+.sy {font-family: Arial;}
+a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 5px; border: 1px solid #808080;}
+.a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; border: 1px solid #808080;
+    background-color: #dae6f1; background-image: linear-gradient(45deg, #dae6f1, white); display: inline-block;}
+.n {font-style: normal;}
+.sca {display: inline-block; padding-left: 0; color:#0000ee !important;}
+.scx {display: inline-block; padding-left: 0; color: #600080 !important; font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
+.scy {display: inline-block; padding-left: 0; color:yellow !important;}
+.sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
+.scr {display: inline-block; padding-left: 0; color:#DC143C !important;}
+.scg {display: inline-block; padding-left: 0; color:limegreen !important;}
+.scb {display: inline-block; padding-left: 0; color:blue !important;}
+.sct {display: inline-block; padding-left: 0; color:teal !important;}
+.scp {display: inline-block; padding-left: 0; color:purple !important;}
+.tbl {display: inline-block; padding-left: 0; width:130px;}
+.pg  {border: 0; padding: 0;}
+.pg img {vertical-align: top;}
+#sum {border-spacing: 4px; border-collapse: separate;}
+#sum td {padding-bottom: 5px;}
+.r {margin-top: 10px;}
+.pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
+.tc div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
+    text-align: center; padding: 0 2px; font-size: 14px; font-family: 'NMS Geo'}
+.tcs {background-color: #ffc100;}
+.tca {background-color: #d9b3ff;}
+.tcb {background-color: #aad9f7;}
+.tcc {background-color: #99ff66;}
+.tcx {background-color: #ddd;}
+.bca {background-color: #d9b3ff; border-radius: 8px;}
+
+
+/* https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders/61913549#61913549 */
+.box {
+  --b: 1px;    /* thickness of the border */
+  --c: #888;   /* color of the border */
+  --w: 20px;   /* width of border */
+  
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg,var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+    conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  width:300px; 
+  padding: 10px;
+}
+#option1 {display:block;}
+#option2 {display:none;}
+#shelter {white-space: nowrap; border-radius:0; padding: 0; text-decoration: underline; margin-bottom: 5px; border: 0px solid #808080;}
+.minus {display:inline-block;padding:0;background-color:pink;border-radius:50%;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  max-width: 800px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+}
+.modal img {width: 80%; height: auto; margin: 10%;}
+
+</style></head><body>
+<div id="id01" class="modal">
+  <img src="help.png">
+</div>
+
+<h2>Frontiers System Summary</h2>
+<table id=sum><tr><th>Systems</th><th>Planets</th></tr>
+<tr><td nowrap> <a class=sy href=#Nokyotomen>Nokyotomen</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#[TOG]quest-001_{_Enter>[TOG]quest-001 { Enter</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Haroarsho>Haroarsho</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Pamiat-Duligh>Pamiat-Duligh</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Portal_test_base>Portal test base</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Gejinme>Gejinme</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Hashir>Hashir</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Neskoduna>Neskoduna</a></td><td></td></tr>
+<tr><td nowrap><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-hn2.png"/> <img src="i/class-b.png"/> <a class=sy href=#Suitaak>Suitaak</a></td><td></td></tr>
+<tr><td nowrap><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-ai.png"/> <img src="i/class-c.png"/> <a class=sy href=#Erlingdi>Erlingdi</a></td><td></td></tr>
+<tr><td nowrap><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-ai.png"/> <img src="i/class-b.png"/> <a class=sy href=#Doludes>Doludes</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Skappe-Asoes_V>Skappe-Asoes V</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Valhalla>Valhalla</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Wedneyan>Wedneyan</a></td><td></td></tr>
+<tr><td nowrap> <a class=sy href=#Yemvabar_XI>Yemvabar XI</a></td><td></td></tr>
+</table>
+<div class=c><center><b>Technology</b></center><div class=tc><div class=tcs>S</div>&hairsp;Blaze Javelin</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Boltcaster</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Cyclotron</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Exocraft Boost</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Exocraft Cannon</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Exocraft Engine</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Exocraft Laser</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Geology Cannon</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Hot Protection</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Humboldt Drive</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Infra-Knife</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Launch Thrusters</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Mining Beam</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Minotaur Cannon</div>
+<div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Minotaur Engine</div>
+<div class=tc><div class=tca>A</div>&hairsp;Minotaur Laser</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Nautilon Cannon</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Photon Cannon</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Positron</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Pulse Engine</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Pulse Spitter</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Shield</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+<div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+</div>
+<div class=c><center><b>Buy Sell</b></center>Amino Chamber<br>
+Ammonia<br>
+Aronium<br>
+Bromide Salt<br>
+Carbon Nanotubes<br>
+Chlorine<br>
+Chromatic Metal<br>
+Cobalt<br>
+Comet Droplets<br>
+Copper<br>
+De-Scented Pheromone Bottle<br>
+Decrypted User Data<br>
+Di-hydrogen Jelly<br>
+Dioxite<br>
+Dirt<br>
+Dirty Bronze<br>
+Enormous Metal Cog<br>
+Ferrite Dust<br>
+Five Dimensional Torus<br>
+Gold<br>
+Hermetic Seal<br>
+High Capacity Vector Compressor<br>
+Holographic Crankshaft<br>
+Hydraulic Wiring<br>
+Instability Injector<br>
+Ion Battery<br>
+Ion Sphere<br>
+Ionised Cobalt<br>
+Lemmium<br>
+Life Support Gel<br>
+Magnetic Resonator<br>
+Magnetised Ferrite<br>
+Magno-Gold<br>
+Metal Plating<br>
+Microprocessor<br>
+Nanotube Crate<br>
+Neural Duct<br>
+Neutron Microscope<br>
+Non-Stick Piston<br>
+Optical Solvent<br>
+Organic Piping<br>
+Oxygen<br>
+Paraffinium<br>
+Phosphorus<br>
+Platinum<br>
+Polychromatic Zirconium<br>
+Pugneum<br>
+Pure Ferrite<br>
+Pyrite<br>
+Quantum Computer<br>
+Residual Goop<br>
+Rusted Metal<br>
+Salt<br>
+Self-Repairing Heridium<br>
+Silver<br>
+Six-Pronged Mesh Decoupler<br>
+Sodium<br>
+Sodium Nitrate<br>
+Solar Mirror<br>
+Star Silk<br>
+Superconducting Fibre<br>
+Teleport Coordinators<br>
+Tritium<br>
+Unrefined Pyrite Grease<br>
+Unstable Plasma<br>
+Uranium<br>
+Wiring Loom</div>
+<div class=c><center><b>Resources</b></center></div>
+<div class=c><center><b>Biome</b></center></div>
+<h2>Frontiers System Detail</h2>
+<div class=s id=Nokyotomen> <a class=sy href="javascript:clr();">Nokyotomen</a>
+  <div>System Info
+    <div>Celestial Bodies: 5 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Alchemical // Developing</div>
+    <div>Conflict level: Relaxed</div>
+    <div>Glyphs: <div class=gl>100101&nbsp;011010</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Exocraft Engine</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hot Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Launch Thrusters</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Minotaur Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Amino Chamber</div>
+    <div>Carbon Nanotubes</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Dirty Bronze</div>
+    <div>Ferrite Dust</div>
+    <div>Five Dimensional Torus</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Nanotube Crate</div>
+    <div>Optical Solvent</div>
+    <div>Oxygen</div>
+    <div>Paraffinium</div>
+    <div>Phosphorus</div>
+    <div>Pugneum</div>
+    <div>Residual Goop</div>
+    <div>Rusted Metal</div>
+    <div>Self-Repairing Heridium</div>
+    <div>Sodium</div>
+    <div>Sodium Nitrate</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=[TOG]quest-001_{_Enter> <a class=sy href="javascript:clr();">[TOG]quest-001 { Enter</a>
+  <div>System Info
+    <div>Celestial Bodies: 6 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Ore Processing // Low Supply</div>
+    <div>Conflict level: Destructive</div>
+    <div>Glyphs: <div class=gl>110100&nbsp;100100</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Blaze Javelin</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Mining Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Minotaur Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Carbon Nanotubes</div>
+    <div>Chlorine</div>
+    <div>Cobalt</div>
+    <div>Ferrite Dust</div>
+    <div>Hydraulic Wiring</div>
+    <div>Ion Battery</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Nanotube Crate</div>
+    <div>Oxygen</div>
+    <div>Phosphorus</div>
+    <div>Platinum</div>
+    <div>Pyrite</div>
+    <div>Residual Goop</div>
+    <div>Rusted Metal</div>
+    <div>Self-Repairing Heridium</div>
+    <div>Sodium</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Haroarsho> <a class=sy href="javascript:clr();">Haroarsho</a>
+  <div>System Info
+    <div>Celestial Bodies: 4 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Ore Extraction // Satisfactory</div>
+    <div>Conflict level: Untroubled</div>
+    <div>Glyphs: <div class=gl>110101&nbsp;001011</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Boltcaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Exocraft Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Geology Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Infra-Knife</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Photon Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Positron</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Bromide Salt</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Dirt</div>
+    <div>Ferrite Dust</div>
+    <div>Hydraulic Wiring</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Magno-Gold</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Paraffinium</div>
+    <div>Platinum</div>
+    <div>Polychromatic Zirconium</div>
+    <div>Pure Ferrite</div>
+    <div>Quantum Computer</div>
+    <div>Rusted Metal</div>
+    <div>Salt</div>
+    <div>Sodium</div>
+    <div>Unrefined Pyrite Grease</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Pamiat-Duligh> <a class=sy href="javascript:clr();">Pamiat-Duligh</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Mercantile // Comfortable</div>
+    <div>Conflict level: High</div>
+    <div>Glyphs: <div class=gl>111101&nbsp;001110</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Blaze Javelin</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Boltcaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Humboldt Drive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Launch Thrusters</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Ammonia</div>
+    <div>Carbon Nanotubes</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Comet Droplets</div>
+    <div>Decrypted User Data</div>
+    <div>Dirty Bronze</div>
+    <div>Ferrite Dust</div>
+    <div>Gold</div>
+    <div>Hermetic Seal</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Pure Ferrite</div>
+    <div>Quantum Computer</div>
+    <div>Salt</div>
+    <div>Sodium</div>
+    <div>Star Silk</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Portal_test_base> <a class=sy href="javascript:clr();">Portal test base</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets // 1 Moon</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Mining // Comfortable</div>
+    <div>Conflict level: Peaceful</div>
+    <div>Glyphs: <div class=gl>111101&nbsp;101101</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Blaze Javelin</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Nautilon Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Amino Chamber</div>
+    <div>Bromide Salt</div>
+    <div>Carbon Nanotubes</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Dioxite</div>
+    <div>Dirt</div>
+    <div>Dirty Bronze</div>
+    <div>Ferrite Dust</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Platinum</div>
+    <div>Polychromatic Zirconium</div>
+    <div>Pyrite</div>
+    <div>Quantum Computer</div>
+    <div>Rusted Metal</div>
+    <div>Silver</div>
+    <div>Sodium</div>
+    <div>Solar Mirror</div>
+    <div>Unrefined Pyrite Grease</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Gejinme> <a class=sy href="javascript:clr();">Gejinme</a>
+  <div>System Info
+    <div>Celestial Bodies: 6 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Construction // Medium Supply</div>
+    <div>Conflict level: Boisterous</div>
+    <div>Glyphs: <div class=gl>101001&nbsp;101101</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cyclotron</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Photon Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Pulse Spitter</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Dirty Bronze</div>
+    <div>Enormous Metal Cog</div>
+    <div>Ferrite Dust</div>
+    <div>Gold</div>
+    <div>Holographic Crankshaft</div>
+    <div>Hydraulic Wiring</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Non-Stick Piston</div>
+    <div>Oxygen</div>
+    <div>Paraffinium</div>
+    <div>Pugneum</div>
+    <div>Pyrite</div>
+    <div>Quantum Computer</div>
+    <div>Silver</div>
+    <div>Six-Pronged Mesh Decoupler</div>
+    <div>Sodium</div>
+    <div>Sodium Nitrate</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Hashir> <a class=sy href="javascript:clr();">Hashir</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Construction // Destitute</div>
+    <div>Conflict level: Boisterous</div>
+    <div>Glyphs: <div class=gl>110001&nbsp;011010</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tca>A</div>&hairsp;Minotaur Laser</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Pulse Engine</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Ammonia</div>
+    <div>Aronium</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Di-hydrogen Jelly</div>
+    <div>Enormous Metal Cog</div>
+    <div>Ferrite Dust</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Magnetic Resonator</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Non-Stick Piston</div>
+    <div>Oxygen</div>
+    <div>Platinum</div>
+    <div>Pure Ferrite</div>
+    <div>Sodium</div>
+    <div>Sodium Nitrate</div>
+    <div>Solar Mirror</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Neskoduna> <a class=sy href="javascript:clr();">Neskoduna</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Mining // Comfortable</div>
+    <div>Conflict level: Dangerous</div>
+    <div>Glyphs: <div class=gl>111000&nbsp;100100</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cyclotron</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Minotaur Engine</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Pulse Spitter</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Ammonia</div>
+    <div>Aronium</div>
+    <div>Bromide Salt</div>
+    <div>Chlorine</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Dirt</div>
+    <div>Ferrite Dust</div>
+    <div>Ion Battery</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magnetic Resonator</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Polychromatic Zirconium</div>
+    <div>Pugneum</div>
+    <div>Rusted Metal</div>
+    <div>Salt</div>
+    <div>Sodium</div>
+    <div>Unrefined Pyrite Grease</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Suitaak><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-hn2.png"/> <img src="i/class-b.png"/> <a class=sy href="javascript:clr();">Suitaak</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Research // Wealthy</div>
+    <div>Conflict level: High</div>
+    <div>Glyphs: <div class=gl>110101&nbsp;011010</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Launch Thrusters</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Nautilon Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Carbon Nanotubes</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>De-Scented Pheromone Bottle</div>
+    <div>Dioxite</div>
+    <div>Dirty Bronze</div>
+    <div>Ferrite Dust</div>
+    <div>Instability Injector</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Magno-Gold</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Neural Duct</div>
+    <div>Neutron Microscope</div>
+    <div>Organic Piping</div>
+    <div>Oxygen</div>
+    <div>Phosphorus</div>
+    <div>Pure Ferrite</div>
+    <div>Residual Goop</div>
+    <div>Rusted Metal</div>
+    <div>Sodium</div>
+    <div>Solar Mirror</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Erlingdi><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-ai.png"/> <img src="i/class-c.png"/> <a class=sy href="javascript:clr();">Erlingdi</a>
+  <div>System Info
+    <div>Celestial Bodies: 3 Planets // 2 Moons</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Trading // Advanced</div>
+    <div>Conflict level: At War</div>
+    <div>Glyphs: <div class=gl>110101&nbsp;101101</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Exocraft Laser</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Pulse Spitter</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scanner</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Scatter Blaster</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Ammonia</div>
+    <div>Cobalt</div>
+    <div>Comet Droplets</div>
+    <div>Copper</div>
+    <div>Decrypted User Data</div>
+    <div>Ferrite Dust</div>
+    <div>Hydraulic Wiring</div>
+    <div>Ion Battery</div>
+    <div>Ion Sphere</div>
+    <div>Ionised Cobalt</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magno-Gold</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Platinum</div>
+    <div>Pugneum</div>
+    <div>Salt</div>
+    <div>Sodium</div>
+    <div>Star Silk</div>
+    <div>Teleport Coordinators</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Doludes><img src="i/badge-y.png"/>&hairsp;<img src="i/badge-2.png"/>&hairsp;<img src="i/badge-ai.png"/> <img src="i/class-b.png"/> <a class=sy href="javascript:clr();">Doludes</a>
+  <div>System Info
+    <div>Celestial Bodies: 6 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Experimental // Booming</div>
+    <div>Conflict level: Critical</div>
+    <div>Glyphs: <div class=gl>111100&nbsp;100100</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Blaze Javelin</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hot Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Life Support</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Minotaur Engine</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Positron</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Shield</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Starship Shield</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>De-Scented Pheromone Bottle</div>
+    <div>Dioxite</div>
+    <div>Ferrite Dust</div>
+    <div>Instability Injector</div>
+    <div>Ion Battery</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Neural Duct</div>
+    <div>Neutron Microscope</div>
+    <div>Organic Piping</div>
+    <div>Oxygen</div>
+    <div>Platinum</div>
+    <div>Rusted Metal</div>
+    <div>Silver</div>
+    <div>Sodium</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Skappe-Asoes_V> <a class=sy href="javascript:clr();">Skappe-Asoes V</a>
+  <div>System Info
+    <div>Celestial Bodies: 4 Planets // 2 Moons</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Trading // Developing</div>
+    <div>Conflict level: Perilous</div>
+    <div>Glyphs: <div class=gl>101000&nbsp;100100</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Cold Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Exocraft Boost</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hyperdrive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Mining Beam</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Radiation Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Cobalt</div>
+    <div>Comet Droplets</div>
+    <div>Decrypted User Data</div>
+    <div>Di-hydrogen Jelly</div>
+    <div>Dirty Bronze</div>
+    <div>Ferrite Dust</div>
+    <div>Gold</div>
+    <div>Hermetic Seal</div>
+    <div>Hydraulic Wiring</div>
+    <div>Ion Battery</div>
+    <div>Ion Sphere</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Oxygen</div>
+    <div>Pugneum</div>
+    <div>Residual Goop</div>
+    <div>Salt</div>
+    <div>Sodium</div>
+    <div>Star Silk</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Valhalla> <a class=sy href="javascript:clr();">Valhalla</a>
+  <div>System Info
+    <div>Celestial Bodies: 6 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy:</div>
+    <div>Mass Production // High Supply</div>
+    <div>Conflict level: Unthreatening</div>
+    <div>Glyphs: <div class=gl>101001&nbsp;001011</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Geology Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hot Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Humboldt Drive</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Minotaur Cannon</div>
+
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Phase Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Amino Chamber</div>
+    <div>Chlorine</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Enormous Metal Cog</div>
+    <div>Ferrite Dust</div>
+    <div>High Capacity Vector Compressor</div>
+    <div>Holographic Crankshaft</div>
+    <div>Ion Battery</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magnetic Resonator</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Non-Stick Piston</div>
+    <div>Oxygen</div>
+    <div>Paraffinium</div>
+    <div>Phosphorus</div>
+    <div>Platinum</div>
+    <div>Quantum Computer</div>
+    <div>Salt</div>
+    <div>Six-Pronged Mesh Decoupler</div>
+    <div>Sodium</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Wedneyan> <a class=sy href="javascript:clr();">Wedneyan</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets // 3 Moons</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Material Fusion // Balanced</div>
+    <div>Conflict level: Low</div>
+    <div>Glyphs: <div class=gl>210010&nbsp;001101</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcs>S</div>&hairsp;Geology Cannon</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Hot Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Mining Beam</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Positron</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Pulse Spitter</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Carbon Nanotubes</div>
+    <div>Chlorine</div>
+    <div>Cobalt</div>
+    <div>Di-hydrogen Jelly</div>
+    <div>Dioxite</div>
+    <div>Ferrite Dust</div>
+    <div>Ion Battery</div>
+    <div>Life Support Gel</div>
+    <div>Magno-Gold</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Nanotube Crate</div>
+    <div>Optical Solvent</div>
+    <div>Oxygen</div>
+    <div>Pyrite</div>
+    <div>Rusted Metal</div>
+    <div>Self-Repairing Heridium</div>
+    <div>Silver</div>
+    <div>Sodium</div>
+    <div>Sodium Nitrate</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<div class=s id=Yemvabar_XI> <a class=sy href="javascript:clr();">Yemvabar XI</a>
+  <div>System Info
+    <div>Celestial Bodies: 2 Planets</div>
+    <div>Dominant Lifeform: Korvax</div>
+    <div>Economy: Material Fusion // Prosperous</div>
+    <div>Conflict level: Dangerous</div>
+    <div>Glyphs: <div class=gl>110101&nbsp;001110</div></div>
+  </div>
+  <div>Technology
+    <div class=tc><div class=tcb>B</div>&hairsp;Minotaur Cannon Medule</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Movement</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Plasma Launcher</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Toxic Protection</div>
+
+    <div class=tc><div class=tcs>S</div>&hairsp;Underwater Protection</div>
+
+  </div>
+  <div>Buy Sell
+    <div>Chlorine</div>
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Di-hydrogen Jelly</div>
+    <div>Ferrite Dust</div>
+    <div>Five Dimensional Torus</div>
+    <div>Gold</div>
+    <div>Hermetic Seal</div>
+    <div>Ion Battery</div>
+    <div>Lemmium</div>
+    <div>Life Support Gel</div>
+    <div>Magnetic Resonator</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Nanotube Crate</div>
+    <div>Optical Solvent</div>
+    <div>Oxygen</div>
+    <div>Phosphorus</div>
+    <div>Pugneum</div>
+    <div>Self-Repairing Heridium</div>
+    <div>Silver</div>
+    <div>Sodium</div>
+    <div>Sodium Nitrate</div>
+    <div>Superconducting Fibre</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+</div>
+<button>Collapse All</button>
+
+<h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
+
+<div style="margin-top: 700px;"></div>
+<script>
+function clr(){
+  window.scrollTo(0, 0);
+  window.location.href = window.location.href.split('#')[0];
+  return false;
+}
+
+function sv(id){
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+// https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext
+document.querySelector('button').addEventListener('click', function(){
+  document.querySelectorAll('.c')
+    .forEach(e => e.style.display = 'none');
+
+  [...document.querySelectorAll('.p')]
+    .filter(e => !/POI:/.test(e.textContent))
+    .forEach(e => e.style.display = "none");
+
+  document.querySelectorAll('.s')
+    .forEach(e => {
+      [...e.querySelectorAll('div')]
+        .filter(e => /^(Technology|Buy Sell|Resources)/.test(e.textContent))
+        .forEach(e => e.style.display = 'none')
+    });
+  document.querySelector('button').style.display = 'none';
+});
+
+let cbox = document.querySelectorAll('input[type=checkbox]');
+
+for (let i = 0; i < cbox.length; i++) {
+  cbox[i].addEventListener("click", function(e) {
+    let key = e.target.nextSibling.nextSibling.innerHTML;
+    if(localStorage.getItem(key) === null){
+      localStorage.setItem(key, true);
+      e.target.checked == true;
+    }else{
+      localStorage.removeItem(key);
+      e.target.checked == false;
+    }
+  });
+
+  ms = cbox[i].nextSibling.nextSibling.innerHTML;
+  if(!(localStorage.getItem(ms) === null)){ 
+    console.log(ms);
+    cbox[i].checked = true;
+  }
+}
+
+function clearCheckbox(){
+  if(confirm("Are you sure?")){
+    Object.keys(localStorage)
+      .filter(key => /Ms \d\.\d/.test(key))
+      .map(key => localStorage.removeItem(key));
+    [...cbox].map(e => e.checked = false);
+  }
+}
+
+const modal = document.getElementById('id01'),
+  handleModal = () => modal.style.display='block';
+
+[...document.querySelectorAll('img')]
+  .filter(e => /badge|class/.test(e.src))
+  .forEach(e => e.addEventListener('click', handleModal));
+
+window.onclick = function(event) {
+  if (event.target.parentNode == modal || event.target == modal) {
+    modal.style.display = "none";
+
+    [...document.querySelectorAll('img')]
+      .filter(e => /badge|class/.test(e.src))
+      .forEach(e => e.removeEventListener('click', handleModal));
+  }
+}
+
+</script></body></html>

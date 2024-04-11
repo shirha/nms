@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>Orbital</title>
+<style> 
+@font-face {font-family: "NMS Kerned"; src: url("NMSFuturaProBook_Kerned.ttf");}
+@font-face {font-family: "NMS Glyphs"; src: url("NMS-Glyphs-Mono.ttf");}
+@font-face {font-family: Edwardian; src: url("ITCEDSCR.TTF");}
+h2 {text-align: center; max-width: 800px; font-size: 1.25em;}
+body {background: url("screenshot.jpg") fixed no-repeat; background-size: cover; font-size: 18px;}
+table {border-spacing: 0;}
+td {padding: 0;}
+div {padding-left: 10px;}
+.cc {height: 24px; margin: 0; padding-left: 0;}
+img {height: 18px; vertical-align: middle; margin-bottom: 4px;}
+.poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0;}
+.pol {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; border-radius: 5px; border: 1px solid #888;}
+.tr {background-color: greenyellow; color: black; font-style: normal;}  /* traveler - #BD104C; https://giggster.com/guide/complementary-colors/ */
+.bh {background-color: #E1C16E;}    /* #ffcfff; lightgrey; black hole */
+.bl {background-color: #b0e0ff;}   /* powderblue; storm crystal */
+.rd {background-color: pink;}         /* predator */
+.gr {background-color: #99ff66;} 
+.on {background-color: #f8f8f8;} /* #f8f8f8 */
+.co {background-color: #d9b3ff;} /* #debde4; corrupted */
+.yl {background-color: yellow;} 
+.br {background-color: #D2B48C;}        /* horrific nest */
+.bio {padding-left:30px;}
+.badge {display: inline-block; padding: 0;}
+.badge div {display: inline-block; padding: 0;}
+blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
+.stroke {
+  background: lightgrey; /* border: 1px solid #222; */ color: white; font-weight: bold;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+/* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
+.s, .p {padding-top: 8px;} 
+td {vertical-align: top;}
+button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
+span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
+.k {font-family: "NMS Kerned"; font-weight: bold;} 
+.disabled {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; color: #a0a0a0;} 
+.dot {border-radius: 50%; border: 1px solid black; height: 10px; width: 10px; display: inline-block; margin-left: 8px;}
+.fl td::first-letter {font-weight: normal;}
+.c {display: inline-block; vertical-align: top; padding-top: 8px;}
+.pl:link {color: #551a8b;} .pl:visited {color: #551a8b !important;} .pl:hover {color: #0000ee;}
+.sy:link {color: #0000ee;} .sy:visited {color: #0000ee !important;} .sy:hover {color: #551a8b;}
+.sy {font-family: Arial;}
+a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 5px; border: 1px solid #808080;}
+.a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; border: 1px solid #808080;
+    background-color: #dae6f1; background-image: linear-gradient(45deg, #dae6f1, white); display: inline-block;}
+.n {font-style: normal;}
+.sca {display: inline-block; padding-left: 0; color:#0000ee !important;}
+.scx {display: inline-block; padding-left: 0; color: #600080 !important; font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
+.scy {display: inline-block; padding-left: 0; color:yellow !important;}
+.sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
+.scr {display: inline-block; padding-left: 0; color:#DC143C !important;}
+.scg {display: inline-block; padding-left: 0; color:limegreen !important;}
+.scb {display: inline-block; padding-left: 0; color:blue !important;}
+.sct {display: inline-block; padding-left: 0; color:teal !important;}
+.scp {display: inline-block; padding-left: 0; color:purple !important;}
+.tbl {display: inline-block; padding-left: 0; width:130px;}
+.pg  {border: 0; padding: 0;}
+.pg img {vertical-align: top;}
+#sum {border-spacing: 4px; border-collapse: separate;}
+#sum td {padding-bottom: 5px;}
+.r {margin-top: 10px;}
+.pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
+
+/* https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders/61913549#61913549 */
+.box {
+  --b: 1px;    /* thickness of the border */
+  --c: #888;   /* color of the border */
+  --w: 20px;   /* width of border */
+  
+  border: var(--b) solid #0000; /* space for the border */
+  --_g: #0000 90deg,var(--c) 0;
+  --_p: var(--w) var(--w) border-box no-repeat;
+  background:
+    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
+    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
+    conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
+    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
+  width:300px; 
+  padding: 10px;
+}
+#option1 {display:block;}
+#option2 {display:none;}
+#shelter {white-space: nowrap; border-radius:0; padding: 0; text-decoration: underline; margin-bottom: 5px; border: 0px solid #808080;}
+.minus {display:inline-block;padding:0;background-color:pink;border-radius:50%;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  max-width: 800px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+}
+.modal img {width: 80%; height: auto; margin: 10%;}
+
+</style></head><body>
+<div id="id01" class="modal">
+  <img src="help.png">
+</div>
+
+<h2>Orbital System Summary</h2>
+<table id=sum><tr><th>Systems</th><th>Planets</th></tr>
+<tr><td nowrap> <a class=sy href=#Poor>Poor</a></td><td>
+  <a class=pl href=#Telochda>Telochda</a> 
+  <a class=pl href=#New_Pipiaer>New Pipiaer</a> 
+  <a class=pl href=#Oyook_52/G8>Oyook 52/G8</a> 
+  <a class=pl href=#Ikoka_45/G1>Ikoka 45/G1</a> 
+  <a class=pl href=#Ryloss>Ryloss</a></td></tr>
+<tr><td nowrap> <a class=sy href=#Base>Base</a></td><td>
+  <a class=pl href=#Edalmin_R38>Edalmin R38</a> 
+  <a class=pl href=#Rahamp_Major>Rahamp Major</a> 
+  <a class=pl href=#Woodbar>Woodbar</a> 
+  <a class=pl href=#Ruga_91/Z8>Ruga 91/Z8</a> 
+  <a class=pl href=#Kenberg>Kenberg</a></td></tr>
+<tr><td nowrap> <a class=sy href=#Wakingleb>Wakingleb</a></td><td>
+  <a class=pl href=#Ropuscu_Ebaya>Ropuscu Ebaya</a> 
+  <a class=pl href=#Oupol_III>Oupol III</a> 
+  <a class=pl href=#Wosanar_Alpha>Wosanar Alpha</a> 
+  <a class=pl href=#Vistiraqu_Hanai>Vistiraqu Hanai</a> 
+  <a class=pl href=#Imiz_98/A8>Imiz 98/A8</a></td></tr>
+</table>
+<div class=c><center><b>Technology</b></center>Boltcaster<br>
+Cyclotron<br>
+Geology Cannon<br>
+Hot Protection<br>
+Humboldt Drive<br>
+Launch Thrusters<br>
+Life Support<br>
+Minotaur Cannon<br>
+Minotaur Engine<br>
+Nautilon Cannon<br>
+Phase Beam<br>
+Photon Cannon<br>
+Radiation Protection<br>
+Toxic Protection</div>
+<div class=c><center><b>Buy Sell</b></center>5D Torus<br>
+Ammonia<br>
+Carbon Nanotubes<br>
+Chromatic Metal<br>
+Cobalt<br>
+Copper<br>
+De-Scented Bottles<br>
+Di-hydrogen Jelly<br>
+Dirt<br>
+Ferrite Dust<br>
+Gold<br>
+Hermetic Seal<br>
+Hydraulic Wiring<br>
+Instability Injector<br>
+Ionised Cobalt<br>
+Lemmium<br>
+Magnetic Resonator<br>
+Magnetised Ferrite<br>
+Magno-Gold<br>
+Metal Plating<br>
+Microprocessor<br>
+Nanotube Crate<br>
+Neural Duct<br>
+Neutron Microscope<br>
+Optical Solvent<br>
+Organic Piping<br>
+Paraffinium<br>
+Platinum<br>
+Pugneum<br>
+Pure Ferrite<br>
+Pyrite<br>
+Quantum Computer<br>
+Rusted Metal<br>
+Self-Repairing Heridium<br>
+Tritium<br>
+Unstable Plasma<br>
+Uranium<br>
+Wiring Loom</div>
+<div class=c><center><b>Resources</b></center>Activated Copper<br>
+Ancient Bones<br>
+Basalt<br>
+Cactus Flesh<br>
+Cobalt<br>
+Copper<br>
+Dioxite<br>
+Frost Crystal<br>
+Gamma Root<br>
+Magnetised Ferrite<br>
+Paraffinium<br>
+Phosphorus<br>
+Pyrite<br>
+Rusted Metal<br>
+Silver<br>
+Sodium<br>
+Solanium<br>
+Star Bulb<br>
+Uranium</div>
+<div class=c><center><b>Biome</b></center>Ash-Shrouded Planet<br>
+Boiling Planet<br>
+Bountiful Planet<br>
+Dead Planet<br>
+Decaying Nuclear Planet<br>
+Freezing Planet<br>
+Grassy Planet<br>
+Life-Incompatible Planet<br>
+Paradise Planet<br>
+Rocky Planet<br>
+Scalding Planet<br>
+Torrid Planet<br>
+Violent Planet</div>
+<h2>Orbital System Detail</h2>
+<div class=s id=Poor> <a class=sy href="javascript:clr();">Poor</a>
+  <div>System Info
+    <div>Celestial Bodies: 5 Planets</div>
+    <div>Dominant Lifeform: Gek</div>
+    <div>Economy: Ore Extraction // Failing</div>
+    <div>Conflict level: Fractious</div>
+    <div>Glyphs: <span>102dfc&nbsp;003906</span></div>
+  </div>
+  <div>Technology
+    <div>Boltcaster</div>
+    <div>Cyclotron</div>
+    <div>Hot Protection</div>
+    <div>Humboldt Drive</div>
+    <div>Launch Thrusters</div>
+    <div>Minotaur Engine</div>
+    <div>Photon Cannon</div>
+    <div>Radiation Protection</div>
+    <div>Toxic Protection</div>
+  </div>
+  <div>Buy Sell
+    <div>Chromatic Metal</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>Dirt</div>
+    <div>Ferrite Dust</div>
+    <div>Gold</div>
+    <div>Hydraulic Wiring</div>
+    <div>Magnetised Ferrite</div>
+    <div>Magno-Gold</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Pure Ferrite</div>
+    <div>Pyrite</div>
+    <div>Rusted Metal</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+  <div class=p id=Telochda><a class=pl href="javascript:clr();">Telochda</a>
+    <div>Planet Info
+      <div>Biome: Life-Incompatible Planet</div>
+      <div>Weather: Airless</div>
+      <div>Sentinels: <div class="poi rd">Hostile Patrols</div></div>
+      <div>Flora: Devoid</div>
+      <div>Fauna: Undetected</div>
+    </div>
+    <div>Resources
+      <div>Silver</div>
+      <div>Rusted Metal</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=New_Pipiaer><a class=pl href="javascript:clr();">New Pipiaer</a>
+    <div>Planet Info
+      <div>Biome: Ash-Shrouded Planet</div>
+      <div>Weather: Pillars of Flame</div>
+      <div>Sentinels: Ever-present</div>
+      <div>Flora: Sporadic</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div>Sodium</div>
+      <div>Basalt</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Oyook_52/G8><a class=pl href="javascript:clr();">Oyook 52/G8</a>
+    <div>Planet Info
+      <div>Biome: Rocky Planet</div>
+      <div>Weather: Unclouded Skies</div>
+      <div>Sentinels: Remote</div>
+      <div>Flora: High</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div>Cactus Flesh</div>
+      <div>Cobalt</div>
+      <div>Pyrite</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Ikoka_45/G1><a class=pl href="javascript:clr();">Ikoka 45/G1</a>
+    <div>Planet Info
+      <div>Biome: Boiling Planet</div>
+      <div>Weather: Sunny</div>
+      <div>Sentinels: Isolated</div>
+      <div>Flora: Frequent</div>
+      <div>Fauna: Occasional</div>
+    </div>
+    <div>Resources
+      <div>Ancient Bones</div>
+      <div>Solanium</div>
+      <div>Silver</div>
+      <div>Phosphorus</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Ryloss><a class=pl href="javascript:clr();">Ryloss</a>
+    <div>Planet Info
+      <div>Biome: Decaying Nuclear Planet</div>
+      <div>Weather: Reactive Rain</div>
+      <div>Sentinels: Limited</div>
+      <div>Flora: Numerous</div>
+      <div>Fauna: Copious</div>
+    </div>
+    <div>Resources
+      <div>Gamma Root</div>
+      <div>Silver</div>
+      <div>Uranium</div>
+      <div>Copper</div>
+    </div>
+  </div>
+</div>
+<div class=s id=Base> <a class=sy href="javascript:clr();">Base</a>
+  <div>System Info
+    <div>Celestial Bodies: 5 Planets</div>
+    <div>Dominant Lifeform: Vy'keen</div>
+    <div>Economy: Mathematical // Opulent</div>
+    <div>Conflict level: Trivial</div>
+    <div>Glyphs: <span>1026fc&nbsp;003906</span></div>
+  </div>
+  <div>Technology
+    <div>Nautilon Cannon</div>
+    <div>Phase Beam</div>
+    <div>Toxic Protection</div>
+  </div>
+  <div>Buy Sell
+    <div>Carbon Nanotubes</div>
+    <div>Cobalt</div>
+    <div>Copper</div>
+    <div>De-Scented Bottles</div>
+    <div>Di-hydrogen Jelly</div>
+    <div>Ferrite Dust</div>
+    <div>Instability Injector</div>
+    <div>Ionised Cobalt</div>
+    <div>Lemmium</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Neural Duct</div>
+    <div>Neutron Microscope</div>
+    <div>Organic Piping</div>
+    <div>Paraffinium</div>
+    <div>Platinum</div>
+    <div>Pure Ferrite</div>
+    <div>Rusted Metal</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Wiring Loom</div>
+  </div>
+  <div class=p id=Edalmin_R38><a class=pl href="javascript:clr();">Edalmin R38</a>
+    <div>Planet Info
+      <div>Biome: Violent Planet</div>
+      <div>Weather: Tectonic Storms</div>
+      <div>Sentinels: Frequent</div>
+      <div>Flora: Sparse</div>
+      <div>Fauna: Ample</div>
+    </div>
+    <div>Resources
+      <div>Sodium</div>
+      <div>Pyrite</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Rahamp_Major><a class=pl href="javascript:clr();">Rahamp Major</a>
+    <div>Planet Info
+      <div>Biome: Dead Planet</div>
+      <div>Weather: Absent</div>
+      <div>Sentinels: Limited</div>
+      <div>Flora: Barren</div>
+      <div>Fauna: Deficient</div>
+    </div>
+    <div>Resources
+      <div>Magnetised Ferrite</div>
+      <div>Rusted Metal</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Woodbar><a class=pl href="javascript:clr();">Woodbar</a>
+    <div>Planet Info
+      <div>Biome: Bountiful Planet</div>
+      <div>Weather: Echoes of Acid</div>
+      <div>Sentinels: <div class="poi rd">Inescapable</div></div>
+      <div>Flora: High</div>
+      <div>Fauna: Full</div>
+    </div>
+    <div>Resources
+      <div>Ancient Bones</div>
+      <div>Star Bulb</div>
+      <div>Silver</div>
+      <div>Paraffinium</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Ruga_91/Z8><a class=pl href="javascript:clr();">Ruga 91/Z8</a>
+    <div>Planet Info
+      <div>Biome: Scalding Planet</div>
+      <div>Weather: Sunny</div>
+      <div>Sentinels: Infrequent</div>
+      <div>Flora: Copious</div>
+      <div>Fauna: Medium</div>
+    </div>
+    <div>Resources
+      <div>Solanium</div>
+      <div>Cobalt</div>
+      <div>Phosphorus</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Kenberg><a class=pl href="javascript:clr();">Kenberg</a>
+    <div>Planet Info
+      <div>Biome: Paradise Planet</div>
+      <div>Weather: Pleasant</div>
+      <div>Sentinels: Few</div>
+      <div>Flora: High</div>
+      <div>Fauna: High</div>
+    </div>
+    <div>Resources
+      <div>Star Bulb</div>
+      <div>Sodium</div>
+      <div>Paraffinium</div>
+      <div>Copper</div>
+    </div>
+  </div>
+</div>
+<div class=s id=Wakingleb> <a class=sy href="javascript:clr();">Wakingleb</a>
+  <div>System Info
+    <div>Celestial Bodies: 5 Planets</div>
+    <div>Dominant Lifeform: Gek</div>
+    <div>Economy: Material Fusion // Balanced</div>
+    <div>Conflict level: Low</div>
+    <div>Glyphs: <span>1014fc&nbsp;003906</span></div>
+  </div>
+  <div>Technology
+    <div>Geology Cannon</div>
+    <div>Hot Protection</div>
+    <div>Life Support</div>
+    <div>Minotaur Cannon</div>
+    <div>Toxic Protection</div>
+  </div>
+  <div>Buy Sell
+    <div>5D Torus</div>
+    <div>Ammonia</div>
+    <div>Cobalt</div>
+    <div>Ferrite Dust</div>
+    <div>Hermetic Seal</div>
+    <div>Magnetic Resonator</div>
+    <div>Magnetised Ferrite</div>
+    <div>Metal Plating</div>
+    <div>Microprocessor</div>
+    <div>Nanotube Crate</div>
+    <div>Optical Solvent</div>
+    <div>Paraffinium</div>
+    <div>Platinum</div>
+    <div>Pugneum</div>
+    <div>Pyrite</div>
+    <div>Quantum Computer</div>
+    <div>Self-Repairing Heridium</div>
+    <div>Tritium</div>
+    <div>Unstable Plasma</div>
+    <div>Uranium</div>
+    <div>Wiring Loom</div>
+  </div>
+  <div class=p id=Ropuscu_Ebaya><a class=pl href="javascript:clr();">Ropuscu Ebaya</a>
+    <div>Planet Info
+      <div>Biome: Scalding Planet</div>
+      <div>Weather: Dehydrated</div>
+      <div>Sentinels: Irregular Patrols</div>
+      <div>Flora: Copious</div>
+      <div>Fauna: Fair</div>
+    </div>
+    <div>Resources
+      <div>Solanium</div>
+      <div>Cobalt</div>
+      <div>Phosphorus</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Oupol_III><a class=pl href="javascript:clr();">Oupol III</a>
+    <div>Planet Info
+      <div>Biome: Freezing Planet</div>
+      <div>Weather: <div class="poi rd">Roaring Ice Storms</div></div>
+      <div>Sentinels: Ever-present</div>
+      <div>Flora: Generous</div>
+      <div>Fauna: Infrequent</div>
+    </div>
+    <div>Resources
+      <div>Frost Crystal</div>
+      <div>Silver</div>
+      <div>Dioxite</div>
+      <div>Activated Copper</div>
+    </div>
+  </div>
+  <div class=p id=Wosanar_Alpha><a class=pl href="javascript:clr();">Wosanar Alpha</a>
+    <div>Planet Info
+      <div>Biome: Grassy Planet</div>
+      <div>Weather: <div class="poi rd">Superheated Rain</div></div>
+      <div>Sentinels: Require Orthodoxy</div>
+      <div>Flora: Rich</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div>Star Bulb</div>
+      <div>Magnetised Ferrite</div>
+      <div>Paraffinium</div>
+      <div>Activated Copper</div>
+    </div>
+  </div>
+  <div class=p id=Vistiraqu_Hanai><a class=pl href="javascript:clr();">Vistiraqu Hanai</a>
+    <div>Planet Info
+      <div>Biome: Torrid Planet</div>
+      <div>Weather: Dangerously Hot</div>
+      <div>Sentinels: Enforcing</div>
+      <div>Flora: Abundant</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div>Solanium</div>
+      <div>Silver</div>
+      <div>Phosphorus</div>
+      <div>Copper</div>
+    </div>
+  </div>
+  <div class=p id=Imiz_98/A8><a class=pl href="javascript:clr();">Imiz 98/A8</a>
+    <div>Planet Info
+      <div>Biome: Grassy Planet</div>
+      <div>Weather: <div class="poi rd">Painfully Hot Rain</div></div>
+      <div>Sentinels: <div class="poi co">Sharded from the Atlas</div></div>
+      <div>Flora: Abundant</div>
+      <div>Fauna: Bountiful</div>
+    </div>
+    <div>Resources
+      <div>Star Bulb</div>
+      <div>Cobalt</div>
+      <div>Paraffinium</div>
+      <div>Copper</div>
+    </div>
+  </div>
+</div>
+<button>Collapse All</button>
+
+<h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
+
+<div style="margin-top: 700px;"></div>
+<script>
+function clr(){
+  window.scrollTo(0, 0);
+  window.location.href = window.location.href.split('#')[0];
+  return false;
+}
+
+function sv(id){
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+// https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext
+document.querySelector('button').addEventListener('click', function(){
+  document.querySelectorAll('.c')
+    .forEach(e => e.style.display = 'none');
+
+  [...document.querySelectorAll('.p')]
+    .filter(e => !/POI:/.test(e.textContent))
+    .forEach(e => e.style.display = "none");
+
+  document.querySelectorAll('.s')
+    .forEach(e => {
+      [...e.querySelectorAll('div')]
+        .filter(e => /^(Technology|Buy Sell|Resources)/.test(e.textContent))
+        .forEach(e => e.style.display = 'none')
+    });
+  document.querySelector('button').style.display = 'none';
+});
+
+let cbox = document.querySelectorAll('input[type=checkbox]');
+
+for (let i = 0; i < cbox.length; i++) {
+  cbox[i].addEventListener("click", function(e) {
+    let key = e.target.nextSibling.nextSibling.innerHTML;
+    if(localStorage.getItem(key) === null){
+      localStorage.setItem(key, true);
+      e.target.checked == true;
+    }else{
+      localStorage.removeItem(key);
+      e.target.checked == false;
+    }
+  });
+
+  ms = cbox[i].nextSibling.nextSibling.innerHTML;
+  if(!(localStorage.getItem(ms) === null)){ 
+    console.log(ms);
+    cbox[i].checked = true;
+  }
+}
+
+function clearCheckbox(){
+  if(confirm("Are you sure?")){
+    Object.keys(localStorage)
+      .filter(key => /Ms \d\.\d/.test(key))
+      .map(key => localStorage.removeItem(key));
+    [...cbox].map(e => e.checked = false);
+  }
+}
+
+const modal = document.getElementById('id01'),
+  handleModal = () => modal.style.display='block';
+
+[...document.querySelectorAll('img')]
+  .filter(e => /badge|class/.test(e.src))
+  .forEach(e => e.addEventListener('click', handleModal));
+
+window.onclick = function(event) {
+  if (event.target.parentNode == modal || event.target == modal) {
+    modal.style.display = "none";
+
+    [...document.querySelectorAll('img')]
+      .filter(e => /badge|class/.test(e.src))
+      .forEach(e => e.removeEventListener('click', handleModal));
+  }
+}
+
+</script></body></html>

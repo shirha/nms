@@ -1,0 +1,914 @@
+
+1\20240319122000_1.jpg
+SysInfo: entering...
+Visited: entering... None
+0.003 (0, 0) (85, 327)
+623 Visted matched
+0.003 (0, 0) station: None
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.256 (270, 73)
+659 Biome: xbox  0.196 (268, 66)
+668 visited:2 station= Poor
+672 Exiting because no biome card
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319122100_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Poor
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Poor
+523 Resource: station= Poor, x=1, planet= "Telochda"
+545 Resource: profile= Weather: Airless
+545 Resource: profile= Sentinels: Hostile Patrols
+545 Resource: profile= Flora: Devoid
+545 Resource: profile= Fauna: Undetected
+589 Resource: resource= Silver
+589 Resource: resource= Rusted Metal
+589 Resource: resource= Copper
+
+1\20240319122200_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Poor
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Poor
+523 Resource: station= Poor, x=2, planet= "New Pipiaer"
+545 Resource: profile= Weather: Pillars of Flame
+545 Resource: profile= Sentinels: Ever-present
+545 Resource: profile= Flora: Sporadic
+545 Resource: profile= Fauna: Abundant
+589 Resource: resource= Sodium
+589 Resource: resource= Basalt
+589 Resource: resource= Copper
+
+1\20240319122300_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Poor
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Poor
+523 Resource: station= Poor, x=3, planet= "Oyook 52/G8"
+545 Resource: profile= Weather: Unclouded Skies
+545 Resource: profile= Sentinels: Remote
+545 Resource: profile= Flora: High
+545 Resource: profile= Fauna: Abundant
+589 Resource: resource= Cactus Flesh
+589 Resource: resource= Cobalt
+589 Resource: resource= Pyrite
+589 Resource: resource= Copper
+
+1\20240319122400_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Poor
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Poor
+523 Resource: station= Poor, x=4, planet= "Ikoka 45/G1"
+545 Resource: profile= Weather: Sunny
+545 Resource: profile= Sentinels: Isolated
+545 Resource: profile= Flora: Frequent
+545 Resource: profile= Fauna: Occasional
+589 Resource: resource= Ancient Bones
+589 Resource: resource= Solanium
+589 Resource: resource= Silver
+589 Resource: resource= Phosphorus
+589 Resource: resource= Copper
+
+1\20240319122500_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Poor
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Poor
+523 Resource: station= Poor, x=5, planet= "Ryloss"
+545 Resource: profile= Weather: Reactive Rain
+545 Resource: profile= Sentinels: Limited
+545 Resource: profile= Flora: Numerous
+545 Resource: profile= Fauna: Copious
+589 Resource: resource= Gamma Root
+589 Resource: resource= Silver
+589 Resource: resource= Uranium
+589 Resource: resource= Copper
+
+1\20240319122600_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (77, 44) (85, 327)
+623 Visted matched
+0.003 (77, 44) station: Poor
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 127)
+659 Biome: xbox  0.195 (268, 66)
+682 locate planet name
+card title= [Telochda]
+708 Biome: sicon 0.471 (0, 390)
+788 Biome: bicon 1.000 (0, 0)
+812 Biome= `Life-Incompatible Planet`
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319122700_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (77, 40) (85, 327)
+623 Visted matched
+0.003 (77, 40) station: Poor
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 187)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [New Pipiaer]
+708 Biome: sicon 0.582 (0, 94)
+788 Biome: bicon 1.000 (0, 0)
+812 Biome= `Ash-Shrouded Planet`
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319122800_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (77, 37) (85, 327)
+623 Visted matched
+0.003 (77, 37) station: Poor
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 249)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Oyook 52/G8]
+708 Biome: sicon 0.634 (0, 231)
+788 Biome: bicon 0.995 (0, 0)
+812 Biome= `Rocky Planet`
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319122900_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (77, 33) (85, 327)
+623 Visted matched
+0.003 (77, 33) station: Poor
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 307)
+659 Biome: xbox  0.195 (268, 66)
+682 locate planet name
+card title= [Ikoka 45/G1]
+708 Biome: sicon 0.620 (0, 121)
+788 Biome: bicon 0.933 (0, 0)
+812 Biome= `Boiling Planet`
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319123000_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (78, 29) (85, 327)
+623 Visted matched
+0.003 (78, 29) station: Poor
+627 scan system name at top
+632 tentative: 'Poor', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (465, 363)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Ryloss]
+708 Biome: sicon 0.622 (0, 97)
+788 Biome: bicon 0.913 (0, 0)
+812 Biome= `Decaying Nuclear Planet`
+61 Visited: exiting... (True, 'Poor', False)
+
+1\20240319125200_1.jpg
+SysInfo: entering...
+Visited: entering... Poor
+0.003 (0, 0) (85, 327)
+623 Visted matched
+0.003 (0, 0) station: Poor
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.217 (643, 252)
+659 Biome: xbox  0.212 (648, 259)
+668 visited:2 station= Base
+672 Exiting because no biome card
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319125300_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Base
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Base
+523 Resource: station= Base, x=1, planet= "Edalmin R38"
+545 Resource: profile= Weather: Tectonic Storms
+545 Resource: profile= Sentinels: Frequent
+545 Resource: profile= Flora: Sparse
+545 Resource: profile= Fauna: Ample
+589 Resource: resource= Sodium
+589 Resource: resource= Pyrite
+589 Resource: resource= Copper
+
+1\20240319125400_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Base
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Base
+523 Resource: station= Base, x=2, planet= "Rahamp Major"
+545 Resource: profile= Weather: Absent
+545 Resource: profile= Sentinels: Limited
+545 Resource: profile= Flora: Barren
+545 Resource: profile= Fauna: Deficient
+589 Resource: resource= Magnetised Ferrite
+589 Resource: resource= Rusted Metal
+589 Resource: resource= Copper
+
+1\20240319125500_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Base
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Base
+523 Resource: station= Base, x=3, planet= "Woodbar"
+545 Resource: profile= Weather: Echoes of Acid
+545 Resource: profile= Sentinels: Inescapable
+545 Resource: profile= Flora: High
+545 Resource: profile= Fauna: Full
+589 Resource: resource= Ancient Bones
+589 Resource: resource= Star Bulb
+589 Resource: resource= Silver
+589 Resource: resource= Paraffinium
+589 Resource: resource= Copper
+
+1\20240319125600_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Base
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Base
+523 Resource: station= Base, x=4, planet= "Ruga 91/Z8"
+545 Resource: profile= Weather: Sunny
+545 Resource: profile= Sentinels: Infrequent
+545 Resource: profile= Flora: Copious
+545 Resource: profile= Fauna: Medium
+589 Resource: resource= Solanium
+589 Resource: resource= Cobalt
+589 Resource: resource= Phosphorus
+589 Resource: resource= Copper
+
+1\20240319125700_1.jpg
+SysInfo: entering...
+SysInfo: mn=0.004
+
+1\20240319125800_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Base
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Base
+523 Resource: station= Base, x=5, planet= "Kenberg"
+545 Resource: profile= Weather: Pleasant
+545 Resource: profile= Sentinels: Few
+545 Resource: profile= Flora: High
+545 Resource: profile= Fauna: High
+589 Resource: resource= Star Bulb
+589 Resource: resource= Sodium
+589 Resource: resource= Paraffinium
+589 Resource: resource= Copper
+
+1\20240319125900_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.004 (78, 40) (85, 327)
+623 Visted matched
+0.004 (78, 40) station: Base
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 189)
+659 Biome: xbox  0.284 (137, 78)
+682 locate planet name
+card title= [Edalmin R38]
+708 Biome: sicon 0.586 (0, 94)
+788 Biome: bicon 1.000 (0, 0)
+812 Biome= `Violent Planet`
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319130000_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.004 (78, 37) (85, 327)
+623 Visted matched
+0.004 (78, 37) station: Base
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 248)
+659 Biome: xbox  0.283 (137, 78)
+682 locate planet name
+card title= [Rahamp Major]
+708 Biome: sicon 0.636 (0, 207)
+788 Biome: bicon 0.977 (0, 0)
+812 Biome= `Dead Planet`
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319130100_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.004 (77, 33) (85, 327)
+623 Visted matched
+0.004 (77, 33) station: Base
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (465, 222)
+659 Biome: xbox  0.237 (43, 287)
+682 locate planet name
+card title= [Woodbar]
+708 Biome: sicon 0.552 (0, 231)
+788 Biome: bicon 0.001 (0, 0)
+812 Biome= `Bountiful Planet`
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319130200_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.004 (77, 30) (85, 327)
+623 Visted matched
+0.004 (77, 30) station: Base
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (465, 362)
+659 Biome: xbox  0.212 (649, 258)
+682 locate planet name
+card title= [Ruga 91/Z8]
+708 Biome: sicon 0.621 (0, 97)
+788 Biome: bicon 0.930 (0, 0)
+812 Biome= `Scalding Planet`
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319130300_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.004 (77, 27) (85, 327)
+623 Visted matched
+0.004 (77, 27) station: Base
+627 scan system name at top
+632 tentative: 'Base', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (465, 365)
+659 Biome: xbox  0.212 (648, 258)
+682 locate planet name
+card title= [Kenberg]
+708 Biome: sicon 0.623 (0, 97)
+788 Biome: bicon 0.944 (0, 0)
+812 Biome= `Paradise Planet`
+61 Visited: exiting... (True, 'Base', False)
+
+1\20240319132500_1.jpg
+SysInfo: entering...
+Visited: entering... Base
+0.003 (0, 0) (85, 327)
+623 Visted matched
+0.003 (0, 0) station: Base
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.222 (347, 387)
+659 Biome: xbox  0.196 (268, 66)
+668 visited:2 station= Wakingleb
+672 Exiting because no biome card
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+1\20240319132600_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Wakingleb
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Wakingleb
+523 Resource: station= Wakingleb, x=1, planet= "Ropuscu Ebaya"
+545 Resource: profile= Weather: Dehydrated
+545 Resource: profile= Sentinels: Irregular Patrols
+545 Resource: profile= Flora: Copious
+545 Resource: profile= Fauna: Fair
+589 Resource: resource= Solanium
+589 Resource: resource= Cobalt
+589 Resource: resource= Phosphorus
+589 Resource: resource= Copper
+
+1\20240319132700_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Wakingleb
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Wakingleb
+523 Resource: station= Wakingleb, x=2, planet= "Oupol III"
+545 Resource: profile= Weather: Roaring Ice Storms
+545 Resource: profile= Sentinels: Ever-present
+545 Resource: profile= Flora: Generous
+545 Resource: profile= Fauna: Infrequent
+589 Resource: resource= Frost Crystal
+589 Resource: resource= Silver
+589 Resource: resource= Dioxite
+589 Resource: resource= Activated Copper
+
+1\20240319132800_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.986 (9, 50) (85, 327)
+337 Techno: entering... Wakingleb
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Wakingleb
+523 Resource: station= Wakingleb, x=3, planet= "Wosanar Alpha"
+545 Resource: profile= Weather: Superheated Rain
+545 Resource: profile= Sentinels: Require Orthodoxy
+545 Resource: profile= Flora: Rich
+545 Resource: profile= Fauna: Abundant
+589 Resource: resource= Star Bulb
+589 Resource: resource= Magnetised Ferrite
+589 Resource: resource= Paraffinium
+589 Resource: resource= Activated Copper
+
+1\20240319132900_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Wakingleb
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Wakingleb
+523 Resource: station= Wakingleb, x=4, planet= "Vistiraqu Hanai"
+545 Resource: profile= Weather: Dangerously Hot
+545 Resource: profile= Sentinels: Enforcing
+545 Resource: profile= Flora: Abundant
+545 Resource: profile= Fauna: Abundant
+589 Resource: resource= Solanium
+589 Resource: resource= Silver
+589 Resource: resource= Phosphorus
+589 Resource: resource= Copper
+
+1\20240319133000_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+1.000 (0, 0) (85, 327)
+337 Techno: entering... Wakingleb
+345 Techno: avail: mn=1.000,MPy=0,MPx=0
+483 Resource: entering... Wakingleb
+523 Resource: station= Wakingleb, x=5, planet= "Imiz 98/A8"
+545 Resource: profile= Weather: Painfully Hot Rain
+545 Resource: profile= Sentinels: Sharded from the Atlas
+545 Resource: profile= Flora: Abundant
+545 Resource: profile= Fauna: Bountiful
+589 Resource: resource= Star Bulb
+589 Resource: resource= Cobalt
+589 Resource: resource= Paraffinium
+589 Resource: resource= Copper
+
+1\20240319133100_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.003 (77, 43) (85, 327)
+623 Visted matched
+0.003 (77, 43) station: Wakingleb
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 129)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Ropuscu Ebaya]
+708 Biome: sicon 0.470 (0, 390)
+788 Biome: bicon 1.000 (0, 0)
+812 Biome= `Scalding Planet`
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+1\20240319133200_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.003 (77, 40) (85, 327)
+623 Visted matched
+0.003 (77, 40) station: Wakingleb
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 188)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Oupol III]
+708 Biome: sicon 0.574 (0, 118)
+788 Biome: bicon 1.000 (0, 0)
+812 Biome= `Freezing Planet`
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+1\20240319133300_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.003 (77, 37) (85, 327)
+623 Visted matched
+0.003 (77, 37) station: Wakingleb
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 247)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Wosanar Alpha]
+708 Biome: sicon 0.576 (0, 118)
+788 Biome: bicon 0.989 (0, 0)
+812 Biome= `Grassy Planet`
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+1\20240319133400_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.003 (77, 33) (85, 327)
+623 Visted matched
+0.003 (77, 33) station: Wakingleb
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 306)
+659 Biome: xbox  0.195 (268, 66)
+682 locate planet name
+card title= [Vistiraqu Hanai]
+708 Biome: sicon 0.553 (0, 118)
+788 Biome: bicon 0.969 (0, 0)
+812 Biome= `Torrid Planet`
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+1\20240319133500_1.jpg
+SysInfo: entering...
+Visited: entering... Wakingleb
+0.003 (77, 30) (85, 327)
+623 Visted matched
+0.003 (77, 30) station: Wakingleb
+627 scan system name at top
+632 tentative: 'Wakingleb', shape:(58, 575)
+643 locate steam icon in search area
+649 Biome: steam 0.001 (342, 338)
+659 Biome: xbox  0.196 (268, 66)
+682 locate planet name
+card title= [Imiz 98/A8]
+708 Biome: sicon 0.539 (0, 118)
+788 Biome: bicon 0.931 (0, 0)
+812 Biome= `Grassy Planet`
+61 Visited: exiting... (True, 'Wakingleb', False)
+
+{
+  "Poor": {
+    "System Info": [
+      "Celestial Bodies: 5 Planets",
+      "Dominant Lifeform: Gek",
+      "Economy: Ore Extraction // Failing",
+      "Conflict level: Fractious",
+      "Glyphs: 102dfc003906"
+    ],
+    "Technology": {
+      "Radiation Protection": "",
+      "Toxic Protection": "",
+      "Hot Protection": "",
+      "Minotaur Engine": "",
+      "Humboldt Drive": "",
+      "Photon Cannon": "",
+      "Cyclotron": "",
+      "Launch Thrusters": "",
+      "Boltcaster": ""
+    },
+    "Buy Sell": {
+      "Dirt": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Magno-Gold": "",
+      "Metal Plating": "",
+      "Uranium": "",
+      "Rusted Metal": "",
+      "Pyrite": "",
+      "Gold": "",
+      "Hydraulic Wiring": "",
+      "Chromatic Metal": "",
+      "Copper": "",
+      "Magnetised Ferrite": "",
+      "Pure Ferrite": ""
+    },
+    "Telochda": {
+      "Planet Info": [
+        "Biome: Life-Incompatible Planet",
+        "Weather: Airless",
+        "Sentinels: Hostile Patrols",
+        "Flora: Devoid",
+        "Fauna: Undetected"
+      ],
+      "Resources": [
+        "Silver",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "New Pipiaer": {
+      "Planet Info": [
+        "Biome: Ash-Shrouded Planet",
+        "Weather: Pillars of Flame",
+        "Sentinels: Ever-present",
+        "Flora: Sporadic",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Sodium",
+        "Basalt",
+        "Copper"
+      ]
+    },
+    "Oyook 52/G8": {
+      "Planet Info": [
+        "Biome: Rocky Planet",
+        "Weather: Unclouded Skies",
+        "Sentinels: Remote",
+        "Flora: High",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Cobalt",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Ikoka 45/G1": {
+      "Planet Info": [
+        "Biome: Boiling Planet",
+        "Weather: Sunny",
+        "Sentinels: Isolated",
+        "Flora: Frequent",
+        "Fauna: Occasional"
+      ],
+      "Resources": [
+        "Ancient Bones",
+        "Solanium",
+        "Silver",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Ryloss": {
+      "Planet Info": [
+        "Biome: Decaying Nuclear Planet",
+        "Weather: Reactive Rain",
+        "Sentinels: Limited",
+        "Flora: Numerous",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Silver",
+        "Uranium",
+        "Copper"
+      ]
+    }
+  },
+  "Base": {
+    "System Info": [
+      "Celestial Bodies: 5 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Mathematical // Opulent",
+      "Conflict level: Trivial",
+      "Glyphs: 1026fc003906"
+    ],
+    "Technology": {
+      "Toxic Protection": "",
+      "Nautilon Cannon": "",
+      "Phase Beam": ""
+    },
+    "Buy Sell": {
+      "De-Scented Bottles": "",
+      "Neutron Microscope": "",
+      "Instability Injector": "",
+      "Organic Piping": "",
+      "Neural Duct": "",
+      "Cobalt": "",
+      "Di-hydrogen Jelly": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Ionised Cobalt": "",
+      "Copper": "",
+      "Platinum": "",
+      "Pure Ferrite": "",
+      "Lemmium": "",
+      "Carbon Nanotubes": "",
+      "Tritium": "",
+      "Rusted Metal": "",
+      "Paraffinium": ""
+    },
+    "Edalmin R38": {
+      "Planet Info": [
+        "Biome: Violent Planet",
+        "Weather: Tectonic Storms",
+        "Sentinels: Frequent",
+        "Flora: Sparse",
+        "Fauna: Ample"
+      ],
+      "Resources": [
+        "Sodium",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Rahamp Major": {
+      "Planet Info": [
+        "Biome: Dead Planet",
+        "Weather: Absent",
+        "Sentinels: Limited",
+        "Flora: Barren",
+        "Fauna: Deficient"
+      ],
+      "Resources": [
+        "Magnetised Ferrite",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Woodbar": {
+      "Planet Info": [
+        "Biome: Bountiful Planet",
+        "Weather: Echoes of Acid",
+        "Sentinels: Inescapable",
+        "Flora: High",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Ancient Bones",
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Ruga 91/Z8": {
+      "Planet Info": [
+        "Biome: Scalding Planet",
+        "Weather: Sunny",
+        "Sentinels: Infrequent",
+        "Flora: Copious",
+        "Fauna: Medium"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Kenberg": {
+      "Planet Info": [
+        "Biome: Paradise Planet",
+        "Weather: Pleasant",
+        "Sentinels: Few",
+        "Flora: High",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Sodium",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  },
+  "Wakingleb": {
+    "System Info": [
+      "Celestial Bodies: 5 Planets",
+      "Dominant Lifeform: Gek",
+      "Economy: Material Fusion // Balanced",
+      "Conflict level: Low",
+      "Glyphs: 1014fc003906"
+    ],
+    "Technology": {
+      "Toxic Protection": "",
+      "Hot Protection": "",
+      "Life Support": "",
+      "Minotaur Cannon": "",
+      "Geology Cannon": ""
+    },
+    "Buy Sell": {
+      "Nanotube Crate": "",
+      "Self-Repairing Heridium": "",
+      "Optical Solvent": "",
+      "5D Torus": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Quantum Computer": "",
+      "Magnetic Resonator": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Magnetised Ferrite": "",
+      "Pyrite": "",
+      "Tritium": "",
+      "Ammonia": "",
+      "Platinum": "",
+      "Hermetic Seal": "",
+      "Pugneum": "",
+      "Paraffinium": "",
+      "Uranium": ""
+    },
+    "Ropuscu Ebaya": {
+      "Planet Info": [
+        "Biome: Scalding Planet",
+        "Weather: Dehydrated",
+        "Sentinels: Irregular Patrols",
+        "Flora: Copious",
+        "Fauna: Fair"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Oupol III": {
+      "Planet Info": [
+        "Biome: Freezing Planet",
+        "Weather: Roaring Ice Storms",
+        "Sentinels: Ever-present",
+        "Flora: Generous",
+        "Fauna: Infrequent"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Silver",
+        "Dioxite",
+        "Activated Copper"
+      ]
+    },
+    "Wosanar Alpha": {
+      "Planet Info": [
+        "Biome: Grassy Planet",
+        "Weather: Superheated Rain",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Rich",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Magnetised Ferrite",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Vistiraqu Hanai": {
+      "Planet Info": [
+        "Biome: Torrid Planet",
+        "Weather: Dangerously Hot",
+        "Sentinels: Enforcing",
+        "Flora: Abundant",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Solanium",
+        "Silver",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Imiz 98/A8": {
+      "Planet Info": [
+        "Biome: Grassy Planet",
+        "Weather: Painfully Hot Rain",
+        "Sentinels: Sharded from the Atlas",
+        "Flora: Abundant",
+        "Fauna: Bountiful"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  }
+}
+
