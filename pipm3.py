@@ -16,14 +16,19 @@ import pytesseract
 pytesseract.pytesseract.tesseract_cmd = r'C:\Anaconda3\Library\bin\tesseract.exe'
 stripe = lambda s: "".join(i for i in s if 31 < ord(i) < 127)
 
-def stripped(thresh):
+def stripped(thresh,ilog,lineno):
   text = pytesseract.image_to_string(thresh)
   text = stripe(text)
   text = re.sub(r'[ |_.]+$','',text)
-  if text in fix: 
-    text = fix[text]
+  # if text in fix: 
+  text = fn_fix(ilog,lineno,text)
   return text
 
+def fn_fix(ilog, lineno, text):
+  if text in fix:
+    log(ilog,f'{lineno} fix: {text}, {fix[text]}')
+    return fix[text]
+  return text
 # https://www.geeksforgeeks.org/python-addition-of-tuples/
 def addPt(p1, p2): tuple(map(lambda i, j: i + j, p1, p2))
 
@@ -313,7 +318,7 @@ def isSysInfo(imagePath,dbug,ilog,db,large_image):
     log(ilog,f'SysInfo: station= {nl.join(sysinfo)}')
     station = sysinfo.pop(0)[:22]
     station = re.sub(r'[ |_.]+$','',station)
-    if station in fix: station = fix[station]
+    station = fn_fix(ilog,getframeinfo(currentframe()).lineno,station)
     db[station] = {}
     db[station]['System Info'] = sysinfo
     if station in fixsi: 
@@ -356,7 +361,7 @@ def isGlyphs(imagePath,dbug,ilog,db,large_image,station):
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
       exit()
-    elif k == 78 or k == 110: # N=78,n=110,Y=89,y=121
+    elif k in [78, 110]: # N=78,n=110,Y=89,y=121
       ret = False
   work_image[170:170+66,7:7+384] = np.full((66,384),240,dtype="uint8") 
   db[station]['System Info'].append(f'Glyphs: {glyphs}')
@@ -379,11 +384,13 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
     mn0,_,mn0Loc,_ = avail2
     log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: avail2: mn={mn0:.3f} {mn0Loc}')
   P0x,P0y = mn0Loc
+
+  # Available To Buy | Standing Discount
   if mn0 > .05: 
     return False
 
   if 't' in dbug: 
-    temp_image = large_image.copy() # Avaiable To Buy | Standing Discount
+    temp_image = large_image.copy() 
     cv2.rectangle(temp_image,(1185-3,167-3),(1580+2,263+2),255,3)
     cv2.rectangle(temp_image,(P0x+1185-3,P0y+167-3),(P0x+1185+167+2,P0y+167+25+2),255,3)
     temp_image[167-45:167-10,1185:1185+150] = np.full((35,150),0,dtype="uint8") 
@@ -416,7 +423,6 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
 
 
   if 't' in dbug: 
-    # temp_image = large_image.copy()
     cv2.rectangle(temp_image,(P0x+17+MPx1-3,P0y+903+MPy1-3),(P0x+17+MPx1+174+2,P0y+MPy1+903+48+2),255,3)
     cv2.imshow('tech_kiosk',gray_image)
     cv2.imshow('temp',imutils.resize(temp_image, height=720))
@@ -438,10 +444,8 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
       # if k == 27:
       #   exit()
 
-    s_class = False
     y = 0
-    # clear
-    work_image[222:222+20,7:7+42] = np.full((20,42),240,dtype="uint8") 
+    work_image[222:222+20,7:7+42] = np.full((20,42),240,dtype="uint8") # clear
     while y < 6 and thresh[110*y:110*y+34,78:78+34].sum() < 277000:
       line_tech = ''
       if re.match(r'Technol|Salvage', foot_text):
@@ -453,7 +457,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
         line_text2 = stripe(pytesseract.image_to_string(badge_image, config='--psm 10'))
 
       # Thermal Protection Module; [X]Suspicious Hazard Protection
-      line_text = stripped(thresh[110*y:110*y+34,78:500])
+      line_text = stripped(thresh[110*y:110*y+34,78:500],ilog,getframeinfo(currentframe()).lineno)
       if foot_text == "Salvage":
         salvage = line_text.split()
         if re.match(r'^M',salvage[-1]):
@@ -461,23 +465,18 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
           line_text = " ".join(salvage)
       line_text = re.sub(' Module','',line_text)
       line_text = re.sub('Suspicious ','',line_text)
-      if line_text in fix: 
-        line_text = fix[line_text]
+      # if line_text in fix: 
+      line_text = fn_fix(ilog,getframeinfo(currentframe()).lineno,line_text)
 
       if re.match('Thermal', line_text): 
-        # 0.081 20240319120500[1]❄[S]Cold Protection
-        # 0.634 20211211115144[3]🔥[S]Hot Protection
+        # 0.081 20240319120500[1] - [S]Cold Protection
+        # 0.634 20211211115144[3] - [S]Hot Protection
         result = cv2.matchTemplate(const_image['snow'], therm_image, cv2.TM_SQDIFF_NORMED)
         mn,_,mnLoc,_ = cv2.minMaxLoc(result)
         if mn < .36: # .081+(.634-.081)/2
           line_text = 'Cold Protection'
         else:
           line_text = 'Hot Protection'
-
-        # retval, buffer = cv2.imencode('.jpg', therm_image)
-        # import base64
-        # jpg_as_text = base64.b64encode(buffer).decode()
-        # html_page.append(f'<div class="centered">{mn:.3f} {imagePath[2:16]}[{y}] <div class="container"><img width="56" height="56" src="data:image/jpeg;base64, {jpg_as_text}"></div> [{line_text2.capitalize()[0]}]{line_text}</div>\n')
 
       if re.match(r'Technol|Salvage', foot_text):
         line_tech = f'[{line_text2.capitalize()[0]}]{line_text}'
@@ -514,19 +513,17 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
 
   #------------------ resource search window ----------------------------
 
-  PDx, PDy, PDo, RIx, RDx, RDo, PNo = 49, 56, 23, 347, 399, 12, 146
+  PDx, PDy, PDo, RIx, RDx, RDo, PNo, tag = 49, 55, 23, 347, 399, 12, 146, 'resrc1'
   crop_image = large_image[304:304+294,135:135+226]
   result = cv2.matchTemplate(const_image['resrc1'], crop_image, cv2.TM_SQDIFF_NORMED)
   mn,_,mnLoc,_ = cv2.minMaxLoc(result)
-  # resrc1 = cv2.minMaxLoc(result)
   result = cv2.matchTemplate(const_image['resrc2'], crop_image, cv2.TM_SQDIFF_NORMED)
   resrc  = cv2.minMaxLoc(result)
   if resrc[0] < mn:
-    PDx, PDy, PDo, RIx, RDx, RDo, PNo = 50, 47, 21, 347, 392, 11, 132
+    PDx, PDy, PDo, RIx, RDx, RDo, PNo, tag = 50, 47, 21, 347, 392, 11, 132, 'resrc2'
     mn,_,mnLoc,_ = resrc
-    log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: resrc2: {mn:.3f} {mnLoc}')
-  else:
-    log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: resrc1: {mn:.3f} {mnLoc}')
+
+  log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: {tag}: {mn:.3f} {mnLoc}')
   MPx,MPy = mnLoc
 
   if 'r' in dbug:
@@ -548,9 +545,7 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
   # cv2.rectangle(temp_image,(135+MPx+64-3,304+MPy-129-3),(135+MPx+64+575+2,304+MPy-129+60+2),255,3)
   ret,thresh2 = cv2.threshold(crop_image,160,255,cv2.THRESH_BINARY_INV)
   work_image[258:258+60, 7:7+575] = thresh2
-  # planet = stripped(pytesseract.image_to_string(thresh2))
-  # planet = re.sub(r'[ |_.]+$','',planet)
-  planet = stripped(thresh2)
+  planet = stripped(thresh2,ilog,getframeinfo(currentframe()).lineno)
 
   if planet == '': 
     if station in null_lookup and planet_index in null_lookup[station]:
@@ -559,12 +554,11 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
       planet = f'_{planet_index}_'
       # raise Exception(f's={station}, planet_index={planet_index}, p={planet}')
 
-  if planet in fix: planet = fix[planet]
+  # if planet in fix: 
+  planet = fn_fix(ilog,getframeinfo(currentframe()).lineno,planet)
   log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: s={station}, i={planet_index}, p= "{planet}"') # {planet.encode().hex()}')
 
-  # if not station in db:
-  #   print(f'KeyError: {station}, keys: {db.keys()}')
-
+  # KeyError: {station}, keys: {db.keys()}
   if station not in db:
     station = f'_{station}_'
     db[station] = {'System Info':[],'Technology':{},'Buy Sell':{}}
@@ -580,12 +574,11 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
   for y in range(4):
     crop_image = large_image[304+MPy+PDo+y*PDy:304+MPy+PDo+25+y*PDy,135+MPx+PDx:135+MPx+PDx+305]
     ret,thresh = cv2.threshold(crop_image,160,255,cv2.THRESH_BINARY_INV)
-    # profile = stripped(pytesseract.image_to_string(thresh)).rstrip('.')
-    # if profile in fix: profile = fix[profile]
-    profile = stripped(thresh)
+    profile = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
     log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: profile= {["Weather: ","Sentinels: ","Flora: ","Fauna: "][y]}{profile}')
     db[station][planet]['Planet Info'].append(["Weather: ","Sentinels: ","Flora: ","Fauna: "][y]+profile)
     work_image[320:320+25,78:78+305] = thresh
+
     if 'r' in dbug:
       cv2.imshow('work',work_image)
       k = cv2.waitKey(0) & 0xFF
@@ -594,34 +587,37 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
 
   if 'r' in dbug:
     cv2.imshow('crop', large_image[304+MPy:304+MPy+224,135+MPx+RIx:135+MPx+RIx+305])
-    k = cv2.waitKey(0) & 0xFF
-    if k == 27:
-      exit()
 
   for y in range(5):
     gray_image = large_image[304+MPy+y*PDy:304+MPy+47+y*PDy,135+MPx+RIx:135+MPx+RIx+47]
     result = cv2.matchTemplate(gray_image, const_image['icons'], cv2.TM_SQDIFF_NORMED)
     mn,_,mnLoc,_ = cv2.minMaxLoc(result)
 
-    if mnLoc[1] > 175: break
+    if mnLoc[1] > 165: break # 4*47-23=165
 
     crop_image = large_image[304+MPy+RDo+y*PDy:304+MPy+RDo+25+y*PDy,135+MPx+RDx:135+MPx+RDx+180]
     result = cv2.matchTemplate(crop_image, const_image['salt'], cv2.TM_SQDIFF_NORMED)
     mn,_,mnLoc,_ = cv2.minMaxLoc(result)
     ret,thresh = cv2.threshold(crop_image,176,255,cv2.THRESH_BINARY_INV)
-    resource = stripped(thresh)
-    if mn < .005:
+    resource = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
+    tag = ''
+    if mn < .01: 
+      if resource != 'Salt': 
+        tag = '!'
       resource = 'Salt'
-    log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: resource= {resource}')
+    log(ilog,f'{getframeinfo(currentframe()).lineno} Resource: {mn:.3f} resource= {resource} {tag}')
     db[station][planet]['Resources'].append(resource)
     work_image[320:320+25,385:385+180] = thresh
+
     if 'r' in dbug:
       cv2.imshow('icon',large_image[304+MPy+y*PDy:304+MPy+47+y*PDy,135+MPx+RIx:135+MPx+RIx+47])
       cv2.imshow('work',work_image)
       k = cv2.waitKey(0) & 0xFF
       if k == 27:
         exit()
+
   if 'r' in dbug: 
+    cv2.destroyWindow('icon')
     cv2.destroyWindow('crop')
 
   return True
@@ -715,7 +711,7 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
     crop_image = large_image[P0y:P0y+58,P0x+535:P0x+535+575]
     cv2.rectangle(temp_image,(P0x+535,P0y),(P0x+535+575,P0y+58),255,3)
     ret,thresh = cv2.threshold(crop_image,160,255,cv2.THRESH_BINARY_INV)
-    tentative = stripped(thresh)
+    tentative = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
 
     if tentative not in db:
       if f'_{system_index}_' in null_lookup:
@@ -742,13 +738,13 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
 
     # locate card title
 
-  log(ilog,f'{getframeinfo(currentframe()).lineno} locate card title')
+  # log(ilog,f'{getframeinfo(currentframe()).lineno} locate card title')
   clear_icon('steam1', large_image[P1y+7:P1y+68,P2x:P2x+420])
   gray2_image = large_image[P1y+7:P1y+7+35,P2x:P2x+420]
   ret,thresh = cv2.threshold(gray2_image,160,255,cv2.THRESH_BINARY_INV)
-  card_title = stripped(thresh)[:22]
+  card_title = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)[:22]
 
-  log(ilog,f'card title= "{card_title}"')
+  log(ilog,f'{getframeinfo(currentframe()).lineno} card title= "{card_title}"')
 
   work_image[406:406+35,7:7+420] = thresh
   if 'v' in dbug:
@@ -764,7 +760,6 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
     # handle bicon
     if mn < .01:
       work_image[443:443+51,7:7+51] = large_image[MPy:MPy+51,MPx:MPx+51] # base_image
-      # P2y += 89
       P2y += 89
 
     # biome
@@ -778,14 +773,7 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
       if k == 27:
         exit()
 
-    # if station not in db:
-    #   station = f'_{station}_'
-    #   db[station] = {'System Info':[],'Technology':{},'Buy Sell':{}}
-
-    # if card_title not in db[station]:
-    #   db[station][card_title] = {'Planet Info':[],'Resources':[]}
-
-    type_title = stripped(thresh)
+    type_title = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
     if station in db and card_title in db[station]:
       log(ilog,f'{getframeinfo(currentframe()).lineno} Visited: Set Biome: "{type_title}"')
       db[station][card_title]['Planet Info'].insert(0, "Biome: "+type_title)
