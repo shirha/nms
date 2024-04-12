@@ -233,7 +233,7 @@ fix = {
   "Luxembl VI":"Luxembl VII",
   "Apporo Il":"Apporo II",
   "Apporo tl":"Apporo II",
-  "Hijinaq":"Apporo II",
+  # "Hijinaq":"Apporo II",
   "Ninarb $13":"Ninarb S13",
   "Yardogo XVil":"Yardogo XVII",
   "Gisbrosp XiV":"Gisbrosp XIV",

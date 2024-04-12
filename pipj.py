@@ -5,8 +5,8 @@ import json
 import re
 import getopt 
 ilog = 0
-dbug = 0
-title = 'index0'
+dbug = ''
+title = 'Playground'
 argv = sys.argv[1:] 
 try: 
   opts, args = getopt.getopt(argv, "f:t:d:", ["file =", "title =", "dbug ="]) 
@@ -656,7 +656,7 @@ corrupted = {  #Corrupted
 }
 
 checklist = '''
-<div>* Only the top class upgrade is shown in the System Summary<br>System Detail only shows upgrades found in System Summary</div>
+<div style="color:#551a8b;"><small><br>* Only the top class upgrades are shown in the System Summary<br>System Detail only shows upgrades found in System Summary</small></div>
 <h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
 '''
 
