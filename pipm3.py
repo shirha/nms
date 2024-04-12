@@ -24,7 +24,6 @@ def stripped(thresh):
     text = fix[text]
   return text
 
-
 # https://www.geeksforgeeks.org/python-addition-of-tuples/
 def addPt(p1, p2): tuple(map(lambda i, j: i + j, p1, p2))
 
@@ -35,8 +34,10 @@ planet_index = 0
 
 work_image  = np.full((500,600),240,dtype='uint8')
 const_image = {}
-for image in ["mask","system","technol","salvage","contrab","avail1","avail2","small","card","snow","glyph",
-              "visit1","visit2","steam1","steam2","xboxx","sicon","bicon","icons","resrc1","resrc2","salt"]: 
+for image in [
+    "mask","system","technol","salvage","contrab","avail1","avail2",
+    "small","card","snow","glyph", "visit1","visit2", "steam1","steam2",
+    "xboxx","sicon","bicon","icons","resrc1","resrc2","salt"]: 
   const_image[image] = cv2.imread(f'i/{image}_image.png', cv2.IMREAD_GRAYSCALE)
 
 def log(n, *args):
@@ -61,7 +62,6 @@ si = [["Celestial Bodies ","Celestial Bodies: "],
       ["Conflict level ","Conflict level: "],
       ["vy'keen","Vy'keen"],
       ["VVy'keen","Vy'keen"]]
-      # [r"Medium Sup\|","Medium Supply"]]
 
 fixsi = {
   "Apporo II": 
@@ -75,13 +75,11 @@ fixsi = {
      "Dominant Lifeform: Korvax",
      "Economy: - Data Unavailable -",
      "Conflict level: - Data Unavailable -"],
-
   "Eibeyt-Guyun IV":
     ["Celestial Bodies: 6 Planets",
      "Dominant Lifeform: Korvax",
      "Economy: Fuel Generation // Medium Supply",
      "Conflict level: Gentle"],
-
   "Nustanskyv XVI":
     ["Celestial Bodies: 3 Planets",
      "Dominant Lifeform: Vy'keen",
@@ -309,22 +307,20 @@ def isSysInfo(imagePath,dbug,ilog,db,large_image):
     # remove last character and all blank lines
     sysinfo = re.findall(r'^.+?$', sysinfo[:-1], re.MULTILINE)
     if not anysys:
-      return True, None
+      return False, None
 
     nl = "\n"
     log(ilog,f'SysInfo: station= {nl.join(sysinfo)}')
     station = sysinfo.pop(0)[:22]
-    print('pop=',station)
     station = re.sub(r'[ |_.]+$','',station)
     if station in fix: station = fix[station]
-    print(f'station= `{station}`')
     db[station] = {}
     db[station]['System Info'] = sysinfo
     if station in fixsi: 
       db[station]['System Info'] = fixsi[station]
     db[station]['Technology'] = {}
     db[station]['Buy Sell'] = {}
-    x = 0
+    planet_index = 0
     return True, station
   return False, None
 
