@@ -12,6 +12,7 @@ import re
 import cv2
 import numpy as np
 import pytesseract
+# pytesseract.pytesseract.tesseract_cmd = r'c:\anaconda3\envs\py310_env\scripts\pytesseract.exe'
 pytesseract.pytesseract.tesseract_cmd = r'C:\Anaconda3\Library\bin\tesseract.exe'
 stripe = lambda s: "".join(i for i in s if 31 < ord(i) < 127)
 
@@ -112,7 +113,7 @@ corrupted = {  #Corrupted
 null_lookup = {
       '_8_': 'RW',
       'Nomyussko': { 10: 'Eotis' },
-      'Doludes': { 6: 'E&#x203A;'},
+      'Doludes': { 6: 'E&#x203A;' },
       # 'Annana-Anyun': {5: 'Faeli'},
       # 'Valhalla': {4: 'Opul'}
 }
@@ -241,6 +242,7 @@ fix = {
 
   "Photon Cannon Medule":"Photon Cannon",
   "Activated Emeril!":"Activated Emeril",
+  "Emer!":"Emeril",
   "Gamma Reot":"Gamma Root",
   "indium":"Indium",
   "lon Battery":"Ion Battery",
@@ -251,6 +253,7 @@ fix = {
   "lonised Cobalt":"Ionised Cobalt",
   "Phosphecrus":"Phosphorus",
   "Phospherus":"Phosphorus",
+  "sodium":"Sodium",
   "Sedium":"Sodium"
 }
 
@@ -655,10 +658,10 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
       cv2.imshow('temp', imutils.resize(temp_image, height=720))
       cv2.imshow('icon', cv2.hconcat([
         large_image[p1y+y:p1y+y+h,p1x+x:p1x+x+w],
-        np.full((w, 1), 240, dtype='uint8'),
+        np.full((h, 1), 240, dtype='uint8'),
         const_image[icon] ]))
       k = cv2.waitKey(0) & 0xFF
-      log(ilog,f'search area: k={k}')
+      # log(ilog,f'search area: k={k}')
       if k == 27:
         exit()
       cv2.destroyWindow('icon')
@@ -666,12 +669,12 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
     return mn, p1x+x, p1y+y
 
   def clear_icon(icon, img):
-    y, x = const_image[icon].shape
     result = cv2.matchTemplate(const_image[icon], img, cv2.TM_SQDIFF_NORMED)
     mn,_,mnLoc,_ = cv2.minMaxLoc(result)
     MPx,MPy = mnLoc
     log(ilog,f'clear={mn:.3f} {mnLoc}')
     if mn < .01: 
+      y, x = const_image[icon].shape
       img[MPy:MPy + y, MPx:MPx + x] = img[MPy + y -1, MPx + x -1]
 
   #------------------ visited search window ----------------------------
@@ -799,7 +802,7 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
         station = f'_{station}_'
         db[station] = {'System Info':[],'Technology':{},'Buy Sell':{}}
       if card_title not in db[station]:
-        card_title = f'_{card_title}_'
+        # card_title = f'_{card_title}_'
         db[station][card_title] = {'Planet Info':[],'Resources':[]}
       db[station][card_title]['Planet Info'].insert(0, "Biome: "+type_title)
     print('planet type=',type_title)

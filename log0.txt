@@ -1,401 +1,2528 @@
 argv=[] ilog=0 title=Playground dbug=
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174704_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223110830_1.jpg
 SysInfo: entering...
-284 SysInfo: mn=0.011 (9, 9) crop.shape=(135, 535)
-SysInfo: station= Hijinaq
+287 SysInfo: mn=0.004 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Kusinst
 Celestial Bodies: 5 Planets // 1 Moon
+Dominant Lifeform: Gek
+Economy: Mercantile // Struggling
+Conflict level: Intermittent
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223110855_1.jpg
+SysInfo: entering...
+Glyphs: entering... Kusinst
+Glyphs: e:0 1012056edf93
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111341_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 41)
+419 Techno: Technol: mn=0.016,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111344_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 41)
+419 Techno: Technol: mn=0.016,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Toxic Protection
+497 Techno: [B]Movement
+497 Techno: [S]Movement
+497 Techno: [A]Shield
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111346_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 41)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [A]Cold Protection
+497 Techno: [S]Life Support
+497 Techno: [A]Movement
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111419_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.005,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111422_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.005,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [S]Minotaur Cannon Medule
+497 Techno: [A]Humboldt Drive
+497 Techno: [B]Exocraft Boost
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111436_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.004,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111437_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.004,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [B]Hyperdrive
+497 Techno: [A]Pulse Engine
+497 Techno: [B]Infra-Knife
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111439_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.004,MPy=12,MPx=90
+497 Techno: [A]Hyperdrive
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111449_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=0.815 (227, 48)
+517 Resource: entering... Kusinst
+531 Resource: resrc2: 0.510 (135, 21)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111504_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 40)
+419 Techno: Technol: mn=0.022,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111507_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 40)
+419 Techno: Technol: mn=0.022,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [A]Geology Cannon
+497 Techno: [S]Neutron Cannon
+497 Techno: [S]Scanner
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111528_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.003 (160, 38)
+419 Techno: System : mn=0.015,MPy=12,MPx=91
+497 Techno: Decrypted User Data
+497 Techno: Microprocessor
+497 Techno: Wiring Loom
+497 Techno: Unstable Plasma
+497 Techno: Amino Chamber
+497 Techno: Quantum Computer
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111532_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.003 (160, 38)
+419 Techno: System : mn=0.016,MPy=12,MPx=91
+497 Techno: Hermetic Seal
+497 Techno: Metal Plating
+497 Techno: Pyrite
+497 Techno: Chromatic Metal
+497 Techno: Paraffinium
+497 Techno: Gold
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111600_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Decrypted User Data
+497 Techno: Microprocessor
+497 Techno: Wiring Loom
+497 Techno: Unstable Plasma
+497 Techno: Amino Chamber
+497 Techno: Lemmium
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223111602_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Metal Plating
+497 Techno: Phosphorus
+497 Techno: Pure Ferrite
+497 Techno: Rusted Metal
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112001_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+749 locate card title
+clear=0.000 (225, 32)
+card title= "Chater-Muk X"
+Celestial Bodies: 2 Planets
+Dominant Lifeform: Uncharted
+Economy: - Data Unavailable -
+Conflict level: - Data Unavailable -
+856 Visited: Exiting: sysinfo card
+75 Visited: exiting... (True, 'Chater-Muk X', True)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112002_1.jpg
+SysInfo: entering...
+Glyphs: entering... Chater-Muk X
+Glyphs: e:0 1130056edf93
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112007_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Chater-Muk X
+533 Resource: resrc1: 0.003 (13, 38)
+567 Resource: s=Chater-Muk X, i=1, p= "Wituryg XVIII"
+590 Resource: profile= Weather: Combustible Dust
+590 Resource: profile= Sentinels: Observant
+590 Resource: profile= Flora: High
+590 Resource: profile= Fauna: Frequent
+619 Resource: resource= Solanium
+619 Resource: resource= Sodium
+619 Resource: resource= Phosphorus
+619 Resource: resource= Activated Cadmiurtr
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112008_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Chater-Muk X
+533 Resource: resrc1: 0.004 (13, 32)
+567 Resource: s=Chater-Muk X, i=2, p= "Hocae Sigma"
+590 Resource: profile= Weather: Particulate Winds
+590 Resource: profile= Sentinels: Infrequent
+590 Resource: profile= Flora: Common
+590 Resource: profile= Fauna: Limited
+619 Resource: resource= Gamma Root
+619 Resource: resource= Cobalt
+619 Resource: resource= Uranium
+619 Resource: resource= Cadmium
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112009_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+749 locate card title
+clear=0.378 (244, 32)
+card title= "Wituryg XVIII"
+794 Visited: Set Biome: "Scorched Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112010_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+749 locate card title
+clear=0.377 (252, 32)
+card title= "Hocae Sigma"
+794 Visited: Set Biome: "Radioactive Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112011_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+749 locate card title
+clear=0.377 (276, 32)
+card title= "Neyang-Uga"
+Celestial Bodies: 6 Planets
+Dominant Lifeform: Gek
+Economy: Construction // Black Market
+Conflict level: Pirate Controlled
+856 Visited: Exiting: sysinfo card
+75 Visited: exiting... (True, 'Neyang-Uga', True)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112012_1.jpg
+SysInfo: entering...
+Glyphs: entering... Neyang-Uga
+Glyphs: e:0 1079056edf93
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112013_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+381 Techno: avail1: mn=0.004 (162, 39)
+419 Techno: Contrab: mn=0.004,MPy=12,MPx=92
+497 Techno: NipNip Buds
+497 Techno: Moon Ether
+497 Techno: Counterfeit Circuits
+497 Techno: Packet (Goods)
+497 Techno: Tritium
+497 Techno: Larval Core
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112014_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+381 Techno: avail1: mn=0.004 (162, 39)
+419 Techno: Contrab: mn=0.005,MPy=12,MPx=92
+497 Techno: Repair Kit
+497 Techno: Hypnotic Eye
+497 Techno: Starshield Battery
+497 Techno: Packet (Arms)
+497 Techno: Packet (Tech)
+497 Techno: Runaway Mould
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112015_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Salvage: mn=0.006,MPy=12,MPx=91
+497 Techno: [X]Neutron Cannon
+497 Techno: [X]Shield
+497 Techno: [X]Boltcaster
+497 Techno: [X]Starship Shield
+497 Techno: [X]Infra-Knife
+497 Techno: [X]Plasma Launcher
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112016_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Salvage: mn=0.005,MPy=12,MPx=91
+497 Techno: [X]Life Support
+497 Techno: [X]Pulse Spitter
+497 Techno: [X]Photon Cannon
+497 Techno: [X]Movement
+497 Techno: [X]Blaze Javelin
+497 Techno: [X]Hyperdrive
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112017_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (13, 35)
+567 Resource: s=Neyang-Uga, i=3, p= "Iami B7"
+590 Resource: profile= Weather: Mellow
+590 Resource: profile= Sentinels: Hateful
+590 Resource: profile= Flora: Ample
+590 Resource: profile= Fauna: Abundant
+619 Resource: resource= Star Bulb
+619 Resource: resource= Salt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112018_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (12, 32)
+567 Resource: s=Neyang-Uga, i=4, p= "Tiletchol Dakas"
+590 Resource: profile= Weather: Planetwide Desiccation
+590 Resource: profile= Sentinels: Observant
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: Rich
+619 Resource: resource= Salvageable Scrap
+619 Resource: resource= Cactus Flesh
+619 Resource: resource= Sodium
+619 Resource: resource= Pyrite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112019_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (13, 35)
+567 Resource: s=Neyang-Uga, i=5, p= "Angdona Y45"
+590 Resource: profile= Weather: Haunted Frost
+590 Resource: profile= Sentinels: Require Obedience
+590 Resource: profile= Flora: Misplaced
+590 Resource: profile= Fauna: Uprooted
+619 Resource: resource= Sodium
+619 Resource: resource= Gold
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112020_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (12, 31)
+567 Resource: s=Neyang-Uga, i=6, p= "Nita 75/E7"
+590 Resource: profile= Weather: Dangerously Toxic Rain
+590 Resource: profile= Sentinels: Frequent
+590 Resource: profile= Flora: Ample
+590 Resource: profile= Fauna: Abundant
+619 Resource: resource= Fungal Mould
+619 Resource: resource= Salt
+619 Resource: resource= Ammonia
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112021_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (12, 33)
+567 Resource: s=Neyang-Uga, i=7, p= "Irtinet"
+590 Resource: profile= Weather: Mostly Calm
+590 Resource: profile= Sentinels: Aggressive
+590 Resource: profile= Flora: Generous
+590 Resource: profile= Fauna: Full
+619 Resource: resource= Star Bulb
+619 Resource: resource= Cobalt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112022_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+373 Techno: entering... Neyang-Uga
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Neyang-Uga
+533 Resource: resrc1: 0.004 (13, 25)
+567 Resource: s=Neyang-Uga, i=8, p= "Aphas XVIII"
+590 Resource: profile= Weather: Raging Snowstorms
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Rich
+590 Resource: profile= Fauna: Bountiful
+619 Resource: resource= Salvageable Scrap
+619 Resource: resource= Frost Crystal
+619 Resource: resource= Cobalt
+619 Resource: resource= Dioxite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112023_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Iami B7"
+794 Visited: Set Biome: "Rainy Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112024_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Tiletchol Dakas"
+794 Visited: Set Biome: "Barren Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112025_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Angdona Y45"
+794 Visited: Set Biome: "Fungal Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112026_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Nita 75/E7"
+794 Visited: Set Biome: "Acrid Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112027_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Irtinet"
+794 Visited: Set Biome: "Flourishing Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112028_1.jpg
+SysInfo: entering...
+Visited: entering... Neyang-Uga
+749 locate card title
+clear=0.377 (263, 32)
+card title= "Aphas XVIII"
+794 Visited: Set Biome: "Frozen Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112501_1.jpg
+SysInfo: entering...
+287 SysInfo: mn=0.007 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Denayanov
+Celestial Bodies: 6 Planets
 Dominant Lifeform: Korvax
-Economy: Industrial // Promising
-Conflict level: At War
+Economy:
+Nano-construction // Satisfactory
+Conflict level: Alarming
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174725_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112502_1.jpg
 SysInfo: entering...
-Glyphs: entering... Hijinaq
-Glyphs: e:0 100308949f4b
+Glyphs: entering... Denayanov
+Glyphs: e:0 1014056edf93
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174748_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112503_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.020,MPy=12,MPx=90
-494 Techno: [B]Life Support
-494 Techno: [C]Movement
-494 Techno: [C]Shield
-494 Techno: [B]Underwater Protection
-494 Techno: [B]Radiation Protection
-494 Techno: [B]Toxic Protection
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174749_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112504_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.020,MPy=12,MPx=90
-494 Techno: [B]Cold Protection
-494 Techno: [B]Hot Protection
-494 Techno: [A]Movement
-494 Techno: [A]Shield
-494 Techno: [S]Hot Protection
-494 Techno: [A]Life Support
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Toxic Protection
+497 Techno: [S]Cold Protection
+497 Techno: [S]Underwater Protection
+497 Techno: [A]Hot Protection
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174752_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112505_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.021,MPy=12,MPx=90
-494 Techno: [A]Radiation Protection
-494 Techno: [A]Hot Protection
-494 Techno: [S]Toxic Protection
-494 Techno: [S]Shield
-494 Techno: [S]Movement
-494 Techno: [A]Underwater Protection
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [A]Cold Protection
+497 Techno: [A]Movement
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174817_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112506_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.003 (158, 38)
-416 Techno: Technol: mn=0.012,MPy=12,MPx=90
-494 Techno: [C]Exocraft Cannon
-494 Techno: [C]Exocraft Engine
-494 Techno: [C]Exocraft Laser
-494 Techno: [C]Exocraft Boost
-494 Techno: [C]Humboldt Drive
-494 Techno: [C]Nautilon Cannon
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (160, 37)
+419 Techno: Technol: mn=0.013,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174820_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112507_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.003 (158, 38)
-416 Techno: Technol: mn=0.012,MPy=12,MPx=90
-494 Techno: [B]Minotaur Engine
-494 Techno: [B]Minotaur Laser
-494 Techno: [B]Minotaur Cannon
-494 Techno: [S]Exocraft Laser
-494 Techno: [S]Nautilon Cannon
-494 Techno: [B]Exocraft Boost
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (160, 37)
+419 Techno: Technol: mn=0.013,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [B]Exocraft Engine
+497 Techno: [B]Nautilon Cannon
+497 Techno: [A]Exocraft Boost
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174844_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112508_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.013,MPy=12,MPx=90
-494 Techno: [C]Launch Thrusters
-494 Techno: [C]Pulse Engine
-494 Techno: [C]Hyperdrive
-494 Techno: [C]Starship Shield
-494 Techno: [C]Photon Cannon
-494 Techno: [C]Phase Beam
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174846_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112509_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.013,MPy=12,MPx=90
-494 Techno: [C]Positron
-494 Techno: [C]Infra-Knife
-494 Techno: [C]Cyclotron
-494 Techno: [A]Infra-Knife
-494 Techno: [B]Launch Thrusters
-494 Techno: [B]Starship Shield
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [S]Phase Beam
+497 Techno: [A]Phase Beam
+497 Techno: [B]Pulse Engine
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174847_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112510_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 39)
-416 Techno: Technol: mn=0.012,MPy=12,MPx=90
-494 Techno: [S]Phase Beam
-494 Techno: [B]Hyperdrive
-494 Techno: [A]Photon Cannon
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [B]Infra-Knife
+497 Techno: [B]Starship Shield
+497 Techno: [S]Cyclotron
+497 Techno: [A]Photon Cannon
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174901_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112511_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.806 (66, 12)
-514 Resource: entering... Hijinaq
-528 Resource: resrc2: 0.808 (179, 36)
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=0.816 (226, 48)
+517 Resource: entering... Denayanov
+531 Resource: resrc2: 0.402 (133, 20)
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174918_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112512_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 38)
-416 Techno: Technol: mn=0.013,MPy=12,MPx=90
-494 Techno: [C]Mining Beam
-494 Techno: [C]Scanner
-494 Techno: [C]Boltcaster
-494 Techno: [C]Plasma Launcher
-494 Techno: [C]Geology Cannon
-494 Techno: [C]Blaze Javelin
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.002,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174919_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112513_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 38)
-416 Techno: Technol: mn=0.014,MPy=12,MPx=90
-494 Techno: [C]Scatter Blaster
-494 Techno: [C]Pulse Spitter
-494 Techno: [C]Neutron Cannon
-494 Techno: [A]Blaze Javelin
-494 Techno: [S]Blaze Javelin
-494 Techno: [B]Blaze Javelin
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.002,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [A]Neutron Cannon
+497 Techno: [A]Mining Beam
+497 Techno: [S]Pulse Spitter
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174921_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112514_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (159, 38)
-416 Techno: Technol: mn=0.014,MPy=12,MPx=90
-494 Techno: [S]Scanner
-494 Techno: [B]Plasma Launcher
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (159, 40)
+419 Techno: Technol: mn=0.002,MPy=12,MPx=90
+497 Techno: [B]Mining Beam
+497 Techno: [S]Mining Beam
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174938_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112515_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 39)
-416 Techno: System : mn=0.009,MPy=12,MPx=91
-494 Techno: Non-Stick Piston
-494 Techno: Enormous Metal Cog
-494 Techno: Mesh Decouplers
-494 Techno: Unstable Plasma
-494 Techno: Ferrite Dust
-494 Techno: Cobalt
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Ion Capacitor
+497 Techno: Decommissioned Circuits
+497 Techno: Unstable Plasma
+497 Techno: Lemmium
+497 Techno: Wiring Loom
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174941_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112516_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 39)
-416 Techno: System : mn=0.009,MPy=12,MPx=91
-494 Techno: Quantum Computer
-494 Techno: Solar Mirror
-494 Techno: Hydraulic Wiring
-494 Techno: Microprocessor
-494 Techno: Metal Plating
-494 Techno: Wiring Loom
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Pyrite
+497 Techno: Silver
+497 Techno: Magnetised Ferrite
+497 Techno: Tritium
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208174944_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112517_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 39)
-416 Techno: System : mn=0.009,MPy=12,MPx=91
-494 Techno: Dioxite
-494 Techno: Ammonia
-494 Techno: Rusted Metal
-494 Techno: Chlorine
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (157, 38)
+419 Techno: System : mn=0.013,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Ion Capacitor
+497 Techno: Autonomous Positioning Unit
+497 Techno: Decommissioned Circuits
+497 Techno: Magnetic Resonator
+497 Techno: Hermetic Seal
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208175013_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112518_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 38)
-416 Techno: System : mn=0.011,MPy=12,MPx=91
-494 Techno: Non-Stick Piston
-494 Techno: Enormous Metal Cog
-494 Techno: Mesh Decouplers
-494 Techno: Holographic Crankshaft
-494 Techno: Ferrite Dust
-494 Techno: Cobalt
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (157, 38)
+419 Techno: System : mn=0.013,MPy=12,MPx=91
+497 Techno: Unstable Plasma
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Wiring Loom
+497 Techno: Phosphorus
+497 Techno: Chromatic Metal
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208175016_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223112519_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 38)
-416 Techno: System : mn=0.011,MPy=12,MPx=91
-494 Techno: Solar Mirror
-494 Techno: Hydraulic Wiring
-494 Techno: Di-hydrogen Jelly
-494 Techno: Microprocessor
-494 Techno: Metal Plating
-494 Techno: Wiring Loom
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+381 Techno: avail1: mn=0.004 (157, 38)
+419 Techno: System : mn=0.013,MPy=12,MPx=91
+497 Techno: Paraffinium
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208175019_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113001_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-378 Techno: avail1: mn=0.004 (158, 38)
-416 Techno: System : mn=0.011,MPy=12,MPx=91
-494 Techno: Unstable Plasma
-494 Techno: Uranium
-494 Techno: Ionised Cobalt
-494 Techno: Magnetised Ferrite
-494 Techno: Copper
-494 Techno: Gold
+287 SysInfo: mn=0.022 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Washeyu-Hebe
+Celestial Bodies
+Dominant Lifeform:
+Economy:
+Conflict level
+4 Planets // 1 Moon
+Korvax
+- Data Unavailable -
+- Data Unavailable -
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185608_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113002_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-737 Visited: Set System: "Hijinaq" -no card-
-74 Visited: exiting... (True, 'Hijinaq', False)
+Glyphs: entering... Washeyu-Hebe
+Glyphs: e:0 107e056edf94
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185612_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113003_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.003 (13, 42)
-564 Resource: s=Hijinaq, i=1, p= "Waburydes IX"
-587 Resource: profile= Weather: Bone-Stripping Acid Storms
-587 Resource: profile= Sentinels: Require Obedience
-587 Resource: profile= Flora: Frequent
-587 Resource: profile= Fauna: Full
-616 Resource: resource= Silver
-616 Resource: resource= Faecium
-616 Resource: resource= Activated Copper
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Decommissioned Circuits
+497 Techno: Wiring Loom
+497 Techno: Unstable Plasma
+497 Techno: Aronium
+497 Techno: Solar Mirror
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185617_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113004_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.003 (12, 45)
-564 Resource: s=Hijinaq, i=2, p= "Vetruri"
-587 Resource: profile= Weather: Crimson Heat
-587 Resource: profile= Sentinels: Not Present
-587 Resource: profile= Flora: Lost
-587 Resource: profile= Fauna: Between Worlds
-616 Resource: resource= Sodium
-616 Resource: resource= Gold
-616 Resource: resource= Copper
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Microprocessor
+497 Techno: Metal Plating
+497 Techno: Pyrite
+497 Techno: Dioxite
+497 Techno: Chromatic Metal
+497 Techno: Residual Goop
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185620_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113654_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.003 (13, 43)
-564 Resource: s=Hijinaq, i=3, p= "Ziusipoo XIV"
-587 Resource: profile= Weather: Toxic Clouds
-587 Resource: profile= Sentinels: Require Orthodoxy
-587 Resource: profile= Flora: Ample
-587 Resource: profile= Fauna: Occasional
-616 Resource: resource= Fungal Mould
-616 Resource: resource= Cobalt
-616 Resource: resource= Ammonia
-616 Resource: resource= Copper
+287 SysInfo: mn=0.004 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Satands
+Celestial Bodies: 2 Planets
+Dominant Lifeform: Vy'keen
+Economy: Engineering // Sustainable
+Conflict level: Critical
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185626_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113655_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.004 (13, 40)
-564 Resource: s=Hijinaq, i=4, p= "Natamit Z26"
-587 Resource: profile= Weather: Scalding Heat
-587 Resource: profile= Sentinels: None
-587 Resource: profile= Flora: Ample
-587 Resource: profile= Fauna: Generous
-616 Resource: resource= Solanium
-616 Resource: resource= Cobalt
-616 Resource: resource= Phosphorus
-616 Resource: resource= Activated Copper
+Glyphs: entering... Satands
+Glyphs: e:0 120e066edf94
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185630_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113657_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.004 (12, 38)
-564 Resource: s=Hijinaq, i=5, p= "Rumar X"
-587 Resource: profile= Weather: Reactive Rain
-587 Resource: profile= Sentinels: Attentive
-587 Resource: profile= Flora: Ordinary
-587 Resource: profile= Fauna: Bountiful
-616 Resource: resource= Ancient Bones
-616 Resource: resource= Gamma Root
-616 Resource: resource= Salt
-616 Resource: resource= Uranium
-616 Resource: resource= Copper
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Technol: mn=0.013,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185634_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113659_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-370 Techno: entering... Hijinaq
-381 Techno: avail2: mn=1.000 (0, 0)
-514 Resource: entering... Hijinaq
-530 Resource: resrc1: 0.003 (12, 47)
-564 Resource: s=Hijinaq, i=6, p= "Kogrover Prime"
-587 Resource: profile= Weather: Airless
-587 Resource: profile= Sentinels: Unwavering
-587 Resource: profile= Flora: Absent
-587 Resource: profile= Fauna: None
-616 Resource: resource= Silver
-616 Resource: resource= Rusted Metal
-616 Resource: resource= Copper
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Technol: mn=0.013,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Cold Protection
+497 Techno: [S]Hot Protection
+497 Techno: [A]Hot Protection
+497 Techno: [S]Radiation Protection
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185640_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113705_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [S]Cold Protection
+497 Techno: [S]Underwater Protection
+497 Techno: [A]Toxic Protection
+497 Techno: [A]Life Support
+497 Techno: [A]Radiation Protection
+497 Techno: [B]Movement
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113750_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113751_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [S]Exocraft Boost
+497 Techno: [S]Minotaur Laser
+497 Techno: [B]Exocraft Engine
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113808_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.007,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113810_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.007,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [S]Infra-Knife
+497 Techno: [B]Launch Thrusters
+497 Techno: [B]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113813_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.007,MPy=12,MPx=90
+497 Techno: [A]Starship Shield
+497 Techno: [B]Starship Shield
+497 Techno: [S]Cyclotron
+497 Techno: [A]Phase Beam
+497 Techno: [B]Photon Cannon
+497 Techno: [A]Cyclotron
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113824_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+384 Techno: avail2: mn=0.810 (226, 44)
+517 Resource: entering... Satands
+531 Resource: resrc2: 0.428 (134, 16)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113835_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.012,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113837_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.009,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [A]Neutron Cannon
+497 Techno: [S]Neutron Cannon
+497 Techno: [B]Boltcaster
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113839_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.009,MPy=12,MPx=90
+497 Techno: [S]Boltcaster
+497 Techno: [S]Mining Beam
+497 Techno: [B]Neutron Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113854_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.023,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Ion Capacitor
+497 Techno: Decommissioned Circuits
+497 Techno: Unstable Plasma
+497 Techno: Dirty Bronze
+497 Techno: Magno-Gold
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113859_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.023,MPy=12,MPx=91
+497 Techno: Wiring Loom
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Silver
+497 Techno: Pure Ferrite
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113949_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: System : mn=0.012,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Ion Capacitor
+497 Techno: Decommissioned Circuits
+497 Techno: Unstable Plasma
+497 Techno: Magnetic Resonator
+497 Techno: Wiring Loom
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223113951_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: System : mn=0.012,MPy=12,MPx=91
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Silver
+497 Techno: Phosphorus
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164216_1.jpg
+SysInfo: entering...
+287 SysInfo: mn=0.009 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Yedneya
+Celestial Bodies: 3 Planets // 1 Moon
+Dominant Lifeform: Korvax
+Economy: High Voltage // Sustainable
+Conflict level: Critical
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164232_1.jpg
+SysInfo: entering...
+Glyphs: entering... Yedneya
+Glyphs: e:0 1004066edf96
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164258_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164300_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Shield
+497 Techno: [S]Shield
+497 Techno: [S]Radiation Protection
+497 Techno: [A]Movement
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164303_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 38)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [A]Radiation Protection
+497 Techno: [S]Life Support
+497 Techno: [S]Hot Protection
+497 Techno: [S]Underwater Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164319_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.018,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164321_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.019,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [B]Nautilon Cannon
+497 Techno: [S]Nautilon Cannon
+497 Techno: [A]Exocraft Laser
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164341_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164344_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.016,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [B]Pulse Engine
+497 Techno: [B]Photon Cannon
+497 Techno: [B]Starship Shield
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164348_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (159, 37)
+419 Techno: Technol: mn=0.018,MPy=12,MPx=90
+497 Techno: [A]Positron
+497 Techno: [S]Hyperdrive
+497 Techno: [S]Launch Thrusters
+497 Techno: [B]Cyclotron
+497 Techno: [S]Starship Shield
+497 Techno: [A]Launch Thrusters
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164404_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+384 Techno: avail2: mn=0.816 (226, 47)
+517 Resource: entering... Yedneya
+531 Resource: resrc2: 0.426 (134, 19)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164417_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (161, 40)
+419 Techno: Technol: mn=0.003,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164418_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (161, 40)
+419 Techno: Technol: mn=0.003,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [B]Neutron Cannon
+497 Techno: [S]Mining Beam
+497 Techno: [B]Scatter Blaster
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164420_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (161, 40)
+419 Techno: Technol: mn=0.003,MPy=12,MPx=90
+497 Techno: [B]Geology Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164433_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: System : mn=0.004,MPy=12,MPx=91
+497 Techno: Industrial-Grade Battery
+497 Techno: Spark Canister
+497 Techno: Ohmic Gel
+497 Techno: Unstable Plasma
+497 Techno: Di-hydrogen Jelly
+497 Techno: Hydraulic Wiring
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164435_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: System : mn=0.004,MPy=12,MPx=91
+497 Techno: Microprocessor
+497 Techno: Metal Plating
+497 Techno: Wiring Loom
+497 Techno: Tritium
+497 Techno: Pyrite
+497 Techno: Ammonia
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164438_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: System : mn=0.004,MPy=12,MPx=91
+497 Techno: Residual Goop
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164503_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Industrial-Grade Battery
+497 Techno: Spark Canister
+497 Techno: Ohmic Gel
+497 Techno: Unstable Plasma
+497 Techno: Di-hydrogen Jelly
+497 Techno: Microprocessor
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164505_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.010,MPy=12,MPx=91
+497 Techno: Metal Plating
+497 Techno: Wiring Loom
+497 Techno: Residual Goop
+497 Techno: Magnetised Ferrite
+497 Techno: Tritium
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164610_1.jpg
+SysInfo: entering...
+287 SysInfo: mn=0.004 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Hantury VIII
+Celestial Bodies: 3 Planets
+Dominant Lifeform: Vy'keen
+Economy: Nano-construction // Satisfactory
+Conflict level: Unruly
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164640_1.jpg
+SysInfo: entering...
+Glyphs: entering... Hantury VIII
+Glyphs: e:0 120e066eef96
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164704_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164706_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: Technol: mn=0.015,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Toxic Protection
+497 Techno: [S]Hot Protection
+497 Techno: [S]Cold Protection
+497 Techno: [B]Shield
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164730_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: Technol: mn=0.009,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164732_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: Technol: mn=0.010,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [B]Nautilon Cannon
+497 Techno: [S]Exocraft Laser
+497 Techno: [A]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164750_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164752_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [A]Launch Thrusters
+497 Techno: [S]Cyclotron
+497 Techno: [S]Positron
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164754_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.003 (159, 38)
+419 Techno: Technol: mn=0.010,MPy=12,MPx=90
+497 Techno: [B]Hyperdrive
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164808_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+384 Techno: avail2: mn=0.818 (227, 42)
+517 Resource: entering... Hantury VIII
+531 Resource: resrc2: 0.428 (135, 14)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164822_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (160, 39)
+419 Techno: Technol: mn=0.012,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164823_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (160, 39)
+419 Techno: Technol: mn=0.008,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [S]Blaze Javelin
+497 Techno: [A]Mining Beam
+497 Techno: [A]Pulse Spitter
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164824_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (160, 39)
+419 Techno: Technol: mn=0.008,MPy=12,MPx=90
+497 Techno: [B]Pulse Spitter
+497 Techno: [S]Boltcaster
+497 Techno: [B]Geology Cannon
+497 Techno: [B]Boltcaster
+497 Techno: [S]Mining Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164842_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.025,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Ion Capacitor
+497 Techno: Decommissioned Circuits
+497 Techno: Unstable Plasma
+497 Techno: Amino Chamber
+497 Techno: Magno-Gold
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164843_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.025,MPy=12,MPx=91
+497 Techno: Wiring Loom
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Pure Ferrite
+497 Techno: Ammonia
+497 Techno: Platinum
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164845_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.025,MPy=12,MPx=91
+497 Techno: Chromatic Metal
+497 Techno: Pyrite
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164908_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.013,MPy=12,MPx=91
+497 Techno: Welding Soap
+497 Techno: Autonomous Positioning Unit
+497 Techno: Ion Capacitor
+497 Techno: Decommissioned Circuits
+497 Techno: Carbon Nanotubes
+497 Techno: Unstable Plasma
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\0\20221223164911_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.013,MPy=12,MPx=91
+497 Techno: Metal Plating
+497 Techno: Wiring Loom
+497 Techno: Microprocessor
+497 Techno: Copper
+497 Techno: Magnetised Ferrite
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165606_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+740 Visited: Set System: "Kusinst" -no card-
+75 Visited: exiting... (True, 'Kusinst', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165612_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.004 (13, 46)
+567 Resource: s=Kusinst, i=1, p= "Gisbrosp XIV"
+590 Resource: profile= Weather: Infrequent Toxic Drizzle
+590 Resource: profile= Sentinels: Hostile Patrols
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: Copious
+619 Resource: resource= Fungal Mould
+619 Resource: resource= Cobalt
+619 Resource: resource= Ammonia
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165617_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.004 (12, 41)
+567 Resource: s=Kusinst, i=2, p= "Dolydine"
+590 Resource: profile= Weather: Superheated Gas Pockets
+590 Resource: profile= Sentinels: Observant
+590 Resource: profile= Flora: Full
+590 Resource: profile= Fauna: Full
+619 Resource: resource= Solanium
+619 Resource: resource= Cobalt
+619 Resource: resource= Phosphorus
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165622_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.005 (13, 34)
+567 Resource: s=Kusinst, i=3, p= "Loydon K25"
+590 Resource: profile= Weather: Poison Flurries
+590 Resource: profile= Sentinels: Minimal
+590 Resource: profile= Flora: Diseased
+590 Resource: profile= Fauna: Rich
+619 Resource: resource= Fungal Mould
+619 Resource: resource= Sodium
+619 Resource: resource= Ammonia
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165628_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.005 (13, 33)
+567 Resource: s=Kusinst, i=4, p= "Abuj Tau"
+590 Resource: profile= Weather: Reactive Rain
+590 Resource: profile= Sentinels: Limited
+590 Resource: profile= Flora: Bountiful
+590 Resource: profile= Fauna: Copious
+619 Resource: resource= Gamma Root
+619 Resource: resource= Salt
+619 Resource: resource= Uranium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165632_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.005 (13, 24)
+567 Resource: s=Kusinst, i=5, p= "Atti"
+590 Resource: profile= Weather: Contaminated Puddles
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Common
+590 Resource: profile= Fauna: Medium
+619 Resource: resource= Gamma Root
+619 Resource: resource= Magnetised Ferrite
+619 Resource: resource= Uranium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165636_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+373 Techno: entering... Kusinst
+381 Techno: avail1: mn=0.765 (218, 70)
+517 Resource: entering... Kusinst
+533 Resource: resrc1: 0.005 (12, 25)
+567 Resource: s=Kusinst, i=6, p= "Lowest Mano"
+590 Resource: profile= Weather: Infrequent Toxic Drizzle
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Rich
+590 Resource: profile= Fauna: Generous
+619 Resource: resource= Sodium
+619 Resource: resource= Faecium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165645_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Waburydes IX"
-791 Visited: Set Biome: "Hazy Planet"
+card title= "Gisbrosp XIV"
+794 Visited: Set Biome: "Noxious Planet"
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185641_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165647_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Vetruri"
-791 Visited: Set Biome: "Shell-Strewn Planet"
+card title= "Dolydine"
+794 Visited: Set Biome: "Torrid Planet"
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185642_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165649_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Ziusipoo XIV"
-791 Visited: Set Biome: "Caustic Planet"
+card title= "Loydon K25"
+794 Visited: Set Biome: "Caustic Nightmare"
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185644_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165650_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Natamit Z26"
-791 Visited: Set Biome: "Hot Planet"
+card title= "Abuj Tau"
+794 Visited: Set Biome: "Nuclear Planet"
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185646_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165651_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Rumar X"
-791 Visited: Set Biome: "Contaminated Planet"
+card title= "Atti"
+794 Visited: Set Biome: "Isotopic Planet"
 
-\Downloads\No Man's Sky\normal\playground\py\0\20221208185647_1.jpg
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165653_1.jpg
 SysInfo: entering...
-Visited: entering... Hijinaq
-746 locate card title
+Visited: entering... Kusinst
+749 locate card title
 clear=0.001 (292, 32)
-card title= "Kogrover Prime"
-791 Visited: Set Biome: "Lifeless Planet"
+card title= "Lowest Mano"
+794 Visited: Set Biome: "Vapour Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165703_1.jpg
+SysInfo: entering...
+Visited: entering... Kusinst
+740 Visited: Set System: "Denayanov" -no card-
+75 Visited: exiting... (True, 'Denayanov', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165707_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.004 (12, 42)
+567 Resource: s=Denayanov, i=1, p= "Lottonia Chofu"
+590 Resource: profile= Weather: Highly Variable Temperatures
+590 Resource: profile= Sentinels: Regular Patrols
+590 Resource: profile= Flora: Rich
+590 Resource: profile= Fauna: Abundant
+619 Resource: resource= Cactus Flesh
+619 Resource: resource= Cobalt
+619 Resource: resource= Pyrite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165710_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.004 (12, 40)
+567 Resource: s=Denayanov, i=2, p= "Yilis IV"
+590 Resource: profile= Weather: Crimson Heat
+590 Resource: profile= Sentinels: Require Orthodoxy
+590 Resource: profile= Flora: Forfeited
+590 Resource: profile= Fauna: Between Worlds
+619 Resource: resource= Magnetised Ferrite
+619 Resource: resource= Gold
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165715_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.005 (12, 38)
+567 Resource: s=Denayanov, i=3, p= "Couverles Yoha"
+590 Resource: profile= Weather: Choking Humidity
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Ample
+590 Resource: profile= Fauna: Abundant
+619 Resource: resource= Star Bulb
+619 Resource: resource= Cobalt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165718_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.004 (12, 45)
+567 Resource: s=Denayanov, i=4, p= "Rinusc XIX"
+590 Resource: profile= Weather: Choking Clouds
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Full
+590 Resource: profile= Fauna: Average
+619 Resource: resource= Fungal Mould
+619 Resource: resource= Salt
+619 Resource: resource= Ammonia
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165722_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.005 (12, 35)
+567 Resource: s=Denayanov, i=5, p= "Eynsihept B35"
+590 Resource: profile= Weather: Direct Sunlight
+590 Resource: profile= Sentinels: Attentive
+590 Resource: profile= Flora: Viral
+590 Resource: profile= Fauna: High
+619 Resource: resource= Ancient Bones
+619 Resource: resource= Cactus Flesh
+619 Resource: resource= Magnetised Ferrite
+619 Resource: resource= Pyrite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165727_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+373 Techno: entering... Denayanov
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Denayanov
+533 Resource: resrc1: 0.004 (13, 38)
+567 Resource: s=Denayanov, i=6, p= "Mebayasicis Gatag"
+590 Resource: profile= Weather: Lethal Humidity Outbreaks
+590 Resource: profile= Sentinels: Enforcing
+590 Resource: profile= Flora: Generous
+590 Resource: profile= Fauna: Rich
+619 Resource: resource= Star Bulb
+619 Resource: resource= Salt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165733_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Lottonia Chofu"
+794 Visited: Set Biome: "Bleak Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165734_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Yilis IV"
+794 Visited: Set Biome: "Capped Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165735_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Couverles Yoha"
+794 Visited: Set Biome: "Bountiful Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165737_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Rinusc XIX"
+794 Visited: Set Biome: "Caustic Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165738_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Eynsihept B35"
+794 Visited: Set Biome: "Infected Dustbowl"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165739_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Mebayasicis Gatag"
+794 Visited: Set Biome: "Verdant Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165825_1.jpg
+SysInfo: entering...
+Visited: entering... Denayanov
+740 Visited: Set System: "Satands" -no card-
+75 Visited: exiting... (True, 'Satands', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165828_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Satands
+533 Resource: resrc1: 0.005 (13, 34)
+567 Resource: s=Satands, i=1, p= "Ninarb S13"
+590 Resource: profile= Weather: Bilious Storms
+590 Resource: profile= Sentinels: Regular Patrols
+590 Resource: profile= Flora: Copious
+590 Resource: profile= Fauna: Sporadic
+619 Resource: resource= Star Bulb
+619 Resource: resource= Salt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Activated Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165831_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+373 Techno: entering... Satands
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Satands
+533 Resource: resrc1: 0.005 (12, 34)
+567 Resource: s=Satands, i=2, p= "Wilm"
+590 Resource: profile= Weather: Freezing
+590 Resource: profile= Sentinels: Regular Patrols
+590 Resource: profile= Flora: Uncemmen
+590 Resource: profile= Fauna: Numerous
+619 Resource: resource= Frost Crystal
+619 Resource: resource= Sodium
+619 Resource: resource= Dioxite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165835_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Ninarb S13"
+794 Visited: Set Biome: "Xeno-Colony"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165836_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Wilm"
+794 Visited: Set Biome: "Freezing Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165846_1.jpg
+SysInfo: entering...
+Visited: entering... Satands
+740 Visited: Set System: "Yedneya" -no card-
+75 Visited: exiting... (True, 'Yedneya', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165850_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Yedneya
+533 Resource: resrc1: 0.005 (12, 34)
+567 Resource: s=Yedneya, i=1, p= "Geori"
+590 Resource: profile= Weather: Usually Mild
+590 Resource: profile= Sentinels: Threatening
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: High
+619 Resource: resource= Star Bulb
+619 Resource: resource= Silver
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165854_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Yedneya
+533 Resource: resrc1: 0.004 (13, 38)
+567 Resource: s=Yedneya, i=2, p= "Syrachu"
+590 Resource: profile= Weather: Crisp
+590 Resource: profile= Sentinels: Require Orthodoxy
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: Commen
+619 Resource: resource= Frost Crystal
+619 Resource: resource= Salt
+619 Resource: resource= Dioxite
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165857_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Yedneya
+533 Resource: resrc1: 0.005 (12, 34)
+567 Resource: s=Yedneya, i=3, p= "Bognorth V"
+590 Resource: profile= Weather: Irradiated Storms
+590 Resource: profile= Sentinels: Unwavering
+590 Resource: profile= Flora: Infected
+590 Resource: profile= Fauna: Abundant
+619 Resource: resource= Gamma Root
+619 Resource: resource= Cobalt
+619 Resource: resource= Uranium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165901_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+373 Techno: entering... Yedneya
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Yedneya
+533 Resource: resrc1: 0.005 (13, 35)
+567 Resource: s=Yedneya, i=4, p= "Tarv X5"
+590 Resource: profile= Weather: Caustic Moisture
+590 Resource: profile= Sentinels: Frequent
+590 Resource: profile= Flora: Low
+590 Resource: profile= Fauna: High
+619 Resource: resource= Ancient Bones
+619 Resource: resource= Fungal Mould
+619 Resource: resource= Silver
+619 Resource: resource= Ammonia
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165904_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Geori"
+794 Visited: Set Biome: "Viridescent Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165905_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Syrachu"
+794 Visited: Set Biome: "Glacial Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165906_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Bognorth V"
+794 Visited: Set Biome: "Radioactive Abomination"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165908_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Tarv X5"
+794 Visited: Set Biome: "Caustic Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165914_1.jpg
+SysInfo: entering...
+Visited: entering... Yedneya
+740 Visited: Set System: "Hantury VIII" -no card-
+75 Visited: exiting... (True, 'Hantury VIII', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165922_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Hantury VIII
+533 Resource: resrc1: 0.004 (12, 42)
+567 Resource: s=Hantury VIII, i=1, p= "Enporene"
+590 Resource: profile= Weather: Blistering Floods
+590 Resource: profile= Sentinels: Malicious
+590 Resource: profile= Flora: High
+590 Resource: profile= Fauna: Ample
+619 Resource: resource= Star Bulb
+619 Resource: resource= Magnetised Ferrite
+619 Resource: resource= Paraffinium
+619 Resource: resource= Activated Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165926_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Hantury VIII
+533 Resource: resrc1: 0.005 (12, 37)
+567 Resource: s=Hantury VIII, i=2, p= "Yardogo XVII"
+590 Resource: profile= Weather: Burning Gas Clouds
+590 Resource: profile= Sentinels: Require Obedience
+590 Resource: profile= Flora: Twisted
+590 Resource: profile= Fauna: Copious
+619 Resource: resource= Solanium
+619 Resource: resource= Silver
+619 Resource: resource= Phosphorus
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165932_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+373 Techno: entering... Hantury VIII
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Hantury VIII
+533 Resource: resrc1: 0.004 (12, 40)
+567 Resource: s=Hantury VIII, i=3, p= "Hawesl XI"
+590 Resource: profile= Weather: Parched
+590 Resource: profile= Sentinels: Infrequent
+590 Resource: profile= Flora: High
+590 Resource: profile= Fauna: Typical
+619 Resource: resource= Salvageable Scrap
+619 Resource: resource= Solanium
+619 Resource: resource= Salt
+619 Resource: resource= Phosphorus
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165935_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Enporene"
+794 Visited: Set Biome: "Rainy Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165936_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Yardogo XVII"
+794 Visited: Set Biome: "Fiery Dreadworld"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223165937_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Hawesl XI"
+794 Visited: Set Biome: "Arid Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172411_1.jpg
+SysInfo: entering...
+Visited: entering... Hantury VIII
+740 Visited: Set System: "Washeyu-Hebe" -no card-
+75 Visited: exiting... (True, 'Washeyu-Hebe', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172416_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Washeyu-Hebe
+533 Resource: resrc1: 0.003 (12, 39)
+567 Resource: s=Washeyu-Hebe, i=1, p= "Losa Alpha"
+590 Resource: profile= Weather: Blasted Atmosphere
+590 Resource: profile= Sentinels: Require Obedience
+590 Resource: profile= Flora: Copious
+590 Resource: profile= Fauna: Not Present
+619 Resource: resource= Salvageable Scrap
+619 Resource: resource= Cactus Flesh
+619 Resource: resource= Salt
+619 Resource: resource= Pyrite
+619 Resource: resource= Emeril
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172421_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Washeyu-Hebe
+533 Resource: resrc1: 0.003 (13, 43)
+567 Resource: s=Washeyu-Hebe, i=2, p= "Saderry Unam"
+590 Resource: profile= Weather: Mostly Calm
+590 Resource: profile= Sentinels: Frequent
+590 Resource: profile= Flora: Full
+590 Resource: profile= Fauna: None
+619 Resource: resource= Star Bulb
+619 Resource: resource= Silver
+619 Resource: resource= Paraffinium
+619 Resource: resource= Emeril
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172425_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Washeyu-Hebe
+533 Resource: resrc1: 0.003 (13, 37)
+567 Resource: s=Washeyu-Hebe, i=3, p= "Oger Alpha"
+590 Resource: profile= Weather: Superheated Rain
+590 Resource: profile= Sentinels: Frenzied
+590 Resource: profile= Flora: Rich
+590 Resource: profile= Fauna: Lacking
+619 Resource: resource= Star Bulb
+619 Resource: resource= Cobalt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Emeril
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172432_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Washeyu-Hebe
+533 Resource: resrc1: 0.004 (12, 26)
+567 Resource: s=Washeyu-Hebe, i=4, p= "Agjy Beta"
+590 Resource: profile= Weather: Extreme Wind Blasting
+590 Resource: profile= Sentinels: Require Obedience
+590 Resource: profile= Flora: Full
+590 Resource: profile= Fauna: Undetected
+619 Resource: resource= Cactus Flesh
+619 Resource: resource= Silver
+619 Resource: resource= Pyrite
+619 Resource: resource= Activated Emeril
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223172439_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+373 Techno: entering... Washeyu-Hebe
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Washeyu-Hebe
+533 Resource: resrc1: 0.004 (12, 28)
+567 Resource: s=Washeyu-Hebe, i=5, p= "Yornandac Alpha"
+590 Resource: profile= Weather: Dangerously Hot
+590 Resource: profile= Sentinels: Observant
+590 Resource: profile= Flora: Generous
+590 Resource: profile= Fauna: Not Present
+619 Resource: resource= Solanium
+619 Resource: resource= Cobalt
+619 Resource: resource= Phosphorus
+619 Resource: resource= Emeril
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223174354_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Losa Alpha"
+794 Visited: Set Biome: "Dusty Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223174355_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Saderry Unam"
+794 Visited: Set Biome: "Rainy Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223174357_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Oger Alpha"
+794 Visited: Set Biome: "Infested Paradise"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223174358_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Agjy Beta"
+794 Visited: Set Biome: "Desert Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\1\20221223174400_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (292, 32)
+card title= "Yornandac Alpha"
+794 Visited: Set Biome: "High Temperature Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174300_1.jpg
+SysInfo: entering...
+Visited: entering... Washeyu-Hebe
+749 locate card title
+clear=0.001 (242, 32)
+card title= "Oginic-Roran II"
+Celestial Bodies: 4 Planets
+Dominant Lifeform: Vy'keen
+Economy: Alchemical // Promising
+Conflict level: Tranquil
+856 Visited: Exiting: sysinfo card
+75 Visited: exiting... (True, 'Oginic-Roran II', True)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174301_1.jpg
+SysInfo: entering...
+Glyphs: entering... Oginic-Roran II
+Glyphs: e:0 1197066eef96
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174311_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [B]Life Support
+497 Techno: [C]Movement
+497 Techno: [C]Shield
+497 Techno: [B]Underwater Protection
+497 Techno: [B]Radiation Protection
+497 Techno: [B]Toxic Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174314_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [B]Cold Protection
+497 Techno: [B]Hot Protection
+497 Techno: [A]Life Support
+497 Techno: [B]Movement
+497 Techno: [S]Life Support
+497 Techno: [S]Underwater Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174317_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.017,MPy=12,MPx=90
+497 Techno: [S]Cold Protection
+497 Techno: [A]Underwater Protection
+497 Techno: [B]Shield
+497 Techno: [A]Cold Protection
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174333_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [C]Exocraft Cannon
+497 Techno: [C]Exocraft Engine
+497 Techno: [C]Exocraft Laser
+497 Techno: [C]Exocraft Boost
+497 Techno: [C]Humboldt Drive
+497 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174334_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.014,MPy=12,MPx=90
+497 Techno: [B]Minotaur Engine
+497 Techno: [B]Minotaur Laser
+497 Techno: [B]Minotaur Cannon
+497 Techno: [S]Nautilon Cannon
+497 Techno: [A]Exocraft Engine
+497 Techno: [A]Minotaur Laser
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174355_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.008,MPy=12,MPx=90
+497 Techno: [C]Launch Thrusters
+497 Techno: [C]Pulse Engine
+497 Techno: [C]Hyperdrive
+497 Techno: [C]Starship Shield
+497 Techno: [C]Photon Cannon
+497 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174357_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.008,MPy=12,MPx=90
+497 Techno: [C]Positron
+497 Techno: [C]Infra-Knife
+497 Techno: [C]Cyclotron
+497 Techno: [A]Hyperdrive
+497 Techno: [S]Photon Cannon
+497 Techno: [A]Infra-Knife
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174359_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.003 (158, 38)
+419 Techno: Technol: mn=0.008,MPy=12,MPx=90
+497 Techno: [B]Pulse Engine
+497 Techno: [B]Cyclotron
+497 Techno: [B]Infra-Knife
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174418_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+384 Techno: avail2: mn=0.810 (226, 53)
+517 Resource: entering... Oginic-Roran II
+531 Resource: resrc2: 0.539 (137, 32)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174437_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.010,MPy=12,MPx=90
+497 Techno: [C]Mining Beam
+497 Techno: [C]Scanner
+497 Techno: [C]Boltcaster
+497 Techno: [C]Plasma Launcher
+497 Techno: [C]Geology Cannon
+497 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174439_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.010,MPy=12,MPx=90
+497 Techno: [C]Scatter Blaster
+497 Techno: [C]Pulse Spitter
+497 Techno: [C]Neutron Cannon
+497 Techno: [S]Neutron Cannon
+497 Techno: [A]Scanner
+497 Techno: [A]Geology Cannon
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174442_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 39)
+419 Techno: Technol: mn=0.011,MPy=12,MPx=90
+497 Techno: [S]Plasma Launcher
+497 Techno: [S]Pulse Spitter
+497 Techno: [A]Mining Beam
+497 Techno: [B]Scatter Blaster
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174502_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.024,MPy=12,MPx=91
+497 Techno: Optical Solvent
+497 Techno: Nanotube Crate
+497 Techno: Self-Repairing Heridium
+497 Techno: Unstable Plasma
+497 Techno: Lemmium
+497 Techno: Dirty Bronze
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174506_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: System : mn=0.024,MPy=12,MPx=91
+497 Techno: Microprocessor
+497 Techno: Wiring Loom
+497 Techno: Metal Plating
+497 Techno: Ammonia
+497 Techno: Silver
+497 Techno: Tritium
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174545_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: System : mn=0.011,MPy=12,MPx=91
+497 Techno: Self-Repairing Heridium
+497 Techno: Optical Solvent
+497 Techno: Nanotube Crate
+497 Techno: Unstable Plasma
+497 Techno: Magnetic Resonator
+497 Techno: Hermetic Seal
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174546_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: System : mn=0.011,MPy=12,MPx=91
+497 Techno: Wiring Loom
+497 Techno: Metal Plating
+497 Techno: Microprocessor
+497 Techno: Rusted Metal
+497 Techno: Pyrite
+497 Techno: Chromatic Metal
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174550_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+381 Techno: avail1: mn=0.004 (158, 37)
+419 Techno: System : mn=0.011,MPy=12,MPx=91
+497 Techno: Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174629_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+740 Visited: Set System: "Oginic-Roran II" -no card-
+75 Visited: exiting... (True, 'Oginic-Roran II', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174645_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Oginic-Roran II
+533 Resource: resrc1: 0.004 (12, 41)
+567 Resource: s=Oginic-Roran II, i=1, p= "Gaapo VI"
+590 Resource: profile= Weather: Caustic Floods
+590 Resource: profile= Sentinels: Unwavering
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: Frequent
+619 Resource: resource= Sodium
+619 Resource: resource= Paraffinium
+619 Resource: resource= Activated Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174649_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Oginic-Roran II
+533 Resource: resrc1: 0.004 (13, 38)
+567 Resource: s=Oginic-Roran II, i=2, p= "Azaw 28/F2"
+590 Resource: profile= Weather: Blistering Damp
+590 Resource: profile= Sentinels: Ever-present
+590 Resource: profile= Flora: Copious
+590 Resource: profile= Fauna: Frequent
+619 Resource: resource= Star Bulb
+619 Resource: resource= Salt
+619 Resource: resource= Paraffinium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174656_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Oginic-Roran II
+533 Resource: resrc1: 0.004 (12, 35)
+567 Resource: s=Oginic-Roran II, i=3, p= "Sialatwhith Izur"
+590 Resource: profile= Weather: Direct Sunlight
+590 Resource: profile= Sentinels: Isolated
+590 Resource: profile= Flora: Abundant
+590 Resource: profile= Fauna: High
+619 Resource: resource= Solanium
+619 Resource: resource= Cobalt
+619 Resource: resource= Phosphorus
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174701_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+373 Techno: entering... Oginic-Roran II
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Oginic-Roran II
+533 Resource: resrc1: 0.004 (13, 29)
+567 Resource: s=Oginic-Roran II, i=4, p= "Hegoria"
+590 Resource: profile= Weather: Irradiated Winds
+590 Resource: profile= Sentinels: Remote
+590 Resource: profile= Flora: Fair
+590 Resource: profile= Fauna: Ordinary
+619 Resource: resource= Gamma Root
+619 Resource: resource= Cobalt
+619 Resource: resource= Uranium
+619 Resource: resource= Copper
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174706_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+749 locate card title
+clear=0.001 (242, 32)
+card title= "Gaapo VI"
+794 Visited: Set Biome: "Foggy Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174707_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+749 locate card title
+clear=0.001 (242, 32)
+card title= "Azaw 28/F2"
+794 Visited: Set Biome: "Temperate Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229174708_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+749 locate card title
+clear=0.001 (242, 32)
+card title= "Sialatwhith Izur"
+794 Visited: Set Biome: "Scalding Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\2\20221229175251_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+749 locate card title
+clear=0.001 (242, 32)
+card title= "Hegoria"
+794 Visited: Set Biome: "Isotopic Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201038_1.jpg
+SysInfo: entering...
+Visited: entering... Oginic-Roran II
+749 locate card title
+clear=0.000 (225, 32)
+card title= "Chater-Muk X"
+Celestial Bodies: 2 Planets
+Dominant Lifeform: Uncharted
+Economy: - Data Unavailable -
+Conflict level: - Data Unavailable -
+856 Visited: Exiting: sysinfo card
+75 Visited: exiting... (True, 'Chater-Muk X', False)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201039_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+384 Techno: avail2: mn=0.560 (222, 71)
+517 Resource: entering... Chater-Muk X
+533 Resource: resrc1: 1.000 (0, 0)
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201041_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+381 Techno: avail1: mn=0.004 (162, 39)
+419 Techno: Contrab: mn=0.004,MPy=12,MPx=92
+497 Techno: NipNip Buds
+497 Techno: Moon Ether
+497 Techno: Counterfeit Circuits
+497 Techno: Packet (Goods)
+497 Techno: Tritium
+497 Techno: Larval Core
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201042_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+381 Techno: avail1: mn=0.004 (162, 39)
+419 Techno: Contrab: mn=0.005,MPy=12,MPx=92
+497 Techno: Repair Kit
+497 Techno: Hypnotic Eye
+497 Techno: Starshield Battery
+497 Techno: Packet (Arms)
+497 Techno: Packet (Tech)
+497 Techno: Runaway Mould
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201043_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Salvage: mn=0.006,MPy=12,MPx=91
+497 Techno: [X]Neutron Cannon
+497 Techno: [X]Shield
+497 Techno: [X]Boltcaster
+497 Techno: [X]Starship Shield
+497 Techno: [X]Infra-Knife
+497 Techno: [X]Plasma Launcher
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201044_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+381 Techno: avail1: mn=0.004 (158, 38)
+419 Techno: Salvage: mn=0.005,MPy=12,MPx=91
+497 Techno: [X]Life Support
+497 Techno: [X]Pulse Spitter
+497 Techno: [X]Photon Cannon
+497 Techno: [X]Movement
+497 Techno: [X]Blaze Javelin
+497 Techno: [X]Hyperdrive
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201048_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Chater-Muk X
+533 Resource: resrc1: 0.003 (13, 38)
+567 Resource: s=Chater-Muk X, i=5, p= "Wituryg XVIII"
+590 Resource: profile= Weather: Combustible Dust
+590 Resource: profile= Sentinels: Observant
+590 Resource: profile= Flora: High
+590 Resource: profile= Fauna: Frequent
+619 Resource: resource= Solanium
+619 Resource: resource= Sodium
+619 Resource: resource= Phosphorus
+619 Resource: resource= Activated Cadmiurtr
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201056_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+373 Techno: entering... Chater-Muk X
+384 Techno: avail2: mn=1.000 (0, 0)
+517 Resource: entering... Chater-Muk X
+533 Resource: resrc1: 0.004 (13, 32)
+567 Resource: s=Chater-Muk X, i=6, p= "Hocae Sigma"
+590 Resource: profile= Weather: Particulate Winds
+590 Resource: profile= Sentinels: Infrequent
+590 Resource: profile= Flora: Common
+590 Resource: profile= Fauna: Limited
+619 Resource: resource= Gamma Root
+619 Resource: resource= Cobalt
+619 Resource: resource= Uranium
+619 Resource: resource= Cadmium
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201100_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+749 locate card title
+clear=0.378 (244, 32)
+card title= "Wituryg XVIII"
+794 Visited: Set Biome: "Scorched Planet"
+
+\Downloads\No Man's Sky\expeditions\expeditions7 redux\py\3\20221230201102_1.jpg
+SysInfo: entering...
+Visited: entering... Chater-Muk X
+749 locate card title
+clear=0.377 (252, 32)
+card title= "Hocae Sigma"
+794 Visited: Set Biome: "Radioactive Planet"
 
 {
-  "Hijinaq": {
+  "Kusinst": {
     "System Info": [
       "Celestial Bodies: 5 Planets // 1 Moon",
-      "Dominant Lifeform: Korvax",
-      "Economy: Industrial // Promising",
-      "Conflict level: At War",
-      "Glyphs: 100308949f4b"
+      "Dominant Lifeform: Gek",
+      "Economy: Mercantile // Struggling",
+      "Conflict level: Intermittent",
+      "Glyphs: 1012056edf93"
     ],
     "Technology": {
       "[B]Life Support": "",
@@ -406,16 +2533,13 @@ card title= "Kogrover Prime"
       "[B]Toxic Protection": "",
       "[B]Cold Protection": "",
       "[B]Hot Protection": "",
-      "[A]Movement": "",
-      "[A]Shield": "",
-      "[S]Hot Protection": "",
-      "[A]Life Support": "",
-      "[A]Radiation Protection": "",
-      "[A]Hot Protection": "",
-      "[S]Toxic Protection": "",
-      "[S]Shield": "",
+      "[A]Toxic Protection": "",
+      "[B]Movement": "",
       "[S]Movement": "",
-      "[A]Underwater Protection": "",
+      "[A]Shield": "",
+      "[A]Cold Protection": "",
+      "[S]Life Support": "",
+      "[A]Movement": "",
       "[C]Exocraft Cannon": "",
       "[C]Exocraft Engine": "",
       "[C]Exocraft Laser": "",
@@ -425,8 +2549,8 @@ card title= "Kogrover Prime"
       "[B]Minotaur Engine": "",
       "[B]Minotaur Laser": "",
       "[B]Minotaur Cannon": "",
-      "[S]Exocraft Laser": "",
-      "[S]Nautilon Cannon": "",
+      "[S]Minotaur Cannon Medule": "",
+      "[A]Humboldt Drive": "",
       "[B]Exocraft Boost": "",
       "[C]Launch Thrusters": "",
       "[C]Pulse Engine": "",
@@ -437,11 +2561,394 @@ card title= "Kogrover Prime"
       "[C]Positron": "",
       "[C]Infra-Knife": "",
       "[C]Cyclotron": "",
-      "[A]Infra-Knife": "",
-      "[B]Launch Thrusters": "",
-      "[B]Starship Shield": "",
-      "[S]Phase Beam": "",
       "[B]Hyperdrive": "",
+      "[A]Pulse Engine": "",
+      "[B]Infra-Knife": "",
+      "[A]Hyperdrive": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[A]Geology Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[S]Scanner": ""
+    },
+    "Buy Sell": {
+      "Decrypted User Data": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Amino Chamber": "",
+      "Quantum Computer": "",
+      "Hermetic Seal": "",
+      "Metal Plating": "",
+      "Pyrite": "",
+      "Chromatic Metal": "",
+      "Paraffinium": "",
+      "Gold": "",
+      "Lemmium": "",
+      "Phosphorus": "",
+      "Pure Ferrite": "",
+      "Rusted Metal": ""
+    },
+    "Gisbrosp XIV": {
+      "Planet Info": [
+        "Biome: Noxious Planet",
+        "Weather: Infrequent Toxic Drizzle",
+        "Sentinels: Hostile Patrols",
+        "Flora: Abundant",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Cobalt",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Dolydine": {
+      "Planet Info": [
+        "Biome: Torrid Planet",
+        "Weather: Superheated Gas Pockets",
+        "Sentinels: Observant",
+        "Flora: Full",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Loydon K25": {
+      "Planet Info": [
+        "Biome: Caustic Nightmare",
+        "Weather: Poison Flurries",
+        "Sentinels: Minimal",
+        "Flora: Diseased",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Sodium",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Abuj Tau": {
+      "Planet Info": [
+        "Biome: Nuclear Planet",
+        "Weather: Reactive Rain",
+        "Sentinels: Limited",
+        "Flora: Bountiful",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Salt",
+        "Uranium",
+        "Copper"
+      ]
+    },
+    "Atti": {
+      "Planet Info": [
+        "Biome: Isotopic Planet",
+        "Weather: Contaminated Puddles",
+        "Sentinels: Enforcing",
+        "Flora: Common",
+        "Fauna: Medium"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Magnetised Ferrite",
+        "Uranium",
+        "Copper"
+      ]
+    },
+    "Lowest Mano": {
+      "Planet Info": [
+        "Biome: Vapour Planet",
+        "Weather: Infrequent Toxic Drizzle",
+        "Sentinels: Enforcing",
+        "Flora: Rich",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Sodium",
+        "Faecium",
+        "Copper"
+      ]
+    }
+  },
+  "Chater-Muk X": {
+    "System Info": [
+      "Celestial Bodies: 2 Planets",
+      "Dominant Lifeform: Uncharted",
+      "Economy: - Data Unavailable -",
+      "Conflict level: - Data Unavailable -"
+    ],
+    "Technology": {
+      "[X]Neutron Cannon": "",
+      "[X]Shield": "",
+      "[X]Boltcaster": "",
+      "[X]Starship Shield": "",
+      "[X]Infra-Knife": "",
+      "[X]Plasma Launcher": "",
+      "[X]Life Support": "",
+      "[X]Pulse Spitter": "",
+      "[X]Photon Cannon": "",
+      "[X]Movement": "",
+      "[X]Blaze Javelin": "",
+      "[X]Hyperdrive": ""
+    },
+    "Buy Sell": {
+      "NipNip Buds": "",
+      "Moon Ether": "",
+      "Counterfeit Circuits": "",
+      "Packet (Goods)": "",
+      "Tritium": "",
+      "Larval Core": "",
+      "Repair Kit": "",
+      "Hypnotic Eye": "",
+      "Starshield Battery": "",
+      "Packet (Arms)": "",
+      "Packet (Tech)": "",
+      "Runaway Mould": ""
+    },
+    "Wituryg XVIII": {
+      "Planet Info": [
+        "Biome: Scorched Planet",
+        "Biome: Scorched Planet",
+        "Weather: Combustible Dust",
+        "Sentinels: Observant",
+        "Flora: High",
+        "Fauna: Frequent",
+        "Weather: Combustible Dust",
+        "Sentinels: Observant",
+        "Flora: High",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Activated Cadmiurtr",
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Activated Cadmiurtr"
+      ]
+    },
+    "Hocae Sigma": {
+      "Planet Info": [
+        "Biome: Radioactive Planet",
+        "Biome: Radioactive Planet",
+        "Weather: Particulate Winds",
+        "Sentinels: Infrequent",
+        "Flora: Common",
+        "Fauna: Limited",
+        "Weather: Particulate Winds",
+        "Sentinels: Infrequent",
+        "Flora: Common",
+        "Fauna: Limited"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
+        "Cadmium",
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
+        "Cadmium"
+      ]
+    }
+  },
+  "Neyang-Uga": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Gek",
+      "Economy: Construction // Black Market",
+      "Conflict level: Pirate Controlled",
+      "Glyphs: 1079056edf93"
+    ],
+    "Technology": {
+      "[X]Neutron Cannon": "",
+      "[X]Shield": "",
+      "[X]Boltcaster": "",
+      "[X]Starship Shield": "",
+      "[X]Infra-Knife": "",
+      "[X]Plasma Launcher": "",
+      "[X]Life Support": "",
+      "[X]Pulse Spitter": "",
+      "[X]Photon Cannon": "",
+      "[X]Movement": "",
+      "[X]Blaze Javelin": "",
+      "[X]Hyperdrive": ""
+    },
+    "Buy Sell": {
+      "NipNip Buds": "",
+      "Moon Ether": "",
+      "Counterfeit Circuits": "",
+      "Packet (Goods)": "",
+      "Tritium": "",
+      "Larval Core": "",
+      "Repair Kit": "",
+      "Hypnotic Eye": "",
+      "Starshield Battery": "",
+      "Packet (Arms)": "",
+      "Packet (Tech)": "",
+      "Runaway Mould": ""
+    },
+    "Iami B7": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Mellow",
+        "Sentinels: Hateful",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Tiletchol Dakas": {
+      "Planet Info": [
+        "Biome: Barren Planet",
+        "Weather: Planetwide Desiccation",
+        "Sentinels: Observant",
+        "Flora: Abundant",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Cactus Flesh",
+        "Sodium",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Angdona Y45": {
+      "Planet Info": [
+        "Biome: Fungal Planet",
+        "Weather: Haunted Frost",
+        "Sentinels: Require Obedience",
+        "Flora: Misplaced",
+        "Fauna: Uprooted"
+      ],
+      "Resources": [
+        "Sodium",
+        "Gold",
+        "Copper"
+      ]
+    },
+    "Nita 75/E7": {
+      "Planet Info": [
+        "Biome: Acrid Planet",
+        "Weather: Dangerously Toxic Rain",
+        "Sentinels: Frequent",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Salt",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Irtinet": {
+      "Planet Info": [
+        "Biome: Flourishing Planet",
+        "Weather: Mostly Calm",
+        "Sentinels: Aggressive",
+        "Flora: Generous",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Aphas XVIII": {
+      "Planet Info": [
+        "Biome: Frozen Planet",
+        "Weather: Raging Snowstorms",
+        "Sentinels: Enforcing",
+        "Flora: Rich",
+        "Fauna: Bountiful"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Frost Crystal",
+        "Cobalt",
+        "Dioxite",
+        "Copper"
+      ]
+    }
+  },
+  "Denayanov": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Korvax",
+      "Economy:",
+      "Nano-construction // Satisfactory",
+      "Conflict level: Alarming",
+      "Glyphs: 1014056edf93"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Toxic Protection": "",
+      "[S]Cold Protection": "",
+      "[S]Underwater Protection": "",
+      "[A]Hot Protection": "",
+      "[A]Cold Protection": "",
+      "[A]Movement": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Exocraft Engine": "",
+      "[B]Nautilon Cannon": "",
+      "[A]Exocraft Boost": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[S]Phase Beam": "",
+      "[A]Phase Beam": "",
+      "[B]Pulse Engine": "",
+      "[B]Infra-Knife": "",
+      "[B]Starship Shield": "",
+      "[S]Cyclotron": "",
       "[A]Photon Cannon": "",
       "[C]Mining Beam": "",
       "[C]Scanner": "",
@@ -452,122 +2959,765 @@ card title= "Kogrover Prime"
       "[C]Scatter Blaster": "",
       "[C]Pulse Spitter": "",
       "[C]Neutron Cannon": "",
-      "[A]Blaze Javelin": "",
-      "[S]Blaze Javelin": "",
-      "[B]Blaze Javelin": "",
-      "[S]Scanner": "",
-      "[B]Plasma Launcher": ""
+      "[A]Neutron Cannon": "",
+      "[A]Mining Beam": "",
+      "[S]Pulse Spitter": "",
+      "[B]Mining Beam": "",
+      "[S]Mining Beam": ""
     },
     "Buy Sell": {
-      "Non-Stick Piston": "",
-      "Enormous Metal Cog": "",
-      "Mesh Decouplers": "",
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
       "Unstable Plasma": "",
-      "Ferrite Dust": "",
-      "Cobalt": "",
-      "Quantum Computer": "",
-      "Solar Mirror": "",
-      "Hydraulic Wiring": "",
-      "Microprocessor": "",
-      "Metal Plating": "",
+      "Lemmium": "",
       "Wiring Loom": "",
-      "Dioxite": "",
-      "Ammonia": "",
-      "Rusted Metal": "",
-      "Chlorine": "",
-      "Holographic Crankshaft": "",
-      "Di-hydrogen Jelly": "",
-      "Uranium": "",
-      "Ionised Cobalt": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Pyrite": "",
+      "Silver": "",
       "Magnetised Ferrite": "",
-      "Copper": "",
-      "Gold": ""
+      "Tritium": "",
+      "Autonomous Positioning Unit": "",
+      "Magnetic Resonator": "",
+      "Hermetic Seal": "",
+      "Phosphorus": "",
+      "Chromatic Metal": "",
+      "Paraffinium": ""
     },
-    "Waburydes IX": {
+    "Lottonia Chofu": {
       "Planet Info": [
-        "Biome: Hazy Planet",
-        "Weather: Bone-Stripping Acid Storms",
-        "Sentinels: Require Obedience",
-        "Flora: Frequent",
-        "Fauna: Full"
+        "Biome: Bleak Planet",
+        "Weather: Highly Variable Temperatures",
+        "Sentinels: Regular Patrols",
+        "Flora: Rich",
+        "Fauna: Abundant"
       ],
       "Resources": [
-        "Silver",
-        "Faecium",
-        "Activated Copper"
+        "Cactus Flesh",
+        "Cobalt",
+        "Pyrite",
+        "Copper"
       ]
     },
-    "Vetruri": {
+    "Yilis IV": {
       "Planet Info": [
-        "Biome: Shell-Strewn Planet",
+        "Biome: Capped Planet",
         "Weather: Crimson Heat",
-        "Sentinels: Not Present",
-        "Flora: Lost",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Forfeited",
         "Fauna: Between Worlds"
       ],
       "Resources": [
-        "Sodium",
+        "Magnetised Ferrite",
         "Gold",
         "Copper"
       ]
     },
-    "Ziusipoo XIV": {
+    "Couverles Yoha": {
+      "Planet Info": [
+        "Biome: Bountiful Planet",
+        "Weather: Choking Humidity",
+        "Sentinels: Enforcing",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Rinusc XIX": {
       "Planet Info": [
         "Biome: Caustic Planet",
-        "Weather: Toxic Clouds",
-        "Sentinels: Require Orthodoxy",
-        "Flora: Ample",
-        "Fauna: Occasional"
+        "Weather: Choking Clouds",
+        "Sentinels: Enforcing",
+        "Flora: Full",
+        "Fauna: Average"
       ],
       "Resources": [
         "Fungal Mould",
-        "Cobalt",
+        "Salt",
         "Ammonia",
         "Copper"
       ]
     },
-    "Natamit Z26": {
+    "Eynsihept B35": {
       "Planet Info": [
-        "Biome: Hot Planet",
-        "Weather: Scalding Heat",
-        "Sentinels: None",
-        "Flora: Ample",
-        "Fauna: Generous"
+        "Biome: Infected Dustbowl",
+        "Weather: Direct Sunlight",
+        "Sentinels: Attentive",
+        "Flora: Viral",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Ancient Bones",
+        "Cactus Flesh",
+        "Magnetised Ferrite",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Mebayasicis Gatag": {
+      "Planet Info": [
+        "Biome: Verdant Planet",
+        "Weather: Lethal Humidity Outbreaks",
+        "Sentinels: Enforcing",
+        "Flora: Generous",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  },
+  "Washeyu-Hebe": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets // 1 Moon",
+      "Dominant Lifeform: Korvax",
+      "Economy: - Data Unavailable -",
+      "Conflict level: - Data Unavailable -",
+      "Glyphs: 107e056edf94"
+    ],
+    "Technology": {},
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Decommissioned Circuits": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Aronium": "",
+      "Solar Mirror": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Pyrite": "",
+      "Dioxite": "",
+      "Chromatic Metal": "",
+      "Residual Goop": ""
+    },
+    "Losa Alpha": {
+      "Planet Info": [
+        "Biome: Dusty Planet",
+        "Weather: Blasted Atmosphere",
+        "Sentinels: Require Obedience",
+        "Flora: Copious",
+        "Fauna: Not Present"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Cactus Flesh",
+        "Salt",
+        "Pyrite",
+        "Emeril"
+      ]
+    },
+    "Saderry Unam": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Mostly Calm",
+        "Sentinels: Frequent",
+        "Flora: Full",
+        "Fauna: None"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Emeril"
+      ]
+    },
+    "Oger Alpha": {
+      "Planet Info": [
+        "Biome: Infested Paradise",
+        "Weather: Superheated Rain",
+        "Sentinels: Frenzied",
+        "Flora: Rich",
+        "Fauna: Lacking"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Emeril"
+      ]
+    },
+    "Agjy Beta": {
+      "Planet Info": [
+        "Biome: Desert Planet",
+        "Weather: Extreme Wind Blasting",
+        "Sentinels: Require Obedience",
+        "Flora: Full",
+        "Fauna: Undetected"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Silver",
+        "Pyrite",
+        "Activated Emeril"
+      ]
+    },
+    "Yornandac Alpha": {
+      "Planet Info": [
+        "Biome: High Temperature Planet",
+        "Weather: Dangerously Hot",
+        "Sentinels: Observant",
+        "Flora: Generous",
+        "Fauna: Not Present"
       ],
       "Resources": [
         "Solanium",
         "Cobalt",
         "Phosphorus",
+        "Emeril"
+      ]
+    }
+  },
+  "Satands": {
+    "System Info": [
+      "Celestial Bodies: 2 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Engineering // Sustainable",
+      "Conflict level: Critical",
+      "Glyphs: 120e066edf94"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Cold Protection": "",
+      "[S]Hot Protection": "",
+      "[A]Hot Protection": "",
+      "[S]Radiation Protection": "",
+      "[S]Cold Protection": "",
+      "[S]Underwater Protection": "",
+      "[A]Toxic Protection": "",
+      "[A]Life Support": "",
+      "[A]Radiation Protection": "",
+      "[B]Movement": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[S]Exocraft Boost": "",
+      "[S]Minotaur Laser": "",
+      "[B]Exocraft Engine": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[S]Infra-Knife": "",
+      "[B]Launch Thrusters": "",
+      "[B]Phase Beam": "",
+      "[A]Starship Shield": "",
+      "[B]Starship Shield": "",
+      "[S]Cyclotron": "",
+      "[A]Phase Beam": "",
+      "[B]Photon Cannon": "",
+      "[A]Cyclotron": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[A]Neutron Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[B]Boltcaster": "",
+      "[S]Boltcaster": "",
+      "[S]Mining Beam": "",
+      "[B]Neutron Cannon": ""
+    },
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
+      "Unstable Plasma": "",
+      "Dirty Bronze": "",
+      "Magno-Gold": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Silver": "",
+      "Pure Ferrite": "",
+      "Magnetic Resonator": "",
+      "Phosphorus": ""
+    },
+    "Ninarb S13": {
+      "Planet Info": [
+        "Biome: Xeno-Colony",
+        "Weather: Bilious Storms",
+        "Sentinels: Regular Patrols",
+        "Flora: Copious",
+        "Fauna: Sporadic"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
         "Activated Copper"
       ]
     },
-    "Rumar X": {
+    "Wilm": {
       "Planet Info": [
-        "Biome: Contaminated Planet",
-        "Weather: Reactive Rain",
-        "Sentinels: Attentive",
-        "Flora: Ordinary",
-        "Fauna: Bountiful"
+        "Biome: Freezing Planet",
+        "Weather: Freezing",
+        "Sentinels: Regular Patrols",
+        "Flora: Uncemmen",
+        "Fauna: Numerous"
       ],
       "Resources": [
-        "Ancient Bones",
-        "Gamma Root",
+        "Frost Crystal",
+        "Sodium",
+        "Dioxite",
+        "Copper"
+      ]
+    }
+  },
+  "Yedneya": {
+    "System Info": [
+      "Celestial Bodies: 3 Planets // 1 Moon",
+      "Dominant Lifeform: Korvax",
+      "Economy: High Voltage // Sustainable",
+      "Conflict level: Critical",
+      "Glyphs: 1004066edf96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Shield": "",
+      "[S]Shield": "",
+      "[S]Radiation Protection": "",
+      "[A]Movement": "",
+      "[A]Radiation Protection": "",
+      "[S]Life Support": "",
+      "[S]Hot Protection": "",
+      "[S]Underwater Protection": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Nautilon Cannon": "",
+      "[S]Nautilon Cannon": "",
+      "[A]Exocraft Laser": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[B]Pulse Engine": "",
+      "[B]Photon Cannon": "",
+      "[B]Starship Shield": "",
+      "[A]Positron": "",
+      "[S]Hyperdrive": "",
+      "[S]Launch Thrusters": "",
+      "[B]Cyclotron": "",
+      "[S]Starship Shield": "",
+      "[A]Launch Thrusters": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[B]Neutron Cannon": "",
+      "[S]Mining Beam": "",
+      "[B]Scatter Blaster": "",
+      "[B]Geology Cannon": ""
+    },
+    "Buy Sell": {
+      "Industrial-Grade Battery": "",
+      "Spark Canister": "",
+      "Ohmic Gel": "",
+      "Unstable Plasma": "",
+      "Di-hydrogen Jelly": "",
+      "Hydraulic Wiring": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Wiring Loom": "",
+      "Tritium": "",
+      "Pyrite": "",
+      "Ammonia": "",
+      "Residual Goop": "",
+      "Magnetised Ferrite": ""
+    },
+    "Geori": {
+      "Planet Info": [
+        "Biome: Viridescent Planet",
+        "Weather: Usually Mild",
+        "Sentinels: Threatening",
+        "Flora: Abundant",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Syrachu": {
+      "Planet Info": [
+        "Biome: Glacial Planet",
+        "Weather: Crisp",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Abundant",
+        "Fauna: Commen"
+      ],
+      "Resources": [
+        "Frost Crystal",
         "Salt",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Bognorth V": {
+      "Planet Info": [
+        "Biome: Radioactive Abomination",
+        "Weather: Irradiated Storms",
+        "Sentinels: Unwavering",
+        "Flora: Infected",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
         "Uranium",
         "Copper"
       ]
     },
-    "Kogrover Prime": {
+    "Tarv X5": {
       "Planet Info": [
-        "Biome: Lifeless Planet",
-        "Weather: Airless",
-        "Sentinels: Unwavering",
-        "Flora: Absent",
-        "Fauna: None"
+        "Biome: Caustic Planet",
+        "Weather: Caustic Moisture",
+        "Sentinels: Frequent",
+        "Flora: Low",
+        "Fauna: High"
       ],
       "Resources": [
+        "Ancient Bones",
+        "Fungal Mould",
         "Silver",
-        "Rusted Metal",
+        "Ammonia",
+        "Copper"
+      ]
+    }
+  },
+  "Hantury VIII": {
+    "System Info": [
+      "Celestial Bodies: 3 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Nano-construction // Satisfactory",
+      "Conflict level: Unruly",
+      "Glyphs: 120e066eef96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Toxic Protection": "",
+      "[S]Hot Protection": "",
+      "[S]Cold Protection": "",
+      "[B]Shield": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Nautilon Cannon": "",
+      "[S]Exocraft Laser": "",
+      "[A]Nautilon Cannon": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[A]Launch Thrusters": "",
+      "[S]Cyclotron": "",
+      "[S]Positron": "",
+      "[B]Hyperdrive": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Blaze Javelin": "",
+      "[A]Mining Beam": "",
+      "[A]Pulse Spitter": "",
+      "[B]Pulse Spitter": "",
+      "[S]Boltcaster": "",
+      "[B]Geology Cannon": "",
+      "[B]Boltcaster": "",
+      "[S]Mining Beam": ""
+    },
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
+      "Unstable Plasma": "",
+      "Amino Chamber": "",
+      "Magno-Gold": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Pure Ferrite": "",
+      "Ammonia": "",
+      "Platinum": "",
+      "Chromatic Metal": "",
+      "Pyrite": "",
+      "Autonomous Positioning Unit": "",
+      "Carbon Nanotubes": "",
+      "Copper": "",
+      "Magnetised Ferrite": ""
+    },
+    "Enporene": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Blistering Floods",
+        "Sentinels: Malicious",
+        "Flora: High",
+        "Fauna: Ample"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Magnetised Ferrite",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Yardogo XVII": {
+      "Planet Info": [
+        "Biome: Fiery Dreadworld",
+        "Weather: Burning Gas Clouds",
+        "Sentinels: Require Obedience",
+        "Flora: Twisted",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Solanium",
+        "Silver",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Hawesl XI": {
+      "Planet Info": [
+        "Biome: Arid Planet",
+        "Weather: Parched",
+        "Sentinels: Infrequent",
+        "Flora: High",
+        "Fauna: Typical"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Solanium",
+        "Salt",
+        "Phosphorus",
+        "Copper"
+      ]
+    }
+  },
+  "Oginic-Roran II": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Alchemical // Promising",
+      "Conflict level: Tranquil",
+      "Glyphs: 1197066eef96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Life Support": "",
+      "[B]Movement": "",
+      "[S]Life Support": "",
+      "[S]Underwater Protection": "",
+      "[S]Cold Protection": "",
+      "[A]Underwater Protection": "",
+      "[B]Shield": "",
+      "[A]Cold Protection": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[S]Nautilon Cannon": "",
+      "[A]Exocraft Engine": "",
+      "[A]Minotaur Laser": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[A]Hyperdrive": "",
+      "[S]Photon Cannon": "",
+      "[A]Infra-Knife": "",
+      "[B]Pulse Engine": "",
+      "[B]Cyclotron": "",
+      "[B]Infra-Knife": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[A]Scanner": "",
+      "[A]Geology Cannon": "",
+      "[S]Plasma Launcher": "",
+      "[S]Pulse Spitter": "",
+      "[A]Mining Beam": "",
+      "[B]Scatter Blaster": ""
+    },
+    "Buy Sell": {
+      "Optical Solvent": "",
+      "Nanotube Crate": "",
+      "Self-Repairing Heridium": "",
+      "Unstable Plasma": "",
+      "Lemmium": "",
+      "Dirty Bronze": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Ammonia": "",
+      "Silver": "",
+      "Tritium": "",
+      "Magnetic Resonator": "",
+      "Hermetic Seal": "",
+      "Rusted Metal": "",
+      "Pyrite": "",
+      "Chromatic Metal": "",
+      "Copper": ""
+    },
+    "Gaapo VI": {
+      "Planet Info": [
+        "Biome: Foggy Planet",
+        "Weather: Caustic Floods",
+        "Sentinels: Unwavering",
+        "Flora: Abundant",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Sodium",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Azaw 28/F2": {
+      "Planet Info": [
+        "Biome: Temperate Planet",
+        "Weather: Blistering Damp",
+        "Sentinels: Ever-present",
+        "Flora: Copious",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Sialatwhith Izur": {
+      "Planet Info": [
+        "Biome: Scalding Planet",
+        "Weather: Direct Sunlight",
+        "Sentinels: Isolated",
+        "Flora: Abundant",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Hegoria": {
+      "Planet Info": [
+        "Biome: Isotopic Planet",
+        "Weather: Irradiated Winds",
+        "Sentinels: Remote",
+        "Flora: Fair",
+        "Fauna: Ordinary"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
         "Copper"
       ]
     }

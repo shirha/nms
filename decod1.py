@@ -11,5 +11,5 @@ def isGlyphs(glyph_image, decod_image):
     return glyphs
 
 glyph_image = cv2.imread('i/glyph_image.png', cv2.IMREAD_GRAYSCALE)
-decod_image = cv2.imread('0/20240329192924_1.jpg', cv2.IMREAD_GRAYSCALE)[1015:1047,11:395]
+decod_image = cv2.imread('i/20240329192924_1.jpg', cv2.IMREAD_GRAYSCALE)[1015:1047,11:395]
 print(isGlyphs(glyph_image, decod_image)) # 10b8fc003906

@@ -1,11 +1,11 @@
 {
-  "Hijinaq": {
+  "Kusinst": {
     "System Info": [
       "Celestial Bodies: 5 Planets // 1 Moon",
-      "Dominant Lifeform: Korvax",
-      "Economy: Industrial // Promising",
-      "Conflict level: At War",
-      "Glyphs: 100308949f4b"
+      "Dominant Lifeform: Gek",
+      "Economy: Mercantile // Struggling",
+      "Conflict level: Intermittent",
+      "Glyphs: 1012056edf93"
     ],
     "Technology": {
       "[B]Life Support": "",
@@ -16,16 +16,13 @@
       "[B]Toxic Protection": "",
       "[B]Cold Protection": "",
       "[B]Hot Protection": "",
-      "[A]Movement": "",
-      "[A]Shield": "",
-      "[S]Hot Protection": "",
-      "[A]Life Support": "",
-      "[A]Radiation Protection": "",
-      "[A]Hot Protection": "",
-      "[S]Toxic Protection": "",
-      "[S]Shield": "",
+      "[A]Toxic Protection": "",
+      "[B]Movement": "",
       "[S]Movement": "",
-      "[A]Underwater Protection": "",
+      "[A]Shield": "",
+      "[A]Cold Protection": "",
+      "[S]Life Support": "",
+      "[A]Movement": "",
       "[C]Exocraft Cannon": "",
       "[C]Exocraft Engine": "",
       "[C]Exocraft Laser": "",
@@ -35,8 +32,8 @@
       "[B]Minotaur Engine": "",
       "[B]Minotaur Laser": "",
       "[B]Minotaur Cannon": "",
-      "[S]Exocraft Laser": "",
-      "[S]Nautilon Cannon": "",
+      "[S]Minotaur Cannon Medule": "",
+      "[A]Humboldt Drive": "",
       "[B]Exocraft Boost": "",
       "[C]Launch Thrusters": "",
       "[C]Pulse Engine": "",
@@ -47,11 +44,394 @@
       "[C]Positron": "",
       "[C]Infra-Knife": "",
       "[C]Cyclotron": "",
-      "[A]Infra-Knife": "",
-      "[B]Launch Thrusters": "",
-      "[B]Starship Shield": "",
-      "[S]Phase Beam": "",
       "[B]Hyperdrive": "",
+      "[A]Pulse Engine": "",
+      "[B]Infra-Knife": "",
+      "[A]Hyperdrive": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[A]Geology Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[S]Scanner": ""
+    },
+    "Buy Sell": {
+      "Decrypted User Data": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Amino Chamber": "",
+      "Quantum Computer": "",
+      "Hermetic Seal": "",
+      "Metal Plating": "",
+      "Pyrite": "",
+      "Chromatic Metal": "",
+      "Paraffinium": "",
+      "Gold": "",
+      "Lemmium": "",
+      "Phosphorus": "",
+      "Pure Ferrite": "",
+      "Rusted Metal": ""
+    },
+    "Gisbrosp XIV": {
+      "Planet Info": [
+        "Biome: Noxious Planet",
+        "Weather: Infrequent Toxic Drizzle",
+        "Sentinels: Hostile Patrols",
+        "Flora: Abundant",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Cobalt",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Dolydine": {
+      "Planet Info": [
+        "Biome: Torrid Planet",
+        "Weather: Superheated Gas Pockets",
+        "Sentinels: Observant",
+        "Flora: Full",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Loydon K25": {
+      "Planet Info": [
+        "Biome: Caustic Nightmare",
+        "Weather: Poison Flurries",
+        "Sentinels: Minimal",
+        "Flora: Diseased",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Sodium",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Abuj Tau": {
+      "Planet Info": [
+        "Biome: Nuclear Planet",
+        "Weather: Reactive Rain",
+        "Sentinels: Limited",
+        "Flora: Bountiful",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Salt",
+        "Uranium",
+        "Copper"
+      ]
+    },
+    "Atti": {
+      "Planet Info": [
+        "Biome: Isotopic Planet",
+        "Weather: Contaminated Puddles",
+        "Sentinels: Enforcing",
+        "Flora: Common",
+        "Fauna: Medium"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Magnetised Ferrite",
+        "Uranium",
+        "Copper"
+      ]
+    },
+    "Lowest Mano": {
+      "Planet Info": [
+        "Biome: Vapour Planet",
+        "Weather: Infrequent Toxic Drizzle",
+        "Sentinels: Enforcing",
+        "Flora: Rich",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Sodium",
+        "Faecium",
+        "Copper"
+      ]
+    }
+  },
+  "Chater-Muk X": {
+    "System Info": [
+      "Celestial Bodies: 2 Planets",
+      "Dominant Lifeform: Uncharted",
+      "Economy: - Data Unavailable -",
+      "Conflict level: - Data Unavailable -"
+    ],
+    "Technology": {
+      "[X]Neutron Cannon": "",
+      "[X]Shield": "",
+      "[X]Boltcaster": "",
+      "[X]Starship Shield": "",
+      "[X]Infra-Knife": "",
+      "[X]Plasma Launcher": "",
+      "[X]Life Support": "",
+      "[X]Pulse Spitter": "",
+      "[X]Photon Cannon": "",
+      "[X]Movement": "",
+      "[X]Blaze Javelin": "",
+      "[X]Hyperdrive": ""
+    },
+    "Buy Sell": {
+      "NipNip Buds": "",
+      "Moon Ether": "",
+      "Counterfeit Circuits": "",
+      "Packet (Goods)": "",
+      "Tritium": "",
+      "Larval Core": "",
+      "Repair Kit": "",
+      "Hypnotic Eye": "",
+      "Starshield Battery": "",
+      "Packet (Arms)": "",
+      "Packet (Tech)": "",
+      "Runaway Mould": ""
+    },
+    "Wituryg XVIII": {
+      "Planet Info": [
+        "Biome: Scorched Planet",
+        "Biome: Scorched Planet",
+        "Weather: Combustible Dust",
+        "Sentinels: Observant",
+        "Flora: High",
+        "Fauna: Frequent",
+        "Weather: Combustible Dust",
+        "Sentinels: Observant",
+        "Flora: High",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Activated Cadmiurtr",
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Activated Cadmiurtr"
+      ]
+    },
+    "Hocae Sigma": {
+      "Planet Info": [
+        "Biome: Radioactive Planet",
+        "Biome: Radioactive Planet",
+        "Weather: Particulate Winds",
+        "Sentinels: Infrequent",
+        "Flora: Common",
+        "Fauna: Limited",
+        "Weather: Particulate Winds",
+        "Sentinels: Infrequent",
+        "Flora: Common",
+        "Fauna: Limited"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
+        "Cadmium",
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
+        "Cadmium"
+      ]
+    }
+  },
+  "Neyang-Uga": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Gek",
+      "Economy: Construction // Black Market",
+      "Conflict level: Pirate Controlled",
+      "Glyphs: 1079056edf93"
+    ],
+    "Technology": {
+      "[X]Neutron Cannon": "",
+      "[X]Shield": "",
+      "[X]Boltcaster": "",
+      "[X]Starship Shield": "",
+      "[X]Infra-Knife": "",
+      "[X]Plasma Launcher": "",
+      "[X]Life Support": "",
+      "[X]Pulse Spitter": "",
+      "[X]Photon Cannon": "",
+      "[X]Movement": "",
+      "[X]Blaze Javelin": "",
+      "[X]Hyperdrive": ""
+    },
+    "Buy Sell": {
+      "NipNip Buds": "",
+      "Moon Ether": "",
+      "Counterfeit Circuits": "",
+      "Packet (Goods)": "",
+      "Tritium": "",
+      "Larval Core": "",
+      "Repair Kit": "",
+      "Hypnotic Eye": "",
+      "Starshield Battery": "",
+      "Packet (Arms)": "",
+      "Packet (Tech)": "",
+      "Runaway Mould": ""
+    },
+    "Iami B7": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Mellow",
+        "Sentinels: Hateful",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Tiletchol Dakas": {
+      "Planet Info": [
+        "Biome: Barren Planet",
+        "Weather: Planetwide Desiccation",
+        "Sentinels: Observant",
+        "Flora: Abundant",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Cactus Flesh",
+        "Sodium",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Angdona Y45": {
+      "Planet Info": [
+        "Biome: Fungal Planet",
+        "Weather: Haunted Frost",
+        "Sentinels: Require Obedience",
+        "Flora: Misplaced",
+        "Fauna: Uprooted"
+      ],
+      "Resources": [
+        "Sodium",
+        "Gold",
+        "Copper"
+      ]
+    },
+    "Nita 75/E7": {
+      "Planet Info": [
+        "Biome: Acrid Planet",
+        "Weather: Dangerously Toxic Rain",
+        "Sentinels: Frequent",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Salt",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Irtinet": {
+      "Planet Info": [
+        "Biome: Flourishing Planet",
+        "Weather: Mostly Calm",
+        "Sentinels: Aggressive",
+        "Flora: Generous",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Aphas XVIII": {
+      "Planet Info": [
+        "Biome: Frozen Planet",
+        "Weather: Raging Snowstorms",
+        "Sentinels: Enforcing",
+        "Flora: Rich",
+        "Fauna: Bountiful"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Frost Crystal",
+        "Cobalt",
+        "Dioxite",
+        "Copper"
+      ]
+    }
+  },
+  "Denayanov": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Korvax",
+      "Economy:",
+      "Nano-construction // Satisfactory",
+      "Conflict level: Alarming",
+      "Glyphs: 1014056edf93"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Toxic Protection": "",
+      "[S]Cold Protection": "",
+      "[S]Underwater Protection": "",
+      "[A]Hot Protection": "",
+      "[A]Cold Protection": "",
+      "[A]Movement": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Exocraft Engine": "",
+      "[B]Nautilon Cannon": "",
+      "[A]Exocraft Boost": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[S]Phase Beam": "",
+      "[A]Phase Beam": "",
+      "[B]Pulse Engine": "",
+      "[B]Infra-Knife": "",
+      "[B]Starship Shield": "",
+      "[S]Cyclotron": "",
       "[A]Photon Cannon": "",
       "[C]Mining Beam": "",
       "[C]Scanner": "",
@@ -62,122 +442,765 @@
       "[C]Scatter Blaster": "",
       "[C]Pulse Spitter": "",
       "[C]Neutron Cannon": "",
-      "[A]Blaze Javelin": "",
-      "[S]Blaze Javelin": "",
-      "[B]Blaze Javelin": "",
-      "[S]Scanner": "",
-      "[B]Plasma Launcher": ""
+      "[A]Neutron Cannon": "",
+      "[A]Mining Beam": "",
+      "[S]Pulse Spitter": "",
+      "[B]Mining Beam": "",
+      "[S]Mining Beam": ""
     },
     "Buy Sell": {
-      "Non-Stick Piston": "",
-      "Enormous Metal Cog": "",
-      "Mesh Decouplers": "",
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
       "Unstable Plasma": "",
-      "Ferrite Dust": "",
-      "Cobalt": "",
-      "Quantum Computer": "",
-      "Solar Mirror": "",
-      "Hydraulic Wiring": "",
-      "Microprocessor": "",
-      "Metal Plating": "",
+      "Lemmium": "",
       "Wiring Loom": "",
-      "Dioxite": "",
-      "Ammonia": "",
-      "Rusted Metal": "",
-      "Chlorine": "",
-      "Holographic Crankshaft": "",
-      "Di-hydrogen Jelly": "",
-      "Uranium": "",
-      "Ionised Cobalt": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Pyrite": "",
+      "Silver": "",
       "Magnetised Ferrite": "",
-      "Copper": "",
-      "Gold": ""
+      "Tritium": "",
+      "Autonomous Positioning Unit": "",
+      "Magnetic Resonator": "",
+      "Hermetic Seal": "",
+      "Phosphorus": "",
+      "Chromatic Metal": "",
+      "Paraffinium": ""
     },
-    "Waburydes IX": {
+    "Lottonia Chofu": {
       "Planet Info": [
-        "Biome: Hazy Planet",
-        "Weather: Bone-Stripping Acid Storms",
-        "Sentinels: Require Obedience",
-        "Flora: Frequent",
-        "Fauna: Full"
+        "Biome: Bleak Planet",
+        "Weather: Highly Variable Temperatures",
+        "Sentinels: Regular Patrols",
+        "Flora: Rich",
+        "Fauna: Abundant"
       ],
       "Resources": [
-        "Silver",
-        "Faecium",
-        "Activated Copper"
+        "Cactus Flesh",
+        "Cobalt",
+        "Pyrite",
+        "Copper"
       ]
     },
-    "Vetruri": {
+    "Yilis IV": {
       "Planet Info": [
-        "Biome: Shell-Strewn Planet",
+        "Biome: Capped Planet",
         "Weather: Crimson Heat",
-        "Sentinels: Not Present",
-        "Flora: Lost",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Forfeited",
         "Fauna: Between Worlds"
       ],
       "Resources": [
-        "Sodium",
+        "Magnetised Ferrite",
         "Gold",
         "Copper"
       ]
     },
-    "Ziusipoo XIV": {
+    "Couverles Yoha": {
+      "Planet Info": [
+        "Biome: Bountiful Planet",
+        "Weather: Choking Humidity",
+        "Sentinels: Enforcing",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Rinusc XIX": {
       "Planet Info": [
         "Biome: Caustic Planet",
-        "Weather: Toxic Clouds",
-        "Sentinels: Require Orthodoxy",
-        "Flora: Ample",
-        "Fauna: Occasional"
+        "Weather: Choking Clouds",
+        "Sentinels: Enforcing",
+        "Flora: Full",
+        "Fauna: Average"
       ],
       "Resources": [
         "Fungal Mould",
-        "Cobalt",
+        "Salt",
         "Ammonia",
         "Copper"
       ]
     },
-    "Natamit Z26": {
+    "Eynsihept B35": {
       "Planet Info": [
-        "Biome: Hot Planet",
-        "Weather: Scalding Heat",
-        "Sentinels: None",
-        "Flora: Ample",
-        "Fauna: Generous"
+        "Biome: Infected Dustbowl",
+        "Weather: Direct Sunlight",
+        "Sentinels: Attentive",
+        "Flora: Viral",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Ancient Bones",
+        "Cactus Flesh",
+        "Magnetised Ferrite",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Mebayasicis Gatag": {
+      "Planet Info": [
+        "Biome: Verdant Planet",
+        "Weather: Lethal Humidity Outbreaks",
+        "Sentinels: Enforcing",
+        "Flora: Generous",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  },
+  "Washeyu-Hebe": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets // 1 Moon",
+      "Dominant Lifeform: Korvax",
+      "Economy: - Data Unavailable -",
+      "Conflict level: - Data Unavailable -",
+      "Glyphs: 107e056edf94"
+    ],
+    "Technology": {},
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Decommissioned Circuits": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Aronium": "",
+      "Solar Mirror": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Pyrite": "",
+      "Dioxite": "",
+      "Chromatic Metal": "",
+      "Residual Goop": ""
+    },
+    "Losa Alpha": {
+      "Planet Info": [
+        "Biome: Dusty Planet",
+        "Weather: Blasted Atmosphere",
+        "Sentinels: Require Obedience",
+        "Flora: Copious",
+        "Fauna: Not Present"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Cactus Flesh",
+        "Salt",
+        "Pyrite",
+        "Emeril"
+      ]
+    },
+    "Saderry Unam": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Mostly Calm",
+        "Sentinels: Frequent",
+        "Flora: Full",
+        "Fauna: None"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Emeril"
+      ]
+    },
+    "Oger Alpha": {
+      "Planet Info": [
+        "Biome: Infested Paradise",
+        "Weather: Superheated Rain",
+        "Sentinels: Frenzied",
+        "Flora: Rich",
+        "Fauna: Lacking"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Cobalt",
+        "Paraffinium",
+        "Emeril"
+      ]
+    },
+    "Agjy Beta": {
+      "Planet Info": [
+        "Biome: Desert Planet",
+        "Weather: Extreme Wind Blasting",
+        "Sentinels: Require Obedience",
+        "Flora: Full",
+        "Fauna: Undetected"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Silver",
+        "Pyrite",
+        "Activated Emeril"
+      ]
+    },
+    "Yornandac Alpha": {
+      "Planet Info": [
+        "Biome: High Temperature Planet",
+        "Weather: Dangerously Hot",
+        "Sentinels: Observant",
+        "Flora: Generous",
+        "Fauna: Not Present"
       ],
       "Resources": [
         "Solanium",
         "Cobalt",
         "Phosphorus",
+        "Emeril"
+      ]
+    }
+  },
+  "Satands": {
+    "System Info": [
+      "Celestial Bodies: 2 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Engineering // Sustainable",
+      "Conflict level: Critical",
+      "Glyphs: 120e066edf94"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Cold Protection": "",
+      "[S]Hot Protection": "",
+      "[A]Hot Protection": "",
+      "[S]Radiation Protection": "",
+      "[S]Cold Protection": "",
+      "[S]Underwater Protection": "",
+      "[A]Toxic Protection": "",
+      "[A]Life Support": "",
+      "[A]Radiation Protection": "",
+      "[B]Movement": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[S]Exocraft Boost": "",
+      "[S]Minotaur Laser": "",
+      "[B]Exocraft Engine": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[S]Infra-Knife": "",
+      "[B]Launch Thrusters": "",
+      "[B]Phase Beam": "",
+      "[A]Starship Shield": "",
+      "[B]Starship Shield": "",
+      "[S]Cyclotron": "",
+      "[A]Phase Beam": "",
+      "[B]Photon Cannon": "",
+      "[A]Cyclotron": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[A]Neutron Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[B]Boltcaster": "",
+      "[S]Boltcaster": "",
+      "[S]Mining Beam": "",
+      "[B]Neutron Cannon": ""
+    },
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
+      "Unstable Plasma": "",
+      "Dirty Bronze": "",
+      "Magno-Gold": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Silver": "",
+      "Pure Ferrite": "",
+      "Magnetic Resonator": "",
+      "Phosphorus": ""
+    },
+    "Ninarb S13": {
+      "Planet Info": [
+        "Biome: Xeno-Colony",
+        "Weather: Bilious Storms",
+        "Sentinels: Regular Patrols",
+        "Flora: Copious",
+        "Fauna: Sporadic"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
         "Activated Copper"
       ]
     },
-    "Rumar X": {
+    "Wilm": {
       "Planet Info": [
-        "Biome: Contaminated Planet",
-        "Weather: Reactive Rain",
-        "Sentinels: Attentive",
-        "Flora: Ordinary",
-        "Fauna: Bountiful"
+        "Biome: Freezing Planet",
+        "Weather: Freezing",
+        "Sentinels: Regular Patrols",
+        "Flora: Uncemmen",
+        "Fauna: Numerous"
       ],
       "Resources": [
-        "Ancient Bones",
-        "Gamma Root",
+        "Frost Crystal",
+        "Sodium",
+        "Dioxite",
+        "Copper"
+      ]
+    }
+  },
+  "Yedneya": {
+    "System Info": [
+      "Celestial Bodies: 3 Planets // 1 Moon",
+      "Dominant Lifeform: Korvax",
+      "Economy: High Voltage // Sustainable",
+      "Conflict level: Critical",
+      "Glyphs: 1004066edf96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Shield": "",
+      "[S]Shield": "",
+      "[S]Radiation Protection": "",
+      "[A]Movement": "",
+      "[A]Radiation Protection": "",
+      "[S]Life Support": "",
+      "[S]Hot Protection": "",
+      "[S]Underwater Protection": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Nautilon Cannon": "",
+      "[S]Nautilon Cannon": "",
+      "[A]Exocraft Laser": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[B]Pulse Engine": "",
+      "[B]Photon Cannon": "",
+      "[B]Starship Shield": "",
+      "[A]Positron": "",
+      "[S]Hyperdrive": "",
+      "[S]Launch Thrusters": "",
+      "[B]Cyclotron": "",
+      "[S]Starship Shield": "",
+      "[A]Launch Thrusters": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[B]Neutron Cannon": "",
+      "[S]Mining Beam": "",
+      "[B]Scatter Blaster": "",
+      "[B]Geology Cannon": ""
+    },
+    "Buy Sell": {
+      "Industrial-Grade Battery": "",
+      "Spark Canister": "",
+      "Ohmic Gel": "",
+      "Unstable Plasma": "",
+      "Di-hydrogen Jelly": "",
+      "Hydraulic Wiring": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Wiring Loom": "",
+      "Tritium": "",
+      "Pyrite": "",
+      "Ammonia": "",
+      "Residual Goop": "",
+      "Magnetised Ferrite": ""
+    },
+    "Geori": {
+      "Planet Info": [
+        "Biome: Viridescent Planet",
+        "Weather: Usually Mild",
+        "Sentinels: Threatening",
+        "Flora: Abundant",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Syrachu": {
+      "Planet Info": [
+        "Biome: Glacial Planet",
+        "Weather: Crisp",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Abundant",
+        "Fauna: Commen"
+      ],
+      "Resources": [
+        "Frost Crystal",
         "Salt",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Bognorth V": {
+      "Planet Info": [
+        "Biome: Radioactive Abomination",
+        "Weather: Irradiated Storms",
+        "Sentinels: Unwavering",
+        "Flora: Infected",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
         "Uranium",
         "Copper"
       ]
     },
-    "Kogrover Prime": {
+    "Tarv X5": {
       "Planet Info": [
-        "Biome: Lifeless Planet",
-        "Weather: Airless",
-        "Sentinels: Unwavering",
-        "Flora: Absent",
-        "Fauna: None"
+        "Biome: Caustic Planet",
+        "Weather: Caustic Moisture",
+        "Sentinels: Frequent",
+        "Flora: Low",
+        "Fauna: High"
       ],
       "Resources": [
+        "Ancient Bones",
+        "Fungal Mould",
         "Silver",
-        "Rusted Metal",
+        "Ammonia",
+        "Copper"
+      ]
+    }
+  },
+  "Hantury VIII": {
+    "System Info": [
+      "Celestial Bodies: 3 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Nano-construction // Satisfactory",
+      "Conflict level: Unruly",
+      "Glyphs: 120e066eef96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Toxic Protection": "",
+      "[S]Hot Protection": "",
+      "[S]Cold Protection": "",
+      "[B]Shield": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Nautilon Cannon": "",
+      "[S]Exocraft Laser": "",
+      "[A]Nautilon Cannon": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[A]Launch Thrusters": "",
+      "[S]Cyclotron": "",
+      "[S]Positron": "",
+      "[B]Hyperdrive": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Blaze Javelin": "",
+      "[A]Mining Beam": "",
+      "[A]Pulse Spitter": "",
+      "[B]Pulse Spitter": "",
+      "[S]Boltcaster": "",
+      "[B]Geology Cannon": "",
+      "[B]Boltcaster": "",
+      "[S]Mining Beam": ""
+    },
+    "Buy Sell": {
+      "Welding Soap": "",
+      "Ion Capacitor": "",
+      "Decommissioned Circuits": "",
+      "Unstable Plasma": "",
+      "Amino Chamber": "",
+      "Magno-Gold": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Pure Ferrite": "",
+      "Ammonia": "",
+      "Platinum": "",
+      "Chromatic Metal": "",
+      "Pyrite": "",
+      "Autonomous Positioning Unit": "",
+      "Carbon Nanotubes": "",
+      "Copper": "",
+      "Magnetised Ferrite": ""
+    },
+    "Enporene": {
+      "Planet Info": [
+        "Biome: Rainy Planet",
+        "Weather: Blistering Floods",
+        "Sentinels: Malicious",
+        "Flora: High",
+        "Fauna: Ample"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Magnetised Ferrite",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Yardogo XVII": {
+      "Planet Info": [
+        "Biome: Fiery Dreadworld",
+        "Weather: Burning Gas Clouds",
+        "Sentinels: Require Obedience",
+        "Flora: Twisted",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Solanium",
+        "Silver",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Hawesl XI": {
+      "Planet Info": [
+        "Biome: Arid Planet",
+        "Weather: Parched",
+        "Sentinels: Infrequent",
+        "Flora: High",
+        "Fauna: Typical"
+      ],
+      "Resources": [
+        "Salvageable Scrap",
+        "Solanium",
+        "Salt",
+        "Phosphorus",
+        "Copper"
+      ]
+    }
+  },
+  "Oginic-Roran II": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Alchemical // Promising",
+      "Conflict level: Tranquil",
+      "Glyphs: 1197066eef96"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Life Support": "",
+      "[B]Movement": "",
+      "[S]Life Support": "",
+      "[S]Underwater Protection": "",
+      "[S]Cold Protection": "",
+      "[A]Underwater Protection": "",
+      "[B]Shield": "",
+      "[A]Cold Protection": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[S]Nautilon Cannon": "",
+      "[A]Exocraft Engine": "",
+      "[A]Minotaur Laser": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Cyclotron": "",
+      "[A]Hyperdrive": "",
+      "[S]Photon Cannon": "",
+      "[A]Infra-Knife": "",
+      "[B]Pulse Engine": "",
+      "[B]Cyclotron": "",
+      "[B]Infra-Knife": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[C]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[A]Scanner": "",
+      "[A]Geology Cannon": "",
+      "[S]Plasma Launcher": "",
+      "[S]Pulse Spitter": "",
+      "[A]Mining Beam": "",
+      "[B]Scatter Blaster": ""
+    },
+    "Buy Sell": {
+      "Optical Solvent": "",
+      "Nanotube Crate": "",
+      "Self-Repairing Heridium": "",
+      "Unstable Plasma": "",
+      "Lemmium": "",
+      "Dirty Bronze": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Metal Plating": "",
+      "Ammonia": "",
+      "Silver": "",
+      "Tritium": "",
+      "Magnetic Resonator": "",
+      "Hermetic Seal": "",
+      "Rusted Metal": "",
+      "Pyrite": "",
+      "Chromatic Metal": "",
+      "Copper": ""
+    },
+    "Gaapo VI": {
+      "Planet Info": [
+        "Biome: Foggy Planet",
+        "Weather: Caustic Floods",
+        "Sentinels: Unwavering",
+        "Flora: Abundant",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Sodium",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Azaw 28/F2": {
+      "Planet Info": [
+        "Biome: Temperate Planet",
+        "Weather: Blistering Damp",
+        "Sentinels: Ever-present",
+        "Flora: Copious",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Sialatwhith Izur": {
+      "Planet Info": [
+        "Biome: Scalding Planet",
+        "Weather: Direct Sunlight",
+        "Sentinels: Isolated",
+        "Flora: Abundant",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Hegoria": {
+      "Planet Info": [
+        "Biome: Isotopic Planet",
+        "Weather: Irradiated Winds",
+        "Sentinels: Remote",
+        "Flora: Fair",
+        "Fauna: Ordinary"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Cobalt",
+        "Uranium",
         "Copper"
       ]
     }
