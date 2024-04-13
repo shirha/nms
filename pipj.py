@@ -21,12 +21,6 @@ for opt, arg in opts:
     dbug = arg 
 print(f'{sys.argv}')
 
-# if len(sys.argv) > 1:
-#   ilog = sys.argv[1] # json file number
-# else:
-#   print("SYNTAX: python pipk.py 0|1|2|t")
-#   quit()
-
 def legend(sc,t,hn,ai,jf,cc):
   return "".join([
     f'<img src="i/badge-{sc}.png"/>&hairsp;',    
@@ -43,8 +37,8 @@ badges = {
   "Erlingdi": legend(**{'sc':'y','t':2,'hn':0,'ai':1,'jf':1,'cc':'c'})
 }
 
-pirates = ["Bandab","Odusha"]
-atlas = ["Yelobarn","Yusvadbeat XII","Bandab"]
+pirates = set() # {"Odusha","Bandab"}
+atlas = {"Yelobarn","Yusvadbeat XII","Bandab"}
 poi = {
   "Ikoka 45/G1":     ["POI: <div class='poi rd'>Predators</div> <img src='i/paws.png'/>"],
   "Vistiraqu Hanai": ["POI: <div class='poi rd'>Predators</div> <img src='i/paws.png'/>"],
@@ -800,6 +794,7 @@ with open(f'pip{ilog}.json', "r") as infile:
   # quit()
 
   for s in db:
+    if any("Pirate Controlled" in i for i in db[s]["System Info"]): pirates.add(s)
     db[s]['Technology'] = sorted(db[s]['Technology'].keys(),key=lambda x:x[3:])
     db[s]['Buy Sell'  ] = sorted(db[s]['Buy Sell'  ].keys())
     # add points of interest; 
@@ -867,7 +862,6 @@ with open(f'pip{ilog}.json', "r") as infile:
       spelling[item] += 1
   sum['Buy Sell'] = sorted(spelling.keys())
 
-
   spelling = {}
   for station in db:
     for planet in db[station]:
@@ -883,7 +877,6 @@ with open(f'pip{ilog}.json', "r") as infile:
       
   def dissonance(sum):
     return map(lambda i: (i, f'<div class="scp">{i}</div>')[  i == 'Dissonance detected'      ],sum) 
-  # return map(lambda i:     f'<div class="scp">{i}</div>' if i == 'Dissonance detected' else i,sum) # ternary
 
   def decorate_tech(sum):
     rows = []
@@ -1028,6 +1021,7 @@ window.onclick = function(event) {
 }
 
 </script></body></html>''')
+
 h = re.sub(r'\{0\}', title, '\n'.join(h))
 # with open(f'index{ilog}.html','w') as outfile:
 with open(f'{title}.html','w') as outfile:
@@ -1044,8 +1038,7 @@ with open(f'{title}.html','w') as outfile:
 # import pipm as m
 #
 # TODO: fix return code == NULL if m.glyph() not a glyph image
-# TODO: list class A tech for missing class S
-#
+# 
 # https://www.w3schools.com/colors/colors_picker.asp
 # https://www.reddit.com/r/NMSCoordinateExchange/comments/y32eyo/highquality_class_icons/
 
