@@ -792,9 +792,16 @@ with open(f'pip{ilog}.json', "r") as infile:
   db = json.load(infile)
   # print(json.dumps(db,indent=2))
   # quit()
+  dict_ = {"F":"yl","G":"yl","K":"rd","M":"rd","B":"bl","O":"bl","G":"gr"}
 
   for s in db:
+
+    sc = db[s]["System Info"][0]
+    if "Stellar Classification" in sc and sc[24] in dict_:
+      db[s]["System Info"][0] += f'<span class="dot {dict_[sc[24]]}"></span>'
+
     if any("Pirate Controlled" in i for i in db[s]["System Info"]): pirates.add(s)
+
     db[s]['Technology'] = sorted(db[s]['Technology'].keys(),key=lambda x:x[3:])
     db[s]['Buy Sell'  ] = sorted(db[s]['Buy Sell'  ].keys())
     # add points of interest; 

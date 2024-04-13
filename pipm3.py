@@ -19,7 +19,7 @@ stripe = lambda s: "".join(i for i in s if 31 < ord(i) < 127)
 def stripped(thresh,ilog,lineno):
   text = pytesseract.image_to_string(thresh)
   text = stripe(text)
-  text = re.sub(r'[ |_.]+$','',text)
+  text = re.sub(r'[ |_.;]+$','',text)
   # if text in fix: 
   text = fn_fix(ilog,lineno,text)
   return text
@@ -42,7 +42,7 @@ const_image = {}
 for image in [
     "mask","system","technol","salvage","contrab","avail1","avail2",
     "small","card","snow","glyph", "visit1","visit2", "steam1","steam2",
-    "xboxx","sicon","bicon","icons","resrc1","resrc2","salt"]: 
+    "xboxx","sicon","bicon","icons","resrc1","resrc2","salt","guide"]: 
   const_image[image] = cv2.imread(f'i/{image}_image.png', cv2.IMREAD_GRAYSCALE)
 
 def log(n, *args):
@@ -847,3 +847,88 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
 # filename = f'sysinfo_{dt.group(1)}.png'
 # cv2.imwrite(filename, temp_image)
 
+def isStellar(imagePath,dbug,ilog,db,large_image,station):
+  log(ilog,f'Stellar: entering...')
+
+  crop_image = large_image[184:297,732:1084]
+  result = cv2.matchTemplate(const_image['guide'], crop_image, cv2.TM_SQDIFF_NORMED)
+  mn,_,mnLoc,_ = cv2.minMaxLoc(result)
+  MPx,MPy = (mnLoc[0]+732,mnLoc[1]+184)
+  if mn > .01: 
+    return
+
+  crop_image = large_image[MPy+340:MPy+366,MPx+29:MPx+280]
+  print(crop_image.shape)
+  ret,thresh = cv2.threshold(crop_image,130,255,cv2.THRESH_BINARY_INV)
+  star_color = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
+  if not "Stellar Classification" in db[station]['System Info'][0]:
+    db[station]['System Info'].insert(0, star_color)
+  log(ilog,f'Stellar: mn={mn:.3f} {mnLoc} {star_color}')
+
+  if 's' in dbug: 
+    temp_image = large_image.copy()
+    cv2.rectangle(temp_image,(732-3,184-3),(1084+2,297+2),255,3)
+    cv2.imshow('temp',imutils.resize(temp_image, height=720))
+    cv2.imshow('crop',thresh)
+    k = cv2.waitKey(0) & 0xFF
+    if k == 27:
+      exit()
+  return True
+
+  if MPx == 9 and MPy in [8, 9]:
+    log(ilog,f'{getframeinfo(currentframe()).lineno} SysInfo: mn={mn:.3f} {mnLoc} crop.shape={crop_image.shape}')
+    work_image  = np.full((500,600),240,dtype='uint8')
+    ret,thresh = cv2.threshold(crop_image,175,255,cv2.THRESH_BINARY_INV)
+    thresh[MPy:MPy+17,MPx:MPx+34] = 255 # clear //_icon 32w x 15h
+    work_image[:135,7:7+535] = thresh
+
+    if 'i' in dbug: 
+      temp_image = large_image.copy()
+      cv2.rectangle(temp_image,(115-3,790-3),(115+535+2,790+135+2),255,3)
+      cv2.putText(temp_image, "isSysInfo?", (115,790-20), 0, 1.0, (255,255,255), 2)     
+      cv2.imshow('temp',imutils.resize(temp_image, height=720))
+      cv2.imshow('work',work_image)
+      k = cv2.waitKey(0) & 0xFF
+      if k == 27:
+        exit()
+
+    sysinfo = pytesseract.image_to_string(thresh)
+    anysys = False
+    for i in range(len(si)): 
+      sysinfo = re.sub(si[i][0], si[i][1], sysinfo, re.MULTILINE)
+      if re.search(si[i][0][:-1], sysinfo): 
+        anysys = True
+    # remove last character and all blank lines
+    sysinfo = re.findall(r'^.+?$', sysinfo[:-1], re.MULTILINE)
+    if not anysys:
+      return False, None
+
+    nl = "\n"
+    log(ilog,f'SysInfo: station= {nl.join(sysinfo)}')
+    station = sysinfo.pop(0)[:22]
+    station = re.sub(r'[ |_.]+$','',station)
+    station = fn_fix(ilog,getframeinfo(currentframe()).lineno,station)
+    db[station] = {}
+    db[station]['System Info'] = sysinfo
+    if station in fixsi: 
+      db[station]['System Info'] = fixsi[station]
+    db[station]['Technology'] = {}
+    db[station]['Buy Sell'] = {}
+    planet_index = 0
+    return True, station
+  return False, None
+
+'''{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python Debugger: Python File",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${file}",
+      "args": [
+        "-f", "0", "-d", "s"
+      ] 
+    }
+  ]
+}'''
