@@ -861,8 +861,8 @@ def isStellar(imagePath,dbug,ilog,db,large_image,station):
   print(crop_image.shape)
   ret,thresh = cv2.threshold(crop_image,130,255,cv2.THRESH_BINARY_INV)
   star_color = stripped(thresh,ilog,getframeinfo(currentframe()).lineno)
-  if not "Stellar Classification" in db[station]['System Info'][0]:
-    db[station]['System Info'].insert(0, star_color)
+  # if not "Stellar Classification" in db[station]['System Info'][0]:
+  db[station]['System Info'].insert(0, star_color)
   log(ilog,f'Stellar: mn={mn:.3f} {mnLoc} {star_color}')
 
   if 's' in dbug: 
@@ -873,62 +873,3 @@ def isStellar(imagePath,dbug,ilog,db,large_image,station):
     k = cv2.waitKey(0) & 0xFF
     if k == 27:
       exit()
-  return True
-
-  if MPx == 9 and MPy in [8, 9]:
-    log(ilog,f'{getframeinfo(currentframe()).lineno} SysInfo: mn={mn:.3f} {mnLoc} crop.shape={crop_image.shape}')
-    work_image  = np.full((500,600),240,dtype='uint8')
-    ret,thresh = cv2.threshold(crop_image,175,255,cv2.THRESH_BINARY_INV)
-    thresh[MPy:MPy+17,MPx:MPx+34] = 255 # clear //_icon 32w x 15h
-    work_image[:135,7:7+535] = thresh
-
-    if 'i' in dbug: 
-      temp_image = large_image.copy()
-      cv2.rectangle(temp_image,(115-3,790-3),(115+535+2,790+135+2),255,3)
-      cv2.putText(temp_image, "isSysInfo?", (115,790-20), 0, 1.0, (255,255,255), 2)     
-      cv2.imshow('temp',imutils.resize(temp_image, height=720))
-      cv2.imshow('work',work_image)
-      k = cv2.waitKey(0) & 0xFF
-      if k == 27:
-        exit()
-
-    sysinfo = pytesseract.image_to_string(thresh)
-    anysys = False
-    for i in range(len(si)): 
-      sysinfo = re.sub(si[i][0], si[i][1], sysinfo, re.MULTILINE)
-      if re.search(si[i][0][:-1], sysinfo): 
-        anysys = True
-    # remove last character and all blank lines
-    sysinfo = re.findall(r'^.+?$', sysinfo[:-1], re.MULTILINE)
-    if not anysys:
-      return False, None
-
-    nl = "\n"
-    log(ilog,f'SysInfo: station= {nl.join(sysinfo)}')
-    station = sysinfo.pop(0)[:22]
-    station = re.sub(r'[ |_.]+$','',station)
-    station = fn_fix(ilog,getframeinfo(currentframe()).lineno,station)
-    db[station] = {}
-    db[station]['System Info'] = sysinfo
-    if station in fixsi: 
-      db[station]['System Info'] = fixsi[station]
-    db[station]['Technology'] = {}
-    db[station]['Buy Sell'] = {}
-    planet_index = 0
-    return True, station
-  return False, None
-
-'''{
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "name": "Python Debugger: Python File",
-      "type": "debugpy",
-      "request": "launch",
-      "program": "${file}",
-      "args": [
-        "-f", "0", "-d", "s"
-      ] 
-    }
-  ]
-}'''
