@@ -1,5 +1,6 @@
 # type pip0.json | python -m json.tool
 # https://www.w3schools.com/colors/colors_picker.asp
+# https://giggster.com/guide/complementary-colors/
 #
 from inspect import currentframe, getframeinfo
 import imutils
@@ -20,7 +21,6 @@ def stripped(thresh,ilog,lineno):
   text = pytesseract.image_to_string(thresh)
   text = stripe(text)
   text = re.sub(r'[ |_.;]+$','',text)
-  # if text in fix: 
   text = fn_fix(ilog,lineno,text)
   return text
 
@@ -29,6 +29,7 @@ def fn_fix(ilog, lineno, text):
     log(ilog,f'{lineno} fix: {text}, {fix[text]}')
     return fix[text]
   return text
+
 # https://www.geeksforgeeks.org/python-addition-of-tuples/
 def addPt(p1, p2): tuple(map(lambda i, j: i + j, p1, p2))
 
@@ -437,6 +438,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
     cv2.putText(work_image, foot_text.capitalize(), (10,205), 0, 1.5, (0,0,0), 2)     
     gray_image = large_image[P0y+167+55:P0y+167+700,P0x+1185-262:P0x+1185+238]
     ret,thresh = cv2.threshold(gray_image,210,255,cv2.THRESH_BINARY_INV)
+
     if 't' in dbug: 
       print(getframeinfo(currentframe()).lineno)
       cv2.imshow('tech3',thresh)
@@ -499,6 +501,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
           exit()
           break
       y += 1
+
     if 't' in dbug: 
       cv2.destroyWindow('tech3')
 

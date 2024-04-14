@@ -676,28 +676,11 @@ td {vertical-align: top;}
 div {padding-left: 10px;}
 img {height: 18px; vertical-align: middle; margin-bottom: 4px;}
 .poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; font-style: normal;}
-/*.pol {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; border-radius: 5px; border: 1px solid #888;}*/
-.tr {background-color: greenyellow; color: black;}  /* traveler - #BD104C; https://giggster.com/guide/complementary-colors/ */
-.bh {background-color: #E1C16E;}    /* #ffcfff; lightgrey; black hole */
-.bl {background-color: #b0e0ff;}   /* powderblue; storm crystal */
-.rd {background-color: pink;}         /* predator */
-.gr {background-color: #99ff66;} 
-.on {background-color: #f8f8f8;} /* #f8f8f8 */
-.co {background-color: #d9b3ff;} /* #debde4; corrupted */
-.yl {background-color: yellow;} 
-.br {background-color: #D2B48C;}        /* horrific nest */
 .bio {padding-left:30px;}
 .cc {height: 24px; margin: 0; padding-left: 0;}
 .badge {display: inline-block; padding: 0;}
 .badge div {display: inline-block; padding: 0;}
-blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
 .bq {font-style: italic; color: #551a8b;} /* navy;} */
-.stroke {
-  background: lightgrey; /* border: 1px solid #222; */ color: white; font-weight: bold;
-  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
-/* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
-.s, .p {padding-top: 8px;} 
 button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
 .gl {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; height: 22px; display: inline-block; padding:0;} 
 span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
@@ -707,65 +690,51 @@ span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;}
 .dox {border-radius: 50%; height: 10px; width: 10px; display: inline-block; margin-left: 4px; padding: 0;}
 .fl td::first-letter {font-weight: normal;}
 .c {display: inline-block; vertical-align: top; padding-top: 8px;}
+.s, .p {padding-top: 8px;} 
+.sy {display: inline-block; font-family: Arial;}
 .pl {display: inline-block;}
-.pl:link {color: #551a8b;} .pl:visited {color: #551a8b !important;} .pl:hover {color: #0000ee;}
-.sy:link {color: #0000ee;} .sy:visited {color: #0000ee !important;} .sy:hover {color: #551a8b;}
-.sy {font-family: Arial; display: inline-block;}
-a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 1px; border: 1px solid #808080;}
-.a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; border: 1px solid #808080;
-    background-color: #dae6f1; background-image: linear-gradient(45deg, #dae6f1, white); display: inline-block;}
-.n {font-style: normal;}
-.sca {display: inline-block; padding-left: 0; color:#0000ee !important;}
-.scx {display: inline-block; padding-left: 0; color: #600080 !important; font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
-.scy {display: inline-block; padding-left: 0; color:yellow !important;}
-.sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
-.scr {display: inline-block; padding-left: 0; color:#DC143C !important;}
-.scg {display: inline-block; padding-left: 0; color:limegreen !important;}
-.scb {display: inline-block; padding-left: 0; color:blue !important;}
-.sct {display: inline-block; padding-left: 0; color:teal !important;}
-.scp {display: inline-block; padding-left: 0; color:purple !important;}
+.pl:link {color: #551a8b;} .pl:visited {color: #551a8b} .pl:hover {color: #0000ee;}
+.sy:link {color: #0000ee;} .sy:visited {color: #0000ee} .sy:hover {color: #551a8b;}
+a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 1px; border: 1px solid #808080; cursor: pointer;}
 .tbl {display: inline-block; padding-left: 0; width:130px;}
 .pg  {border: 0; padding: 0;}
 .pg img {vertical-align: top;}
 #sum {border-spacing: 4px 4px; border-collapse: separate;}
-#sum td {padding-bottom: 0px;}
+/*#sum td {padding-bottom: 0px;}*/
 .r {margin-top: 10px;}
 .pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
 .tc div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
     text-align: center; padding: 0 2px; font-size: 14px; font-family: 'NMS Geo'}
-.tcs {background-color: #ffc100;}
-.tca {background-color: #d9b3ff;}
+.sca {display: inline-block; padding-left: 0; color:#0000ee}
+.scx {display: inline-block; padding-left: 0; color: #600080 font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
+.scy {display: inline-block; padding-left: 0; color:yellow}
+.sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
+.scr {display: inline-block; padding-left: 0; color:#DC143C}
+.scg {display: inline-block; padding-left: 0; color:limegreen}
+.scb {display: inline-block; padding-left: 0; color:blue}
+.sct {display: inline-block; padding-left: 0; color:teal}
+.scp {display: inline-block; padding-left: 0; color:purple}
+.tgb {background-color: blue;}      /* blue */
+.bl  {background-color: #b0e0ff;}   /* powderblue; storm crystal */
 .tcb {background-color: #aad9f7;}
-.tcc {background-color: #99ff66;}
-.tcx {background-color: #ddd;}
-.bca {background-color: #d9b3ff; border-radius: 8px;}
-.tgr {background-color: #de143c;} /* red */
 .tgg {background-color: limegreen;} /* green */
-.tgb {background-color: blue;} /* blue */
-.tgy {background-color: yellow;} /* gray */
-
-
-/* https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders/61913549#61913549 */
-.box {
-  --b: 1px;    /* thickness of the border */
-  --c: #888;   /* color of the border */
-  --w: 20px;   /* width of border */
-  
-  border: var(--b) solid #0000; /* space for the border */
-  --_g: #0000 90deg,var(--c) 0;
-  --_p: var(--w) var(--w) border-box no-repeat;
-  background:
-    conic-gradient(from 90deg  at top    var(--b) left  var(--b),var(--_g)) 0    0    / var(--_p),
-    conic-gradient(from 180deg at top    var(--b) right var(--b),var(--_g)) 100% 0    / var(--_p),
-    conic-gradient(from 0deg   at bottom var(--b) left  var(--b),var(--_g)) 0    100% / var(--_p),
-    conic-gradient(from -90deg at bottom var(--b) right var(--b),var(--_g)) 100% 100% / var(--_p);
-  width:300px; 
-  padding: 10px;
-}
+.tcc {background-color: #99ff66;}
+.gr  {background-color: #99ff66;} 
+.tr  {background-color: greenyellow; color: black;}  /* traveler - #BD104C;  */
+.tgr {background-color: #de143c;}   /* red */
+.tcs {background-color: #ffc100;}
+.bh  {background-color: #E1C16E;}   /* #ffcfff; lightgrey; black hole */
+.rd  {background-color: pink;}      /* predator */
+.yl  {background-color: yellow;} 
+.tgy {background-color: yellow;} 
+.br  {background-color: #D2B48C;}   /* horrific nest */
+.co  {background-color: #d9b3ff;}   /* #debde4; corrupted */
+.tca {background-color: #d9b3ff;}
+.tcx {background-color: #ddd;}
+.on  {background-color: #f8f8f8;}   /* #f8f8f8 */
+.bca {background-color: #d9b3ff; border-radius: 8px;}
 #option1 {display:block;}
 #option2 {display:none;}
-#shelter {white-space: nowrap; border-radius:0; padding: 0; text-decoration: underline; margin-bottom: 5px; border: 0px solid #808080;}
-.minus {display:inline-block;padding:0;background-color:pink;border-radius:50%;}
 
 .modal {
   display: none; /* Hidden by default */
@@ -780,10 +749,9 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
   background-color: #474e5d;
 }
 .modal img {width: 80%; height: auto; margin: 10%;}
-
 </style></head><body>
 <div id="id01" class="modal">
-  <img src="help.png">
+  <img src="i/help.png">
 </div>
 ''']
 
@@ -800,45 +768,24 @@ def tags(station):
   html.append(dot(station))
   return "".join(html)
 
-# def stellar(system):
-#   if system in poi: 
-#     m = list(filter(lambda e: len(e), map(lambda x: re.findall(r"Stellar Class: (.)",x),poi[system])))
-#     if len(m):
-#       return f'&nbsp;<div class=sc{"yyrrgbb"[["F","G","K","M","E","B","O"].index(m[0][0])]}>&#9679;</div>'
-#   return ""
-
 dot    = lambda p: ('','<div class="dox yl"></div>')[p in poi and any(re.match('POI', x) for x in poi[p])]
-# dot  = lambda p: ("","&nbsp;<div class=scy>&#9679;</div>")[p in poi and any(re.match('POI', x) for x in poi[p])]
-# ptag   = lambda p: f'\n  <a class=pl href=#{re.sub(" ","_",p)}>{p}{dot(p)}</a>'
-ptag   = lambda p: f'\n  <a class=pl href=\"javascript:goto(\'{re.sub(" ","_",p)}\');\">{p}{dot(p)}</a>'
-# stag = lambda p: f'<a class=sy href=#{re.sub(" ","_",p)}>{p+stellar(p)+dot(p)}</a>'
-# stag   = lambda p: f'<a class=sy href=#{re.sub(" ","_",p)}>{p}{tags(p)}</a>'
-stag   = lambda p: f'<a class=sy href=\"javascript:goto(\'{re.sub(" ","_",p)}\');\">{tags(p)}</a>'
+ptag   = lambda p: f'\n  <a class=pl>{p}{dot(p)}</a>'
+stag   = lambda p: f'<a class=sy>{tags(p)}</a>'
 
 with open(f'pip{ilog}.json', "r") as infile: 
   db = json.load(infile)
-  # print(json.dumps(db,indent=2))
-  # quit()
 
   for s in db:
-
-    # sc = db[s]["System Info"][0]
-    # if "Stellar Classification" in sc and sc[24] in dict_:
-    #   db[s]["System Info"][0] += f'<span class="dox {dict_[sc[24]]}"></span>'
-
-    # if any("Pirate Controlled" in i for i in db[s]["System Info"]): pirates.add(s)
-
     db[s]['Technology'] = sorted(db[s]['Technology'].keys(),key=lambda x:x[3:])
     db[s]['Buy Sell'  ] = sorted(db[s]['Buy Sell'  ].keys())
+
     # add points of interest; 
-    #   [s]:travelers, black holes, atlas; 
-    #   [s,p]:predators,storm crystals
     if s in poi:
-      # print('dbug=',s, 'poi=', poi[s])
       if "Original Name:" in poi[s][0]:                                  # sjh - insert "Original Name:"
         db[s]['System Info'].insert(0, poi[s][0])
       else:
         db[s]['System Info'].extend(poi[s])
+
     for p in db[s]:
       if p in poi:
         db[s][p]['Planet Info'].extend(poi[p])
@@ -876,7 +823,7 @@ with open(f'pip{ilog}.json', "r") as infile:
 
     #-------------------------- sort tech class within item (in place) ---------------------------
     for item in spelling:
-      spelling[item].sort(key=lambda x:'SABCX'.index(x[1:2]))
+      spelling[item].sort(key=lambda x:'SABCX'.index(x[1]))
 
   sum['Technology'] = sorted([spelling[i][0] + i for i in spelling], key=lambda x: x[3:])
   tech_set = {i for i in sum['Technology']}
@@ -928,14 +875,14 @@ with open(f'pip{ilog}.json', "r") as infile:
   h.append('<h2>{0} System Detail</h2>')
   for s in db:
     p = re.sub(" ","_",s)
-    h.append(f'<div class=s id={p}>{badges[s] if s in badges else ""} <a class=sy href="javascript:clr();">{s}</a>')
+    h.append(f'<div class=s id={p}>{badges[s] if s in badges else ""} <a class=sy>{s}</a>')
     for c in db[s]:
       # print(f'c= {c}, sys= {s}')
       p = re.sub(" ","_",c)
       if c in ["System Info","Technology","Buy Sell"]:
         h.append(f'  <div>{c}')
       else:
-        h.append(f'  <div class=p id={p}><a class=pl href="javascript:clr();">{c}</a>')
+        h.append(f'  <div class=p id={p}><a class=pl>{c}</a>')
 
       for i in db[s][c]:
         if c in ["System Info","Technology","Buy Sell"]:
@@ -947,7 +894,7 @@ with open(f'pip{ilog}.json', "r") as infile:
           #-------------------------- upgrade class ------------------------------------------
             if c == "Technology":
               m = re.search(r'.(.).(.+)', i) # see decorate_tech
-              h.append(f'    <div class=tc><div class=tc{m.group(1).lower()}>{m.group(1)}</div>&hairsp;{m.group(2)}</div>\n')
+              h.append(f'    <div class=tc><div class=tc{m.group(1).lower()}>{m.group(1)}</div>&hairsp;{m.group(2)}</div>')
             else:
               h.append(f'    <div>{i}</div>')
         else: 
@@ -978,19 +925,23 @@ h.append('''<button>Collapse All</button>
 ~
 <div style="margin-top: 700px;"></div>
 <script>
-function clr(){
-  window.scrollTo(0, 0);
-  // window.location.href = window.location.href.split('#')[0];
-  return false;
-}
-
-function goto(id){
-  document.getElementById(id).scrollIntoView();         
-}
-         
 function sv(id){
   document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
+
+[...document.querySelectorAll(".sy,.pl")]
+  .forEach(e => {
+    if(e.parentNode.tagName == 'TD'){
+      const a_id = e.textContent.replace(/ /g, '_');
+      e.addEventListener('click', function(e){
+        document.getElementById(a_id).scrollIntoView()
+      })
+    }else{
+      e.addEventListener('click', function(e){
+        window.scrollTo(0, 0);
+      })
+    }
+  });         
 
 // https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext
 document.querySelector('button').addEventListener('click', function(){
@@ -1060,87 +1011,6 @@ window.onclick = function(event) {
 </script></body></html>''')
 
 h = re.sub(r'\{0\}', title, '\n'.join(h))
-# with open(f'index{ilog}.html','w') as outfile:
 with open(f'{title}.html','w') as outfile:
-  # for pirate in pirates:
-  #   h = re.sub(rf'(>{pirate})',r'\1 <img src="i/pirate_icon.png"/>', h)
-  # for at in atlas:
-  #   h = re.sub(rf'(>{at})',r'\1 <img src="i/atlas_icon.png"/>', h)
   h = re.sub("~",checklist,h)
   outfile.write(h)
-
-# import glob
-# import cv2
-# import numpy as np
-# import pipm as m
-#
-# TODO: fix return code == NULL if m.glyph() not a glyph image
-# 
-# https://www.w3schools.com/colors/colors_picker.asp
-# https://www.reddit.com/r/NMSCoordinateExchange/comments/y32eyo/highquality_class_icons/
-
-
-
-'''
-Doriguc VII
-Nafut Gamma
- POI: Ms 1.6 Scavenger
- POI: Ms 1.3 Exobotany
- POI: Ms 3.3 Life in all its forms
- POI: Ms 3.1 One Man's Treasure
- POI: Ms 4.4 Boundary Failure
- POI: Ms 1.1 Escape Velocity
- POI: Ms 2.3 Stardust
- POI: Ms 5.2 Astrolinguistics
-Nash 33/W4
- POI: Ms 1.2 Homecomming
- POI: Ms 2.4 Expansion
- POI: Ms 2.6 Memento
- POI: Ms 3.2 Grand Tour
-Bandab
- POI: Ms 1.4 Interstellar
- POI: Ms 1.5 Anomaly's Heart
-Tip:
-Construction: Ceiling Light (1× Salvaged Data)
-Helios: 2× Pulse Engine C-class (162× Nanites → 150× Cadmium)
-Synth: Acid, Lubricant, Unstable Gel, Liquid Explosives (1000× Nanites)
- POI: Ms 3.4 Hot Pursuit
-Toyabe IX
-Tip:
-Buy 100× Salt, Artifact Chart, Solar Mirror → High-Power Sonar
-Hunslowe
- POI: Ms 1.7 r1 Archive -28.04, +144.27
-Bandab
- POI: Ms 2.1 Atlas Rises
- POI: Ms 2.2 Reality Grains
- POI: Ms 4.6 Depp Glass
- POI: Ms 5.5 Creation
-Jiyose-Aishe XIV
-Spinarr Kesen
- POI: Ms 2.7 r2 Portal -12.89, +67.56
- POI: Ms 4.1 Relic Hunter
- POI: Ms 4.2 Fallen Giants
-Gartfol X
- POI: Ms 3.5 Assembly Required
-Okubun-Chadr
-Haku 57/Q1
- POI: Ms 3.7 r3 Crashed Freighter -20.97, -85.18
-Aratae XIV
- POI: Ms 3.5 Assembly Required
-Dovour-Jaus
-New Wadhabie
- POI: Ms 4.7 r4 Portal +32.94, +179.59
- POI: Ms 4.5 Palate Cleanser
- POI: Ms 5.1 The Fallen
-Yusvadbeat XII
- POI: Ms 5.6 Eclipse
- POI: Ms 2.5 To Infinity
-Upacton Sigma
- POI: Ms 5.4 Xenophile
-Amling
- POI: Ms 5.3 Blue Expanse
-Boeot Prime
- POI: Ms 5.7 r5 Portal +27.44, +11.24
-Mazuna
-Onana
- POI: Ms 4.3 Radiant Flight'''
