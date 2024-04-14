@@ -40,6 +40,10 @@ badges = {
 pirates = set() # {"Odusha","Bandab"}
 atlas = {"Yelobarn","Yusvadbeat XII","Bandab"}
 poi = {
+  "Nokyotomen":      ["Stellar Classification: F"],
+  "Gejinme":         ["Stellar Classification: B"],
+  "Skappe-Asoes V":  ["Stellar Classification: E"],
+  "Hashir":          ["Stellar Classification: M"],
   "Ikoka 45/G1":     ["POI: <div class='poi rd'>Predators</div> <img src='i/paws.png'/>"],
   "Vistiraqu Hanai": ["POI: <div class='poi rd'>Predators</div> <img src='i/paws.png'/>"],
   "Oupol III":       ["POI: <div class='poi bl'>Storm Crystals</div> <img src='i/crystals.png'/>"],
@@ -668,6 +672,7 @@ h2 {text-align: center; max-width: 800px; font-size: 1.25em;}
 body {background: url("screenshot.jpg") fixed no-repeat; background-size: cover; font-size: 18px;}
 table {border-spacing: 0;}
 td {padding: 0;}
+td {vertical-align: top;}
 div {padding-left: 10px;}
 img {height: 18px; vertical-align: middle; margin-bottom: 4px;}
 .poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; font-style: normal;}
@@ -693,19 +698,20 @@ blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* 
 }
 /* https://stackoverflow.com/questions/4919076/outline-effect-to-text */
 .s, .p {padding-top: 8px;} 
-td {vertical-align: top;}
 button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
 .gl {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; height: 22px; display: inline-block; padding:0;} 
 span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
 .k {font-family: "NMS Kerned"; font-weight: bold;} 
 .disabled {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; color: #a0a0a0;} 
-.dot {border-radius: 50%; border: 1px solid black; height: 10px; width: 10px; display: inline-block; margin-left: 8px;}
+.dot {border-radius: 50%; height: 10px; width: 10px; display: inline-block; margin-left: 4px; padding: 0; border: 1px solid #aaa;}
+.dox {border-radius: 50%; height: 10px; width: 10px; display: inline-block; margin-left: 4px; padding: 0;}
 .fl td::first-letter {font-weight: normal;}
 .c {display: inline-block; vertical-align: top; padding-top: 8px;}
+.pl {display: inline-block;}
 .pl:link {color: #551a8b;} .pl:visited {color: #551a8b !important;} .pl:hover {color: #0000ee;}
 .sy:link {color: #0000ee;} .sy:visited {color: #0000ee !important;} .sy:hover {color: #551a8b;}
-.sy {font-family: Arial;}
-a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 5px; border: 1px solid #808080;}
+.sy {font-family: Arial; display: inline-block;}
+a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 1px; border: 1px solid #808080;}
 .a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; border: 1px solid #808080;
     background-color: #dae6f1; background-image: linear-gradient(45deg, #dae6f1, white); display: inline-block;}
 .n {font-style: normal;}
@@ -721,8 +727,8 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .tbl {display: inline-block; padding-left: 0; width:130px;}
 .pg  {border: 0; padding: 0;}
 .pg img {vertical-align: top;}
-#sum {border-spacing: 4px; border-collapse: separate;}
-#sum td {padding-bottom: 5px;}
+#sum {border-spacing: 4px 4px; border-collapse: separate;}
+#sum td {padding-bottom: 0px;}
 .r {margin-top: 10px;}
 .pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
 .tc div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
@@ -733,6 +739,10 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .tcc {background-color: #99ff66;}
 .tcx {background-color: #ddd;}
 .bca {background-color: #d9b3ff; border-radius: 8px;}
+.tgr {background-color: #de143c;} /* red */
+.tgg {background-color: limegreen;} /* green */
+.tgb {background-color: blue;} /* blue */
+.tgy {background-color: yellow;} /* gray */
 
 
 /* https://stackoverflow.com/questions/14387690/how-can-i-show-only-corner-borders/61913549#61913549 */
@@ -777,30 +787,46 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 </div>
 ''']
 
-def stellar(system):
-  if system in poi: 
-    m = list(filter(lambda e: len(e), map(lambda x: re.findall(r"Stellar Class: (.)",x),poi[system])))
-    if len(m):
-      return f'&nbsp;<div class=sc{"yyrrgbb"[["F","G","K","M","E","B","O"].index(m[0][0])]}>&#9679;</div>'
-  return ""
+dict_ = {"F":"tgy","G":"tgy","K":"tgr","M":"tgr","B":"tgb","O":"tgb","E":"tgg"}
+def tags(station):
+  html = [station]
+  for text in db[station]["System Info"]:
+    if "Pirate Controlled" in text:
+      html.append(' <img src="i/pirate_icon.png">')
+    if "Stellar Classification" in text and text[24] in dict_:
+      html.append(f'<div class="dox {dict_[text[24]]}"></div>')
+  if station in atlas:
+    html.append(' <img src="i/atlas_icon.png">')
+  html.append(dot(station))
+  return "".join(html)
 
-dot    = lambda p: ("","&nbsp;<div class=scy>&#9679;</div>")[p in poi and any(re.match('POI', x) for x in poi[p])]
-ptag   = lambda p: f'\n  <a class=pl href=#{re.sub(" ","_",p)}>{p+dot(p)}</a>'
-stag   = lambda p: f'<a class=sy href=#{re.sub(" ","_",p)}>{p+stellar(p)+dot(p)}</a>'
+# def stellar(system):
+#   if system in poi: 
+#     m = list(filter(lambda e: len(e), map(lambda x: re.findall(r"Stellar Class: (.)",x),poi[system])))
+#     if len(m):
+#       return f'&nbsp;<div class=sc{"yyrrgbb"[["F","G","K","M","E","B","O"].index(m[0][0])]}>&#9679;</div>'
+#   return ""
+
+dot    = lambda p: ('','<div class="dox yl"></div>')[p in poi and any(re.match('POI', x) for x in poi[p])]
+# dot  = lambda p: ("","&nbsp;<div class=scy>&#9679;</div>")[p in poi and any(re.match('POI', x) for x in poi[p])]
+# ptag   = lambda p: f'\n  <a class=pl href=#{re.sub(" ","_",p)}>{p}{dot(p)}</a>'
+ptag   = lambda p: f'\n  <a class=pl href=\"javascript:goto(\'{re.sub(" ","_",p)}\');\">{p}{dot(p)}</a>'
+# stag = lambda p: f'<a class=sy href=#{re.sub(" ","_",p)}>{p+stellar(p)+dot(p)}</a>'
+# stag   = lambda p: f'<a class=sy href=#{re.sub(" ","_",p)}>{p}{tags(p)}</a>'
+stag   = lambda p: f'<a class=sy href=\"javascript:goto(\'{re.sub(" ","_",p)}\');\">{tags(p)}</a>'
 
 with open(f'pip{ilog}.json', "r") as infile: 
   db = json.load(infile)
   # print(json.dumps(db,indent=2))
   # quit()
-  dict_ = {"F":"yl","G":"yl","K":"rd","M":"rd","B":"bl","O":"bl","G":"gr"}
 
   for s in db:
 
-    sc = db[s]["System Info"][0]
-    if "Stellar Classification" in sc and sc[24] in dict_:
-      db[s]["System Info"][0] += f'<span class="dot {dict_[sc[24]]}"></span>'
+    # sc = db[s]["System Info"][0]
+    # if "Stellar Classification" in sc and sc[24] in dict_:
+    #   db[s]["System Info"][0] += f'<span class="dox {dict_[sc[24]]}"></span>'
 
-    if any("Pirate Controlled" in i for i in db[s]["System Info"]): pirates.add(s)
+    # if any("Pirate Controlled" in i for i in db[s]["System Info"]): pirates.add(s)
 
     db[s]['Technology'] = sorted(db[s]['Technology'].keys(),key=lambda x:x[3:])
     db[s]['Buy Sell'  ] = sorted(db[s]['Buy Sell'  ].keys())
@@ -954,10 +980,14 @@ h.append('''<button>Collapse All</button>
 <script>
 function clr(){
   window.scrollTo(0, 0);
-  window.location.href = window.location.href.split('#')[0];
+  // window.location.href = window.location.href.split('#')[0];
   return false;
 }
 
+function goto(id){
+  document.getElementById(id).scrollIntoView();         
+}
+         
 function sv(id){
   document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
@@ -1032,10 +1062,10 @@ window.onclick = function(event) {
 h = re.sub(r'\{0\}', title, '\n'.join(h))
 # with open(f'index{ilog}.html','w') as outfile:
 with open(f'{title}.html','w') as outfile:
-  for pirate in pirates:
-    h = re.sub(rf'(>{pirate})',r'\1 <img src="i/pirate_icon.png"/>', h)
-  for at in atlas:
-    h = re.sub(rf'(>{at})',r'\1 <img src="i/atlas_icon.png"/>', h)
+  # for pirate in pirates:
+  #   h = re.sub(rf'(>{pirate})',r'\1 <img src="i/pirate_icon.png"/>', h)
+  # for at in atlas:
+  #   h = re.sub(rf'(>{at})',r'\1 <img src="i/atlas_icon.png"/>', h)
   h = re.sub("~",checklist,h)
   outfile.write(h)
 
