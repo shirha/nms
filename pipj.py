@@ -715,22 +715,22 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .sct {display: inline-block; padding-left: 0; color:teal}
 .scp {display: inline-block; padding-left: 0; color:purple}
 .tgb {background-color: blue;}      /* blue */
-.bl  {background-color: #b0e0ff;}   /* powderblue; storm crystal */
-.tcb {background-color: #aad9f7;}
+.bl  {background-color: #b0e0ff;}   /* storm crystal */
+.tcb {background-color: #aad9f7;}   /* tech class b */
 .tgg {background-color: limegreen;} /* green */
-.tcc {background-color: #99ff66;}
+.tcc {background-color: #99ff66;}   /* tech class c */
 .gr  {background-color: #99ff66;} 
 .tr  {background-color: greenyellow; color: black;}  /* traveler - #BD104C;  */
 .tgr {background-color: #de143c;}   /* red */
-.tcs {background-color: #ffc100;}
-.bh  {background-color: #E1C16E;}   /* #ffcfff; lightgrey; black hole */
+.tcs {background-color: #ffc100;}   /* tech class s */
+.bh  {background-color: #E1C16E;}   /* black hole */
 .rd  {background-color: pink;}      /* predator */
 .yl  {background-color: yellow;} 
 .tgy {background-color: yellow;} 
 .br  {background-color: #D2B48C;}   /* horrific nest */
 .co  {background-color: #d9b3ff;}   /* #debde4; corrupted */
-.tca {background-color: #d9b3ff;}
-.tcx {background-color: #ddd;}
+.tca {background-color: #d9b3ff;}   /* tech class a */
+.tcx {background-color: #ddd;}      /* tech class x */
 .on  {background-color: #f8f8f8;}   /* #f8f8f8 */
 .bca {background-color: #d9b3ff; border-radius: 8px;}
 #option1 {display:block;}
@@ -781,9 +781,9 @@ with open(f'pip{ilog}.json', "r") as infile:
 
     # add points of interest; 
     if s in poi:
-      if "Original Name:" in poi[s][0]:                                  # sjh - insert "Original Name:"
-        db[s]['System Info'].insert(0, poi[s][0])
-      else:
+      # if "Original Name:" in poi[s][0]:           # sjh - insert "Original Name:"
+      #   db[s]['System Info'].insert(0, poi[s][0])
+      # else:
         db[s]['System Info'].extend(poi[s])
 
     for p in db[s]:
@@ -852,11 +852,11 @@ with open(f'pip{ilog}.json', "r") as infile:
           spelling[item] += 1
   sum['Resources'] = sorted(spelling.keys())
 
-  def contraband(sum):
-    return map(lambda i: (i, f'<div class="scp">{i}</div>')[i in dangerous],sum) # (answer tuple)[truth index]
+  def contraband(sum):                     # (answer tuple)[truth index]
+    return map(lambda i: (i, f'<div class="scp">{i}</div>')[i in dangerous],sum)
       
   def dissonance(sum):
-    return map(lambda i: (i, f'<div class="scp">{i}</div>')[  i == 'Dissonance detected'      ],sum) 
+    return map(lambda i: (i, f'<div class="scp">{i}</div>')[i == 'Dissonance detected'],sum) 
 
   def decorate_tech(sum):
     rows = []
@@ -943,7 +943,7 @@ function sv(id){
     }
   });         
 
-// https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext
+// https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext Andrew Willems
 document.querySelector('button').addEventListener('click', function(){
   document.querySelectorAll('.c')
     .forEach(e => e.style.display = 'none');
