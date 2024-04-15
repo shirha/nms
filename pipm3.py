@@ -4,8 +4,8 @@
 #
 from inspect import currentframe, getframeinfo
 import imutils
-import pprint
-pp = pprint.PrettyPrinter(indent=2)
+# import pprint
+# pp = pprint.PrettyPrinter(indent=2)
 import json
 import sys
 import os

@@ -1,6 +1,5 @@
 from inspect import currentframe, getframeinfo
 import sys
-import getopt
 import json
 import re
 import getopt 
@@ -654,7 +653,16 @@ corrupted = {  #Corrupted
 }
 
 checklist = '''
-<div style="color:#551a8b;"><small><br>* Only the top class upgrades are shown in the System Summary<br>System Detail only shows upgrades found in System Summary</small></div>
+<div style="color:#551a8b;"><small><br>
+* Only the top class upgrades are shown in the System Summary<br>
+System Detail only shows upgrades found in System Summary<br>
+<br>
+Technology, Buy Sell, Resources and Biome are now clickable<br>
+The top item in the popup scrolls to the top when clicked<br>
+You must click one of the popup links to dismiss the popup<br>
+You can click other clickable items while popup is visible
+
+</small></div>
 <h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
 '''
 
@@ -703,10 +711,15 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 /*#sum td {padding-bottom: 0px;}*/
 .r {margin-top: 10px;}
 .pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
-.tc div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
+.tc,.ib,.scp {padding:0; cursor: pointer;}
+.bc {cursor: pointer;}
+.ab {background-color: #E1C16E;}
+.ab,.ac {border:0;}
+.at {background-color: #f0f0f0;} /* #ffe9b3;} */
+.tc div, .content div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
     text-align: center; padding: 0 2px; font-size: 14px; font-family: 'NMS Geo'}
 .sca {display: inline-block; padding-left: 0; color:#0000ee}
-.scx {display: inline-block; padding-left: 0; color: #600080 font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
+.scx {display: inline-block; padding-left: 0; color: #600080; font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
 .scy {display: inline-block; padding-left: 0; color:yellow}
 .sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
 .scr {display: inline-block; padding-left: 0; color:#DC143C}
@@ -746,14 +759,35 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
   width: 100%; /* Full width */
   height: 100%; /* Full height */
   overflow: auto; /* Enable scroll if needed */
-  background-color: #474e5d;
 }
 .modal img {width: 80%; height: auto; margin: 10%;}
+
+#id01 {background-color: #474e5d;}
+#id02 {background-color: rgb(224, 224, 224,0.8);}
+#al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
+#al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 8px;}
+
+.content {
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding:0;
+}
 </style></head><body>
 <div id="id01" class="modal">
   <img src="i/help.png">
 </div>
+<div id="id02" class="content"></div>
 ''']
+
+id = 0
+def inc(): 
+  global id
+  id += 1
+  return f'{id:03d}'
 
 dict_ = {"F":"tgy","G":"tgy","K":"tgr","M":"tgr","B":"tgb","O":"tgb","E":"tgg"}
 def tags(station):
@@ -769,8 +803,8 @@ def tags(station):
   return "".join(html)
 
 dot    = lambda p: ('','<div class="dox yl"></div>')[p in poi and any(re.match('POI', x) for x in poi[p])]
-ptag   = lambda p: f'\n  <a class=pl>{p}{dot(p)}</a>'
-stag   = lambda p: f'<a class=sy>{tags(p)}</a>'
+ptag   = lambda p: f'\n  <a class="pl">{p}{dot(p)}</a>'
+stag   = lambda p: f'<a class="sy">{tags(p)}</a>'
 
 with open(f'pip{ilog}.json', "r") as infile: 
   db = json.load(infile)
@@ -781,7 +815,7 @@ with open(f'pip{ilog}.json', "r") as infile:
 
     # add points of interest; 
     if s in poi:
-      # if "Original Name:" in poi[s][0]:           # sjh - insert "Original Name:"
+      # if "Original Name:" in poi[s][0]:
       #   db[s]['System Info'].insert(0, poi[s][0])
       # else:
         db[s]['System Info'].extend(poi[s])
@@ -793,7 +827,8 @@ with open(f'pip{ilog}.json', "r") as infile:
 
   h.append('<h2>{0} System Summary</h2>')
   h.append('<table id=sum><tr><th>Systems</th><th>Planets</th></tr>')
-  nl = '<br>\n'
+
+  nl = '\n'
   sum = {}
   spelling = {}
   for station in db:
@@ -852,79 +887,135 @@ with open(f'pip{ilog}.json', "r") as infile:
           spelling[item] += 1
   sum['Resources'] = sorted(spelling.keys())
 
-  def contraband(sum):                     # (answer tuple)[truth index]
-    return map(lambda i: (i, f'<div class="scp">{i}</div>')[i in dangerous],sum)
+  def contraband(sum):                                                                              # (answer tuple)[truth index]
+    return map(lambda i: (f'<div class="ib" id="_s{inc()}">{i}</div>', f'<div class="scp" id="_s{inc()}">{i}</div>')[i in dangerous],sum)
       
   def dissonance(sum):
-    return map(lambda i: (i, f'<div class="scp">{i}</div>')[i == 'Dissonance detected'],sum) 
+    return map(lambda i: (f'<div class="ib" id="_r{inc()}">{i}</div>', f'<div class="scp" id="_r{inc()}">{i}</div>')[i == 'Dissonance detected'],sum) 
 
   def decorate_tech(sum):
     rows = []
     for item in sum:
       m = re.search(r'.(.).(.+)', item)
-      rows.append(f'<div class=tc><div class=tc{m.group(1).lower()}>{m.group(1)}</div>&hairsp;{m.group(2)}</div>\n')
+      rows.append(f'<div class="tc" id="_t{inc()}"><div class="tc{m.group(1).lower()}">{m.group(1)}</div>&hairsp;{m.group(2)}</div>\n')
     return ''.join(rows)
+
+  def biome(sum):
+    return map(lambda i: f'<div class="ib" id="_b{inc()}">{i}</div>', sum)
 
   h.append(f'<div class=c><center><b>Technology</b></center>{decorate_tech(sum["Technology"])}</div>')
   h.append(f'<div class=c><center><b>Buy Sell</b></center>{nl.join(contraband(sum["Buy Sell"]))}</div>')
   h.append(f'<div class=c><center><b>Resources</b></center>{nl.join(dissonance(sum["Resources"]))}</div>')
-  h.append(f'<div class=c><center><b>Biome</b></center>{nl.join(sum["Biome"])}</div>')
+  h.append(f'<div class=c><center><b>Biome</b></center>{nl.join(biome(sum["Biome"]))}</div>')
 
   # ---------------------------------------------------------------------------------
 
   h.append('<h2>{0} System Detail</h2>')
   for s in db:
     p = re.sub(" ","_",s)
-    h.append(f'<div class=s id={p}>{badges[s] if s in badges else ""} <a class=sy>{s}</a>')
+    h.append(f'<div class="s" id="{p}">{badges[s] if s in badges else ""} <a class="sy">{s}</a>')
     for c in db[s]:
-      # print(f'c= {c}, sys= {s}')
       p = re.sub(" ","_",c)
       if c in ["System Info","Technology","Buy Sell"]:
         h.append(f'  <div>{c}')
       else:
-        h.append(f'  <div class=p id={p}><a class=pl>{c}</a>')
+        h.append(f'  <div class="p" id="{p}"><a class="pl">{c}</a>')
 
       for i in db[s][c]:
+        # print(f'{s}, {c}, {i},')
         if c in ["System Info","Technology","Buy Sell"]:
           i = re.sub(r'(Glyphs: )([\da-f]{6})([\da-f]{6})',r'\1<div class=gl>\2&nbsp;\3</div>', i)
           #-------------------------- contraband ---------------------------------------------
-          if c == "Buy Sell" and i in dangerous:
-            h.append(f'      <div><div class="scp">{i}</div></div>')
+          if c == "Buy Sell":
+            if i in dangerous:
+              h.append(f'      <div><div class="scp" id="_s{inc()}">{i}</div></div>')
+            else:
+              h.append(f'      <div class="bc" id="_s{inc()}">{i}</div>')
           else:
           #-------------------------- upgrade class ------------------------------------------
             if c == "Technology":
               m = re.search(r'.(.).(.+)', i) # see decorate_tech
-              h.append(f'    <div class=tc><div class=tc{m.group(1).lower()}>{m.group(1)}</div>&hairsp;{m.group(2)}</div>')
+              h.append(f'    <div class="tc" id="_t{inc()}"><div class="tc{m.group(1).lower()}">{m.group(1)}</div>&hairsp;{m.group(2)}</div>')
             else:
               h.append(f'    <div>{i}</div>')
         else: 
+          # print(f'c={c}')
           h.append(f'    <div>{i}')
+
           for j in db[s][c][i]:
+            # print(f'{s}, {c}, {i}, {j}')
             if i == 'Planet Info':
               if dbug: print(getframeinfo(currentframe()).lineno, f's={s}, c={c}, i={i}, j={j}')
-            #--------------------------- dangerous -------------------------------------------
-            m = re.search(r'^((Weather|Sentinels): )(.+)$',j)
-            if m and m.group(3) in dangerous:
-              print("dangerous= ",m.group(1),m.group(3))
-              if(m.group(2) == "Sentinels" and m.group(3) in corrupted):
-                h.append(f'      <div>{m.group(1)}<div class="poi co">{m.group(3)}</div></div>')
+              #--------------------------- dangerous -------------------------------------------
+              m = re.search(r'^((Weather|Sentinels): )(.+)$',j)
+              if m and m.group(3) in dangerous:
+                print("dangerous= ",m.group(1),m.group(3))
+                if(m.group(2) == "Sentinels" and m.group(3) in corrupted):
+                  h.append(f'      <div>{m.group(1)}<div class="poi co">{m.group(3)}</div></div>')
+                else:
+                  h.append(f'      <div>{m.group(1)}<div class="poi rd">{m.group(3)}</div></div>')
               else:
-                h.append(f'      <div>{m.group(1)}<div class="poi rd">{m.group(3)}</div></div>')
-            else:
+                if 'Biome:' in j:
+                  h.append(f'      <div class="bc" id="_b{inc()}">{j}</div>')
+                else:
+                  h.append(f'      <div>{j}</div>')
             #--------------------------- dissonance ------------------------------------------
-              if i == 'Resources' and j == 'Dissonance detected':
+            if i == 'Resources':
+              if j == 'Dissonance detected':
                 print(getframeinfo(currentframe()).lineno, f's={s}, c={c}, i={i}, j={j}')
-                h.append(f'      <div><div class="scp">{j}</div></div>')
+                h.append(f'      <div><div class="scp" id="_r{inc()}">{j}</div></div>')
               else:
-                h.append(f'      <div>{j}</div>')
+                h.append(f'      <div class="bc" id="_r{inc()}">{j}</div>')
+              # else:
+              #   h.append(f'<!--3--><div>{j}</div>')
+
             #---------------------------------------------------------------------------------
           h.append('    </div>')
       h.append('  </div>')
     h.append('</div>')
 h.append('''<button>Collapse All</button>
-~
+{1}
 <div style="margin-top: 700px;"></div>
 <script>
+const links={2}
+
+function findLinks(links, key) {
+  const firstItem = links[key][0];
+  const matchingKeys = [];
+  for (const k in links) {
+    if (links.hasOwnProperty(k) && links[k][0] === firstItem && k[1] == key[1]) {
+      matchingKeys.push(k);
+  } }
+  return matchingKeys;
+}
+
+const id01 = document.getElementById('id01'),
+  id02 = document.getElementById('id02'),
+  handleModal = () => id01.style.display='block',
+  handleLinks = (e) => {
+    let docs = [];
+    const urls = findLinks(links,e.target.id);
+    urls.forEach((x,i) => {
+      if(i == 0){
+        docs.push(`<table id=al><tr><td class="at"><a class="ac" href="javascript:jump('0')">${links[x][0]}</a></td></tr>`);
+      }else{
+        docs.push(`<tr><td><a class="ac" href="javascript:jump('${links[x][1]}')">${links[x][1].replace(/_/g, ' ')}</a></td></tr>`);
+      }
+    });
+    docs.push('</table>');
+    id02.innerHTML = docs.join("\\n");
+    id02.style.display='block';
+  };
+
+function jump(id){
+  if(id == '0'){
+    window.scrollTo(0, 0);
+  }else{
+    document.getElementById(id).scrollIntoView();
+  }
+  id02.style.display='none';
+}
+
 function sv(id){
   document.getElementById(id).scrollIntoView({ behavior: "smooth" });
 }
@@ -943,7 +1034,6 @@ function sv(id){
     }
   });         
 
-// https://stackoverflow.com/questions/37098405/javascript-queryselector-find-div-by-innertext Andrew Willems
 document.querySelector('button').addEventListener('click', function(){
   document.querySelectorAll('.c')
     .forEach(e => e.style.display = 'none');
@@ -991,26 +1081,59 @@ function clearCheckbox(){
   }
 }
 
-const modal = document.getElementById('id01'),
-  handleModal = () => modal.style.display='block';
-
 [...document.querySelectorAll('img')]
   .filter(e => /badge|class/.test(e.src))
   .forEach(e => e.addEventListener('click', handleModal));
 
 window.onclick = function(event) {
-  if (event.target.parentNode == modal || event.target == modal) {
+  if (event.target.parentNode == id01 || event.target == id01) {
     modal.style.display = "none";
 
     [...document.querySelectorAll('img')]
       .filter(e => /badge|class/.test(e.src))
       .forEach(e => e.removeEventListener('click', handleModal));
+  // }else if(id02.style.display == "block"){
+  //   id02.style.display = "none";
   }
-}
+};
+
+[...document.querySelectorAll('div')]
+  .filter(e => e.id.startsWith('_'))
+  .forEach(e => e.addEventListener('click', handleLinks));
 
 </script></body></html>''')
 
+links = {}
+sid = ''
+pid = ''
+for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).splitlines())):
+  s = re.search(r'"s" id="([^"]+)',i)
+  if s:
+    sid = s.group(1)
+    pid = ''
+  else:
+    p = re.search(r'"p" id="([^"]+)',i)
+    if p:
+      pid = p.group(1)
+    else:
+      m = re.search(r'<div class="ib" id="(_[srb]\d+)">([^<]+)</div>',i)
+      if not m:
+        m = re.search(r'<div class="bc" id="(_[rs]\d+)">([^<]+)</div>',i)
+        if not m:
+          m = re.search(r'<div class="scp" id="(_[rs]\d+)">([^<]+)</div>',i)
+          if not m:
+            m = re.search(r'<div class="tc" id="(_t\d+)">(<div class="tc.">.</div>[^<]+)</div>',i)
+            if not m:
+              m = re.search(r'<div class="bc" id="(_b\d+)">Biome: ([^<]+)</div>',i)
+      if m:
+        id, key, link = m.group(1), m.group(2), pid if pid else sid
+        links[id]=[key,link]
+        # print(f'"{id}":["{key}", "{link}"]')
+# print(json.dumps(links ,indent=2))
+
 h = re.sub(r'\{0\}', title, '\n'.join(h))
+h = re.sub(r'\{1\}', checklist, h)
+h = re.sub(r'\{2\}', json.dumps(links), h)
+
 with open(f'{title}.html','w') as outfile:
-  h = re.sub("~",checklist,h)
   outfile.write(h)
