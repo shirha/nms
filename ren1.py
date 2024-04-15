@@ -4,7 +4,7 @@ from datetime import datetime, timedelta
 
 delta = timedelta(seconds=10)
 delta = timedelta(minutes=1)
-stime = datetime.strptime("20240326 100000", "%Y%m%d %H%M%S")
+stime = datetime.strptime("20240415 080000", "%Y%m%d %H%M%S")
 
 for directory in os.listdir('in'):
   directory_path = os.path.join("in", directory)

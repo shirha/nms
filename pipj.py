@@ -53,23 +53,52 @@ poi = {
   "Wibordo VI":      ["POI: <div class='poi bl'>Storm Crystals</div> <img src='i/crystals.png'/>"],
   "Onrovi":          ["POI: <div class='poi bl'>Storm Crystals</div> <img src='i/crystals.png'/>"],
   "Pipinugst":       ["POI: <div class='poi bl'>Storm Crystals</div> <img src='i/crystals.png'/>"],
-}
+
+  "Hunslowe":        ["POI: <div class=\"poi yl\">Ms 1.7</div> <div class=scx>r1</div> Archive <div class=sca>-28.04, +144.27</div>"],
+  "Spinarr Kesen":   ["POI: <div class=\"poi yl\">Ms 2.7</div> <div class=scx>r2</div> Portal <div class=sca>-12.89, +67.56</div>"],
+  "Bandab":          ["<div class=scp><b>Distance:</b></div> 8 ly &rarr; Doriguc VII"],
+  "Haku 57/Q1":      ["POI: <div class=\"poi yl\">Ms 3.7</div> <div class=scx>r3</div> Crashed Freighter <div class=sca> -20.97, -85.18</div>"],
+  "New Wadhabie":    ["POI: <div class=\"poi yl\">Ms 4.7</div> <div class=scx>r4</div> Portal <div class=sca> +32.94, +179.59</div>",
+                      "POI: <div class=\"poi yl\">Ms 4.5</div> Palate Cleanser",
+                      "<blockquote>Bake some biscuits</blockquote><div>"
+                      "Sweet Root &rarr; Processed Sugar<br>"
+                      "Heptaploid Wheat &rarr; Refined Flour<br>"
+                      "Processed Sugar + Refined Flour &rarr; Sugar Dough<br>"
+                      "Sugar Dough + Salt &rarr; Salty Cruncher</div>",
+                      "<div class=\"poi tr\">Reward:</div> 2&times; S-class Mining Beam",
+                      "POI: <div class=\"poi yl\">Ms 5.1</div> The Fallen",
+                      "<blockquote>Visit traveler gravesite</blockquote>",
+                      "<div class=\"poi tr\">Tip:</div> 820u West of <div class=scx>r4</div> Portal",
+                      "<div class=\"poi tr\">Reward:</div> Indium Hyperdrive"],
+  "Gartfol X":       ["POI: <div class=\"poi yl\">Ms 3.5</div> Assembly Required",
+                      "<blockquote>Manufactured Liquid Explosives</blockquote><div>"
+                      "Cactus Flesh &times;200 &raquo; Unstable Gel &times;1<br>"
+                      "Mordite &times;25 + Fungal Mould &times;200 &raquo; Acid &times;1<br>"
+                      "Acid &times;1 + Unstable Gel &times;1 &raquo; Liquid Explosive &times;1</div>",
+                      "<div class=\"poi tr\">Tip:</div>", 
+                      "<div>Okubun-Chadr // Aratae XIV &rarr; Fungal Mould</div>",
+                      "<div>Faecium x3 &rarr; Mordite x2</div>",
+                      "<div class=\"poi tr\">Reward:</div> S-class Movement"],
+  "Yovetrowl III":   ["POI: <div class=\"poi bl\">Storm Crystals</div>",
+                      "POI: <div class=\"poi yl\">Ms 4.3</div> Radiant Flight",
+                      "<blockquote>Repair a crashed interceptor</blockquote>",
+                      "<div class=\"poi tr\">Base:</div> Bucefaldkowo <div class=sca>+19.47, +13.66</div>"],
+  "Mazuna":          ["<div class=scp><b>Original Name:</b></div> Mazuna-Puqia",
+                      "<div class=scp><b>Distance:</b></div> 26 ly &rarr; Bandab"],
+  "Onana":           ["POI: <div class=\"poi yl\">Ms 4.3</div> Radiant Flight",
+                      "<blockquote>Repair a crashed interceptor <div class=\"sca n\">+44.42, +25.95</div></blockquote>"],
+  "Yusvadbeat XII":  ["POI: <div class=\"poi yl\">Ms 2.5</div> To Infinity",
+                      "<blockquote>Enter a black hole</blockquote>",
+                      "<div><div class=scp><b>Distance:</b></div> 12 ly &rarr; Ilnyev</div>"],
+  "Upacton Sigma":   ["POI: <div class=\"poi yl\">Ms 5.4</div> Xenophile",
+                      "<blockquote>Discover exotic creatures: 1</blockquote>"],
+  "Boeot Prime":     ["POI: <div class=\"poi yl\">Ms 5.7</div> <div class=scx>r5</div> Portal <div class=sca> +27.44, +11.24</div>"],
+}  
 
 '''
-  # print(f'sc:{sc.upper()},t:{t},hn:{hn},ai:{ai},jf:{jf},cl:{cc}-{color[cc]}')
-# f'CL: <div class="pol {color[cc]} k">{cc.upper()}</div>'])
-# print(legend(**{'s':'r','t':2,'hn':0,'ai':0,'jf':1,'cl':'a'}))
-# quit()
-
-# <div>SC: <div class="pol yl">Y</div> T: <div class="pol bl">2</div> DF: <div class="pol br">HN</div> <div class="pol no">AI</div> <div class="pol gr">JF</div> CL: <img class="cc" src="b.png"/></div>
-
-  "Ikoka 45/G1":     ["POI: <div class=\"poi rd\">Predators</div> <img src=\"predator_icon.png\"/>"],
-  "Vistiraqu Hanai": ["POI: <div class=\"poi rd\">Predators</div> <img src=\"predator_icon.png\"/>"],
-  "Oupol III":       ["POI: <div class=\"poi bl\">Storm Crystals</div>"],
-  "Oyook 52/G8":     ["POI: <div class=\"poi gr\">Curious Deposit</div>"],
-  "Poor":            ["Original Name: <div class=\"poi on\">Kearbo-Nagyan</div>"],
-  "Base":            ["Original Name: <div class=\"poi on\">Daytosira XIV</div>"],
-
+  "Gezhel-Olin":     ["Stellar Class: E2<span class='dot gr'></span>",
+                      "Dissonance: Detected<span class='dot co'></span>",
+                      "<div class=scp><b>Distance:</b></div> 22 ly &rarr; Dovour-Jaus"],
   "Toyabe IX":       ["<div class=\"poi tr\">Tip:</div> Buy 100&times; Salt, Artifact Chart, Solar Mirror &rarr; <a href=\"https://nomanssky.fandom.com/wiki/High-Power_Sonar\">High-Power Sonar <img src='linkicon1.png'></a>"],
   "Nafut Gamma":     ["POI: <div class=\"poi yl\">Ms 1.3</div> Exobotany",
                       "<blockquote>Discover planetary flora: 6</blockquote>",
@@ -200,8 +229,22 @@ poi = {
                       "POI: <div class=\"poi yl\">Ms 5.3</div> Blue Expanse",
                       "<blockquote>Visit a blue star</blockquote>"],
   "Boeot Prime":     ["POI: <div class=\"poi yl\">Ms 5.7</div> <div class=scx>r5</div> Portal <div class=sca> +27.44, +11.24</div>"],
-  
 
+  
+    
+# print(f'sc:{sc.upper()},t:{t},hn:{hn},ai:{ai},jf:{jf},cl:{cc}-{color[cc]}')
+# f'CL: <div class="pol {color[cc]} k">{cc.upper()}</div>'])
+# print(legend(**{'s':'r','t':2,'hn':0,'ai':0,'jf':1,'cl':'a'}))
+# quit()
+
+# <div>SC: <div class="pol yl">Y</div> T: <div class="pol bl">2</div> DF: <div class="pol br">HN</div> <div class="pol no">AI</div> <div class="pol gr">JF</div> CL: <img class="cc" src="b.png"/></div>
+
+  "Ikoka 45/G1":     ["POI: <div class=\"poi rd\">Predators</div> <img src=\"predator_icon.png\"/>"],
+  "Vistiraqu Hanai": ["POI: <div class=\"poi rd\">Predators</div> <img src=\"predator_icon.png\"/>"],
+  "Oupol III":       ["POI: <div class=\"poi bl\">Storm Crystals</div>"],
+  "Oyook 52/G8":     ["POI: <div class=\"poi gr\">Curious Deposit</div>"],
+  "Poor":            ["Original Name: <div class=\"poi on\">Kearbo-Nagyan</div>"],
+  "Base":            ["Original Name: <div class=\"poi on\">Daytosira XIV</div>"],
   # "Yelobarn":        ["<div class=\"poi tr\">Note:</div> You may be sent to Bandab instead, "
   #                     "just talk to Nada before the Atlas. <br>There is an interceptor crash site "
   #                     "26 ly away at Mazuna // Onana <div class=sca>+44.42, +25.95</div>",
@@ -682,13 +725,14 @@ table {border-spacing: 0;}
 td {padding: 0;}
 td {vertical-align: top;}
 div {padding-left: 10px;}
-img {height: 18px; vertical-align: middle; margin-bottom: 4px;}
+img {height: 18px; vertical-align: middle; margin-bottom: 4px; margin-left: 4px;}
 .poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; font-style: normal;}
 .bio {padding-left:30px;}
 .cc {height: 24px; margin: 0; padding-left: 0;}
 .badge {display: inline-block; padding: 0;}
 .badge div {display: inline-block; padding: 0;}
 .bq {font-style: italic; color: #551a8b;} /* navy;} */
+blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
 button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
 .gl {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; height: 22px; display: inline-block; padding:0;} 
 span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
@@ -767,7 +811,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 #al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
 #al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 8px;}
 
-.content {
+.content { 
   position: fixed;
   left: 50%;
   top: 50%;
@@ -776,7 +820,8 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
   border-radius: 8px;
   padding:0;
 }
-</style></head><body>
+#container {max-width: 900px; padding: 0;}
+</style></head><body><div id="container">
 <div id="id01" class="modal">
   <img src="i/help.png">
 </div>
@@ -794,11 +839,11 @@ def tags(station):
   html = [station]
   for text in db[station]["System Info"]:
     if "Pirate Controlled" in text:
-      html.append(' <img src="i/pirate_icon.png">')
+      html.append('<img src="i/pirate_icon.png">')
     if "Stellar Classification" in text and text[24] in dict_:
       html.append(f'<div class="dox {dict_[text[24]]}"></div>')
   if station in atlas:
-    html.append(' <img src="i/atlas_icon.png">')
+    html.append('<img src="i/atlas_icon.png">')
   html.append(dot(station))
   return "".join(html)
 
@@ -976,6 +1021,7 @@ with open(f'pip{ilog}.json', "r") as infile:
 h.append('''<button>Collapse All</button>
 {1}
 <div style="margin-top: 700px;"></div>
+</div> <!-- end container -->
 <script>
 const links={2}
 

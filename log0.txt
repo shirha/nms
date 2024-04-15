@@ -1,131 +1,186 @@
 argv=[] ilog=0 title=Playground dbug=
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328195237_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080100_1.jpg
 SysInfo: entering...
-291 SysInfo: mn=0.008 (9, 9) crop.shape=(135, 535)
-SysInfo: station= Poor
+291 SysInfo: mn=0.002 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Dorigue VII
 Celestial Bodies: 5 Planets
-Dominant Lifeform: Gek
-Economy: Ore Extraction // Failing
-Conflict level: Fractious
+Dominant Lifeform: Korvax
+Economy: Construction // Flourishing
+Conflict level: Stable
+322 fix: Dorigue VII, Doriguc VII
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328195247_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080200_1.jpg
 SysInfo: entering...
-Glyphs: entering... Poor
-Glyphs: e:0 102dfc003906
+Glyphs: entering... Doriguc VII
+Glyphs: e:0 106202900054
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202409_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080300_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.017,MPy=5,MPx=22
+494 Techno: Non-Stick Piston
+494 Techno: Enormous Metal Cog
+494 Techno: Mesh Decouplers
+494 Techno: Holographic Crankshaft
+494 Techno: Vector Compressors
+494 Techno: Cobalt
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080400_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.017,MPy=5,MPx=22
+494 Techno: Hermetic Seal
+494 Techno: Microprocessor
+494 Techno: Metal Plating
+494 Techno: Wiring Loom
+494 Techno: Unstable Plasma
+494 Techno: Ferrite Dust
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080500_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.017,MPy=5,MPx=22
+462 fix: lonised Cobalt, Ionised Cobalt
+494 Techno: Ionised Cobalt
+494 Techno: Gold
+494 Techno: Chromatic Metal
+494 Techno: Platinum
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080600_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 41)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
 494 Techno: [B]Life Support
 494 Techno: [C]Movement
 494 Techno: [C]Shield
-494 Techno: [S]Underwater Protection
-494 Techno: [S]Cold Protection
-494 Techno: [S]Life Support
+494 Techno: [A]Underwater Protection
+494 Techno: [A]Movement
+494 Techno: [A]Radiation Protection
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202412_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080700_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 41)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [A]Toxic Protection
 494 Techno: [A]Cold Protection
-494 Techno: [B]Cold Protection
-494 Techno: [A]Life Support
-494 Techno: [S]Hot Protection
+494 Techno: [S]Toxic Protection
+494 Techno: [S]Movement
+494 Techno: [S]Underwater Protection
+494 Techno: [B]Hot Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080800_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 41)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [B]Underwater Protection
+494 Techno: [A]Hot Protection
 494 Techno: [S]Radiation Protection
 494 Techno: [B]Movement
+494 Techno: [A]Life Support
+494 Techno: [S]Cold Protection
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202415_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415080900_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [S]Shield
-494 Techno: [A]Toxic Protection
-494 Techno: [B]Toxic Protection
-494 Techno: [B]Underwater Protection
-494 Techno: [B]Shield
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202507_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.002 (119, 5)
-423 Techno: Technol: mn=0.007,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
 494 Techno: [C]Mining Beam
 494 Techno: [C]Scanner
 494 Techno: [C]Boltcaster
-494 Techno: [B]Mining Beam
-494 Techno: [S]Geology Cannon
-494 Techno: [C]Neutron Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202509_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.002 (119, 5)
-423 Techno: Technol: mn=0.007,MPy=5,MPx=6
-494 Techno: [S]Scatter Blaster
-494 Techno: [S]Pulse Spitter
 494 Techno: [A]Scanner
-494 Techno: [C]Scatter Blaster
-494 Techno: [A]Blaze Javelin
-494 Techno: [B]Blaze Javelin
+494 Techno: [A]Boltcaster
+494 Techno: [S]Plasma Launcher
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202519_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081000_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.002 (119, 5)
-423 Techno: Technol: mn=0.007,MPy=5,MPx=6
-494 Techno: [A]Mining Beam
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [B]Scanner
+494 Techno: [S]Pulse Spitter
+494 Techno: [S]Neutron Cannon
+494 Techno: [A]Plasma Launcher
+494 Techno: [B]Pulse Spitter
+494 Techno: [C]Plasma Launcher
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202542_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081100_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [C]Neutron Cannon
+494 Techno: [B]Mining Beam
+494 Techno: [C]Geology Cannon
+494 Techno: [B]Geology Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081200_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
 494 Techno: [C]Launch Thrusters
 494 Techno: [C]Pulse Engine
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202544_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081300_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
 494 Techno: [C]Hyperdrive
 494 Techno: [C]Starship Shield
+494 Techno: [S]Pulse Engine
 494 Techno: [A]Launch Thrusters
-494 Techno: [S]Hyperdrive
-494 Techno: [C]Infra-Knife
-494 Techno: [S]Photon Cannon
+494 Techno: [A]Starship Shield
+494 Techno: [B]Cyclotron
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202548_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081400_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
-494 Techno: [S]Positron
-494 Techno: [A]Positron
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [B]Launch Thrusters
+494 Techno: [B]Positron
 494 Techno: [S]Cyclotron
-494 Techno: [B]Phase Beam
-494 Techno: [C]Photon Cannon
+494 Techno: [C]Phase Beam
+494 Techno: [C]Positron
+494 Techno: [A]Positron
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202612_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081500_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.001 (124, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [S]Starship Shield
+494 Techno: [B]Photon Cannon
+494 Techno: [S]Launch Thrusters
+494 Techno: [A]Hyperdrive
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081600_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
 494 Techno: [C]Exocraft Cannon
 494 Techno: [C]Exocraft Engine
 494 Techno: [C]Exocraft Laser
@@ -133,25 +188,552 @@ Visited: entering... Poor
 494 Techno: [C]Humboldt Drive
 494 Techno: [C]Nautilon Cannon
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202614_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081700_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=0.001 (124, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
 494 Techno: [B]Minotaur Engine
 494 Techno: [B]Minotaur Laser
 494 Techno: [B]Minotaur Cannon
+494 Techno: [S]Exocraft Laser
+494 Techno: [S]Minotaur Laser
 494 Techno: [A]Minotaur Cannon
-494 Techno: [A]Minotaur Engine
-494 Techno: [B]Exocraft Laser
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202725_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081800_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-383 Techno: avail1: mn=0.001 (123, 37)
-423 Techno: System : mn=0.008,MPy=5,MPx=7
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.846 (101, 8)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc2: 0.394 (126, 77)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415081900_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.837 (140, 1)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc2: 0.428 (128, 25)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415082000_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=0.618 (27, 11)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc2: 0.438 (21, 35)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083200_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.009 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Bandab
+Celestial Bodies: 3 Planets
+Dominant Lifeform: Korvax
+Economy: Mass Production // Black Market
+Conflict level: Pirate Controlled
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083300_1.jpg
+SysInfo: entering...
+Glyphs: entering... Bandab
+Glyphs: e:0 107a02900054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083400_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Contrab: mn=0.004,MPy=5,MPx=23
+494 Techno: Blood Salt
+494 Techno: Banned Weapons
+494 Techno: First Spawn Relics
+494 Techno: Packet (Goods)
+494 Techno: Tritium
+494 Techno: Di-hydrogen
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083500_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Contrab: mn=0.004,MPy=5,MPx=23
+494 Techno: Hadal Core
+494 Techno: Repair Kit
+494 Techno: Hypnotic Eye
+494 Techno: Packet (Tech)
+494 Techno: Starshield Battery
+494 Techno: Packet (Arms)
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083600_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Contrab: mn=0.004,MPy=5,MPx=23
+462 fix: lonised Cobalt, Ionised Cobalt
+494 Techno: Ionised Cobalt
+494 Techno: Rusted Metal
+494 Techno: Mordite
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083700_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Salvage: mn=0.007,MPy=5,MPx=22
+494 Techno: [X]Life Support
+494 Techno: [X]Positron
+494 Techno: [X]Shield
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083800_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Salvage: mn=0.007,MPy=5,MPx=22
+494 Techno: [X]Infra-Knife
+494 Techno: [X]Movement
+494 Techno: [X]Blaze Javelin
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415083900_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+386 Techno: avail2: mn=0.882 (93, 1)
+515 Resource: entering... Bandab
+529 Resource: resrc2: 0.429 (128, 25)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415084700_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.018 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Toyabe IX
+Celestial Bodies: 5 Planets
+Dominant Lifeform: Gek
+Economy: Engineering // Low Supply
+Conflict level: Untroubled
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415084800_1.jpg
+SysInfo: entering...
+Glyphs: entering... Toyabe IX
+Glyphs: e:0 105202900054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415084900_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Decommissioned Circuits
+494 Techno: Microprocessor
+494 Techno: Wiring Loom
+494 Techno: Unstable Plasma
+494 Techno: Ferrite Dust
+494 Techno: Cobalt
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085000_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Hermetic Seal
+494 Techno: Di-hydrogen Jelly
+494 Techno: Dirty Bronze
+494 Techno: Metal Plating
+494 Techno: Phosphorus
+494 Techno: Rusted Metal
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085100_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Pyrite
+494 Techno: Tritium
+494 Techno: Magnetised Ferrite
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085200_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [A]Underwater Protection
+494 Techno: [S]Underwater Protection
+494 Techno: [A]Hot Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085300_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
+494 Techno: [S]Hot Protection
+494 Techno: [B]Toxic Protection
+494 Techno: [B]Cold Protection
+494 Techno: [A]Movement
+494 Techno: [S]Cold Protection
+494 Techno: [B]Movement
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085400_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (146, 39)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
+494 Techno: [S]Shield
+494 Techno: [A]Toxic Protection
+494 Techno: [S]Toxic Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085500_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [A]Geology Cannon
+494 Techno: [S]Scatter Blaster
+494 Techno: [B]Scanner
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085600_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [A]Plasma Launcher
+494 Techno: [B]Neutron Cannon
+494 Techno: [A]Scatter Blaster
+494 Techno: [C]Geology Cannon
+494 Techno: [S]Boltcaster
+494 Techno: [S]Neutron Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085700_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [C]Pulse Spitter
+494 Techno: [B]Boltcaster
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085800_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415085900_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [B]Cyclotron
+494 Techno: [S]Infra-Knife
+494 Techno: [B]Launch Thrusters
+494 Techno: [B]Positron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415090000_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
+494 Techno: [A]Starship Shield
+494 Techno: [S]Phase Beam
+494 Techno: [S]Positron
+494 Techno: [S]Hyperdrive
+494 Techno: [A]Cyclotron
+494 Techno: [C]Phase Beam
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415090100_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.015,MPy=5,MPx=21
+494 Techno: [C]Cyclotron
+494 Techno: [A]Infra-Knife
+494 Techno: [S]Launch Thrusters
+462 fix: Photon Cannon Medule, Photon Cannon
+494 Techno: [S]Photon Cannon
+494 Techno: [A]Launch Thrusters
+494 Techno: [B]Infra-Knife
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415090200_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.011,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415090300_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.011,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon
+494 Techno: [B]Nautilon Cannon
+494 Techno: [S]Minotaur Laser
+494 Techno: [S]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415091500_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.001 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Jiyose-Aishe XIV
+Celestial Bodies: 6 Planets
+Dominant Lifeform: Gek
+Economy: Industrial // Developing
+Conflict level: Relaxed
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415091600_1.jpg
+SysInfo: entering...
+Glyphs: entering... Jiyose-Aishe XIV
+Glyphs: e:0 104d02900054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415091700_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.001,MPy=5,MPx=22
+494 Techno: Non-Stick Piston
+494 Techno: Enormous Metal Cog
+494 Techno: Mesh Decouplers
+494 Techno: Holographic Crankshaft
+494 Techno: Ferrite Dust
+494 Techno: Cobalt
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415091800_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.001,MPy=5,MPx=22
+494 Techno: Di-hydrogen Jelly
+494 Techno: Quantum Computer
+494 Techno: Microprocessor
+494 Techno: Metal Plating
+494 Techno: Wiring Loom
+494 Techno: Unstable Plasma
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415091900_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.001,MPy=5,MPx=22
+494 Techno: Rusted Metal
+494 Techno: Residual Goop
+494 Techno: Silver
+494 Techno: Tritium
+494 Techno: Chromatic Metal
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092000_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [B]Shield
+494 Techno: [A]Movement
+494 Techno: [B]Movement
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092100_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [B]Radiation Protection
+494 Techno: [A]Life Support
+494 Techno: [S]Shield
+494 Techno: [S]Radiation Protection
+494 Techno: [A]Toxic Protection
+494 Techno: [S]Life Support
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092200_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [S]Movement
+494 Techno: [S]Hot Protection
+494 Techno: [B]Toxic Protection
+494 Techno: [A]Shield
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092300_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.010,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [B]Geology Cannon
+494 Techno: [B]Boltcaster
+494 Techno: [S]Blaze Javelin
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092400_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.010,MPy=5,MPx=21
+494 Techno: [C]Blaze Javelin
+494 Techno: [A]Blaze Javelin
+494 Techno: [A]Scatter Blaster
+494 Techno: [C]Scatter Blaster
+494 Techno: [B]Scanner
+494 Techno: [A]Boltcaster
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092500_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.010,MPy=5,MPx=21
+494 Techno: [A]Geology Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092600_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092700_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [C]Phase Beam
+494 Techno: [A]Cyclotron
+494 Techno: [A]Launch Thrusters
+494 Techno: [S]Positron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092800_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [A]Photon Cannon
+494 Techno: [B]Photon Cannon
+494 Techno: [S]Phase Beam
+494 Techno: [B]Pulse Engine
+494 Techno: [B]Infra-Knife
+494 Techno: [B]Positron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415092900_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [B]Phase Beam
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415093000_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.011,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415093100_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.011,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon
+494 Techno: [S]Minotaur Laser
+494 Techno: [A]Exocraft Engine
+494 Techno: [A]Humboldt Drive
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415093200_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.718 (226, 62)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc2: 0.457 (126, 82)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415093300_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=0.744 (226, 60)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc2: 0.450 (127, 39)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415094700_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.004 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Okubun-Chadr
+Celestial Bodies: 6 Planets
+Dominant Lifeform: Vy'keen
+Economy: Ore Extraction // Destitute
+Conflict level: Unruly
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415094800_1.jpg
+SysInfo: entering...
+Glyphs: entering... Okubun-Chadr
+Glyphs: e:0 101202900054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415094900_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.005,MPy=5,MPx=22
 494 Techno: Dirt
 494 Techno: Microprocessor
 494 Techno: Wiring Loom
@@ -159,39 +741,786 @@ Visited: entering... Poor
 494 Techno: Ferrite Dust
 494 Techno: Cobalt
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202727_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095000_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-383 Techno: avail1: mn=0.001 (123, 37)
-423 Techno: System : mn=0.008,MPy=5,MPx=7
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.005,MPy=5,MPx=22
 494 Techno: Carbon Nanotubes
+494 Techno: Quantum Computer
 494 Techno: Metal Plating
-494 Techno: Pyrite
-494 Techno: Tritium
-494 Techno: Magnetised Ferrite
+494 Techno: Chlorine
+494 Techno: Gold
+494 Techno: Dioxite
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095100_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.005,MPy=5,MPx=22
+494 Techno: Residual Goop
+494 Techno: Pure Ferrite
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095200_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [B]Shield
+494 Techno: [A]Toxic Protection
+494 Techno: [A]Hot Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095300_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [S]Underwater Protection
+494 Techno: [S]Cold Protection
+494 Techno: [B]Movement
+494 Techno: [S]Radiation Protection
+494 Techno: [A]Movement
+494 Techno: [S]Life Support
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095400_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [S]Toxic Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095500_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [S]Scanner
+494 Techno: [A]Pulse Spitter
+494 Techno: [B]Mining Beam
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095600_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [S]Pulse Spitter
+494 Techno: [B]Geology Cannon
+494 Techno: [S]Scatter Blaster
+494 Techno: [A]Blaze Javelin
+494 Techno: [A]Scanner
+494 Techno: [C]Pulse Spitter
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095700_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [S]Plasma Launcher
+494 Techno: [C]Geology Cannon
+494 Techno: [B]Scatter Blaster
+494 Techno: [S]Neutron Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095800_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.008,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415095900_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.008,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [S]Phase Beam
+494 Techno: [C]Photon Cannon
+494 Techno: [C]Infra-Knife
+494 Techno: [A]Hyperdrive
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415100000_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.008,MPy=5,MPx=21
+494 Techno: [B]Positron
+494 Techno: [B]Cyclotron
+494 Techno: [B]Hyperdrive
+494 Techno: [B]Starship Shield
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415100100_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.001 (146, 36)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415100200_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+383 Techno: avail1: mn=0.001 (146, 36)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon
+494 Techno: [A]Minotaur Laser
+494 Techno: [S]Exocraft Cannon
+494 Techno: [S]Humboldt Drive
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415101600_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.020 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Dovour-Jaus
+Celestial Bodies: 6 Planets
+Dominant Lifeform: Korvax
+Economy: Advanced Materials // Fledgling
+Conflict level: Medium
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415101700_1.jpg
+SysInfo: entering...
+Glyphs: entering... Dovour-Jaus
+Glyphs: e:0 10c402901054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415101800_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.002,MPy=5,MPx=22
+494 Techno: Nanotube Crate
+494 Techno: Microprocessor
+494 Techno: Wiring Loom
+494 Techno: Unstable Plasma
+494 Techno: Ferrite Dust
+494 Techno: Cobalt
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415101900_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.003,MPy=5,MPx=22
+494 Techno: Amino Chamber
+494 Techno: Magnetic Resonator
+494 Techno: Di-hydrogen Jelly
+494 Techno: Metal Plating
+494 Techno: Pugneum
 494 Techno: Residual Goop
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328202940_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102000_1.jpg
 SysInfo: entering...
-291 SysInfo: mn=0.007 (9, 9) crop.shape=(135, 535)
-SysInfo: station= Base
-Celestial Bodies: 5 Planets
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+383 Techno: avail1: mn=0.002 (145, 39)
+423 Techno: System : mn=0.003,MPy=5,MPx=22
+494 Techno: Pyrite
+494 Techno: Phosphorus
+494 Techno: Copper
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102100_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.754 (226, 54)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc2: 0.394 (126, 73)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102200_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.763 (227, 60)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc2: 0.467 (127, 80)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102300_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.001 (144, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [S]Underwater Protection
+494 Techno: [A]Cold Protection
+494 Techno: [A]Radiation Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102400_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.001 (144, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [S]Radiation Protection
+494 Techno: [S]Shield
+494 Techno: [B]Hot Protection
+494 Techno: [B]Toxic Protection
+494 Techno: [A]Hot Protection
+494 Techno: [A]Underwater Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102500_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.001 (144, 37)
+423 Techno: Technol: mn=0.002,MPy=5,MPx=21
+494 Techno: [S]Toxic Protection
+494 Techno: [S]Cold Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102600_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.000 (147, 38)
+423 Techno: Technol: mn=0.004,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [B]Pulse Spitter
+494 Techno: [A]Plasma Launcher
+494 Techno: [B]Mining Beam
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102700_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.000 (147, 38)
+423 Techno: Technol: mn=0.004,MPy=5,MPx=21
+494 Techno: [A]Neutron Cannon
+494 Techno: [S]Geology Cannon
+494 Techno: [C]Blaze Javelin
+494 Techno: [B]Geology Cannon
+494 Techno: [C]Geology Cannon
+494 Techno: [S]Neutron Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102800_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.002 (143, 39)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415102900_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.002 (143, 39)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [A]Cyclotron
+494 Techno: [S]Pulse Engine
+494 Techno: [B]Cyclotron
+494 Techno: [C]Cyclotron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415103000_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.002 (143, 39)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [S]Cyclotron
+494 Techno: [C]Positron
+494 Techno: [S]Photon Cannon
+494 Techno: [A]Launch Thrusters
+494 Techno: [A]Phase Beam
+494 Techno: [A]Hyperdrive
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415103100_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.002 (143, 39)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [B]Infra-Knife
+494 Techno: [S]Launch Thrusters
+494 Techno: [A]Infra-Knife
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415103200_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415103300_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.003,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon
+494 Techno: [S]Minotaur Engine
+494 Techno: [A]Exocraft Cannon
+494 Techno: [A]Minotaur Laser
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415104700_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.019 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Yusvadbeat XII
+Celestial Bodies: 2 Planets // 2 Moons
+Dominant Lifeform: Korvax
+Economy: Alchemical // Promising
+Conflict level: At War
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415104800_1.jpg
+SysInfo: entering...
+Glyphs: entering... Yusvadbeat XII
+Glyphs: e:0 107a02901054
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415104900_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+383 Techno: avail1: mn=0.778 (61, 11)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc2: 0.526 (126, 45)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105000_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+383 Techno: avail1: mn=0.776 (60, 9)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc2: 0.471 (126, 77)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105100_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [B]Hot Protection
+494 Techno: [S]Hot Protection
+494 Techno: [B]Movement
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105200_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [A]Life Support
+494 Techno: [A]Underwater Protection
+494 Techno: [S]Life Support
+494 Techno: [S]Underwater Protection
+494 Techno: [B]Underwater Protection
+494 Techno: [S]Radiation Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105300_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [B]Cold Protection
+494 Techno: [A]Hot Protection
+494 Techno: [S]Movement
+494 Techno: [S]Cold Protection
+494 Techno: [A]Cold Protection
+494 Techno: [A]Shield
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105400_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [B]Boltcaster
+494 Techno: [A]Geology Cannon
+494 Techno: [C]Blaze Javelin
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105500_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [S]Blaze Javelin
+494 Techno: [C]Scatter Blaster
+494 Techno: [B]Plasma Launcher
+494 Techno: [B]Scanner
+494 Techno: [A]Scatter Blaster
+494 Techno: [A]Plasma Launcher
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105600_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.007,MPy=5,MPx=21
+494 Techno: [C]Neutron Cannon
+494 Techno: [S]Plasma Launcher
+494 Techno: [A]Neutron Cannon
+494 Techno: [A]Mining Beam
+494 Techno: [A]Pulse Spitter
+494 Techno: [A]Blaze Javelin
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105700_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.002 (146, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105800_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.002 (146, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [S]Pulse Engine
+494 Techno: [C]Cyclotron
+494 Techno: [A]Positron
+494 Techno: [B]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415105900_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.002 (146, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [B]Hyperdrive
+494 Techno: [A]Infra-Knife
+494 Techno: [C]Photon Cannon
+494 Techno: [B]Phase Beam
+494 Techno: [A]Phase Beam
+494 Techno: [B]Launch Thrusters
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415110000_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.002 (146, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+462 fix: Photon Cannon Medule, Photon Cannon
+494 Techno: [S]Photon Cannon
+494 Techno: [B]Infra-Knife
+494 Techno: [S]Starship Shield
+494 Techno: [A]Photon Cannon
+494 Techno: [S]Cyclotron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415110100_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415110200_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=0.001 (146, 38)
+423 Techno: Technol: mn=0.012,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon Medule
+494 Techno: [S]Minotaur Cannon
+494 Techno: [A]Humboldt Drive
+494 Techno: [A]Exocraft Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111200_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.013 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Amling
+Celestial Bodies: 3 Planets
+Dominant Lifefgrm Vy'keen
+Economy: Mass Production // Unsuccessful
+Conflict level: Formidable
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111300_1.jpg
+SysInfo: entering...
+Glyphs: entering... Amling
+Glyphs: e:0 11ef02901055
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111400_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.998 (76, 14)
+515 Resource: entering... Amling
+529 Resource: resrc2: 0.804 (166, 103)
+Stellar: entering...
+Stellar: mn=0.003 (112, 43) Stellar Classification: B1pf
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Non-Stick Piston
+494 Techno: Enormous Metal Cog
+494 Techno: Wiring Loom
+494 Techno: Unstable Plasma
+494 Techno: Ferrite Dust
+494 Techno: Cobalt
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111600_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Magno-Gold
+494 Techno: Quantum Computer
+494 Techno: Microprocessor
+494 Techno: Metal Plating
+494 Techno: Phosphorus
+494 Techno: Paraffinium
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: System : mn=0.022,MPy=5,MPx=22
+494 Techno: Pure Ferrite
+494 Techno: Ammonia
+494 Techno: Dioxite
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.917 (40, 17)
+515 Resource: entering... Amling
+529 Resource: resrc2: 0.460 (127, 87)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415111900_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+386 Techno: avail2: mn=0.916 (226, 61)
+515 Resource: entering... Amling
+529 Resource: resrc2: 0.428 (128, 35)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.018,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [A]Shield
+494 Techno: [B]Hot Protection
+494 Techno: [B]Radiation Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112100_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.018,MPy=5,MPx=21
+494 Techno: [A]Radiation Protection
+494 Techno: [S]Radiation Protection
+494 Techno: [B]Toxic Protection
+494 Techno: [S]Life Support
+494 Techno: [B]Underwater Protection
+494 Techno: [B]Cold Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112200_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.001 (144, 38)
+423 Techno: Technol: mn=0.018,MPy=5,MPx=21
+494 Techno: [S]Cold Protection
+494 Techno: [A]Cold Protection
+494 Techno: [S]Hot Protection
+494 Techno: [S]Shield
+494 Techno: [A]Toxic Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112300_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (148, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [S]Mining Beam
+494 Techno: [C]Plasma Launcher
+494 Techno: [S]Pulse Spitter
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112400_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (148, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [A]Boltcaster
+494 Techno: [B]Scanner
+494 Techno: [A]Pulse Spitter
+494 Techno: [C]Neutron Cannon
+494 Techno: [S]Geology Cannon
+494 Techno: [A]Geology Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (148, 39)
+423 Techno: Technol: mn=0.009,MPy=5,MPx=21
+494 Techno: [A]Blaze Javelin
+494 Techno: [A]Plasma Launcher
+494 Techno: [B]Scatter Blaster
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112600_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.013,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [S]Hyperdrive
+494 Techno: [B]Starship Shield
+494 Techno: [A]Launch Thrusters
+494 Techno: [B]Phase Beam
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [A]Positron
+494 Techno: [A]Phase Beam
+494 Techno: [B]Infra-Knife
+494 Techno: [A]Starship Shield
+494 Techno: [C]Positron
+494 Techno: [B]Launch Thrusters
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415112900_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
+494 Techno: [B]Cyclotron
+494 Techno: [S]Photon Cannon
+494 Techno: [A]Cyclotron
+494 Techno: [S]Cyclotron
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415113000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.008,MPy=5,MPx=21
+494 Techno: [C]Exocraft Cannon
+494 Techno: [C]Exocraft Engine
+494 Techno: [C]Exocraft Laser
+494 Techno: [C]Exocraft Boost
+494 Techno: [C]Humboldt Drive
+494 Techno: [C]Nautilon Cannon
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415113100_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.008,MPy=5,MPx=21
+494 Techno: [B]Minotaur Engine
+494 Techno: [B]Minotaur Laser
+494 Techno: [B]Minotaur Cannon
+494 Techno: [B]Exocraft Engine
+494 Techno: [B]Humboldt Drive
+494 Techno: [A]Exocraft Laser
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415113900_1.jpg
+SysInfo: entering...
+291 SysInfo: mn=0.020 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Mazuna
+Celestial Bodies: 4 Planets
 Dominant Lifeform: Vy'keen
-Economy: Mathematical // Opulent
-Conflict level: Trivial
+Economy: Research // Affluent
+Conflict level: Relaxed
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203012_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114000_1.jpg
 SysInfo: entering...
-Glyphs: entering... Base
-Glyphs: e:0 1026fc003906
+Glyphs: entering... Mazuna
+Glyphs: e:0 105a02900054
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203025_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114100_1.jpg
 SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.012,MPy=5,MPx=7
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.003,MPy=5,MPx=22
 494 Techno: De-Scented Bottles
 494 Techno: Neutron Microscope
 494 Techno: Instability Injector
@@ -199,208 +1528,180 @@ Visited: entering... Base
 494 Techno: Neural Duct
 494 Techno: Cobalt
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203027_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114200_1.jpg
 SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.012,MPy=5,MPx=7
-494 Techno: Lemmium
-494 Techno: Amino Chamber
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.003,MPy=5,MPx=22
+494 Techno: Magnetic Resonator
+494 Techno: Hydraulic Wiring
 494 Techno: Metal Plating
 494 Techno: Microprocessor
 494 Techno: Wiring Loom
 494 Techno: Unstable Plasma
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203029_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114300_1.jpg
 SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.012,MPy=5,MPx=7
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.002 (144, 39)
+423 Techno: System : mn=0.003,MPy=5,MPx=22
 494 Techno: Ferrite Dust
-494 Techno: Gold
-494 Techno: Tritium
-494 Techno: Paraffinium
-494 Techno: Platinum
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203102_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.002 (124, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [B]Life Support
-494 Techno: [C]Movement
-494 Techno: [C]Shield
-494 Techno: [A]Underwater Protection
-494 Techno: [A]Hot Protection
-494 Techno: [A]Cold Protection
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203103_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.002 (124, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [B]Cold Protection
-494 Techno: [S]Shield
-494 Techno: [B]Radiation Protection
-494 Techno: [A]Life Support
-494 Techno: [A]Radiation Protection
-494 Techno: [A]Movement
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203129_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.002 (124, 39)
-423 Techno: Technol: mn=0.012,MPy=5,MPx=6
-494 Techno: [C]Mining Beam
-494 Techno: [C]Scanner
-494 Techno: [C]Boltcaster
-494 Techno: [S]Plasma Launcher
-494 Techno: [S]Scanner
-494 Techno: [S]Geology Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203131_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.002 (124, 39)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [A]Geology Cannon
-494 Techno: [B]Pulse Spitter
-494 Techno: [A]Scatter Blaster
-494 Techno: [A]Neutron Cannon
-494 Techno: [S]Blaze Javelin
-494 Techno: [C]Pulse Spitter
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203133_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.002 (124, 39)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [C]Geology Cannon
-494 Techno: [S]Neutron Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203152_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.001 (124, 38)
-423 Techno: Technol: mn=0.006,MPy=5,MPx=6
-494 Techno: [C]Launch Thrusters
-494 Techno: [C]Pulse Engine
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203154_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.001 (124, 38)
-423 Techno: Technol: mn=0.006,MPy=5,MPx=6
-494 Techno: [C]Hyperdrive
-494 Techno: [C]Starship Shield
-494 Techno: [B]Starship Shield
-494 Techno: [B]Hyperdrive
-494 Techno: [A]Cyclotron
-494 Techno: [C]Phase Beam
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203156_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.001 (124, 38)
-423 Techno: Technol: mn=0.006,MPy=5,MPx=6
-494 Techno: [A]Phase Beam
-494 Techno: [A]Launch Thrusters
-494 Techno: [B]Positron
-494 Techno: [A]Positron
-494 Techno: [S]Launch Thrusters
-494 Techno: [B]Infra-Knife
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203216_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.017,MPy=5,MPx=6
-494 Techno: [C]Exocraft Cannon
-494 Techno: [C]Exocraft Engine
-494 Techno: [C]Exocraft Laser
-494 Techno: [C]Exocraft Boost
-494 Techno: [C]Humboldt Drive
-494 Techno: [C]Nautilon Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203217_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.018,MPy=5,MPx=6
-494 Techno: [B]Minotaur Engine
-494 Techno: [B]Minotaur Laser
-494 Techno: [B]Minotaur Cannon
-494 Techno: [B]Exocraft Cannon
-494 Techno: [S]Exocraft Boost
-494 Techno: [B]Exocraft Engine
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203314_1.jpg
-SysInfo: entering...
-291 SysInfo: mn=0.051 (9, 9) crop.shape=(135, 535)
-SysInfo: station= Wakingleb
-Celestial Bodies: 5 Planets
-Dominant Lifeform: Gek
-Economy: Advanced Materials // Balanced
-Conflict level: Low
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203343_1.jpg
-SysInfo: entering...
-Glyphs: entering... Wakingleb
-Glyphs: e:4 1014cc00c906
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203355_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.001,MPy=5,MPx=7
-494 Techno: Nanotube Crate
-494 Techno: Self-Repairing Heridium
-494 Techno: Optical Solvent
-494 Techno: Unstable Plasma
-494 Techno: Ferrite Dust
-494 Techno: Cobalt
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203356_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.001,MPy=5,MPx=7
-494 Techno: Di-hydrogen Jelly
-494 Techno: Metal Plating
-494 Techno: Microprocessor
-494 Techno: Wiring Loom
-494 Techno: Magnetised Ferrite
-494 Techno: Chlorine
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203359_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-383 Techno: avail1: mn=0.000 (122, 38)
-423 Techno: System : mn=0.001,MPy=5,MPx=7
 494 Techno: Phosphorus
-494 Techno: Rusted Metal
+494 Techno: Chromatic Metal
+494 Techno: Residual Goop
+494 Techno: Platinum
+494 Techno: Pure Ferrite
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203424_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114400_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.007,MPy=5,MPx=6
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.776 (16, 4)
+515 Resource: entering... Mazuna
+529 Resource: resrc2: 0.438 (128, 29)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114500_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+386 Techno: avail2: mn=0.807 (226, 47)
+515 Resource: entering... Mazuna
+529 Resource: resrc2: 0.620 (129, 20)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114600_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [B]Life Support
+494 Techno: [C]Movement
+494 Techno: [C]Shield
+494 Techno: [A]Radiation Protection
+494 Techno: [S]Movement
+494 Techno: [B]Underwater Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114700_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [A]Cold Protection
+494 Techno: [B]Radiation Protection
+494 Techno: [A]Underwater Protection
+494 Techno: [A]Shield
+494 Techno: [A]Hot Protection
+494 Techno: [B]Cold Protection
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114800_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [S]Life Support
+494 Techno: [S]Cold Protection
+494 Techno: [A]Life Support
+494 Techno: [A]Movement
+494 Techno: [S]Shield
+494 Techno: [B]Movement
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415114900_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.000 (146, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [C]Mining Beam
+494 Techno: [C]Scanner
+494 Techno: [C]Boltcaster
+494 Techno: [B]Scanner
+494 Techno: [S]Plasma Launcher
+494 Techno: [S]Blaze Javelin
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115000_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.000 (146, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [B]Blaze Javelin
+494 Techno: [B]Mining Beam
+494 Techno: [B]Geology Cannon
+494 Techno: [S]Pulse Spitter
+494 Techno: [A]Blaze Javelin
+494 Techno: [B]Scatter Blaster
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115100_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.000 (146, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [A]Plasma Launcher
+494 Techno: [C]Scatter Blaster
+494 Techno: [S]Geology Cannon
+494 Techno: [S]Boltcaster
+494 Techno: [S]Neutron Cannon
+494 Techno: [B]Pulse Spitter
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115200_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [C]Launch Thrusters
+494 Techno: [C]Pulse Engine
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115300_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [C]Hyperdrive
+494 Techno: [C]Starship Shield
+494 Techno: [S]Infra-Knife
+494 Techno: [A]Hyperdrive
+494 Techno: [B]Infra-Knife
+494 Techno: [S]Launch Thrusters
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115400_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.005,MPy=5,MPx=21
+494 Techno: [S]Starship Shield
+494 Techno: [B]Hyperdrive
+494 Techno: [B]Photon Cannon
+494 Techno: [A]Launch Thrusters
+494 Techno: [S]Phase Beam
+494 Techno: [A]Starship Shield
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115500_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.001 (145, 38)
+423 Techno: Technol: mn=0.006,MPy=5,MPx=21
+494 Techno: [B]Positron
+494 Techno: [C]Positron
+494 Techno: [S]Positron
+494 Techno: [C]Infra-Knife
+
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115600_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
 494 Techno: [C]Exocraft Cannon
 494 Techno: [C]Exocraft Engine
 494 Techno: [C]Exocraft Laser
@@ -408,753 +1709,1137 @@ Visited: entering... Wakingleb
 494 Techno: [C]Humboldt Drive
 494 Techno: [C]Nautilon Cannon
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203428_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\0\20240415115700_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.000 (123, 38)
-423 Techno: Technol: mn=0.007,MPy=5,MPx=6
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+383 Techno: avail1: mn=0.002 (145, 37)
+423 Techno: Technol: mn=0.014,MPy=5,MPx=21
 494 Techno: [B]Minotaur Engine
 494 Techno: [B]Minotaur Laser
 494 Techno: [B]Minotaur Cannon
-494 Techno: [A]Exocraft Cannon
-494 Techno: [A]Minotaur Cannon
+494 Techno: [B]Exocraft Laser
 494 Techno: [S]Humboldt Drive
+494 Techno: [B]Exocraft Cannon
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203451_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082100_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.002 (126, 38)
-423 Techno: Technol: mn=0.000,MPy=5,MPx=6
-494 Techno: [C]Launch Thrusters
-494 Techno: [C]Pulse Engine
+Visited: entering... Mazuna
+735 Visited: Set System: "Doriguc VII" -no card-
+80 Visited: exiting... (True, 'Doriguc VII', False)
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203453_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082200_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.002 (126, 38)
-423 Techno: Technol: mn=0.000,MPy=5,MPx=6
-494 Techno: [C]Hyperdrive
-494 Techno: [C]Starship Shield
-494 Techno: [A]Infra-Knife
-494 Techno: [S]Positron
-494 Techno: [A]Starship Shield
-494 Techno: [B]Pulse Engine
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203455_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.002 (126, 38)
-423 Techno: Technol: mn=0.000,MPy=5,MPx=6
-494 Techno: [A]Hyperdrive
-494 Techno: [A]Launch Thrusters
-494 Techno: [B]Photon Cannon
-494 Techno: [C]Infra-Knife
-494 Techno: [A]Phase Beam
-494 Techno: [S]Hyperdrive
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203458_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.002 (126, 38)
-423 Techno: Technol: mn=0.000,MPy=5,MPx=6
-494 Techno: [S]Starship Shield
-494 Techno: [C]Photon Cannon
-494 Techno: [A]Photon Cannon
-494 Techno: [C]Positron
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203521_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
-494 Techno: [C]Mining Beam
-494 Techno: [C]Scanner
-494 Techno: [C]Boltcaster
-494 Techno: [B]Blaze Javelin
-494 Techno: [A]Mining Beam
-494 Techno: [A]Geology Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203523_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
-494 Techno: [S]Boltcaster
-494 Techno: [A]Scanner
-494 Techno: [A]Plasma Launcher
-494 Techno: [B]Mining Beam
-494 Techno: [S]Scanner
-494 Techno: [B]Geology Cannon
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203524_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.004,MPy=5,MPx=6
-494 Techno: [A]Neutron Cannon
-494 Techno: [C]Scatter Blaster
-494 Techno: [C]Plasma Launcher
-494 Techno: [B]Scatter Blaster
-494 Techno: [S]Mining Beam
-494 Techno: [A]Boltcaster
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203540_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.009,MPy=5,MPx=6
-494 Techno: [B]Life Support
-494 Techno: [C]Movement
-494 Techno: [C]Shield
-494 Techno: [S]Shield
-494 Techno: [A]Shield
-494 Techno: [A]Toxic Protection
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203542_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [S]Life Support
-494 Techno: [S]Hot Protection
-494 Techno: [A]Underwater Protection
-494 Techno: [A]Radiation Protection
-494 Techno: [A]Movement
-494 Techno: [B]Toxic Protection
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240328203544_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=0.001 (123, 37)
-423 Techno: Technol: mn=0.010,MPy=5,MPx=6
-494 Techno: [B]Cold Protection
-494 Techno: [B]Hot Protection
-494 Techno: [A]Life Support
-494 Techno: [B]Shield
-494 Techno: [S]Movement
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329192914_1.jpg
-SysInfo: entering...
-291 SysInfo: mn=0.018 (9, 9) crop.shape=(135, 535)
-SysInfo: station= Odusha
-Celestial Bodies: 4 Planets
-Dominant Lifeform: Vy'keen
-Economy: Alchemical // Black Market
-Conflict level: Pirate Controlled
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329192924_1.jpg
-SysInfo: entering...
-Glyphs: entering... Odusha
-Glyphs: e:0 10b8fc003906
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329192938_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-383 Techno: avail1: mn=0.001 (123, 38)
-423 Techno: Contrab: mn=0.000,MPy=5,MPx=8
-494 Techno: Banned Weapons
-494 Techno: Stolen DNA Samples
-494 Techno: First Spawn Relics
-494 Techno: Packet (Goods)
-494 Techno: Tritium
-494 Techno: Di-hydrogen
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329192940_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-383 Techno: avail1: mn=0.001 (123, 38)
-423 Techno: Contrab: mn=0.000,MPy=5,MPx=8
-494 Techno: Larval Core
-494 Techno: Hypnotic Eye
-494 Techno: Packet (Arms)
-494 Techno: Packet (Tech)
-494 Techno: Starshield Battery
-494 Techno: Runaway Mould
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329192942_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-383 Techno: avail1: mn=0.001 (123, 38)
-423 Techno: Contrab: mn=0.000,MPy=5,MPx=8
-494 Techno: Mordite
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329193002_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-383 Techno: avail1: mn=0.001 (124, 38)
-423 Techno: Salvage: mn=0.000,MPy=5,MPx=7
-494 Techno: [X]Neutron Cannon
-494 Techno: [X]Pulse Engine
-494 Techno: [X]Hyperdrive
-494 Techno: [X]Plasma Launcher
-494 Techno: [X]Scanner
-494 Techno: [X]Cyclotron
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\0\20240329193007_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-383 Techno: avail1: mn=0.001 (124, 38)
-423 Techno: Salvage: mn=0.000,MPy=5,MPx=7
-494 Techno: [X]Life Support
-494 Techno: [X]Launch Thrusters
-494 Techno: [X]Hazard Protection
-494 Techno: [X]Phase Beam
-462 fix: Suspicious Starship Shield Modt, Suspicious Starship Shield
-494 Techno: [X]Starship Shield
-494 Techno: [X]Mining Beam
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120916_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-735 Visited: Set System: "Poor" -no card-
-80 Visited: exiting... (True, 'Poor', False)
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120922_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
 386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Poor
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Poor, i=1, p= "Telochda"
-581 Resource: profile= Weather: Airless
-581 Resource: profile= Sentinels: Hostile Patrols
-581 Resource: profile= Flora: Devoid
+515 Resource: entering... Doriguc VII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Doriguc VII, i=1, p= "Tonda 93/P4"
+581 Resource: profile= Weather: Infrequent Blizzards
+581 Resource: profile= Sentinels: Low
+581 Resource: profile= Flora: Ample
+581 Resource: profile= Fauna: Rich
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.520 resource= Silver 
+611 Resource: 0.468 resource= Dioxite 
+611 Resource: 0.452 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082300_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Doriguc VII, i=2, p= "Hats 43/L7"
+581 Resource: profile= Weather: Perfectly Clear
+581 Resource: profile= Sentinels: Observant
+581 Resource: profile= Flora: Lacking
 581 Resource: profile= Fauna: Undetected
-611 Resource: 0.540 resource= Silver 
-611 Resource: 0.504 resource= Rusted Metal 
-611 Resource: 0.468 resource= Copper 
+611 Resource: 0.417 resource= Sodium 
+611 Resource: 0.532 resource= Rusted Metal 
+611 Resource: 0.475 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120929_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082400_1.jpg
 SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
 386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Poor
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Poor, i=2, p= "New Pipiaer"
-581 Resource: profile= Weather: Pillars of Flame
-581 Resource: profile= Sentinels: Ever-present
-581 Resource: profile= Flora: Sporadic
-581 Resource: profile= Fauna: Abundant
-611 Resource: 0.412 resource= Sodium 
-611 Resource: 0.255 resource= Basalt 
-611 Resource: 0.468 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120935_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Poor
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Poor, i=3, p= "Oyook 52/G8"
-581 Resource: profile= Weather: Unclouded Skies
-581 Resource: profile= Sentinels: Remote
-581 Resource: profile= Flora: High
-581 Resource: profile= Fauna: Abundant
-611 Resource: 0.355 resource= Cactus Flesh 
-611 Resource: 0.224 resource= Cobalt 
-611 Resource: 0.552 resource= Pyrite 
-611 Resource: 0.450 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120942_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Poor
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Poor, i=4, p= "Ikoka 45/G1"
-581 Resource: profile= Weather: Sunny
-581 Resource: profile= Sentinels: Isolated
-581 Resource: profile= Flora: Frequent
-581 Resource: profile= Fauna: Occasional
-611 Resource: 0.474 resource= Ancient Bones 
-611 Resource: 0.287 resource= Solanium 
-611 Resource: 0.489 resource= Silver 
-611 Resource: 0.420 resource= Phosphorus 
-611 Resource: 0.424 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329120956_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-375 Techno: entering... Poor
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Poor
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Poor, i=5, p= "Ryloss"
-581 Resource: profile= Weather: Reactive Rain
-581 Resource: profile= Sentinels: Limited
-581 Resource: profile= Flora: Numerous
-581 Resource: profile= Fauna: Copious
-611 Resource: 0.322 resource= Gamma Root 
-611 Resource: 0.511 resource= Silver 
-611 Resource: 0.411 resource= Uranium 
-611 Resource: 0.450 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329121000_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-clear=0.001 (323, 32)
-750 card title= "Telochda"
-781 Visited: Set Biome: "Life-Incompatible Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329121001_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-clear=0.001 (323, 32)
-750 card title= "New Pipiaer"
-781 Visited: Set Biome: "Ash-Shrouded Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329121002_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-clear=0.001 (323, 32)
-748 fix: Oyook 52/68, Oyook 52/G8
-750 card title= "Oyook 52/G8"
-781 Visited: Set Biome: "Rocky Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329121003_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-clear=0.001 (323, 32)
-748 fix: ikoka 45/G1, Ikoka 45/G1
-750 card title= "Ikoka 45/G1"
-781 Visited: Set Biome: "Boiling Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329121005_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-clear=0.542 (13, 10)
-750 card title= "Ryloss"
-781 Visited: Set Biome: "Decaying Nuclear Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151100_1.jpg
-SysInfo: entering...
-Visited: entering... Poor
-735 Visited: Set System: "Base" -no card-
-80 Visited: exiting... (True, 'Base', False)
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151108_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Base
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Base, i=1, p= "Edalmin R38"
-581 Resource: profile= Weather: Tectonic Storms
-581 Resource: profile= Sentinels: Frequent
-581 Resource: profile= Flora: Sparse
-581 Resource: profile= Fauna: Ample
-611 Resource: 0.412 resource= Sodium 
-611 Resource: 0.584 resource= Pyrite 
-611 Resource: 0.468 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151113_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Base
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Base, i=2, p= "Rahamp Major"
-581 Resource: profile= Weather: Absent
-581 Resource: profile= Sentinels: Limited
-581 Resource: profile= Flora: Barren
-581 Resource: profile= Fauna: Deficient
-611 Resource: 0.474 resource= Magnetised Ferrite 
-611 Resource: 0.504 resource= Rusted Metal 
-611 Resource: 0.468 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151118_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Base
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Base, i=3, p= "Woodbar"
-581 Resource: profile= Weather: Echoes of Acid
-581 Resource: profile= Sentinels: Inescapable
-581 Resource: profile= Flora: High
-581 Resource: profile= Fauna: Full
-611 Resource: 0.474 resource= Ancient Bones 
-611 Resource: 0.329 resource= Star Bulb 
-611 Resource: 0.489 resource= Silver 
-611 Resource: 0.378 resource= Paraffinium 
-611 Resource: 0.425 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151124_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Base
-529 Resource: resrc1: 0.004 (13, 14)
-562 Resource: s=Base, i=4, p= "Ruga 91/Z8"
-581 Resource: profile= Weather: Sunny
-581 Resource: profile= Sentinels: Infrequent
-581 Resource: profile= Flora: Copious
-581 Resource: profile= Fauna: Medium
-611 Resource: 0.304 resource= Solanium 
-611 Resource: 0.225 resource= Cobalt 
-611 Resource: 0.440 resource= Phosphorus 
-611 Resource: 0.449 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151129_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-375 Techno: entering... Base
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Base
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Base, i=5, p= "Kenberg"
-581 Resource: profile= Weather: Pleasant
-581 Resource: profile= Sentinels: Few
-581 Resource: profile= Flora: High
-581 Resource: profile= Fauna: High
-611 Resource: 0.340 resource= Star Bulb 
-611 Resource: 0.392 resource= Sodium 
-611 Resource: 0.393 resource= Paraffinium 
-611 Resource: 0.450 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151134_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-clear=0.001 (323, 32)
-748 fix: Edatmin R38, Edalmin R38
-750 card title= "Edalmin R38"
-781 Visited: Set Biome: "Violent Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151135_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-clear=0.001 (323, 32)
-750 card title= "Rahamp Major"
-781 Visited: Set Biome: "Dead Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151137_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-clear=0.476 (63, 5)
-750 card title= "Woodbar"
-781 Visited: Set Biome: "Bountiful Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151138_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-clear=0.446 (33, 10)
-748 fix: Ruga 91/28, Ruga 91/Z8
-750 card title= "Ruga 91/Z8"
-781 Visited: Set Biome: "Scalding Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151139_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-clear=0.476 (8, 6)
-750 card title= "Kenberg"
-781 Visited: Set Biome: "Paradise Planet"
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151212_1.jpg
-SysInfo: entering...
-Visited: entering... Base
-735 Visited: Set System: "Wakingleb" -no card-
-80 Visited: exiting... (True, 'Wakingleb', False)
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151220_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Wakingleb
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Wakingleb, i=1, p= "Ropuscu Ebaya"
-581 Resource: profile= Weather: Dehydrated
-581 Resource: profile= Sentinels: Irregular Patrols
-581 Resource: profile= Flora: Copious
-581 Resource: profile= Fauna: Fair
-611 Resource: 0.303 resource= Solanium 
-611 Resource: 0.224 resource= Cobalt 
-611 Resource: 0.439 resource= Phosphorus 
-611 Resource: 0.450 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151225_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Wakingleb
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Wakingleb, i=2, p= "Oupol III"
-581 Resource: profile= Weather: Roaring Ice Storms
-581 Resource: profile= Sentinels: Ever-present
-581 Resource: profile= Flora: Generous
-581 Resource: profile= Fauna: Infrequent
-611 Resource: 0.533 resource= Frost Crystal 
-611 Resource: 0.512 resource= Silver 
-611 Resource: 0.460 resource= Dioxite 
-611 Resource: 0.434 resource= Activated Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151231_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Wakingleb
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Wakingleb, i=3, p= "Wosanar Alpha"
-581 Resource: profile= Weather: Superheated Rain
-581 Resource: profile= Sentinels: Require Orthodoxy
+515 Resource: entering... Doriguc VII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Doriguc VII, i=3, p= "Nash 33/W4"
+581 Resource: profile= Weather: Crisp
+581 Resource: profile= Sentinels: Threatening
 581 Resource: profile= Flora: Rich
-581 Resource: profile= Fauna: Abundant
-611 Resource: 0.340 resource= Star Bulb 
-611 Resource: 0.446 resource= Magnetised Ferrite 
-611 Resource: 0.393 resource= Paraffinium 
-611 Resource: 0.435 resource= Activated Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151237_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Wakingleb
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Wakingleb, i=4, p= "Vistiraqu Hanai"
-581 Resource: profile= Weather: Dangerously Hot
-581 Resource: profile= Sentinels: Enforcing
-581 Resource: profile= Flora: Abundant
-581 Resource: profile= Fauna: Abundant
-611 Resource: 0.303 resource= Solanium 
-611 Resource: 0.512 resource= Silver 
-611 Resource: 0.439 resource= Phosphorus 
-611 Resource: 0.451 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151242_1.jpg
-SysInfo: entering...
-Visited: entering... Wakingleb
-375 Techno: entering... Wakingleb
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Wakingleb
-529 Resource: resrc1: 0.004 (12, 14)
-562 Resource: s=Wakingleb, i=5, p= "Imiz 98/A8"
-581 Resource: profile= Weather: Painfully Hot Rain
-581 Resource: profile= Sentinels: Sharded from the Atlas
-581 Resource: profile= Flora: Abundant
 581 Resource: profile= Fauna: Bountiful
-611 Resource: 0.340 resource= Star Bulb 
-611 Resource: 0.224 resource= Cobalt 
-611 Resource: 0.394 resource= Paraffinium 
-611 Resource: 0.450 resource= Copper 
+611 Resource: 0.123 resource= Salvageable Scrap 
+611 Resource: 0.521 resource= Frost Crystal 
+611 Resource: 0.381 resource= Sodium 
+611 Resource: 0.443 resource= Dioxite 
+611 Resource: 0.430 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151245_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082500_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-clear=0.001 (323, 32)
-750 card title= "Ropuscu Ebaya"
-781 Visited: Set Biome: "Scalding Planet"
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Doriguc VII, i=4, p= "Rowbrig Delta"
+581 Resource: profile= Weather: Direct Sunlight
+581 Resource: profile= Sentinels: Frequent
+581 Resource: profile= Flora: Full
+581 Resource: profile= Fauna: Common
+611 Resource: 0.487 resource= Ancient Bones 
+611 Resource: 0.291 resource= Solanium 
+611 Resource: 0.003 resource= Salt 
+611 Resource: 0.422 resource= Phosphorus 
+611 Resource: 0.430 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151247_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082600_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-clear=0.001 (323, 32)
-748 fix: Oupol ill, Oupol III
-750 card title= "Oupol III"
-781 Visited: Set Biome: "Freezing Planet"
+Visited: entering... Doriguc VII
+375 Techno: entering... Doriguc VII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Doriguc VII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Doriguc VII, i=5, p= "Nafut Gamma"
+581 Resource: profile= Weather: Dangerously Hot Fog
+581 Resource: profile= Sentinels: Ever-present
+581 Resource: profile= Flora: Abundant
+581 Resource: profile= Fauna: Ample
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.520 resource= Silver 
+611 Resource: 0.399 resource= Paraffinium 
+611 Resource: 0.452 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151248_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082700_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-clear=0.001 (323, 32)
-750 card title= "Wosanar Alpha"
-781 Visited: Set Biome: "Grassy Planet"
+Visited: entering... Doriguc VII
+clear=0.001 (292, 32)
+750 card title= "Tonda 93/P4"
+781 Visited: Set Biome: "Frostbound Planet"
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151250_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082800_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-clear=0.001 (323, 32)
-750 card title= "Vistiraqu Hanai"
+Visited: entering... Doriguc VII
+clear=0.001 (292, 32)
+750 card title= "Hats 43/L7"
+781 Visited: Set Biome: "Low Atmosphere Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415082900_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+clear=0.001 (292, 32)
+750 card title= "Nash 33/W4"
+781 Visited: Set Biome: "Sub-zero Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415083000_1.jpg
+SysInfo: entering...
+Visited: entering... Doriguc VII
+clear=0.001 (292, 32)
+750 card title= "Rowbrig Delta"
 781 Visited: Set Biome: "Torrid Planet"
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329151251_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415083100_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-clear=0.001 (323, 32)
-750 card title= "Imiz 98/A8"
-781 Visited: Set Biome: "Grassy Planet"
+Visited: entering... Doriguc VII
+clear=0.001 (292, 32)
+750 card title= "Nafut Gamma"
+781 Visited: Set Biome: "Overgrown Planet"
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193153_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084000_1.jpg
 SysInfo: entering...
-Visited: entering... Wakingleb
-735 Visited: Set System: "Odusha" -no card-
-80 Visited: exiting... (True, 'Odusha', False)
+Visited: entering... Doriguc VII
+735 Visited: Set System: "Bandab" -no card-
+80 Visited: exiting... (True, 'Bandab', False)
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193158_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084100_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
+Visited: entering... Bandab
+375 Techno: entering... Bandab
 386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Odusha
-529 Resource: resrc1: 0.007 (12, 14)
-562 Resource: s=Odusha, i=1, p= "Ouport Omega"
-581 Resource: profile= Weather: Reactive Rain
-581 Resource: profile= Sentinels: Hateful
-581 Resource: profile= Flora: Moderate
-581 Resource: profile= Fauna: Rich
-611 Resource: 0.323 resource= Gamma Root 
-611 Resource: 0.000 resource= Salt 
-611 Resource: 0.405 resource= Uranium 
-611 Resource: 0.442 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193202_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Odusha
-529 Resource: resrc1: 0.007 (12, 14)
-562 Resource: s=Odusha, i=2, p= "Uchim 14/F9"
-581 Resource: profile= Weather: Occasional Scalding Cloudburst
-581 Resource: profile= Sentinels: Intermittent
-581 Resource: profile= Flora: Ample
-581 Resource: profile= Fauna: Frequent
-611 Resource: 0.340 resource= Star Bulb 
-611 Resource: 0.512 resource= Silver 
-611 Resource: 0.390 resource= Paraffinium 
-611 Resource: 0.441 resource= Copper 
-
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193206_1.jpg
-SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
-386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Odusha
-529 Resource: resrc1: 0.007 (12, 14)
-562 Resource: s=Odusha, i=3, p= "Aioik 85/A9"
-581 Resource: profile= Weather: Parched Sands
-581 Resource: profile= Sentinels: Remote
-581 Resource: profile= Flora: Sporadic
+515 Resource: entering... Bandab
+529 Resource: resrc1: 0.005 (12, 14)
+562 Resource: s=Bandab, i=1, p= "Wenhall Yana"
+581 Resource: profile= Weather: Irradiated Storms
+581 Resource: profile= Sentinels: Require Orthodoxy
+581 Resource: profile= Flora: Full
 581 Resource: profile= Fauna: Generous
-611 Resource: 0.354 resource= Cactus Flesh 
-611 Resource: 0.454 resource= Magnetised Ferrite 
-611 Resource: 0.544 resource= Pyrite 
-611 Resource: 0.440 resource= Copper 
+611 Resource: 0.309 resource= Solanium 
+611 Resource: 0.000 resource= Salt 
+611 Resource: 0.438 resource= Phosphorus 
+611 Resource: 0.451 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193212_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084200_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-375 Techno: entering... Odusha
+Visited: entering... Bandab
+375 Techno: entering... Bandab
 386 Techno: avail2: mn=1.000 (0, 0)
-515 Resource: entering... Odusha
-529 Resource: resrc1: 0.007 (12, 14)
-562 Resource: s=Odusha, i=4, p= "Dosi U31"
-581 Resource: profile= Weather: Choking Humidity
-581 Resource: profile= Sentinels: Isolated
+515 Resource: entering... Bandab
+529 Resource: resrc1: 0.005 (12, 14)
+562 Resource: s=Bandab, i=2, p= "Utsfo Prime"
+581 Resource: profile= Weather: Highly Variable Temperatures
+581 Resource: profile= Sentinels: Irregular Patrols
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Generous
+611 Resource: 0.362 resource= Cactus Flesh 
+611 Resource: 0.512 resource= Silver 
+611 Resource: 0.557 resource= Pyrite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084300_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+375 Techno: entering... Bandab
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Bandab
+529 Resource: resrc1: 0.005 (12, 14)
+562 Resource: s=Bandab, i=3, p= "Uppi"
+581 Resource: profile= Weather: Refreshing Breeze
+581 Resource: profile= Sentinels: Minimal
 581 Resource: profile= Flora: Rich
+581 Resource: profile= Fauna: Rich
+611 Resource: 0.344 resource= Star Bulb 
+611 Resource: 0.454 resource= Magnetised Ferrite 
+611 Resource: 0.394 resource= Paraffinium 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084400_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+clear=0.001 (363, 32)
+750 card title= "Wenhall Yana"
+781 Visited: Set Biome: "Decaying Nuclear Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084500_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+clear=0.001 (303, 32)
+750 card title= "Utsfo Prime"
+781 Visited: Set Biome: "Rocky Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415084600_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+clear=0.001 (303, 32)
+750 card title= "Uppi"
+781 Visited: Set Biome: "Paradise Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090400_1.jpg
+SysInfo: entering...
+Visited: entering... Bandab
+735 Visited: Set System: "Toyabe IX" -no card-
+80 Visited: exiting... (True, 'Toyabe IX', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090500_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Toyabe IX
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Toyabe IX, i=1, p= "Nesboniti Gamma"
+581 Resource: profile= Weather: Painful Mist
+581 Resource: profile= Sentinels: Infrequent
+581 Resource: profile= Flora: Abundant
+581 Resource: profile= Fauna: High
+611 Resource: 0.482 resource= Magnetised Ferrite 
+611 Resource: 0.517 resource= Mordite 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090600_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Toyabe IX
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Toyabe IX, i=2, p= "New Eqonglai"
+581 Resource: profile= Weather: Ice Storms
+581 Resource: profile= Sentinels: Malicious
+581 Resource: profile= Flora: Bountiful
 581 Resource: profile= Fauna: Abundant
-611 Resource: 0.340 resource= Star Bulb 
-611 Resource: 0.393 resource= Sodium 
-611 Resource: 0.390 resource= Paraffinium 
-611 Resource: 0.440 resource= Copper 
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.226 resource= Cobalt 
+611 Resource: 0.468 resource= Dioxite 
+611 Resource: 0.452 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193215_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090700_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-clear=0.000 (323, 32)
-750 card title= "Ouport Omega"
-781 Visited: Set Biome: "Radioactive Planet"
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Toyabe IX
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Toyabe IX, i=3, p= "Hunslowe"
+581 Resource: profile= Weather: Usually Mild
+581 Resource: profile= Sentinels: Enforcing
+581 Resource: profile= Flora: Copious
+581 Resource: profile= Fauna: Uncemmen
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.000 resource= Salt 
+611 Resource: 0.399 resource= Paraffinium 
+611 Resource: 0.452 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193216_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090800_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-clear=0.001 (323, 32)
-750 card title= "Uchim 14/F9"
-781 Visited: Set Biome: "Grassy Planet"
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Toyabe IX
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Toyabe IX, i=4, p= "Karid 92/M8"
+581 Resource: profile= Weather: Clear
+581 Resource: profile= Sentinels: Ever-present
+581 Resource: profile= Flora: Nonexistent
+581 Resource: profile= Fauna: Undetected
+611 Resource: 0.417 resource= Sodium 
+611 Resource: 0.532 resource= Rusted Metal 
+611 Resource: 0.475 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193217_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415090900_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-clear=0.001 (323, 32)
-750 card title= "Aioik 85/A9"
-781 Visited: Set Biome: "Parched Planet"
+Visited: entering... Toyabe IX
+375 Techno: entering... Toyabe IX
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Toyabe IX
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Toyabe IX, i=5, p= "Imsby Tau"
+581 Resource: profile= Weather: Frost
+581 Resource: profile= Sentinels: Isolated
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Numerous
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.468 resource= Dioxite 
+611 Resource: 0.452 resource= Copper 
 
-\Downloads\No Man's Sky\normal\normal8 orbital\py\1\20240329193218_1.jpg
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415091000_1.jpg
 SysInfo: entering...
-Visited: entering... Odusha
-clear=0.001 (323, 32)
-750 card title= "Dosi U31"
-781 Visited: Set Biome: "Flourishing Planet"
+Visited: entering... Toyabe IX
+clear=0.001 (292, 32)
+750 card title= "Nesboniti Gamma"
+781 Visited: Set Biome: "Murky Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415091100_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+clear=0.001 (292, 32)
+750 card title= "New Egonglai"
+787 Biome: error: db[Toyabe IX][New Egonglai]
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415091200_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+clear=0.001 (292, 32)
+750 card title= "Hunslowe"
+781 Visited: Set Biome: "Viridescent Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415091300_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+clear=0.001 (292, 32)
+750 card title= "Karid 92/M8"
+781 Visited: Set Biome: "Airless Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415091400_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+clear=0.001 (292, 32)
+750 card title= "Imsby Tau"
+781 Visited: Set Biome: "Frostbound Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093400_1.jpg
+SysInfo: entering...
+Visited: entering... Toyabe IX
+735 Visited: Set System: "Jiyose-Aishe XIV" -no card-
+80 Visited: exiting... (True, 'Jiyose-Aishe XIV', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093500_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=1, p= "Erfield"
+581 Resource: profile= Weather: Sulphurous Haze
+581 Resource: profile= Sentinels: Intermittent
+581 Resource: profile= Flora: Uncommon
+581 Resource: profile= Fauna: Rich
+611 Resource: 0.548 resource= Silver 
+611 Resource: 0.595 resource= Pyrite 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093600_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=2, p= "Xetebor VII"
+581 Resource: profile= Weather: Sweltering
+581 Resource: profile= Sentinels: Low Security
+581 Resource: profile= Flora: Generous
+581 Resource: profile= Fauna: Rich
+611 Resource: 0.309 resource= Solanium 
+611 Resource: 0.226 resource= Cobalt 
+611 Resource: 0.445 resource= Phosphorus 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093700_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=3, p= "Fleens"
+581 Resource: profile= Weather: Permafrost
+581 Resource: profile= Sentinels: Minimal
+581 Resource: profile= Flora: Uncommon
+581 Resource: profile= Fauna: Average
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.461 resource= Magnetised Ferrite 
+611 Resource: 0.469 resource= Dioxite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093800_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=4, p= "Pilseyci Minor"
+581 Resource: profile= Weather: Alkaline Cloudbursts
+581 Resource: profile= Sentinels: Frenzied
+581 Resource: profile= Flora: Abundant
+581 Resource: profile= Fauna: Full
+611 Resource: 0.464 resource= Fungal Mould 
+611 Resource: 0.462 resource= Magnetised Ferrite 
+611 Resource: 0.442 resource= Ammonia 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415093900_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=5, p= "Gartfol X"
+581 Resource: profile= Weather: Parched Sands
+581 Resource: profile= Sentinels: Minimal
+581 Resource: profile= Flora: Frequent
+581 Resource: profile= Fauna: Generous
+611 Resource: 0.362 resource= Cactus Flesh 
+611 Resource: 0.000 resource= Salt 
+611 Resource: 0.564 resource= Pyrite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094000_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+375 Techno: entering... Jiyose-Aishe XIV
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Jiyose-Aishe XIV
+529 Resource: resrc1: 0.007 (13, 14)
+562 Resource: s=Jiyose-Aishe XIV, i=6, p= "Spinarr Kesen"
+581 Resource: profile= Weather: Humid
+581 Resource: profile= Sentinels: Few
+581 Resource: profile= Flora: High
+581 Resource: profile= Fauna: Copious
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.521 resource= Silver 
+611 Resource: 0.401 resource= Paraffinium 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094100_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+750 card title= "Erfield"
+781 Visited: Set Biome: "Imminent Core Detonation"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094200_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+748 fix: Xetebor Vil, Xetebor VII
+750 card title= "Xetebor VII"
+781 Visited: Set Biome: "Scorched Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094300_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+750 card title= "Fleens"
+781 Visited: Set Biome: "Frostbound Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094400_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+750 card title= "Pilseyci Minor"
+781 Visited: Set Biome: "Corrosive Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094500_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+750 card title= "Gartfol X"
+781 Visited: Set Biome: "Desolate Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415094600_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+clear=0.001 (292, 32)
+750 card title= "Spinarr Kesen"
+781 Visited: Set Biome: "Paradise Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100300_1.jpg
+SysInfo: entering...
+Visited: entering... Jiyose-Aishe XIV
+735 Visited: Set System: "Okubun-Chadr" -no card-
+80 Visited: exiting... (True, 'Okubun-Chadr', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100400_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Okubun-Chadr, i=1, p= "Auletter lurak"
+581 Resource: profile= Weather: Atmospheric Corruption
+581 Resource: profile= Sentinels: Ever-present
+581 Resource: profile= Flora: Generous
+581 Resource: profile= Fauna: Generous
+611 Resource: 0.239 resource= Cobalt 
+611 Resource: 0.436 resource= Faecium 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100500_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Okubun-Chadr, i=2, p= "Buenot"
+581 Resource: profile= Weather: Infrequent Heat Storms
+581 Resource: profile= Sentinels: Frequent
+581 Resource: profile= Flora: Twisted
+581 Resource: profile= Fauna: Generous
+611 Resource: 0.309 resource= Solanium 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.445 resource= Phosphorus 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100600_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (13, 14)
+562 Resource: s=Okubun-Chadr, i=3, p= "Glineti XV"
+581 Resource: profile= Weather: Clear
+581 Resource: profile= Sentinels: Enforcing
+581 Resource: profile= Flora: Barren
+581 Resource: profile= Fauna: Absent
+611 Resource: 0.417 resource= Sodium 
+611 Resource: 0.532 resource= Rusted Metal 
+611 Resource: 0.474 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100700_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Okubun-Chadr, i=4, p= "Aratae XIV"
+581 Resource: profile= Weather: Caustic Winds
+581 Resource: profile= Sentinels: Limited
+581 Resource: profile= Flora: Diseased
+581 Resource: profile= Fauna: High
+611 Resource: 0.464 resource= Fungal Mould 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.442 resource= Ammonia 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100800_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (13, 14)
+562 Resource: s=Okubun-Chadr, i=5, p= "Yankar Gash"
+581 Resource: profile= Weather: Heated Atmosphere
+581 Resource: profile= Sentinels: Enforcing
+581 Resource: profile= Flora: Abundant
+581 Resource: profile= Fauna: Medium
+611 Resource: 0.308 resource= Solanium 
+611 Resource: 0.463 resource= Magnetised Ferrite 
+611 Resource: 0.446 resource= Phosphorus 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415100900_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+375 Techno: entering... Okubun-Chadr
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Okubun-Chadr
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Okubun-Chadr, i=6, p= "Haku 57/Q1"
+581 Resource: profile= Weather: Boiling Puddles
+581 Resource: profile= Sentinels: Require Obedience
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Abundant
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.399 resource= Paraffinium 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101000_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Auletter lurak"
+781 Visited: Set Biome: "Damp Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101100_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Buenot"
+781 Visited: Set Biome: "Infested Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101200_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Glineti XV"
+781 Visited: Set Biome: "Desolate Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101300_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Aratae XIV"
+781 Visited: Set Biome: "Toxic Horror"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101400_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Yankar Gash"
+781 Visited: Set Biome: "Incandescent Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415101500_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+clear=0.001 (292, 32)
+750 card title= "Haku 57/Q1"
+781 Visited: Set Biome: "Overgrown Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103400_1.jpg
+SysInfo: entering...
+Visited: entering... Okubun-Chadr
+735 Visited: Set System: "Dovour-Jaus" -no card-
+80 Visited: exiting... (True, 'Dovour-Jaus', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103500_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=1, p= "Dwindy B34"
+581 Resource: profile= Weather: Torrid Deluges
+581 Resource: profile= Sentinels: Infrequent
+581 Resource: profile= Flora: Frequent
+581 Resource: profile= Fauna: High
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.399 resource= Paraffinium 
+611 Resource: 0.440 resource= Activated Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103600_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=2, p= "Cogge V"
+581 Resource: profile= Weather: Dry Gusts
+581 Resource: profile= Sentinels: Observant
+581 Resource: profile= Flora: Few
+581 Resource: profile= Fauna: Full
+611 Resource: 0.362 resource= Cactus Flesh 
+611 Resource: 0.520 resource= Silver 
+611 Resource: 0.564 resource= Pyrite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103700_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=3, p= "Wokin VII"
+581 Resource: profile= Weather: Ice Storms
+581 Resource: profile= Sentinels: Attentive
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Infrequent
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.462 resource= Magnetised Ferrite 
+611 Resource: 0.468 resource= Dioxite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103800_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=4, p= "Gamisoni"
+581 Resource: profile= Weather: Permafrost
+581 Resource: profile= Sentinels: Limited
+581 Resource: profile= Flora: Frequent
+581 Resource: profile= Fauna: Ordinary
+611 Resource: 0.555 resource= Frost Crystal 
+611 Resource: 0.000 resource= Salt 
+611 Resource: 0.469 resource= Dioxite 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415103900_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=5, p= "Mefont"
+581 Resource: profile= Weather: Superheated Gas Pockets
+581 Resource: profile= Sentinels: Spread Thin
+581 Resource: profile= Flora: Rich
+581 Resource: profile= Fauna: Ample
+611 Resource: 0.309 resource= Solanium 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.445 resource= Phosphorus 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104000_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+375 Techno: entering... Dovour-Jaus
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Dovour-Jaus
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Dovour-Jaus, i=6, p= "New Wadhabie"
+581 Resource: profile= Weather: Echoes of Acid
+581 Resource: profile= Sentinels: Sparse
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Limited
+611 Resource: 0.348 resource= Star Bulb 
+611 Resource: 0.397 resource= Sodium 
+611 Resource: 0.399 resource= Paraffinium 
+611 Resource: 0.451 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104100_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "Dwindy B34"
+781 Visited: Set Biome: "Temperate Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104200_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "Cogge V"
+781 Visited: Set Biome: "Barren Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104300_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "Wokin Vi"
+787 Biome: error: db[Dovour-Jaus][Wokin Vi]
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104400_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "Gamisoni"
+781 Visited: Set Biome: "Icy Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104500_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "Mefont"
+781 Visited: Set Biome: "High Temperature Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415104600_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+clear=0.001 (292, 32)
+750 card title= "New Wadhabie"
+781 Visited: Set Biome: "Paradise Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110300_1.jpg
+SysInfo: entering...
+Visited: entering... Dovour-Jaus
+717 fix: Yusvadbeat XIl, Yusvadbeat XII
+735 Visited: Set System: "Yusvadbeat XII" -no card-
+80 Visited: exiting... (True, 'Yusvadbeat XII', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110400_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Yusvadbeat XII, i=1, p= "Gabradet Ikom"
+581 Resource: profile= Weather: Peaceful
+581 Resource: profile= Sentinels: Ever-present
+581 Resource: profile= Flora: Deficient
+581 Resource: profile= Fauna: Absent
+611 Resource: 0.484 resource= Magnetised Ferrite 
+611 Resource: 0.532 resource= Rusted Metal 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110500_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Yusvadbeat XII, i=2, p= "Xaphl"
+581 Resource: profile= Weather: No Atmosphere
+581 Resource: profile= Sentinels: Require Orthodoxy
+581 Resource: profile= Flora: Devoid
+581 Resource: profile= Fauna: Nonexistent
+611 Resource: 0.418 resource= Sodium 
+611 Resource: 0.532 resource= Rusted Metal 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110600_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc1: 0.007 (13, 14)
+562 Resource: s=Yusvadbeat XII, i=3, p= "Upacton Sigma"
+581 Resource: profile= Weather: Invisible Mist
+581 Resource: profile= Sentinels: Low
+581 Resource: profile= Flora: Lost
+581 Resource: profile= Fauna: Misplaced
+611 Resource: 0.417 resource= Sodium 
+611 Resource: 0.428 resource= Gold 
+611 Resource: 0.474 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110700_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+375 Techno: entering... Yusvadbeat XII
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Yusvadbeat XII
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Yusvadbeat XII, i=4, p= "Pazuzumo"
+581 Resource: profile= Weather: Sultry Disaster
+581 Resource: profile= Sentinels: Zealous
+581 Resource: profile= Flora: Full
+581 Resource: profile= Fauna: Bountiful
+611 Resource: 0.239 resource= Cobalt 
+611 Resource: 0.517 resource= Mordite 
+611 Resource: 0.475 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110800_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+clear=0.001 (221, 32)
+750 card title= "Gabradet kom"
+787 Biome: error: db[Yusvadbeat XII][Gabradet kom]
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415110900_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+clear=0.001 (221, 32)
+750 card title= "Xapht"
+787 Biome: error: db[Yusvadbeat XII][Xapht]
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415111000_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+clear=0.001 (221, 32)
+750 card title= "Upacton Sigma"
+781 Visited: Set Biome: "Fragmented Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415111100_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+clear=0.001 (232, 32)
+750 card title= "Pazuzumo"
+781 Visited: Set Biome: "Vapour Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113200_1.jpg
+SysInfo: entering...
+Visited: entering... Yusvadbeat XII
+735 Visited: Set System: "Amling" -no card-
+80 Visited: exiting... (True, 'Amling', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113300_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Amling
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Amling, i=1, p= "Mooka 57/F5"
+581 Resource: profile= Weather: Radioactive Damp
+581 Resource: profile= Sentinels: Frequent
+581 Resource: profile= Flora: Ordinary
+581 Resource: profile= Fauna: Abundant
+611 Resource: 0.327 resource= Gamma Root 
+611 Resource: 0.395 resource= Sodium 
+611 Resource: 0.417 resource= Uranium 
+611 Resource: 0.453 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113400_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Amling
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Amling, i=2, p= "Heywoole Soka"
+581 Resource: profile= Weather: Sand Blizzards
+581 Resource: profile= Sentinels: Enforcing
+581 Resource: profile= Flora: Numerous
+581 Resource: profile= Fauna: Abundant
+611 Resource: 0.361 resource= Cactus Flesh 
+611 Resource: 0.458 resource= Magnetised Ferrite 
+611 Resource: 0.561 resource= Pyrite 
+611 Resource: 0.453 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+375 Techno: entering... Amling
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Amling
+529 Resource: resrc1: 0.007 (12, 14)
+562 Resource: s=Amling, i=3, p= "Boeot Prime"
+581 Resource: profile= Weather: Winds from Beyond
+581 Resource: profile= Sentinels: Threatening
+581 Resource: profile= Flora: Generous
+581 Resource: profile= Fauna: Copious
+611 Resource: 0.545 resource= Silver 
+611 Resource: 0.492 resource= Dioxite 
+611 Resource: 0.473 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113600_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+750 card title= "Mooka 57/F5"
+781 Visited: Set Biome: "Irradiated Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+750 card title= "Heywoole Soka"
+781 Visited: Set Biome: "Desolate Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415113800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+750 card title= "Boeot Prime"
+781 Visited: Set Biome: "Lost Blue Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415115800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+735 Visited: Set System: "Mazuna" -no card-
+80 Visited: exiting... (True, 'Mazuna', False)
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415115900_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Mazuna
+529 Resource: resrc1: 0.006 (12, 14)
+562 Resource: s=Mazuna, i=1, p= "Cuclevu Alpha"
+581 Resource: profile= Weather: Damp Misery
+581 Resource: profile= Sentinels: Require Orthodoxy
+581 Resource: profile= Flora: Ample
+581 Resource: profile= Fauna: Abundant
+611 Resource: 0.481 resource= Magnetised Ferrite 
+611 Resource: 0.431 resource= Faecium 
+611 Resource: 0.465 resource= Activated Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120000_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Mazuna
+529 Resource: resrc1: 0.006 (12, 14)
+562 Resource: s=Mazuna, i=2, p= "Rosa 50/D7"
+581 Resource: profile= Weather: Parched
+581 Resource: profile= Sentinels: Regular Patrols
+581 Resource: profile= Flora: Bountiful
+581 Resource: profile= Fauna: Moderate
+611 Resource: 0.307 resource= Solanium 
+611 Resource: 0.225 resource= Cobalt 
+611 Resource: 0.443 resource= Phosphorus 
+611 Resource: 0.455 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120100_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Mazuna
+529 Resource: resrc1: 0.006 (12, 14)
+562 Resource: s=Mazuna, i=3, p= "Ahampteh XII"
+581 Resource: profile= Weather: Alkaline Cloudbursts
+581 Resource: profile= Sentinels: Enforcing
+581 Resource: profile= Flora: Abundant
+581 Resource: profile= Fauna: Full
+611 Resource: 0.456 resource= Fungal Mould 
+611 Resource: 0.516 resource= Silver 
+611 Resource: 0.441 resource= Ammonia 
+611 Resource: 0.455 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120200_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+375 Techno: entering... Mazuna
+386 Techno: avail2: mn=1.000 (0, 0)
+515 Resource: entering... Mazuna
+529 Resource: resrc1: 0.006 (12, 14)
+562 Resource: s=Mazuna, i=4, p= "Onana"
+580 fix: Harsh, ley Winds, Harsh, Icy Winds
+581 Resource: profile= Weather: Harsh, Icy Winds
+581 Resource: profile= Sentinels: Sharded from the Atlas
+581 Resource: profile= Flora: Low
+581 Resource: profile= Fauna: Bountiful
+611 Resource: 0.545 resource= Frost Crystal 
+611 Resource: 0.516 resource= Silver 
+611 Resource: 0.467 resource= Dioxite 
+611 Resource: 0.455 resource= Copper 
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120300_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+clear=0.001 (239, 32)
+750 card title= "Cuclevu Alpha"
+781 Visited: Set Biome: "Misty Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120400_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+clear=0.001 (239, 32)
+750 card title= "Rosa 50/D7"
+781 Visited: Set Biome: "Hot Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120500_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+clear=0.001 (239, 32)
+748 fix: Ahampteh Xil, Ahampteh XII
+750 card title= "Ahampteh XII"
+781 Visited: Set Biome: "Rotting Planet"
+
+\Downloads\No Man's Sky\normal\normal9\py\1\20240415120600_1.jpg
+SysInfo: entering...
+Visited: entering... Mazuna
+clear=0.001 (230, 32)
+750 card title= "Onana"
+781 Visited: Set Biome: "Glacial Planet"
 
 {
-  "Poor": {
+  "Doriguc VII": {
     "System Info": [
       "Celestial Bodies: 5 Planets",
-      "Dominant Lifeform: Gek",
-      "Economy: Ore Extraction // Failing",
-      "Conflict level: Fractious",
-      "Glyphs: 102dfc003906"
+      "Dominant Lifeform: Korvax",
+      "Economy: Construction // Flourishing",
+      "Conflict level: Stable",
+      "Glyphs: 106202900054"
     ],
     "Technology": {
       "[B]Life Support": "",
       "[C]Movement": "",
       "[C]Shield": "",
-      "[S]Underwater Protection": "",
-      "[S]Cold Protection": "",
-      "[S]Life Support": "",
+      "[A]Underwater Protection": "",
+      "[A]Movement": "",
+      "[A]Radiation Protection": "",
+      "[A]Toxic Protection": "",
       "[A]Cold Protection": "",
-      "[B]Cold Protection": "",
-      "[A]Life Support": "",
-      "[S]Hot Protection": "",
+      "[S]Toxic Protection": "",
+      "[S]Movement": "",
+      "[S]Underwater Protection": "",
+      "[B]Hot Protection": "",
+      "[B]Underwater Protection": "",
+      "[A]Hot Protection": "",
       "[S]Radiation Protection": "",
       "[B]Movement": "",
-      "[S]Shield": "",
-      "[A]Toxic Protection": "",
-      "[B]Toxic Protection": "",
-      "[B]Underwater Protection": "",
-      "[B]Shield": "",
+      "[A]Life Support": "",
+      "[S]Cold Protection": "",
       "[C]Mining Beam": "",
       "[C]Scanner": "",
       "[C]Boltcaster": "",
-      "[B]Mining Beam": "",
-      "[S]Geology Cannon": "",
-      "[C]Neutron Cannon": "",
-      "[S]Scatter Blaster": "",
-      "[S]Pulse Spitter": "",
       "[A]Scanner": "",
-      "[C]Scatter Blaster": "",
-      "[A]Blaze Javelin": "",
-      "[B]Blaze Javelin": "",
-      "[A]Mining Beam": "",
+      "[A]Boltcaster": "",
+      "[S]Plasma Launcher": "",
+      "[B]Scanner": "",
+      "[S]Pulse Spitter": "",
+      "[S]Neutron Cannon": "",
+      "[A]Plasma Launcher": "",
+      "[B]Pulse Spitter": "",
+      "[C]Plasma Launcher": "",
+      "[C]Neutron Cannon": "",
+      "[B]Mining Beam": "",
+      "[C]Geology Cannon": "",
+      "[B]Geology Cannon": "",
       "[C]Launch Thrusters": "",
       "[C]Pulse Engine": "",
       "[C]Hyperdrive": "",
       "[C]Starship Shield": "",
+      "[S]Pulse Engine": "",
       "[A]Launch Thrusters": "",
-      "[S]Hyperdrive": "",
-      "[C]Infra-Knife": "",
-      "[S]Photon Cannon": "",
-      "[S]Positron": "",
-      "[A]Positron": "",
+      "[A]Starship Shield": "",
+      "[B]Cyclotron": "",
+      "[B]Launch Thrusters": "",
+      "[B]Positron": "",
       "[S]Cyclotron": "",
-      "[B]Phase Beam": "",
-      "[C]Photon Cannon": "",
+      "[C]Phase Beam": "",
+      "[C]Positron": "",
+      "[A]Positron": "",
+      "[S]Starship Shield": "",
+      "[B]Photon Cannon": "",
+      "[S]Launch Thrusters": "",
+      "[A]Hyperdrive": "",
       "[C]Exocraft Cannon": "",
       "[C]Exocraft Engine": "",
       "[C]Exocraft Laser": "",
@@ -1164,147 +2849,241 @@ clear=0.001 (323, 32)
       "[B]Minotaur Engine": "",
       "[B]Minotaur Laser": "",
       "[B]Minotaur Cannon": "",
-      "[A]Minotaur Cannon": "",
-      "[A]Minotaur Engine": "",
-      "[B]Exocraft Laser": ""
+      "[S]Exocraft Laser": "",
+      "[S]Minotaur Laser": "",
+      "[A]Minotaur Cannon": ""
     },
     "Buy Sell": {
-      "Dirt": "",
+      "Non-Stick Piston": "",
+      "Enormous Metal Cog": "",
+      "Mesh Decouplers": "",
+      "Holographic Crankshaft": "",
+      "Vector Compressors": "",
+      "Cobalt": "",
+      "Hermetic Seal": "",
       "Microprocessor": "",
+      "Metal Plating": "",
       "Wiring Loom": "",
       "Unstable Plasma": "",
       "Ferrite Dust": "",
-      "Cobalt": "",
-      "Carbon Nanotubes": "",
-      "Metal Plating": "",
-      "Pyrite": "",
-      "Tritium": "",
-      "Magnetised Ferrite": "",
-      "Residual Goop": ""
+      "Ionised Cobalt": "",
+      "Gold": "",
+      "Chromatic Metal": "",
+      "Platinum": ""
     },
-    "Telochda": {
+    "Tonda 93/P4": {
       "Planet Info": [
-        "Biome: Life-Incompatible Planet",
-        "Weather: Airless",
-        "Sentinels: Hostile Patrols",
-        "Flora: Devoid",
+        "Biome: Frostbound Planet",
+        "Weather: Infrequent Blizzards",
+        "Sentinels: Low",
+        "Flora: Ample",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Silver",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Hats 43/L7": {
+      "Planet Info": [
+        "Biome: Low Atmosphere Planet",
+        "Weather: Perfectly Clear",
+        "Sentinels: Observant",
+        "Flora: Lacking",
         "Fauna: Undetected"
       ],
       "Resources": [
-        "Silver",
+        "Sodium",
         "Rusted Metal",
         "Copper"
       ]
     },
-    "New Pipiaer": {
+    "Nash 33/W4": {
       "Planet Info": [
-        "Biome: Ash-Shrouded Planet",
-        "Weather: Pillars of Flame",
-        "Sentinels: Ever-present",
-        "Flora: Sporadic",
-        "Fauna: Abundant"
+        "Biome: Sub-zero Planet",
+        "Weather: Crisp",
+        "Sentinels: Threatening",
+        "Flora: Rich",
+        "Fauna: Bountiful"
       ],
       "Resources": [
+        "Salvageable Scrap",
+        "Frost Crystal",
         "Sodium",
-        "Basalt",
+        "Dioxite",
         "Copper"
       ]
     },
-    "Oyook 52/G8": {
+    "Rowbrig Delta": {
       "Planet Info": [
-        "Biome: Rocky Planet",
-        "Weather: Unclouded Skies",
-        "Sentinels: Remote",
-        "Flora: High",
-        "Fauna: Abundant"
-      ],
-      "Resources": [
-        "Cactus Flesh",
-        "Cobalt",
-        "Pyrite",
-        "Copper"
-      ]
-    },
-    "Ikoka 45/G1": {
-      "Planet Info": [
-        "Biome: Boiling Planet",
-        "Weather: Sunny",
-        "Sentinels: Isolated",
-        "Flora: Frequent",
-        "Fauna: Occasional"
+        "Biome: Torrid Planet",
+        "Weather: Direct Sunlight",
+        "Sentinels: Frequent",
+        "Flora: Full",
+        "Fauna: Common"
       ],
       "Resources": [
         "Ancient Bones",
         "Solanium",
-        "Silver",
+        "Salt",
         "Phosphorus",
         "Copper"
       ]
     },
-    "Ryloss": {
+    "Nafut Gamma": {
       "Planet Info": [
-        "Biome: Decaying Nuclear Planet",
-        "Weather: Reactive Rain",
-        "Sentinels: Limited",
-        "Flora: Numerous",
-        "Fauna: Copious"
+        "Biome: Overgrown Planet",
+        "Weather: Dangerously Hot Fog",
+        "Sentinels: Ever-present",
+        "Flora: Abundant",
+        "Fauna: Ample"
       ],
       "Resources": [
-        "Gamma Root",
+        "Star Bulb",
         "Silver",
-        "Uranium",
+        "Paraffinium",
         "Copper"
       ]
     }
   },
-  "Base": {
+  "Bandab": {
+    "System Info": [
+      "Celestial Bodies: 3 Planets",
+      "Dominant Lifeform: Korvax",
+      "Economy: Mass Production // Black Market",
+      "Conflict level: Pirate Controlled",
+      "Glyphs: 107a02900054"
+    ],
+    "Technology": {
+      "[X]Life Support": "",
+      "[X]Positron": "",
+      "[X]Shield": "",
+      "[X]Infra-Knife": "",
+      "[X]Movement": "",
+      "[X]Blaze Javelin": ""
+    },
+    "Buy Sell": {
+      "Blood Salt": "",
+      "Banned Weapons": "",
+      "First Spawn Relics": "",
+      "Packet (Goods)": "",
+      "Tritium": "",
+      "Di-hydrogen": "",
+      "Hadal Core": "",
+      "Repair Kit": "",
+      "Hypnotic Eye": "",
+      "Packet (Tech)": "",
+      "Starshield Battery": "",
+      "Packet (Arms)": "",
+      "Ionised Cobalt": "",
+      "Rusted Metal": "",
+      "Mordite": ""
+    },
+    "Wenhall Yana": {
+      "Planet Info": [
+        "Biome: Decaying Nuclear Planet",
+        "Weather: Irradiated Storms",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Full",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Solanium",
+        "Salt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Utsfo Prime": {
+      "Planet Info": [
+        "Biome: Rocky Planet",
+        "Weather: Highly Variable Temperatures",
+        "Sentinels: Irregular Patrols",
+        "Flora: Bountiful",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Silver",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Uppi": {
+      "Planet Info": [
+        "Biome: Paradise Planet",
+        "Weather: Refreshing Breeze",
+        "Sentinels: Minimal",
+        "Flora: Rich",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Magnetised Ferrite",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  },
+  "Toyabe IX": {
     "System Info": [
       "Celestial Bodies: 5 Planets",
-      "Dominant Lifeform: Vy'keen",
-      "Economy: Mathematical // Opulent",
-      "Conflict level: Trivial",
-      "Glyphs: 1026fc003906"
+      "Dominant Lifeform: Gek",
+      "Economy: Engineering // Low Supply",
+      "Conflict level: Untroubled",
+      "Glyphs: 105202900054"
     ],
     "Technology": {
       "[B]Life Support": "",
       "[C]Movement": "",
       "[C]Shield": "",
       "[A]Underwater Protection": "",
+      "[S]Underwater Protection": "",
       "[A]Hot Protection": "",
-      "[A]Cold Protection": "",
+      "[S]Hot Protection": "",
+      "[B]Toxic Protection": "",
       "[B]Cold Protection": "",
-      "[S]Shield": "",
-      "[B]Radiation Protection": "",
-      "[A]Life Support": "",
-      "[A]Radiation Protection": "",
       "[A]Movement": "",
+      "[S]Cold Protection": "",
+      "[B]Movement": "",
+      "[S]Shield": "",
+      "[A]Toxic Protection": "",
+      "[S]Toxic Protection": "",
       "[C]Mining Beam": "",
       "[C]Scanner": "",
       "[C]Boltcaster": "",
-      "[S]Plasma Launcher": "",
-      "[S]Scanner": "",
-      "[S]Geology Cannon": "",
       "[A]Geology Cannon": "",
-      "[B]Pulse Spitter": "",
+      "[S]Scatter Blaster": "",
+      "[B]Scanner": "",
+      "[A]Plasma Launcher": "",
+      "[B]Neutron Cannon": "",
       "[A]Scatter Blaster": "",
-      "[A]Neutron Cannon": "",
-      "[S]Blaze Javelin": "",
-      "[C]Pulse Spitter": "",
       "[C]Geology Cannon": "",
+      "[S]Boltcaster": "",
       "[S]Neutron Cannon": "",
+      "[C]Pulse Spitter": "",
+      "[B]Boltcaster": "",
       "[C]Launch Thrusters": "",
       "[C]Pulse Engine": "",
       "[C]Hyperdrive": "",
       "[C]Starship Shield": "",
-      "[B]Starship Shield": "",
-      "[B]Hyperdrive": "",
+      "[B]Cyclotron": "",
+      "[S]Infra-Knife": "",
+      "[B]Launch Thrusters": "",
+      "[B]Positron": "",
+      "[A]Starship Shield": "",
+      "[S]Phase Beam": "",
+      "[S]Positron": "",
+      "[S]Hyperdrive": "",
       "[A]Cyclotron": "",
       "[C]Phase Beam": "",
-      "[A]Phase Beam": "",
-      "[A]Launch Thrusters": "",
-      "[B]Positron": "",
-      "[A]Positron": "",
+      "[C]Cyclotron": "",
+      "[A]Infra-Knife": "",
       "[S]Launch Thrusters": "",
+      "[S]Photon Cannon": "",
+      "[A]Launch Thrusters": "",
       "[B]Infra-Knife": "",
       "[C]Exocraft Cannon": "",
       "[C]Exocraft Engine": "",
@@ -1315,113 +3094,159 @@ clear=0.001 (323, 32)
       "[B]Minotaur Engine": "",
       "[B]Minotaur Laser": "",
       "[B]Minotaur Cannon": "",
-      "[B]Exocraft Cannon": "",
-      "[S]Exocraft Boost": "",
-      "[B]Exocraft Engine": ""
+      "[B]Nautilon Cannon": "",
+      "[S]Minotaur Laser": "",
+      "[S]Nautilon Cannon": ""
     },
     "Buy Sell": {
-      "De-Scented Bottles": "",
-      "Neutron Microscope": "",
-      "Instability Injector": "",
-      "Organic Piping": "",
-      "Neural Duct": "",
-      "Cobalt": "",
-      "Lemmium": "",
-      "Amino Chamber": "",
-      "Metal Plating": "",
+      "Decommissioned Circuits": "",
       "Microprocessor": "",
       "Wiring Loom": "",
       "Unstable Plasma": "",
       "Ferrite Dust": "",
-      "Gold": "",
+      "Cobalt": "",
+      "Hermetic Seal": "",
+      "Di-hydrogen Jelly": "",
+      "Dirty Bronze": "",
+      "Metal Plating": "",
+      "Phosphorus": "",
+      "Rusted Metal": "",
+      "Pyrite": "",
       "Tritium": "",
-      "Paraffinium": "",
-      "Platinum": ""
+      "Magnetised Ferrite": ""
     },
-    "Edalmin R38": {
+    "Nesboniti Gamma": {
       "Planet Info": [
-        "Biome: Violent Planet",
-        "Weather: Tectonic Storms",
-        "Sentinels: Frequent",
-        "Flora: Sparse",
-        "Fauna: Ample"
-      ],
-      "Resources": [
-        "Sodium",
-        "Pyrite",
-        "Copper"
-      ]
-    },
-    "Rahamp Major": {
-      "Planet Info": [
-        "Biome: Dead Planet",
-        "Weather: Absent",
-        "Sentinels: Limited",
-        "Flora: Barren",
-        "Fauna: Deficient"
+        "Biome: Murky Planet",
+        "Weather: Painful Mist",
+        "Sentinels: Infrequent",
+        "Flora: Abundant",
+        "Fauna: High"
       ],
       "Resources": [
         "Magnetised Ferrite",
+        "Mordite",
+        "Copper"
+      ]
+    },
+    "New Eqonglai": {
+      "Planet Info": [
+        "Weather: Ice Storms",
+        "Sentinels: Malicious",
+        "Flora: Bountiful",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Cobalt",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Hunslowe": {
+      "Planet Info": [
+        "Biome: Viridescent Planet",
+        "Weather: Usually Mild",
+        "Sentinels: Enforcing",
+        "Flora: Copious",
+        "Fauna: Uncemmen"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Salt",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Karid 92/M8": {
+      "Planet Info": [
+        "Biome: Airless Planet",
+        "Weather: Clear",
+        "Sentinels: Ever-present",
+        "Flora: Nonexistent",
+        "Fauna: Undetected"
+      ],
+      "Resources": [
+        "Sodium",
         "Rusted Metal",
         "Copper"
       ]
     },
-    "Woodbar": {
+    "Imsby Tau": {
       "Planet Info": [
-        "Biome: Bountiful Planet",
-        "Weather: Echoes of Acid",
-        "Sentinels: Inescapable",
-        "Flora: High",
-        "Fauna: Full"
+        "Biome: Frostbound Planet",
+        "Weather: Frost",
+        "Sentinels: Isolated",
+        "Flora: Bountiful",
+        "Fauna: Numerous"
       ],
       "Resources": [
-        "Ancient Bones",
-        "Star Bulb",
-        "Silver",
-        "Paraffinium",
-        "Copper"
-      ]
-    },
-    "Ruga 91/Z8": {
-      "Planet Info": [
-        "Biome: Scalding Planet",
-        "Weather: Sunny",
-        "Sentinels: Infrequent",
-        "Flora: Copious",
-        "Fauna: Medium"
-      ],
-      "Resources": [
-        "Solanium",
-        "Cobalt",
-        "Phosphorus",
-        "Copper"
-      ]
-    },
-    "Kenberg": {
-      "Planet Info": [
-        "Biome: Paradise Planet",
-        "Weather: Pleasant",
-        "Sentinels: Few",
-        "Flora: High",
-        "Fauna: High"
-      ],
-      "Resources": [
-        "Star Bulb",
+        "Frost Crystal",
         "Sodium",
-        "Paraffinium",
+        "Dioxite",
         "Copper"
       ]
+    },
+    "New Egonglai": {
+      "Planet Info": [
+        "Biome: Hiemal Planet"
+      ],
+      "Resources": []
     }
   },
-  "Wakingleb": {
+  "Jiyose-Aishe XIV": {
     "System Info": [
-      "Celestial Bodies: 5 Planets",
+      "Celestial Bodies: 6 Planets",
       "Dominant Lifeform: Gek",
-      "Economy: Advanced Materials // Balanced",
-      "Conflict level: Low",
-      "Glyphs: 1014cc00c906"
+      "Economy: Industrial // Developing",
+      "Conflict level: Relaxed",
+      "Glyphs: 104d02900054"
     ],
     "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Shield": "",
+      "[A]Movement": "",
+      "[B]Movement": "",
+      "[B]Radiation Protection": "",
+      "[A]Life Support": "",
+      "[S]Shield": "",
+      "[S]Radiation Protection": "",
+      "[A]Toxic Protection": "",
+      "[S]Life Support": "",
+      "[S]Movement": "",
+      "[S]Hot Protection": "",
+      "[B]Toxic Protection": "",
+      "[A]Shield": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[B]Geology Cannon": "",
+      "[B]Boltcaster": "",
+      "[S]Blaze Javelin": "",
+      "[C]Blaze Javelin": "",
+      "[A]Blaze Javelin": "",
+      "[A]Scatter Blaster": "",
+      "[C]Scatter Blaster": "",
+      "[B]Scanner": "",
+      "[A]Boltcaster": "",
+      "[A]Geology Cannon": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[C]Phase Beam": "",
+      "[A]Cyclotron": "",
+      "[A]Launch Thrusters": "",
+      "[S]Positron": "",
+      "[A]Photon Cannon": "",
+      "[B]Photon Cannon": "",
+      "[S]Phase Beam": "",
+      "[B]Pulse Engine": "",
+      "[B]Infra-Knife": "",
+      "[B]Positron": "",
+      "[B]Phase Beam": "",
       "[C]Exocraft Cannon": "",
       "[C]Exocraft Engine": "",
       "[C]Exocraft Laser": "",
@@ -1431,244 +3256,277 @@ clear=0.001 (323, 32)
       "[B]Minotaur Engine": "",
       "[B]Minotaur Laser": "",
       "[B]Minotaur Cannon": "",
-      "[A]Exocraft Cannon": "",
-      "[A]Minotaur Cannon": "",
-      "[S]Humboldt Drive": "",
-      "[C]Launch Thrusters": "",
-      "[C]Pulse Engine": "",
-      "[C]Hyperdrive": "",
-      "[C]Starship Shield": "",
-      "[A]Infra-Knife": "",
-      "[S]Positron": "",
-      "[A]Starship Shield": "",
-      "[B]Pulse Engine": "",
-      "[A]Hyperdrive": "",
-      "[A]Launch Thrusters": "",
-      "[B]Photon Cannon": "",
-      "[C]Infra-Knife": "",
-      "[A]Phase Beam": "",
-      "[S]Hyperdrive": "",
-      "[S]Starship Shield": "",
-      "[C]Photon Cannon": "",
-      "[A]Photon Cannon": "",
-      "[C]Positron": "",
-      "[C]Mining Beam": "",
-      "[C]Scanner": "",
-      "[C]Boltcaster": "",
-      "[B]Blaze Javelin": "",
-      "[A]Mining Beam": "",
-      "[A]Geology Cannon": "",
-      "[S]Boltcaster": "",
-      "[A]Scanner": "",
-      "[A]Plasma Launcher": "",
-      "[B]Mining Beam": "",
-      "[S]Scanner": "",
-      "[B]Geology Cannon": "",
-      "[A]Neutron Cannon": "",
-      "[C]Scatter Blaster": "",
-      "[C]Plasma Launcher": "",
-      "[B]Scatter Blaster": "",
-      "[S]Mining Beam": "",
-      "[A]Boltcaster": "",
-      "[B]Life Support": "",
-      "[C]Movement": "",
-      "[C]Shield": "",
-      "[S]Shield": "",
-      "[A]Shield": "",
-      "[A]Toxic Protection": "",
-      "[S]Life Support": "",
-      "[S]Hot Protection": "",
-      "[A]Underwater Protection": "",
-      "[A]Radiation Protection": "",
-      "[A]Movement": "",
-      "[B]Toxic Protection": "",
-      "[B]Cold Protection": "",
-      "[B]Hot Protection": "",
-      "[A]Life Support": "",
-      "[B]Shield": "",
-      "[S]Movement": ""
+      "[S]Minotaur Laser": "",
+      "[A]Exocraft Engine": "",
+      "[A]Humboldt Drive": ""
     },
     "Buy Sell": {
-      "Nanotube Crate": "",
-      "Self-Repairing Heridium": "",
-      "Optical Solvent": "",
-      "Unstable Plasma": "",
+      "Non-Stick Piston": "",
+      "Enormous Metal Cog": "",
+      "Mesh Decouplers": "",
+      "Holographic Crankshaft": "",
       "Ferrite Dust": "",
       "Cobalt": "",
       "Di-hydrogen Jelly": "",
-      "Metal Plating": "",
+      "Quantum Computer": "",
       "Microprocessor": "",
+      "Metal Plating": "",
       "Wiring Loom": "",
-      "Magnetised Ferrite": "",
-      "Chlorine": "",
-      "Phosphorus": "",
-      "Rusted Metal": ""
-    },
-    "Ropuscu Ebaya": {
-      "Planet Info": [
-        "Biome: Scalding Planet",
-        "Weather: Dehydrated",
-        "Sentinels: Irregular Patrols",
-        "Flora: Copious",
-        "Fauna: Fair"
-      ],
-      "Resources": [
-        "Solanium",
-        "Cobalt",
-        "Phosphorus",
-        "Copper"
-      ]
-    },
-    "Oupol III": {
-      "Planet Info": [
-        "Biome: Freezing Planet",
-        "Weather: Roaring Ice Storms",
-        "Sentinels: Ever-present",
-        "Flora: Generous",
-        "Fauna: Infrequent"
-      ],
-      "Resources": [
-        "Frost Crystal",
-        "Silver",
-        "Dioxite",
-        "Activated Copper"
-      ]
-    },
-    "Wosanar Alpha": {
-      "Planet Info": [
-        "Biome: Grassy Planet",
-        "Weather: Superheated Rain",
-        "Sentinels: Require Orthodoxy",
-        "Flora: Rich",
-        "Fauna: Abundant"
-      ],
-      "Resources": [
-        "Star Bulb",
-        "Magnetised Ferrite",
-        "Paraffinium",
-        "Activated Copper"
-      ]
-    },
-    "Vistiraqu Hanai": {
-      "Planet Info": [
-        "Biome: Torrid Planet",
-        "Weather: Dangerously Hot",
-        "Sentinels: Enforcing",
-        "Flora: Abundant",
-        "Fauna: Abundant"
-      ],
-      "Resources": [
-        "Solanium",
-        "Silver",
-        "Phosphorus",
-        "Copper"
-      ]
-    },
-    "Imiz 98/A8": {
-      "Planet Info": [
-        "Biome: Grassy Planet",
-        "Weather: Painfully Hot Rain",
-        "Sentinels: Sharded from the Atlas",
-        "Flora: Abundant",
-        "Fauna: Bountiful"
-      ],
-      "Resources": [
-        "Star Bulb",
-        "Cobalt",
-        "Paraffinium",
-        "Copper",
-        "Dissonance detected"
-      ]
-    }
-  },
-  "Odusha": {
-    "System Info": [
-      "Celestial Bodies: 4 Planets",
-      "Dominant Lifeform: Vy'keen",
-      "Economy: Alchemical // Black Market",
-      "Conflict level: Pirate Controlled",
-      "Glyphs: 10b8fc003906"
-    ],
-    "Technology": {
-      "[X]Neutron Cannon": "",
-      "[X]Pulse Engine": "",
-      "[X]Hyperdrive": "",
-      "[X]Plasma Launcher": "",
-      "[X]Scanner": "",
-      "[X]Cyclotron": "",
-      "[X]Life Support": "",
-      "[X]Launch Thrusters": "",
-      "[X]Hazard Protection": "",
-      "[X]Phase Beam": "",
-      "[X]Starship Shield": "",
-      "[X]Mining Beam": ""
-    },
-    "Buy Sell": {
-      "Banned Weapons": "",
-      "Stolen DNA Samples": "",
-      "First Spawn Relics": "",
-      "Packet (Goods)": "",
+      "Unstable Plasma": "",
+      "Rusted Metal": "",
+      "Residual Goop": "",
+      "Silver": "",
       "Tritium": "",
-      "Di-hydrogen": "",
-      "Larval Core": "",
-      "Hypnotic Eye": "",
-      "Packet (Arms)": "",
-      "Packet (Tech)": "",
-      "Starshield Battery": "",
-      "Runaway Mould": "",
-      "Mordite": ""
+      "Chromatic Metal": ""
     },
-    "Ouport Omega": {
+    "Erfield": {
       "Planet Info": [
-        "Biome: Radioactive Planet",
-        "Weather: Reactive Rain",
-        "Sentinels: Hateful",
-        "Flora: Moderate",
+        "Biome: Imminent Core Detonation",
+        "Weather: Sulphurous Haze",
+        "Sentinels: Intermittent",
+        "Flora: Uncommon",
         "Fauna: Rich"
       ],
       "Resources": [
-        "Gamma Root",
-        "Salt",
-        "Uranium",
-        "Copper"
-      ]
-    },
-    "Uchim 14/F9": {
-      "Planet Info": [
-        "Biome: Grassy Planet",
-        "Weather: Occasional Scalding Cloudburst",
-        "Sentinels: Intermittent",
-        "Flora: Ample",
-        "Fauna: Frequent"
-      ],
-      "Resources": [
-        "Star Bulb",
         "Silver",
-        "Paraffinium",
-        "Copper"
-      ]
-    },
-    "Aioik 85/A9": {
-      "Planet Info": [
-        "Biome: Parched Planet",
-        "Weather: Parched Sands",
-        "Sentinels: Remote",
-        "Flora: Sporadic",
-        "Fauna: Generous"
-      ],
-      "Resources": [
-        "Cactus Flesh",
-        "Magnetised Ferrite",
         "Pyrite",
         "Copper"
       ]
     },
-    "Dosi U31": {
+    "Xetebor VII": {
       "Planet Info": [
-        "Biome: Flourishing Planet",
-        "Weather: Choking Humidity",
-        "Sentinels: Isolated",
-        "Flora: Rich",
+        "Biome: Scorched Planet",
+        "Weather: Sweltering",
+        "Sentinels: Low Security",
+        "Flora: Generous",
+        "Fauna: Rich"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Fleens": {
+      "Planet Info": [
+        "Biome: Frostbound Planet",
+        "Weather: Permafrost",
+        "Sentinels: Minimal",
+        "Flora: Uncommon",
+        "Fauna: Average"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Magnetised Ferrite",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Pilseyci Minor": {
+      "Planet Info": [
+        "Biome: Corrosive Planet",
+        "Weather: Alkaline Cloudbursts",
+        "Sentinels: Frenzied",
+        "Flora: Abundant",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Magnetised Ferrite",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Gartfol X": {
+      "Planet Info": [
+        "Biome: Desolate Planet",
+        "Weather: Parched Sands",
+        "Sentinels: Minimal",
+        "Flora: Frequent",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Salt",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Spinarr Kesen": {
+      "Planet Info": [
+        "Biome: Paradise Planet",
+        "Weather: Humid",
+        "Sentinels: Few",
+        "Flora: High",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Silver",
+        "Paraffinium",
+        "Copper"
+      ]
+    }
+  },
+  "Okubun-Chadr": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Ore Extraction // Destitute",
+      "Conflict level: Unruly",
+      "Glyphs: 101202900054"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Shield": "",
+      "[A]Toxic Protection": "",
+      "[A]Hot Protection": "",
+      "[S]Underwater Protection": "",
+      "[S]Cold Protection": "",
+      "[B]Movement": "",
+      "[S]Radiation Protection": "",
+      "[A]Movement": "",
+      "[S]Life Support": "",
+      "[S]Toxic Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[S]Scanner": "",
+      "[A]Pulse Spitter": "",
+      "[B]Mining Beam": "",
+      "[S]Pulse Spitter": "",
+      "[B]Geology Cannon": "",
+      "[S]Scatter Blaster": "",
+      "[A]Blaze Javelin": "",
+      "[A]Scanner": "",
+      "[C]Pulse Spitter": "",
+      "[S]Plasma Launcher": "",
+      "[C]Geology Cannon": "",
+      "[B]Scatter Blaster": "",
+      "[S]Neutron Cannon": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Phase Beam": "",
+      "[C]Photon Cannon": "",
+      "[C]Infra-Knife": "",
+      "[A]Hyperdrive": "",
+      "[B]Positron": "",
+      "[B]Cyclotron": "",
+      "[B]Hyperdrive": "",
+      "[B]Starship Shield": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[A]Minotaur Laser": "",
+      "[S]Exocraft Cannon": "",
+      "[S]Humboldt Drive": ""
+    },
+    "Buy Sell": {
+      "Dirt": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Carbon Nanotubes": "",
+      "Quantum Computer": "",
+      "Metal Plating": "",
+      "Chlorine": "",
+      "Gold": "",
+      "Dioxite": "",
+      "Residual Goop": "",
+      "Pure Ferrite": ""
+    },
+    "Auletter lurak": {
+      "Planet Info": [
+        "Biome: Damp Planet",
+        "Weather: Atmospheric Corruption",
+        "Sentinels: Ever-present",
+        "Flora: Generous",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Cobalt",
+        "Faecium",
+        "Copper"
+      ]
+    },
+    "Buenot": {
+      "Planet Info": [
+        "Biome: Infested Planet",
+        "Weather: Infrequent Heat Storms",
+        "Sentinels: Frequent",
+        "Flora: Twisted",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Glineti XV": {
+      "Planet Info": [
+        "Biome: Desolate Planet",
+        "Weather: Clear",
+        "Sentinels: Enforcing",
+        "Flora: Barren",
+        "Fauna: Absent"
+      ],
+      "Resources": [
+        "Sodium",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Aratae XIV": {
+      "Planet Info": [
+        "Biome: Toxic Horror",
+        "Weather: Caustic Winds",
+        "Sentinels: Limited",
+        "Flora: Diseased",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Sodium",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Yankar Gash": {
+      "Planet Info": [
+        "Biome: Incandescent Planet",
+        "Weather: Heated Atmosphere",
+        "Sentinels: Enforcing",
+        "Flora: Abundant",
+        "Fauna: Medium"
+      ],
+      "Resources": [
+        "Solanium",
+        "Magnetised Ferrite",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Haku 57/Q1": {
+      "Planet Info": [
+        "Biome: Overgrown Planet",
+        "Weather: Boiling Puddles",
+        "Sentinels: Require Obedience",
+        "Flora: Bountiful",
         "Fauna: Abundant"
       ],
       "Resources": [
@@ -1678,9 +3536,624 @@ clear=0.001 (323, 32)
         "Copper"
       ]
     }
+  },
+  "Dovour-Jaus": {
+    "System Info": [
+      "Celestial Bodies: 6 Planets",
+      "Dominant Lifeform: Korvax",
+      "Economy: Advanced Materials // Fledgling",
+      "Conflict level: Medium",
+      "Glyphs: 10c402901054"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[S]Underwater Protection": "",
+      "[A]Cold Protection": "",
+      "[A]Radiation Protection": "",
+      "[S]Radiation Protection": "",
+      "[S]Shield": "",
+      "[B]Hot Protection": "",
+      "[B]Toxic Protection": "",
+      "[A]Hot Protection": "",
+      "[A]Underwater Protection": "",
+      "[S]Toxic Protection": "",
+      "[S]Cold Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[B]Pulse Spitter": "",
+      "[A]Plasma Launcher": "",
+      "[B]Mining Beam": "",
+      "[A]Neutron Cannon": "",
+      "[S]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[B]Geology Cannon": "",
+      "[C]Geology Cannon": "",
+      "[S]Neutron Cannon": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[A]Cyclotron": "",
+      "[S]Pulse Engine": "",
+      "[B]Cyclotron": "",
+      "[C]Cyclotron": "",
+      "[S]Cyclotron": "",
+      "[C]Positron": "",
+      "[S]Photon Cannon": "",
+      "[A]Launch Thrusters": "",
+      "[A]Phase Beam": "",
+      "[A]Hyperdrive": "",
+      "[B]Infra-Knife": "",
+      "[S]Launch Thrusters": "",
+      "[A]Infra-Knife": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[S]Minotaur Engine": "",
+      "[A]Exocraft Cannon": "",
+      "[A]Minotaur Laser": ""
+    },
+    "Buy Sell": {
+      "Nanotube Crate": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Amino Chamber": "",
+      "Magnetic Resonator": "",
+      "Di-hydrogen Jelly": "",
+      "Metal Plating": "",
+      "Pugneum": "",
+      "Residual Goop": "",
+      "Pyrite": "",
+      "Phosphorus": "",
+      "Copper": ""
+    },
+    "Dwindy B34": {
+      "Planet Info": [
+        "Biome: Temperate Planet",
+        "Weather: Torrid Deluges",
+        "Sentinels: Infrequent",
+        "Flora: Frequent",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Sodium",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    },
+    "Cogge V": {
+      "Planet Info": [
+        "Biome: Barren Planet",
+        "Weather: Dry Gusts",
+        "Sentinels: Observant",
+        "Flora: Few",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Silver",
+        "Pyrite",
+        "Copper"
+      ]
+    },
+    "Wokin VII": {
+      "Planet Info": [
+        "Weather: Ice Storms",
+        "Sentinels: Attentive",
+        "Flora: Bountiful",
+        "Fauna: Infrequent"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Magnetised Ferrite",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Gamisoni": {
+      "Planet Info": [
+        "Biome: Icy Planet",
+        "Weather: Permafrost",
+        "Sentinels: Limited",
+        "Flora: Frequent",
+        "Fauna: Ordinary"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Salt",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Mefont": {
+      "Planet Info": [
+        "Biome: High Temperature Planet",
+        "Weather: Superheated Gas Pockets",
+        "Sentinels: Spread Thin",
+        "Flora: Rich",
+        "Fauna: Ample"
+      ],
+      "Resources": [
+        "Solanium",
+        "Sodium",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "New Wadhabie": {
+      "Planet Info": [
+        "Biome: Paradise Planet",
+        "Weather: Echoes of Acid",
+        "Sentinels: Sparse",
+        "Flora: Bountiful",
+        "Fauna: Limited"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Sodium",
+        "Paraffinium",
+        "Copper"
+      ]
+    },
+    "Wokin Vi": {
+      "Planet Info": [
+        "Biome: Icy Planet"
+      ],
+      "Resources": []
+    }
+  },
+  "Yusvadbeat XII": {
+    "System Info": [
+      "Celestial Bodies: 2 Planets // 2 Moons",
+      "Dominant Lifeform: Korvax",
+      "Economy: Alchemical // Promising",
+      "Conflict level: At War",
+      "Glyphs: 107a02901054"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[B]Hot Protection": "",
+      "[S]Hot Protection": "",
+      "[B]Movement": "",
+      "[A]Life Support": "",
+      "[A]Underwater Protection": "",
+      "[S]Life Support": "",
+      "[S]Underwater Protection": "",
+      "[B]Underwater Protection": "",
+      "[S]Radiation Protection": "",
+      "[B]Cold Protection": "",
+      "[A]Hot Protection": "",
+      "[S]Movement": "",
+      "[S]Cold Protection": "",
+      "[A]Cold Protection": "",
+      "[A]Shield": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[B]Boltcaster": "",
+      "[A]Geology Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[S]Blaze Javelin": "",
+      "[C]Scatter Blaster": "",
+      "[B]Plasma Launcher": "",
+      "[B]Scanner": "",
+      "[A]Scatter Blaster": "",
+      "[A]Plasma Launcher": "",
+      "[C]Neutron Cannon": "",
+      "[S]Plasma Launcher": "",
+      "[A]Neutron Cannon": "",
+      "[A]Mining Beam": "",
+      "[A]Pulse Spitter": "",
+      "[A]Blaze Javelin": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Pulse Engine": "",
+      "[C]Cyclotron": "",
+      "[A]Positron": "",
+      "[B]Pulse Engine": "",
+      "[B]Hyperdrive": "",
+      "[A]Infra-Knife": "",
+      "[C]Photon Cannon": "",
+      "[B]Phase Beam": "",
+      "[A]Phase Beam": "",
+      "[B]Launch Thrusters": "",
+      "[S]Photon Cannon": "",
+      "[B]Infra-Knife": "",
+      "[S]Starship Shield": "",
+      "[A]Photon Cannon": "",
+      "[S]Cyclotron": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon Medule": "",
+      "[S]Minotaur Cannon": "",
+      "[A]Humboldt Drive": "",
+      "[A]Exocraft Cannon": ""
+    },
+    "Buy Sell": {},
+    "Gabradet Ikom": {
+      "Planet Info": [
+        "Weather: Peaceful",
+        "Sentinels: Ever-present",
+        "Flora: Deficient",
+        "Fauna: Absent"
+      ],
+      "Resources": [
+        "Magnetised Ferrite",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Xaphl": {
+      "Planet Info": [
+        "Weather: No Atmosphere",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Devoid",
+        "Fauna: Nonexistent"
+      ],
+      "Resources": [
+        "Sodium",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Upacton Sigma": {
+      "Planet Info": [
+        "Biome: Fragmented Planet",
+        "Weather: Invisible Mist",
+        "Sentinels: Low",
+        "Flora: Lost",
+        "Fauna: Misplaced"
+      ],
+      "Resources": [
+        "Sodium",
+        "Gold",
+        "Copper"
+      ]
+    },
+    "Pazuzumo": {
+      "Planet Info": [
+        "Biome: Vapour Planet",
+        "Weather: Sultry Disaster",
+        "Sentinels: Zealous",
+        "Flora: Full",
+        "Fauna: Bountiful"
+      ],
+      "Resources": [
+        "Cobalt",
+        "Mordite",
+        "Copper"
+      ]
+    },
+    "Gabradet kom": {
+      "Planet Info": [
+        "Biome: Airless Planet"
+      ],
+      "Resources": []
+    },
+    "Xapht": {
+      "Planet Info": [
+        "Biome: Dead Planet"
+      ],
+      "Resources": []
+    }
+  },
+  "Amling": {
+    "System Info": [
+      "Stellar Classification: B1pf",
+      "Celestial Bodies: 3 Planets",
+      "Dominant Lifefgrm Vy'keen",
+      "Economy: Mass Production // Unsuccessful",
+      "Conflict level: Formidable",
+      "Glyphs: 11ef02901055"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[A]Shield": "",
+      "[B]Hot Protection": "",
+      "[B]Radiation Protection": "",
+      "[A]Radiation Protection": "",
+      "[S]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[S]Life Support": "",
+      "[B]Underwater Protection": "",
+      "[B]Cold Protection": "",
+      "[S]Cold Protection": "",
+      "[A]Cold Protection": "",
+      "[S]Hot Protection": "",
+      "[S]Shield": "",
+      "[A]Toxic Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[S]Mining Beam": "",
+      "[C]Plasma Launcher": "",
+      "[S]Pulse Spitter": "",
+      "[A]Boltcaster": "",
+      "[B]Scanner": "",
+      "[A]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Geology Cannon": "",
+      "[A]Geology Cannon": "",
+      "[A]Blaze Javelin": "",
+      "[A]Plasma Launcher": "",
+      "[B]Scatter Blaster": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Hyperdrive": "",
+      "[B]Starship Shield": "",
+      "[A]Launch Thrusters": "",
+      "[B]Phase Beam": "",
+      "[A]Positron": "",
+      "[A]Phase Beam": "",
+      "[B]Infra-Knife": "",
+      "[A]Starship Shield": "",
+      "[C]Positron": "",
+      "[B]Launch Thrusters": "",
+      "[B]Cyclotron": "",
+      "[S]Photon Cannon": "",
+      "[A]Cyclotron": "",
+      "[S]Cyclotron": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Exocraft Engine": "",
+      "[B]Humboldt Drive": "",
+      "[A]Exocraft Laser": ""
+    },
+    "Buy Sell": {
+      "Non-Stick Piston": "",
+      "Enormous Metal Cog": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Magno-Gold": "",
+      "Quantum Computer": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Phosphorus": "",
+      "Paraffinium": "",
+      "Pure Ferrite": "",
+      "Ammonia": "",
+      "Dioxite": ""
+    },
+    "Mooka 57/F5": {
+      "Planet Info": [
+        "Biome: Irradiated Planet",
+        "Weather: Radioactive Damp",
+        "Sentinels: Frequent",
+        "Flora: Ordinary",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Sodium",
+        "Uranium",
+        "Activated Indium"
+      ]
+    },
+    "Heywoole Soka": {
+      "Planet Info": [
+        "Biome: Desolate Planet",
+        "Weather: Sand Blizzards",
+        "Sentinels: Enforcing",
+        "Flora: Numerous",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Magnetised Ferrite",
+        "Pyrite",
+        "Activated Indium"
+      ]
+    },
+    "Boeot Prime": {
+      "Planet Info": [
+        "Biome: Lost Blue Planet",
+        "Weather: Winds from Beyond",
+        "Sentinels: Threatening",
+        "Flora: Generous",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Silver",
+        "Dioxite",
+        "Activated Indium"
+      ]
+    }
+  },
+  "Mazuna": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Research // Affluent",
+      "Conflict level: Relaxed",
+      "Glyphs: 105a02900054"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[A]Radiation Protection": "",
+      "[S]Movement": "",
+      "[B]Underwater Protection": "",
+      "[A]Cold Protection": "",
+      "[B]Radiation Protection": "",
+      "[A]Underwater Protection": "",
+      "[A]Shield": "",
+      "[A]Hot Protection": "",
+      "[B]Cold Protection": "",
+      "[S]Life Support": "",
+      "[S]Cold Protection": "",
+      "[A]Life Support": "",
+      "[A]Movement": "",
+      "[S]Shield": "",
+      "[B]Movement": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[B]Scanner": "",
+      "[S]Plasma Launcher": "",
+      "[S]Blaze Javelin": "",
+      "[B]Blaze Javelin": "",
+      "[B]Mining Beam": "",
+      "[B]Geology Cannon": "",
+      "[S]Pulse Spitter": "",
+      "[A]Blaze Javelin": "",
+      "[B]Scatter Blaster": "",
+      "[A]Plasma Launcher": "",
+      "[C]Scatter Blaster": "",
+      "[S]Geology Cannon": "",
+      "[S]Boltcaster": "",
+      "[S]Neutron Cannon": "",
+      "[B]Pulse Spitter": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Infra-Knife": "",
+      "[A]Hyperdrive": "",
+      "[B]Infra-Knife": "",
+      "[S]Launch Thrusters": "",
+      "[S]Starship Shield": "",
+      "[B]Hyperdrive": "",
+      "[B]Photon Cannon": "",
+      "[A]Launch Thrusters": "",
+      "[S]Phase Beam": "",
+      "[A]Starship Shield": "",
+      "[B]Positron": "",
+      "[C]Positron": "",
+      "[S]Positron": "",
+      "[C]Infra-Knife": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Exocraft Laser": "",
+      "[S]Humboldt Drive": "",
+      "[B]Exocraft Cannon": ""
+    },
+    "Buy Sell": {
+      "De-Scented Bottles": "",
+      "Neutron Microscope": "",
+      "Instability Injector": "",
+      "Organic Piping": "",
+      "Neural Duct": "",
+      "Cobalt": "",
+      "Magnetic Resonator": "",
+      "Hydraulic Wiring": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Phosphorus": "",
+      "Chromatic Metal": "",
+      "Residual Goop": "",
+      "Platinum": "",
+      "Pure Ferrite": ""
+    },
+    "Cuclevu Alpha": {
+      "Planet Info": [
+        "Biome: Misty Planet",
+        "Weather: Damp Misery",
+        "Sentinels: Require Orthodoxy",
+        "Flora: Ample",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Magnetised Ferrite",
+        "Faecium",
+        "Activated Copper"
+      ]
+    },
+    "Rosa 50/D7": {
+      "Planet Info": [
+        "Biome: Hot Planet",
+        "Weather: Parched",
+        "Sentinels: Regular Patrols",
+        "Flora: Bountiful",
+        "Fauna: Moderate"
+      ],
+      "Resources": [
+        "Solanium",
+        "Cobalt",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Ahampteh XII": {
+      "Planet Info": [
+        "Biome: Rotting Planet",
+        "Weather: Alkaline Cloudbursts",
+        "Sentinels: Enforcing",
+        "Flora: Abundant",
+        "Fauna: Full"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Silver",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Onana": {
+      "Planet Info": [
+        "Biome: Glacial Planet",
+        "Weather: Harsh, Icy Winds",
+        "Sentinels: Sharded from the Atlas",
+        "Flora: Low",
+        "Fauna: Bountiful"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Silver",
+        "Dioxite",
+        "Copper",
+        "Dissonance detected"
+      ]
+    }
   }
 }
 
-elasped time: 33.1
-class_set: {',', 'S', 'Y', 'B', 'C', 'X', 'A', '2'}
+elasped time: 84.9
+class_set: {'Y', '7', '2', 'B', 'S', ',', 'A', 'X', 'C'}
 
