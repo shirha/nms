@@ -1,0 +1,546 @@
+argv=['-f', '0', '-t', 'Demo'] ilog=0 title=Demo dbug=
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415111480_1.jpg
+SysInfo: entering...
+Visited: entering... None
+clear=0.001 (292, 32)
+757 card title= "Amling"
+Celestial Bodies: 3 Planets
+Dominant Lifeform: Vy'keen
+Economy: Mass Production // Unsuccessful
+Conflict level: Formidable
+850 Visited: Exiting: sysinfo card
+80 Visited: exiting... (True, 'Amling', True)
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415111490_1.jpg
+SysInfo: entering...
+Glyphs: entering... Amling
+Glyphs: e:0 11ef02901055
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415111700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.998 (76, 14)
+522 Resource: entering... Amling
+536 Resource: resrc2: 0.804 (166, 103)
+Stellar: entering...
+Stellar: mn=0.003 (112, 43) Stellar Classification: B1pf
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415111800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: System : mn=0.022,MPy=5,MPx=22
+501 Techno: Non-Stick Piston 
+501 Techno: Enormous Metal Cog 
+501 Techno: Wiring Loom 
+501 Techno: Unstable Plasma 
+501 Techno: Ferrite Dust 
+501 Techno: Cobalt 
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415112500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: Technol: mn=0.018,MPy=5,MPx=21
+501 Techno: [S]Cold Protection 
+501 Techno: [A]Cold Protection 
+501 Techno: [S]Hot Protection 
+501 Techno: [S]Shield 
+501 Techno: [A]Toxic Protection 
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415113500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+742 Visited: Set System: "Amling" -no card-
+80 Visited: exiting... (True, 'Amling', False)
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415113700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=1.000 (0, 0)
+522 Resource: entering... Amling
+536 Resource: resrc1: 0.007 (12, 14)
+569 Resource: s=Amling, i=1, p= "Heywoole Soka"
+588 Resource: profile= Weather: Sand Blizzards
+588 Resource: profile= Sentinels: Enforcing
+588 Resource: profile= Flora: Numerous
+588 Resource: profile= Fauna: Abundant
+618 Resource: 0.361 resource= Cactus Flesh 
+618 Resource: 0.458 resource= Magnetised Ferrite 
+618 Resource: 0.561 resource= Pyrite 
+618 Resource: 0.453 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\playground\py\0\20240415114000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+757 card title= "Heywoole Soka"
+788 Visited: Set Biome: "Desolate Planet"
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111410_1.jpg
+SysInfo: entering...
+295 SysInfo: mn=0.013 (9, 9) crop.shape=(135, 535)
+SysInfo: station= Amling
+Celestial Bodies: 3 Planets
+Dominant Lifefgrm Vy'keen
+Economy: Mass Production // Unsuccessful
+Conflict level: Formidable
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111420_1.jpg
+SysInfo: entering...
+Glyphs: entering... Amling
+Glyphs: e:0 11ef02901055
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111480_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+757 card title= "Amling"
+Celestial Bodies: 3 Planets
+Dominant Lifeform: Vy'keen
+Economy: Mass Production // Unsuccessful
+Conflict level: Formidable
+850 Visited: Exiting: sysinfo card
+80 Visited: exiting... (True, 'Amling', False)
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111490_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=1.000 (0, 0)
+522 Resource: entering... Amling
+536 Resource: resrc2: 0.784 (179, 0)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.998 (76, 14)
+522 Resource: entering... Amling
+536 Resource: resrc2: 0.804 (166, 103)
+Stellar: entering...
+Stellar: mn=0.003 (112, 43) Stellar Classification: B1pf
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: System : mn=0.022,MPy=5,MPx=22
+501 Techno: Non-Stick Piston 
+501 Techno: Enormous Metal Cog 
+501 Techno: Wiring Loom 
+501 Techno: Unstable Plasma 
+501 Techno: Ferrite Dust 
+501 Techno: Cobalt 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415111900_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: System : mn=0.022,MPy=5,MPx=22
+501 Techno: Magno-Gold 
+501 Techno: Quantum Computer 
+501 Techno: Microprocessor 
+501 Techno: Metal Plating 
+501 Techno: Phosphorus 
+501 Techno: Paraffinium 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: System : mn=0.022,MPy=5,MPx=22
+501 Techno: Pure Ferrite 
+501 Techno: Ammonia 
+501 Techno: Dioxite 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112100_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.917 (40, 17)
+522 Resource: entering... Amling
+536 Resource: resrc2: 0.460 (127, 87)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112200_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=0.916 (226, 61)
+522 Resource: entering... Amling
+536 Resource: resrc2: 0.428 (128, 35)
+Stellar: entering...
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112300_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: Technol: mn=0.018,MPy=5,MPx=21
+501 Techno: [B]Life Support 
+501 Techno: [C]Movement 
+501 Techno: [C]Shield 
+501 Techno: [A]Shield 
+501 Techno: [B]Hot Protection 
+501 Techno: [B]Radiation Protection 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112400_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: Technol: mn=0.018,MPy=5,MPx=21
+501 Techno: [A]Radiation Protection 
+501 Techno: [S]Radiation Protection 
+501 Techno: [B]Toxic Protection 
+501 Techno: [S]Life Support 
+501 Techno: [B]Underwater Protection 
+501 Techno: [B]Cold Protection 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.001 (144, 38)
+427 Techno: Technol: mn=0.018,MPy=5,MPx=21
+501 Techno: [S]Cold Protection 
+501 Techno: [A]Cold Protection 
+501 Techno: [S]Hot Protection 
+501 Techno: [S]Shield 
+501 Techno: [A]Toxic Protection 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112600_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (148, 39)
+427 Techno: Technol: mn=0.009,MPy=5,MPx=21
+501 Techno: [C]Mining Beam 
+501 Techno: [C]Scanner 
+501 Techno: [C]Boltcaster 
+501 Techno: [S]Mining Beam 
+501 Techno: [C]Plasma Launcher 
+501 Techno: [S]Pulse Spitter 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (148, 39)
+427 Techno: Technol: mn=0.009,MPy=5,MPx=21
+501 Techno: [A]Boltcaster 
+501 Techno: [B]Scanner 
+501 Techno: [A]Pulse Spitter 
+501 Techno: [C]Neutron Cannon 
+501 Techno: [S]Geology Cannon 
+501 Techno: [A]Geology Cannon 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (148, 39)
+427 Techno: Technol: mn=0.009,MPy=5,MPx=21
+501 Techno: [A]Blaze Javelin 
+501 Techno: [A]Plasma Launcher 
+501 Techno: [B]Scatter Blaster 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415112900_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (144, 39)
+427 Techno: Technol: mn=0.014,MPy=5,MPx=21
+501 Techno: [C]Launch Thrusters 
+501 Techno: [C]Pulse Engine 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (144, 39)
+427 Techno: Technol: mn=0.013,MPy=5,MPx=21
+501 Techno: [C]Hyperdrive 
+501 Techno: [C]Starship Shield 
+501 Techno: [S]Hyperdrive 
+501 Techno: [B]Starship Shield 
+501 Techno: [A]Launch Thrusters 
+501 Techno: [B]Phase Beam 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113100_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (144, 39)
+427 Techno: Technol: mn=0.014,MPy=5,MPx=21
+501 Techno: [A]Positron 
+501 Techno: [A]Phase Beam 
+501 Techno: [B]Infra-Knife 
+501 Techno: [A]Starship Shield 
+501 Techno: [C]Positron 
+501 Techno: [B]Launch Thrusters 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113200_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (144, 39)
+427 Techno: Technol: mn=0.014,MPy=5,MPx=21
+501 Techno: [B]Cyclotron 
+501 Techno: [S]Photon Cannon 
+501 Techno: [A]Cyclotron 
+501 Techno: [S]Cyclotron 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113300_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (145, 37)
+427 Techno: Technol: mn=0.008,MPy=5,MPx=21
+501 Techno: [C]Exocraft Cannon 
+501 Techno: [C]Exocraft Engine 
+501 Techno: [C]Exocraft Laser 
+501 Techno: [C]Exocraft Boost 
+501 Techno: [C]Humboldt Drive 
+501 Techno: [C]Nautilon Cannon 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113400_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+387 Techno: avail1: mn=0.002 (145, 37)
+427 Techno: Technol: mn=0.008,MPy=5,MPx=21
+501 Techno: [B]Minotaur Engine 
+501 Techno: [B]Minotaur Laser 
+501 Techno: [B]Minotaur Cannon 
+501 Techno: [B]Exocraft Engine 
+501 Techno: [B]Humboldt Drive 
+501 Techno: [A]Exocraft Laser 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113500_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+742 Visited: Set System: "Amling" -no card-
+80 Visited: exiting... (True, 'Amling', False)
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113600_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=1.000 (0, 0)
+522 Resource: entering... Amling
+536 Resource: resrc1: 0.007 (12, 14)
+569 Resource: s=Amling, i=1, p= "Mooka 57/F5"
+588 Resource: profile= Weather: Radioactive Damp
+588 Resource: profile= Sentinels: Frequent
+588 Resource: profile= Flora: Ordinary
+588 Resource: profile= Fauna: Abundant
+618 Resource: 0.327 resource= Gamma Root 
+618 Resource: 0.395 resource= Sodium 
+618 Resource: 0.417 resource= Uranium 
+618 Resource: 0.453 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113700_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=1.000 (0, 0)
+522 Resource: entering... Amling
+536 Resource: resrc1: 0.007 (12, 14)
+569 Resource: s=Amling, i=2, p= "Heywoole Soka"
+588 Resource: profile= Weather: Sand Blizzards
+588 Resource: profile= Sentinels: Enforcing
+588 Resource: profile= Flora: Numerous
+588 Resource: profile= Fauna: Abundant
+618 Resource: 0.361 resource= Cactus Flesh 
+618 Resource: 0.458 resource= Magnetised Ferrite 
+618 Resource: 0.561 resource= Pyrite 
+618 Resource: 0.453 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113800_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+379 Techno: entering... Amling
+390 Techno: avail2: mn=1.000 (0, 0)
+522 Resource: entering... Amling
+536 Resource: resrc1: 0.007 (12, 14)
+569 Resource: s=Amling, i=3, p= "Boeot Prime"
+588 Resource: profile= Weather: Winds from Beyond
+588 Resource: profile= Sentinels: Threatening
+588 Resource: profile= Flora: Generous
+588 Resource: profile= Fauna: Copious
+618 Resource: 0.545 resource= Silver 
+618 Resource: 0.492 resource= Dioxite 
+618 Resource: 0.473 resource= Activated Indium 
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415113900_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+757 card title= "Mooka 57/F5"
+788 Visited: Set Biome: "Irradiated Planet"
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415114000_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+757 card title= "Heywoole Soka"
+788 Visited: Set Biome: "Desolate Planet"
+
+\Downloads\No Man's Sky\normal\playground\py\3\20240415114100_1.jpg
+SysInfo: entering...
+Visited: entering... Amling
+clear=0.001 (292, 32)
+757 card title= "Boeot Prime"
+788 Visited: Set Biome: "Lost Blue Planet"
+
+{
+  "Amling": {
+    "System Info": [
+      "Stellar Classification: B1pf",
+      "Celestial Bodies: 3 Planets",
+      "Dominant Lifeform: Vy'keen",
+      "Economy: Mass Production // Unsuccessful",
+      "Conflict level: Formidable"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[A]Shield": "",
+      "[B]Hot Protection": "",
+      "[B]Radiation Protection": "",
+      "[A]Radiation Protection": "",
+      "[S]Radiation Protection": "",
+      "[B]Toxic Protection": "",
+      "[S]Life Support": "",
+      "[B]Underwater Protection": "",
+      "[B]Cold Protection": "",
+      "[S]Cold Protection": "",
+      "[A]Cold Protection": "",
+      "[S]Hot Protection": "",
+      "[S]Shield": "",
+      "[A]Toxic Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[S]Mining Beam": "",
+      "[C]Plasma Launcher": "",
+      "[S]Pulse Spitter": "",
+      "[A]Boltcaster": "",
+      "[B]Scanner": "",
+      "[A]Pulse Spitter": "",
+      "[C]Neutron Cannon": "",
+      "[S]Geology Cannon": "",
+      "[A]Geology Cannon": "",
+      "[A]Blaze Javelin": "",
+      "[A]Plasma Launcher": "",
+      "[B]Scatter Blaster": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Hyperdrive": "",
+      "[B]Starship Shield": "",
+      "[A]Launch Thrusters": "",
+      "[B]Phase Beam": "",
+      "[A]Positron": "",
+      "[A]Phase Beam": "",
+      "[B]Infra-Knife": "",
+      "[A]Starship Shield": "",
+      "[C]Positron": "",
+      "[B]Launch Thrusters": "",
+      "[B]Cyclotron": "",
+      "[S]Photon Cannon": "",
+      "[A]Cyclotron": "",
+      "[S]Cyclotron": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Exocraft Engine": "",
+      "[B]Humboldt Drive": "",
+      "[A]Exocraft Laser": ""
+    },
+    "Buy Sell": {
+      "Non-Stick Piston": "",
+      "Enormous Metal Cog": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Magno-Gold": "",
+      "Quantum Computer": "",
+      "Microprocessor": "",
+      "Metal Plating": "",
+      "Phosphorus": "",
+      "Paraffinium": "",
+      "Pure Ferrite": "",
+      "Ammonia": "",
+      "Dioxite": ""
+    },
+    "Mooka 57/F5": {
+      "Planet Info": [
+        "Biome: Irradiated Planet",
+        "Weather: Radioactive Damp",
+        "Sentinels: Frequent",
+        "Flora: Ordinary",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Sodium",
+        "Uranium",
+        "Activated Indium"
+      ]
+    },
+    "Heywoole Soka": {
+      "Planet Info": [
+        "Biome: Desolate Planet",
+        "Weather: Sand Blizzards",
+        "Sentinels: Enforcing",
+        "Flora: Numerous",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Magnetised Ferrite",
+        "Pyrite",
+        "Activated Indium"
+      ]
+    },
+    "Boeot Prime": {
+      "Planet Info": [
+        "Biome: Lost Blue Planet",
+        "Weather: Winds from Beyond",
+        "Sentinels: Threatening",
+        "Flora: Generous",
+        "Fauna: Copious"
+      ],
+      "Resources": [
+        "Silver",
+        "Dioxite",
+        "Activated Indium"
+      ]
+    }
+  }
+}
+
+elasped time: 13.8
+class_set: {'S', 'C', 'B', 'A'}
+
