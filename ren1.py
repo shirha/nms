@@ -1,3 +1,4 @@
+# IMPROTANT: don't forget to clear out/0-1 first!
 import os
 import shutil
 from datetime import datetime, timedelta

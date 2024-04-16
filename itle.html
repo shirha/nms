@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="mobile-web-app-capable" content="yes">
+  <title>itle</title>
+<style> 
+@font-face {font-family: "NMS Geo"; src: url("geonms-webfont.ttf");}
+@font-face {font-family: "NMS Glyphs"; src: url("NMS-Glyphs-Mono.ttf");}
+h2 {text-align: center; max-width: 800px; font-size: 1.25em;}
+body {background: url("screenshot.jpg") fixed no-repeat; background-size: cover; font-size: 18px;}
+table {border-spacing: 0;}
+td {padding: 0;}
+td {vertical-align: top;}
+div {padding-left: 10px;}
+img {height: 18px; vertical-align: middle; margin-bottom: 4px; margin-left: 4px;}
+.poi {display: inline-block; border-radius: 8px; padding: 0 8px; margin: 1px 0; font-style: normal;}
+.bio {padding-left:30px;}
+.cc {height: 24px; margin: 0; padding-left: 0;}
+.badge {display: inline-block; padding: 0;}
+.badge div {display: inline-block; padding: 0;}
+.bq {font-style: italic; color: #551a8b;} /* navy;} */
+blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
+button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
+.gl {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; height: 22px; display: inline-block; padding:0;} 
+span {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold;} 
+.k {font-family: "NMS Kerned"; font-weight: bold;} 
+.disabled {font-family: "NMS Glyphs"; font-size: larger; font-weight: bold; color: #a0a0a0;} 
+.dot {border-radius: 50%; height: 10px; width: 10px; display: inline-block; margin-left: 4px; padding: 0; border: 1px solid #aaa;}
+.dox {border-radius: 50%; height: 10px; width: 10px; display: inline-block; margin-left: 4px; padding: 0;}
+.fl td::first-letter {font-weight: normal;}
+.c {display: inline-block; vertical-align: top; padding-top: 8px;}
+.s, .p {padding-top: 8px;} 
+.sy {display: inline-block; font-family: Arial;}
+.pl {display: inline-block;}
+.pl:link {color: #551a8b;} .pl:visited {color: #551a8b} .pl:hover {color: #0000ee;}
+.sy:link {color: #0000ee;} .sy:visited {color: #0000ee} .sy:hover {color: #551a8b;}
+a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-decoration: none; margin-bottom: 1px; border: 1px solid #808080; cursor: pointer;}
+.tbl {display: inline-block; padding-left: 0; width:130px;}
+.pg  {border: 0; padding: 0;}
+.pg img {vertical-align: top;}
+#sum {border-spacing: 4px 4px; border-collapse: separate;}
+/*#sum td {padding-bottom: 0px;}*/
+.r {margin-top: 10px;}
+.pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
+.tc,.ib,.scp {padding:0; cursor: pointer;}
+.bc {cursor: pointer;}
+.ab {background-color: #E1C16E;}
+.ab,.ac {border:0;}
+.at {background-color: #f0f0f0;} /* #ffe9b3;} */
+.tc div, .content div {display: inline-block; border: 1px solid #bbb; width: 13px; border-radius: 4px;  
+    text-align: center; padding: 0 2px; font-size: 14px; font-family: 'NMS Geo'}
+.sca {display: inline-block; padding-left: 0; color:#0000ee}
+.scx {display: inline-block; padding-left: 0; color: #600080; font-family: Arial; font-variant: small-caps; /*font-weight:bold; font-style: italic; border: 1px solid darkgrey; border-radius: 8px;padding: 0 6px;*/}
+.scy {display: inline-block; padding-left: 0; color:yellow}
+.sms {display: inline-block; color:black; font-style: normal; padding: 0; font-family: Arial; font-size: 18px; font-variant: small-caps;}
+.scr {display: inline-block; padding-left: 0; color:#DC143C}
+.scg {display: inline-block; padding-left: 0; color:limegreen}
+.scb {display: inline-block; padding-left: 0; color:blue}
+.sct {display: inline-block; padding-left: 0; color:teal}
+.scp {display: inline-block; padding-left: 0; color:purple}
+.tgb {background-color: blue;}      /* blue */
+.bl  {background-color: #b0e0ff;}   /* storm crystal */
+.tcb {background-color: #aad9f7;}   /* tech class b */
+.tgg {background-color: limegreen;} /* green */
+.tcc {background-color: #99ff66;}   /* tech class c */
+.gr  {background-color: #99ff66;} 
+.tr  {background-color: greenyellow; color: black;}  /* traveler - #BD104C;  */
+.tgr {background-color: #de143c;}   /* red */
+.tcs {background-color: #ffc100;}   /* tech class s */
+.bh  {background-color: #E1C16E;}   /* black hole */
+.rd  {background-color: pink;}      /* predator */
+.yl  {background-color: yellow;} 
+.tgy {background-color: yellow;} 
+.br  {background-color: #D2B48C;}   /* horrific nest */
+.co  {background-color: #d9b3ff;}   /* #debde4; corrupted */
+.tca {background-color: #d9b3ff;}   /* tech class a */
+.tcx {background-color: #ddd;}      /* tech class x */
+.on  {background-color: #f8f8f8;}   /* #f8f8f8 */
+.bca {background-color: #d9b3ff; border-radius: 8px;}
+#option1 {display:block;}
+#option2 {display:none;}
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  max-width: 800px;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+}
+.modal img {width: 80%; height: auto; margin: 10%;}
+
+#id01 {background-color: #474e5d;}
+#id02 {background-color: rgb(224, 224, 224,0.8);}
+#al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
+#al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 4px;}
+#container {max-width: 900px; padding: 0;}
+
+.content { 
+  position: fixed;
+  left: 100%;
+  top: 50%;
+  -webkit-transform: translate(-100%, -50%);
+  transform: translate(-100%, -50%);
+  border-radius: 4px;
+  padding:0;
+}
+
+@media (min-width: 600px) {
+  .content {
+    left: 600px;
+  }
+}
+/*
+.content { 
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  border-radius: 8px;
+  padding:0;
+}
+@media (min-width: 740px) {
+  .content {
+    left: 370px;
+  }
+}
+*/
+</style></head><body><div id="container">
+<div id="id01" class="modal">
+  <img src="i/help.png">
+</div>
+<div id="id02" class="content"></div>
+
+<h2>itle System Summary</h2>
+<table id=sum><tr><th>Systems</th><th>Planets</th></tr>
+<tr><td nowrap> <a class="sy">Amling<div class="dox tgb"></div></a></td><td>
+  <a class="pl">Mooka 57/F5</a> 
+  <a class="pl">Heywoole Soka</a> 
+  <a class="pl">Boeot Prime<div class="dox yl"></div></a></td></tr>
+</table>
+<div class=c><center><b>Technology</b></center><div class="tc" id="_t001"><div class="tca">A</div>&hairsp;Blaze Javelin</div>
+<div class="tc" id="_t002"><div class="tca">A</div>&hairsp;Boltcaster</div>
+<div class="tc" id="_t003"><div class="tcs">S</div>&hairsp;Cold Protection</div>
+<div class="tc" id="_t004"><div class="tcs">S</div>&hairsp;Cyclotron</div>
+<div class="tc" id="_t005"><div class="tcc">C</div>&hairsp;Exocraft Boost</div>
+<div class="tc" id="_t006"><div class="tcc">C</div>&hairsp;Exocraft Cannon</div>
+<div class="tc" id="_t007"><div class="tcb">B</div>&hairsp;Exocraft Engine</div>
+<div class="tc" id="_t008"><div class="tca">A</div>&hairsp;Exocraft Laser</div>
+<div class="tc" id="_t009"><div class="tcs">S</div>&hairsp;Geology Cannon</div>
+<div class="tc" id="_t010"><div class="tcs">S</div>&hairsp;Hot Protection</div>
+<div class="tc" id="_t011"><div class="tcb">B</div>&hairsp;Humboldt Drive</div>
+<div class="tc" id="_t012"><div class="tcs">S</div>&hairsp;Hyperdrive</div>
+<div class="tc" id="_t013"><div class="tcb">B</div>&hairsp;Infra-Knife</div>
+<div class="tc" id="_t014"><div class="tca">A</div>&hairsp;Launch Thrusters</div>
+<div class="tc" id="_t015"><div class="tcs">S</div>&hairsp;Life Support</div>
+<div class="tc" id="_t016"><div class="tcs">S</div>&hairsp;Mining Beam</div>
+<div class="tc" id="_t017"><div class="tcb">B</div>&hairsp;Minotaur Cannon</div>
+<div class="tc" id="_t018"><div class="tcb">B</div>&hairsp;Minotaur Engine</div>
+<div class="tc" id="_t019"><div class="tcb">B</div>&hairsp;Minotaur Laser</div>
+<div class="tc" id="_t020"><div class="tcc">C</div>&hairsp;Movement</div>
+<div class="tc" id="_t021"><div class="tcc">C</div>&hairsp;Nautilon Cannon</div>
+<div class="tc" id="_t022"><div class="tcc">C</div>&hairsp;Neutron Cannon</div>
+<div class="tc" id="_t023"><div class="tca">A</div>&hairsp;Phase Beam</div>
+<div class="tc" id="_t024"><div class="tcs">S</div>&hairsp;Photon Cannon</div>
+<div class="tc" id="_t025"><div class="tca">A</div>&hairsp;Plasma Launcher</div>
+<div class="tc" id="_t026"><div class="tca">A</div>&hairsp;Positron</div>
+<div class="tc" id="_t027"><div class="tcc">C</div>&hairsp;Pulse Engine</div>
+<div class="tc" id="_t028"><div class="tcs">S</div>&hairsp;Pulse Spitter</div>
+<div class="tc" id="_t029"><div class="tcs">S</div>&hairsp;Radiation Protection</div>
+<div class="tc" id="_t030"><div class="tcb">B</div>&hairsp;Scanner</div>
+<div class="tc" id="_t031"><div class="tcb">B</div>&hairsp;Scatter Blaster</div>
+<div class="tc" id="_t032"><div class="tcs">S</div>&hairsp;Shield</div>
+<div class="tc" id="_t033"><div class="tca">A</div>&hairsp;Starship Shield</div>
+<div class="tc" id="_t034"><div class="tca">A</div>&hairsp;Toxic Protection</div>
+<div class="tc" id="_t035"><div class="tcb">B</div>&hairsp;Underwater Protection</div>
+</div>
+<div class=c><center><b>Buy Sell</b></center><div class="ib" id="_s036">Ammonia</div>
+<div class="ib" id="_s038">Cobalt</div>
+<div class="ib" id="_s040">Dioxite</div>
+<div class="ib" id="_s042">Enormous Metal Cog</div>
+<div class="ib" id="_s044">Ferrite Dust</div>
+<div class="ib" id="_s046">Magno-Gold</div>
+<div class="ib" id="_s048">Metal Plating</div>
+<div class="ib" id="_s050">Microprocessor</div>
+<div class="ib" id="_s052">Non-Stick Piston</div>
+<div class="ib" id="_s054">Paraffinium</div>
+<div class="ib" id="_s056">Phosphorus</div>
+<div class="ib" id="_s058">Pure Ferrite</div>
+<div class="ib" id="_s060">Quantum Computer</div>
+<div class="ib" id="_s062">Unstable Plasma</div>
+<div class="ib" id="_s064">Wiring Loom</div></div>
+<div class=c><center><b>Resources</b></center><div class="ib" id="_r066">Activated Indium</div>
+<div class="ib" id="_r068">Cactus Flesh</div>
+<div class="ib" id="_r070">Dioxite</div>
+<div class="ib" id="_r072">Gamma Root</div>
+<div class="ib" id="_r074">Magnetised Ferrite</div>
+<div class="ib" id="_r076">Pyrite</div>
+<div class="ib" id="_r078">Silver</div>
+<div class="ib" id="_r080">Sodium</div>
+<div class="ib" id="_r082">Uranium</div></div>
+<div class=c><center><b>Biome</b></center><div class="ib" id="_b084">Desolate Planet</div>
+<div class="ib" id="_b085">Irradiated Planet</div>
+<div class="ib" id="_b086">Lost Blue Planet</div></div>
+<h2>itle System Detail</h2>
+<div class="s" id="Amling"> <a class="sy">Amling</a>
+  <div>System Info
+    <div>Stellar Classification: B1pf<div class="dox tgb"></div></div>
+    <div>Celestial Bodies: 3 Planets</div>
+    <div>Dominant Lifefgrm Vy'keen</div>
+    <div>Economy: Mass Production // Unsuccessful</div>
+    <div>Conflict level: Formidable</div>
+    <div>Glyphs: <div class=gl>11ef02&nbsp;901055</div></div>
+  </div>
+  <div>Technology
+    <div class="tc" id="_t087"><div class="tca">A</div>&hairsp;Blaze Javelin</div>
+    <div class="tc" id="_t088"><div class="tca">A</div>&hairsp;Boltcaster</div>
+    <div class="tc" id="_t089"><div class="tcs">S</div>&hairsp;Cold Protection</div>
+    <div class="tc" id="_t090"><div class="tcs">S</div>&hairsp;Cyclotron</div>
+    <div class="tc" id="_t091"><div class="tcc">C</div>&hairsp;Exocraft Boost</div>
+    <div class="tc" id="_t092"><div class="tcc">C</div>&hairsp;Exocraft Cannon</div>
+    <div class="tc" id="_t093"><div class="tcb">B</div>&hairsp;Exocraft Engine</div>
+    <div class="tc" id="_t094"><div class="tca">A</div>&hairsp;Exocraft Laser</div>
+    <div class="tc" id="_t095"><div class="tcs">S</div>&hairsp;Geology Cannon</div>
+    <div class="tc" id="_t096"><div class="tcs">S</div>&hairsp;Hot Protection</div>
+    <div class="tc" id="_t097"><div class="tcb">B</div>&hairsp;Humboldt Drive</div>
+    <div class="tc" id="_t098"><div class="tcs">S</div>&hairsp;Hyperdrive</div>
+    <div class="tc" id="_t099"><div class="tcb">B</div>&hairsp;Infra-Knife</div>
+    <div class="tc" id="_t100"><div class="tca">A</div>&hairsp;Launch Thrusters</div>
+    <div class="tc" id="_t101"><div class="tcs">S</div>&hairsp;Life Support</div>
+    <div class="tc" id="_t102"><div class="tcs">S</div>&hairsp;Mining Beam</div>
+    <div class="tc" id="_t103"><div class="tcb">B</div>&hairsp;Minotaur Cannon</div>
+    <div class="tc" id="_t104"><div class="tcb">B</div>&hairsp;Minotaur Engine</div>
+    <div class="tc" id="_t105"><div class="tcb">B</div>&hairsp;Minotaur Laser</div>
+    <div class="tc" id="_t106"><div class="tcc">C</div>&hairsp;Movement</div>
+    <div class="tc" id="_t107"><div class="tcc">C</div>&hairsp;Nautilon Cannon</div>
+    <div class="tc" id="_t108"><div class="tcc">C</div>&hairsp;Neutron Cannon</div>
+    <div class="tc" id="_t109"><div class="tca">A</div>&hairsp;Phase Beam</div>
+    <div class="tc" id="_t110"><div class="tcs">S</div>&hairsp;Photon Cannon</div>
+    <div class="tc" id="_t111"><div class="tca">A</div>&hairsp;Plasma Launcher</div>
+    <div class="tc" id="_t112"><div class="tca">A</div>&hairsp;Positron</div>
+    <div class="tc" id="_t113"><div class="tcc">C</div>&hairsp;Pulse Engine</div>
+    <div class="tc" id="_t114"><div class="tcs">S</div>&hairsp;Pulse Spitter</div>
+    <div class="tc" id="_t115"><div class="tcs">S</div>&hairsp;Radiation Protection</div>
+    <div class="tc" id="_t116"><div class="tcb">B</div>&hairsp;Scanner</div>
+    <div class="tc" id="_t117"><div class="tcb">B</div>&hairsp;Scatter Blaster</div>
+    <div class="tc" id="_t118"><div class="tcs">S</div>&hairsp;Shield</div>
+    <div class="tc" id="_t119"><div class="tca">A</div>&hairsp;Starship Shield</div>
+    <div class="tc" id="_t120"><div class="tca">A</div>&hairsp;Toxic Protection</div>
+    <div class="tc" id="_t121"><div class="tcb">B</div>&hairsp;Underwater Protection</div>
+  </div>
+  <div>Buy Sell
+      <div class="bc" id="_s122">Ammonia</div>
+      <div class="bc" id="_s123">Cobalt</div>
+      <div class="bc" id="_s124">Dioxite</div>
+      <div class="bc" id="_s125">Enormous Metal Cog</div>
+      <div class="bc" id="_s126">Ferrite Dust</div>
+      <div class="bc" id="_s127">Magno-Gold</div>
+      <div class="bc" id="_s128">Metal Plating</div>
+      <div class="bc" id="_s129">Microprocessor</div>
+      <div class="bc" id="_s130">Non-Stick Piston</div>
+      <div class="bc" id="_s131">Paraffinium</div>
+      <div class="bc" id="_s132">Phosphorus</div>
+      <div class="bc" id="_s133">Pure Ferrite</div>
+      <div class="bc" id="_s134">Quantum Computer</div>
+      <div class="bc" id="_s135">Unstable Plasma</div>
+      <div class="bc" id="_s136">Wiring Loom</div>
+  </div>
+  <div class="p" id="Mooka_57/F5"><a class="pl">Mooka 57/F5</a>
+    <div>Planet Info
+      <div class="bc" id="_b137">Biome: Irradiated Planet</div>
+      <div>Weather: Radioactive Damp</div>
+      <div>Sentinels: Frequent</div>
+      <div>Flora: Ordinary</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div class="bc" id="_r138">Gamma Root</div>
+      <div class="bc" id="_r139">Sodium</div>
+      <div class="bc" id="_r140">Uranium</div>
+      <div class="bc" id="_r141">Activated Indium</div>
+    </div>
+  </div>
+  <div class="p" id="Heywoole_Soka"><a class="pl">Heywoole Soka</a>
+    <div>Planet Info
+      <div class="bc" id="_b142">Biome: Desolate Planet</div>
+      <div>Weather: Sand Blizzards</div>
+      <div>Sentinels: Enforcing</div>
+      <div>Flora: Numerous</div>
+      <div>Fauna: Abundant</div>
+    </div>
+    <div>Resources
+      <div class="bc" id="_r143">Cactus Flesh</div>
+      <div class="bc" id="_r144">Magnetised Ferrite</div>
+      <div class="bc" id="_r145">Pyrite</div>
+      <div class="bc" id="_r146">Activated Indium</div>
+    </div>
+  </div>
+  <div class="p" id="Boeot_Prime"><a class="pl">Boeot Prime</a>
+    <div>Planet Info
+      <div class="bc" id="_b147">Biome: Lost Blue Planet</div>
+      <div>Weather: <div class="poi rd">Winds from Beyond</div></div>
+      <div>Sentinels: <div class="poi rd">Threatening</div></div>
+      <div>Flora: Generous</div>
+      <div>Fauna: Copious</div>
+      <div>POI: <div class="poi yl">Ms 5.7</div> <div class=scx>r5</div> Portal <div class=sca> +27.44, +11.24</div></div>
+    </div>
+    <div>Resources
+      <div class="bc" id="_r148">Silver</div>
+      <div class="bc" id="_r149">Dioxite</div>
+      <div class="bc" id="_r150">Activated Indium</div>
+    </div>
+  </div>
+</div>
+<button>Collapse All</button>
+
+<div style="color:#551a8b;"><small><br>
+* Only the top class upgrades are shown in the System Summary<br>
+System Detail only shows upgrades found in System Summary<br>
+<br>
+Technology, Buy Sell, Resources and Biome are now clickable<br>
+The top item in the popup scrolls to the top when clicked<br>
+You must click one of the popup links to dismiss the popup<br>
+You can click other clickable items while popup is visible
+
+</small></div>
+<h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
+
+<div style="margin-top: 700px;"></div>
+</div> <!-- end container -->
+<script>
+const links={"_t001": ["<div class=\"tca\">A</div>&hairsp;Blaze Javelin", ""], "_t002": ["<div class=\"tca\">A</div>&hairsp;Boltcaster", ""], "_t003": ["<div class=\"tcs\">S</div>&hairsp;Cold Protection", ""], "_t004": ["<div class=\"tcs\">S</div>&hairsp;Cyclotron", ""], "_t005": ["<div class=\"tcc\">C</div>&hairsp;Exocraft Boost", ""], "_t006": ["<div class=\"tcc\">C</div>&hairsp;Exocraft Cannon", ""], "_t007": ["<div class=\"tcb\">B</div>&hairsp;Exocraft Engine", ""], "_t008": ["<div class=\"tca\">A</div>&hairsp;Exocraft Laser", ""], "_t009": ["<div class=\"tcs\">S</div>&hairsp;Geology Cannon", ""], "_t010": ["<div class=\"tcs\">S</div>&hairsp;Hot Protection", ""], "_t011": ["<div class=\"tcb\">B</div>&hairsp;Humboldt Drive", ""], "_t012": ["<div class=\"tcs\">S</div>&hairsp;Hyperdrive", ""], "_t013": ["<div class=\"tcb\">B</div>&hairsp;Infra-Knife", ""], "_t014": ["<div class=\"tca\">A</div>&hairsp;Launch Thrusters", ""], "_t015": ["<div class=\"tcs\">S</div>&hairsp;Life Support", ""], "_t016": ["<div class=\"tcs\">S</div>&hairsp;Mining Beam", ""], "_t017": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Cannon", ""], "_t018": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Engine", ""], "_t019": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Laser", ""], "_t020": ["<div class=\"tcc\">C</div>&hairsp;Movement", ""], "_t021": ["<div class=\"tcc\">C</div>&hairsp;Nautilon Cannon", ""], "_t022": ["<div class=\"tcc\">C</div>&hairsp;Neutron Cannon", ""], "_t023": ["<div class=\"tca\">A</div>&hairsp;Phase Beam", ""], "_t024": ["<div class=\"tcs\">S</div>&hairsp;Photon Cannon", ""], "_t025": ["<div class=\"tca\">A</div>&hairsp;Plasma Launcher", ""], "_t026": ["<div class=\"tca\">A</div>&hairsp;Positron", ""], "_t027": ["<div class=\"tcc\">C</div>&hairsp;Pulse Engine", ""], "_t028": ["<div class=\"tcs\">S</div>&hairsp;Pulse Spitter", ""], "_t029": ["<div class=\"tcs\">S</div>&hairsp;Radiation Protection", ""], "_t030": ["<div class=\"tcb\">B</div>&hairsp;Scanner", ""], "_t031": ["<div class=\"tcb\">B</div>&hairsp;Scatter Blaster", ""], "_t032": ["<div class=\"tcs\">S</div>&hairsp;Shield", ""], "_t033": ["<div class=\"tca\">A</div>&hairsp;Starship Shield", ""], "_t034": ["<div class=\"tca\">A</div>&hairsp;Toxic Protection", ""], "_t035": ["<div class=\"tcb\">B</div>&hairsp;Underwater Protection", ""], "_s036": ["Ammonia", ""], "_s038": ["Cobalt", ""], "_s040": ["Dioxite", ""], "_s042": ["Enormous Metal Cog", ""], "_s044": ["Ferrite Dust", ""], "_s046": ["Magno-Gold", ""], "_s048": ["Metal Plating", ""], "_s050": ["Microprocessor", ""], "_s052": ["Non-Stick Piston", ""], "_s054": ["Paraffinium", ""], "_s056": ["Phosphorus", ""], "_s058": ["Pure Ferrite", ""], "_s060": ["Quantum Computer", ""], "_s062": ["Unstable Plasma", ""], "_s064": ["Wiring Loom", ""], "_r066": ["Activated Indium", ""], "_r068": ["Cactus Flesh", ""], "_r070": ["Dioxite", ""], "_r072": ["Gamma Root", ""], "_r074": ["Magnetised Ferrite", ""], "_r076": ["Pyrite", ""], "_r078": ["Silver", ""], "_r080": ["Sodium", ""], "_r082": ["Uranium", ""], "_b084": ["Desolate Planet", ""], "_b085": ["Irradiated Planet", ""], "_b086": ["Lost Blue Planet", ""], "_t087": ["<div class=\"tca\">A</div>&hairsp;Blaze Javelin", "Amling"], "_t088": ["<div class=\"tca\">A</div>&hairsp;Boltcaster", "Amling"], "_t089": ["<div class=\"tcs\">S</div>&hairsp;Cold Protection", "Amling"], "_t090": ["<div class=\"tcs\">S</div>&hairsp;Cyclotron", "Amling"], "_t091": ["<div class=\"tcc\">C</div>&hairsp;Exocraft Boost", "Amling"], "_t092": ["<div class=\"tcc\">C</div>&hairsp;Exocraft Cannon", "Amling"], "_t093": ["<div class=\"tcb\">B</div>&hairsp;Exocraft Engine", "Amling"], "_t094": ["<div class=\"tca\">A</div>&hairsp;Exocraft Laser", "Amling"], "_t095": ["<div class=\"tcs\">S</div>&hairsp;Geology Cannon", "Amling"], "_t096": ["<div class=\"tcs\">S</div>&hairsp;Hot Protection", "Amling"], "_t097": ["<div class=\"tcb\">B</div>&hairsp;Humboldt Drive", "Amling"], "_t098": ["<div class=\"tcs\">S</div>&hairsp;Hyperdrive", "Amling"], "_t099": ["<div class=\"tcb\">B</div>&hairsp;Infra-Knife", "Amling"], "_t100": ["<div class=\"tca\">A</div>&hairsp;Launch Thrusters", "Amling"], "_t101": ["<div class=\"tcs\">S</div>&hairsp;Life Support", "Amling"], "_t102": ["<div class=\"tcs\">S</div>&hairsp;Mining Beam", "Amling"], "_t103": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Cannon", "Amling"], "_t104": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Engine", "Amling"], "_t105": ["<div class=\"tcb\">B</div>&hairsp;Minotaur Laser", "Amling"], "_t106": ["<div class=\"tcc\">C</div>&hairsp;Movement", "Amling"], "_t107": ["<div class=\"tcc\">C</div>&hairsp;Nautilon Cannon", "Amling"], "_t108": ["<div class=\"tcc\">C</div>&hairsp;Neutron Cannon", "Amling"], "_t109": ["<div class=\"tca\">A</div>&hairsp;Phase Beam", "Amling"], "_t110": ["<div class=\"tcs\">S</div>&hairsp;Photon Cannon", "Amling"], "_t111": ["<div class=\"tca\">A</div>&hairsp;Plasma Launcher", "Amling"], "_t112": ["<div class=\"tca\">A</div>&hairsp;Positron", "Amling"], "_t113": ["<div class=\"tcc\">C</div>&hairsp;Pulse Engine", "Amling"], "_t114": ["<div class=\"tcs\">S</div>&hairsp;Pulse Spitter", "Amling"], "_t115": ["<div class=\"tcs\">S</div>&hairsp;Radiation Protection", "Amling"], "_t116": ["<div class=\"tcb\">B</div>&hairsp;Scanner", "Amling"], "_t117": ["<div class=\"tcb\">B</div>&hairsp;Scatter Blaster", "Amling"], "_t118": ["<div class=\"tcs\">S</div>&hairsp;Shield", "Amling"], "_t119": ["<div class=\"tca\">A</div>&hairsp;Starship Shield", "Amling"], "_t120": ["<div class=\"tca\">A</div>&hairsp;Toxic Protection", "Amling"], "_t121": ["<div class=\"tcb\">B</div>&hairsp;Underwater Protection", "Amling"], "_s122": ["Ammonia", "Amling"], "_s123": ["Cobalt", "Amling"], "_s124": ["Dioxite", "Amling"], "_s125": ["Enormous Metal Cog", "Amling"], "_s126": ["Ferrite Dust", "Amling"], "_s127": ["Magno-Gold", "Amling"], "_s128": ["Metal Plating", "Amling"], "_s129": ["Microprocessor", "Amling"], "_s130": ["Non-Stick Piston", "Amling"], "_s131": ["Paraffinium", "Amling"], "_s132": ["Phosphorus", "Amling"], "_s133": ["Pure Ferrite", "Amling"], "_s134": ["Quantum Computer", "Amling"], "_s135": ["Unstable Plasma", "Amling"], "_s136": ["Wiring Loom", "Amling"], "_b137": ["Irradiated Planet", "Mooka_57/F5"], "_r138": ["Gamma Root", "Mooka_57/F5"], "_r139": ["Sodium", "Mooka_57/F5"], "_r140": ["Uranium", "Mooka_57/F5"], "_r141": ["Activated Indium", "Mooka_57/F5"], "_b142": ["Desolate Planet", "Heywoole_Soka"], "_r143": ["Cactus Flesh", "Heywoole_Soka"], "_r144": ["Magnetised Ferrite", "Heywoole_Soka"], "_r145": ["Pyrite", "Heywoole_Soka"], "_r146": ["Activated Indium", "Heywoole_Soka"], "_b147": ["Lost Blue Planet", "Boeot_Prime"], "_r148": ["Silver", "Boeot_Prime"], "_r149": ["Dioxite", "Boeot_Prime"], "_r150": ["Activated Indium", "Boeot_Prime"]}
+
+function findLinks(links, key) {
+  const firstItem = links[key][0];
+  const matchingKeys = [];
+  for (const k in links) {
+    if (links.hasOwnProperty(k) && links[k][0] === firstItem && k[1] == key[1]) {
+      matchingKeys.push(k);
+  } }
+  return matchingKeys;
+}
+
+const id01 = document.getElementById('id01'),
+  id02 = document.getElementById('id02'),
+  handleModal = () => id01.style.display='block',
+  handleLinks = (e) => {
+    let docs = [];
+    const urls = findLinks(links,e.target.id);
+    urls.forEach((x,i) => {
+      if(i == 0){
+        docs.push(`<table id=al><tr><td class="at"><a class="ac" href="javascript:jump('0')">${links[x][0]}</a></td></tr>`);
+      }else{
+        docs.push(`<tr><td><a class="ac" href="javascript:jump('${links[x][1]}')">${links[x][1].replace(/_/g, ' ')}</a></td></tr>`);
+      }
+    });
+    docs.push('</table>');
+    id02.innerHTML = docs.join("\n");
+    id02.style.display='block';
+  };
+
+function jump(id){
+  if(id == '0'){
+    window.scrollTo(0, 0);
+  }else{
+    document.getElementById(id).scrollIntoView();
+  }
+  id02.style.display='none';
+}
+
+function sv(id){
+  document.getElementById(id).scrollIntoView({ behavior: "smooth" });
+}
+
+[...document.querySelectorAll(".sy,.pl")]
+  .forEach(e => {
+    if(e.parentNode.tagName == 'TD'){
+      const a_id = e.textContent.replace(/ /g, '_');
+      e.addEventListener('click', function(e){
+        document.getElementById(a_id).scrollIntoView()
+      })
+    }else{
+      e.addEventListener('click', function(e){
+        window.scrollTo(0, 0);
+      })
+    }
+  });         
+
+document.querySelector('button').addEventListener('click', function(){
+  document.querySelectorAll('.c')
+    .forEach(e => e.style.display = 'none');
+
+  [...document.querySelectorAll('.p')]
+    .filter(e => !/POI:/.test(e.textContent))
+    .forEach(e => e.style.display = "none");
+
+  document.querySelectorAll('.s')
+    .forEach(e => {
+      [...e.querySelectorAll('div')]
+        .filter(e => /^(Technology|Buy Sell|Resources)/.test(e.textContent))
+        .forEach(e => e.style.display = 'none')
+    });
+  document.querySelector('button').style.display = 'none';
+});
+
+let cbox = document.querySelectorAll('input[type=checkbox]');
+
+for (let i = 0; i < cbox.length; i++) {
+  cbox[i].addEventListener("click", function(e) {
+    let key = e.target.nextSibling.nextSibling.innerHTML;
+    if(localStorage.getItem(key) === null){
+      localStorage.setItem(key, true);
+      e.target.checked == true;
+    }else{
+      localStorage.removeItem(key);
+      e.target.checked == false;
+    }
+  });
+
+  ms = cbox[i].nextSibling.nextSibling.innerHTML;
+  if(!(localStorage.getItem(ms) === null)){ 
+    console.log(ms);
+    cbox[i].checked = true;
+  }
+}
+
+function clearCheckbox(){
+  if(confirm("Are you sure?")){
+    Object.keys(localStorage)
+      .filter(key => /Ms \d\.\d/.test(key))
+      .map(key => localStorage.removeItem(key));
+    [...cbox].map(e => e.checked = false);
+  }
+}
+
+[...document.querySelectorAll('img')]
+  .filter(e => /badge|class/.test(e.src))
+  .forEach(e => e.addEventListener('click', handleModal));
+
+window.onclick = function(event) {
+  if (event.target.parentNode == id01 || event.target == id01) {
+    modal.style.display = "none";
+
+    [...document.querySelectorAll('img')]
+      .filter(e => /badge|class/.test(e.src))
+      .forEach(e => e.removeEventListener('click', handleModal));
+  // }else if(id02.style.display == "block"){
+  //   id02.style.display = "none";
+  }
+};
+
+[...document.querySelectorAll('div')]
+  .filter(e => e.id.startsWith('_'))
+  .forEach(e => e.addEventListener('click', handleLinks));
+
+</script></body></html>

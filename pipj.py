@@ -809,7 +809,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 #id01 {background-color: #474e5d;}
 #id02 {background-color: rgb(224, 224, 224,0.8);}
 #al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
-#al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 8px;}
+#al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 4px;}
 #container {max-width: 900px; padding: 0;}
 
 .content { 
@@ -818,7 +818,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
   top: 50%;
   -webkit-transform: translate(-100%, -50%);
   transform: translate(-100%, -50%);
-  border-radius: 8px;
+  border-radius: 4px;
   padding:0;
 }
 
@@ -869,6 +869,7 @@ def tags(station):
   html.append(dot(station))
   return "".join(html)
 
+# use on System Summary only
 dot    = lambda p: ('','<div class="dox yl"></div>')[p in poi and any(re.match('POI', x) for x in poi[p])]
 ptag   = lambda p: f'\n  <a class="pl">{p}{dot(p)}</a>'
 stag   = lambda p: f'<a class="sy">{tags(p)}</a>'
@@ -979,7 +980,7 @@ with open(f'pip{ilog}.json', "r") as infile:
 
   h.append('<h2>{0} System Detail</h2>')
   for s in db:
-    p = re.sub(" ","_",s)
+    p = re.sub(" ","_",s) 
     h.append(f'<div class="s" id="{p}">{badges[s] if s in badges else ""} <a class="sy">{s}</a>')
     for c in db[s]:
       p = re.sub(" ","_",c)
@@ -1004,7 +1005,11 @@ with open(f'pip{ilog}.json', "r") as infile:
               m = re.search(r'.(.).(.+)', i) # see decorate_tech
               h.append(f'    <div class="tc" id="_t{inc()}"><div class="tc{m.group(1).lower()}">{m.group(1)}</div>&hairsp;{m.group(2)}</div>')
             else:
-              h.append(f'    <div>{i}</div>')
+              if "Stellar Classification" in i and i[24] in dict_:
+              # html.append(f'<div class="dox {dict_[text[24]]}"></div>')
+                h.append(f'    <div>{i}<div class="dox {dict_[i[24]]}"></div></div>')
+              else:
+                h.append(f'    <div>{i}</div>')
         else: 
           # print(f'c={c}')
           h.append(f'    <div>{i}')
@@ -1175,6 +1180,7 @@ links = {}
 sid = ''
 pid = ''
 for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).splitlines())):
+  # print('\t',i.strip())
   s = re.search(r'"s" id="([^"]+)',i)
   if s:
     sid = s.group(1)
@@ -1196,7 +1202,7 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).spli
       if m:
         id, key, link = m.group(1), m.group(2), pid if pid else sid
         links[id]=[key,link]
-        # print(f'"{id}":["{key}", "{link}"]')
+        # print(f'"{id}":["{key}", "{link}"]','\n')
 # print(json.dumps(links ,indent=2))
 
 h = re.sub(r'\{0\}', title, '\n'.join(h))

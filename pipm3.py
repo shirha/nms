@@ -486,7 +486,10 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
 
       if re.match(r'Technol|Salvage', foot_text):
         line_tech = f'[{line_text2.capitalize()[0]}]{line_text}'
-        class_set.add(line_tech[1])
+        if not "Class Reactor" in line_text:
+          class_set.add(line_tech[1])
+          # if not line_tech[1] in "ABCSX": raise Exception(f'{line_text}')
+
 
       if (re.match(r'System|Contrab', foot_text) 
       or re.match(r'Technol|Salvage', foot_text) and not re.search(r'Class Reactor',line_tech)):
@@ -495,7 +498,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
         kiosk = {'Technol':'Technology','System':'Buy Sell', 'Salvage':'Technology','Contrab':'Buy Sell'}[foot_text]
         item = [line_tech,line_text][kiosk == 'Buy Sell']
         db[station][kiosk][[line_tech,line_text][kiosk == 'Buy Sell']] = ''
-        log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: {item}')
+        log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: {item} {["","Tech Class error"][kiosk == "Technology" and not item[1] in "ABCSX"]}')
 
       work_image[222:222+34,78:78+422] = thresh[110*y:110*y+34,78:78+422]
       if 't' in dbug:
