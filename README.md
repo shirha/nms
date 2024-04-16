@@ -54,5 +54,11 @@ import cv2 # OpenCV
 import numpy as np
 import pytesseract
 ```
+pytesseract OCR creates a lot of spelling error with roman numerals so the `fix` dictionary in pip3m.py is used to fix them.
+
+POI's are added using the `poi` dictionary in pipj.py. The format is html syntax that is inserted between divs.
+
+The indentation of the web page was based on the idea of this css `div {padding-left: 10px;}` and the `json` input.
 
 Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
+
