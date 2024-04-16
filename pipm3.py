@@ -124,7 +124,11 @@ null_lookup = {
 
 fix = {
   "Doriguc Vili":"Doriguc VII",
-
+  "New Egonglai":"New Eqonglai",
+  "Wokin Vi":"Wokin VII",
+  "Gabradet kom":"Gabradet Ikom",
+  "Xapht":"Xaphl",
+  
   # normal8 orbital
   "Oyook 52/68":"Oyook 52/G8",
   "ikoka 45/G1":"Ikoka 45/G1",

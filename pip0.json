@@ -351,6 +351,7 @@
     },
     "New Eqonglai": {
       "Planet Info": [
+        "Biome: Hiemal Planet",
         "Weather: Ice Storms",
         "Sentinels: Malicious",
         "Flora: Bountiful",
@@ -406,12 +407,6 @@
         "Dioxite",
         "Copper"
       ]
-    },
-    "New Egonglai": {
-      "Planet Info": [
-        "Biome: Hiemal Planet"
-      ],
-      "Resources": []
     }
   },
   "Jiyose-Aishe XIV": {
@@ -871,6 +866,7 @@
     },
     "Wokin VII": {
       "Planet Info": [
+        "Biome: Icy Planet",
         "Weather: Ice Storms",
         "Sentinels: Attentive",
         "Flora: Bountiful",
@@ -927,12 +923,6 @@
         "Paraffinium",
         "Copper"
       ]
-    },
-    "Wokin Vi": {
-      "Planet Info": [
-        "Biome: Icy Planet"
-      ],
-      "Resources": []
     }
   },
   "Yusvadbeat XII": {
@@ -1015,6 +1005,7 @@
     "Buy Sell": {},
     "Gabradet Ikom": {
       "Planet Info": [
+        "Biome: Airless Planet",
         "Weather: Peaceful",
         "Sentinels: Ever-present",
         "Flora: Deficient",
@@ -1028,6 +1019,7 @@
     },
     "Xaphl": {
       "Planet Info": [
+        "Biome: Dead Planet",
         "Weather: No Atmosphere",
         "Sentinels: Require Orthodoxy",
         "Flora: Devoid",
@@ -1066,18 +1058,6 @@
         "Mordite",
         "Copper"
       ]
-    },
-    "Gabradet kom": {
-      "Planet Info": [
-        "Biome: Airless Planet"
-      ],
-      "Resources": []
-    },
-    "Xapht": {
-      "Planet Info": [
-        "Biome: Dead Planet"
-      ],
-      "Resources": []
     }
   },
   "Amling": {
