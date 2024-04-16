@@ -55,4 +55,4 @@ import numpy as np
 import pytesseract
 ```
 
-Checkout the Demo.pdf and visit Github Pages site for this project.
+Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
