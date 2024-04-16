@@ -115,7 +115,7 @@ corrupted = {  #Corrupted
 
 # isResource blank planet names
 null_lookup = {
-      '_8_': 'RW',
+      # '_8_': 'RW',
       'Nomyussko': { 10: 'Eotis' },
       'Doludes': { 6: 'E&#x203A;' },
       # 'Annana-Anyun': {5: 'Faeli'},
