@@ -31,7 +31,7 @@ for opt, arg in opts:
       dbug = 'igtrvs'
 
 if ilog == '0' or ilog == 't':
-  db = {}
+  db = {} # {"Apporo II": {'System Info':[],'Technology':{},'Buy Sell':{}}}
 else:
   with open(f'pip{int(ilog) - 1}.json', "r") as infile: 
     db = json.load(infile)
@@ -48,11 +48,11 @@ beg_time = time.perf_counter()
 #, "expeditions\\expeditions11 voyagers" 2K
 dirs = ["normal\\normal8 orbital", "normal\\frontiers1", "normal\\normal5", "expeditions\\expeditions4", "normal\\normal6", "expeditions\\expeditions1 redux", "expeditions\\expeditions2 redux", "expeditions\\expeditions5 exobiology", "expeditions\\expeditions6 blighted", "expeditions\\expeditions7 leviathan", "expeditions\\expeditions8 polestar", "expeditions\\expeditions5 redux", "expeditions\\expeditions6 redux", "expeditions\\expeditions7 redux", "expeditions\\expeditions8 redux", "normal\\normal7", "expeditions\\expeditions9 utopia", "expeditions\\expeditions10 sigularity", "expeditions\\expeditions12 omega", "normal\\normal9", "derelict-restapi"] 
 
-for dir in ["normal\\normal9"]: #['.']: #dirs: #["normal\\playground"]: #["normal\\normal8 orbital"]: #["normal\\frontiers1"]: #["expeditions\\expeditions12 omega"]: #['expeditions\\expeditions7 redux']: #['expeditions\\expeditions6 redux']: #['normal\\normal8 orbital']: #['expeditions\\expeditions6 redux']: #["expeditions\\expeditions5 exobiology"]: #["normal\\frontiers1"]: #['normal\\playground']: #dirs: #filter(lambda x: title.lower() in x, dirs): # ["normal\\playground"]: #["derelict-restapi"]: #["normal\\normal9"]: #["normal\\playground"]: #["expeditions\\expeditions12 omega"]: #["normal\\normal8 omega"]: #['derelict-restapi']: #["normal\\normal9"]: #["expeditions\\expeditions9 utopia"]:  #dirs: #['orbital']: #["expeditions\\expeditions10 sigularity"]: #["normal\\normal8 orbital"]: 
-  for root, dirs, files in os.walk(dir): #"\\Downloads\\No Man's Sky\\" + dir):
+for dir in ["normal\\normal9"]: #["normal\\playground"]: #["normal\\normal9"]: #['.']: #dirs: #["normal\\normal8 orbital"]: #["normal\\frontiers1"]: #["expeditions\\expeditions12 omega"]: #['expeditions\\expeditions7 redux']: #['expeditions\\expeditions6 redux']: #['normal\\normal8 orbital']: #['expeditions\\expeditions6 redux']: #["expeditions\\expeditions5 exobiology"]: #["normal\\frontiers1"]: #['normal\\playground']: #dirs: #filter(lambda x: title.lower() in x, dirs): # ["normal\\playground"]: #["derelict-restapi"]: #["normal\\normal9"]: #["normal\\playground"]: #["expeditions\\expeditions12 omega"]: #["normal\\normal8 omega"]: #['derelict-restapi']: #["normal\\normal9"]: #["expeditions\\expeditions9 utopia"]:  #dirs: #['orbital']: #["expeditions\\expeditions10 sigularity"]: #["normal\\normal8 orbital"]: 
+  for root, dirs, files in os.walk("\\Downloads\\No Man's Sky\\" + dir):
     parts = root.split(os.sep)
-    print(root)
-  if re.match(r'^\d$', os.path.basename(root)) and parts[-2] == 'py':
+    # print(parts,os.path.basename(root))
+    if re.match(r'^\d$', os.path.basename(root)) and parts[-2] == 'py': 
   # if re.match(r'^\.\\\d$', root): # .\0 or .\1
       for file in files:
         path = f'{parts[-1]}/{file}'

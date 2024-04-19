@@ -752,10 +752,10 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .pg  {border: 0; padding: 0;}
 .pg img {vertical-align: top;}
 #sum {border-spacing: 4px 4px; border-collapse: separate;}
-/*#sum td {padding-bottom: 0px;}*/
 .r {margin-top: 10px;}
 .pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
 .tc,.ib,.scp {padding:0; cursor: pointer;}
+/*.ic {display: inline-block;)*/
 .bc {cursor: pointer;}
 .ab {background-color: #E1C16E;}
 .ab,.ac {border:0;}
@@ -810,7 +810,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 #id02 {background-color: rgb(224, 224, 224,0.8);}
 #al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
 #al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 4px;}
-#container {max-width: 900px; padding: 0;}
+#container {max-width: 1000px; padding: 0;}
 
 .content { 
   position: fixed;
@@ -843,6 +843,27 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
   }
 }
 */
+
+/* trade routes css */     
+
+.ic {border-radius:6px;padding:1px 6px;border: 1px solid #bbb; margin-bottom: 1px;
+     background-color:#e0e0e0; cursor: pointer;}
+/*
+.trd {border-radius:6px;padding:1px 6px;border: 1px solid #bbb; margin-bottom: 1px;}
+.trg {background-color:#e0e0e0;}
+*/
+.tr1 {padding:0;}
+.tr1 div {display: inline-block;}
+.trx,.trr {padding-left:10px;}
+.trr img {height: 24px; padding-right:10px;}
+.trr b {font-size:20px;}
+h3 {font-size:24px;}
+.trn {border-radius:50%;width:21px;text-align: center; border: 1px solid #bbb;padding:0;}
+.tre {white-space: nowrap; border-radius: 6px; padding: 1px 6px; cursor: pointer;
+  text-decoration: none; margin-bottom: 1px; border: 1px solid #ccc;}
+.trk {padding:0;}
+.not {border-radius:0; padding:0; border:0;}
+
 </style></head><body><div id="container">
 <div id="id01" class="modal">
   <img src="i/help.png">
@@ -1046,6 +1067,7 @@ with open(f'pip{ilog}.json', "r") as infile:
       h.append('  </div>')
     h.append('</div>')
 h.append('''<button>Collapse All</button>
+{3}
 {1}
 <div style="margin-top: 700px;"></div>
 </div> <!-- end container -->
@@ -1062,15 +1084,21 @@ function findLinks(links, key) {
   return matchingKeys;
 }
 
-const id01 = document.getElementById('id01'),
+const id01 = document.getElementById('id01')
   id02 = document.getElementById('id02'),
   handleModal = () => id01.style.display='block',
   handleLinks = (e) => {
     let docs = [];
     const urls = findLinks(links,e.target.id);
+    if(urls.length == 1 && links[urls[0]][1] == "Trade_Routes"){
+      jump("Trade_Routes")
+      return;
+    } 
     urls.forEach((x,i) => {
       if(i == 0){
-        docs.push(`<table id=al><tr><td class="at"><a class="ac" href="javascript:jump('0')">${links[x][0]}</a></td></tr>`);
+        docs.push(`<table id=al><tr><td class="at"><a class="ac" href="javascript:jump('${links[x][1] == 'Trade_Routes' ? 'Trade_Routes' : '0'}')">${links[x][0].replace(/\+$/, '')}</a></td></tr>`);
+      }else if(links[x][1] == "Trade_Routes"){
+        docs.push(`<tr><td class="at"><a class="ac" href="javascript:jump('${links[x][1]}')">${links[x][1].replace(/_/g, ' ')}</a></td></tr>`);
       }else{
         docs.push(`<tr><td><a class="ac" href="javascript:jump('${links[x][1]}')">${links[x][1].replace(/_/g, ' ')}</a></td></tr>`);
       }
@@ -1079,6 +1107,10 @@ const id01 = document.getElementById('id01'),
     id02.innerHTML = docs.join("\\n");
     id02.style.display='block';
   };
+
+[...document.querySelectorAll('div')]
+  .filter(e => e.id.startsWith('_'))
+  .forEach(e => e.addEventListener('click', handleLinks));
 
 function jump(id){
   if(id == '0'){
@@ -1105,6 +1137,14 @@ function sv(id){
         window.scrollTo(0, 0);
       })
     }
+  });         
+
+[...document.querySelectorAll(".trc a:not(.not)")]
+  .forEach(e => {
+    const a_id = e.textContent.replace(/ /g, '_');
+    e.addEventListener('click', function(e){
+      document.getElementById(a_id).scrollIntoView()
+    })
   });         
 
 document.querySelector('button').addEventListener('click', function(){
@@ -1170,17 +1210,15 @@ window.onclick = function(event) {
   }
 };
 
-[...document.querySelectorAll('div')]
-  .filter(e => e.id.startsWith('_'))
-  .forEach(e => e.addEventListener('click', handleLinks));
-
 </script></body></html>''')
+
+# ------------------------------- clickable links ----------------------------------------------
 
 links = {}
 sid = ''
 pid = ''
-for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).splitlines())):
-  # print('\t',i.strip())
+for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i), '\n'.join(h).splitlines())):
+  print('\t',i.strip())
   s = re.search(r'"s" id="([^"]+)',i)
   if s:
     sid = s.group(1)
@@ -1190,7 +1228,7 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).spli
     if p:
       pid = p.group(1)
     else:
-      m = re.search(r'<div class="ib" id="(_[srb]\d+)">([^<]+)</div>',i)
+      m = re.search(r'<div class="ib" id="(_[rsb]\d+)">([^<]+)</div>',i)
       if not m:
         m = re.search(r'<div class="bc" id="(_[rs]\d+)">([^<]+)</div>',i)
         if not m:
@@ -1200,14 +1238,78 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i),'\n'.join(h).spli
             if not m:
               m = re.search(r'<div class="bc" id="(_b\d+)">Biome: ([^<]+)</div>',i)
       if m:
-        id, key, link = m.group(1), m.group(2), pid if pid else sid
-        links[id]=[key,link]
-        # print(f'"{id}":["{key}", "{link}"]','\n')
+        idn, key, link = m.group(1), m.group(2), pid if pid else sid
+        links[idn]=[key,link]
+        print(f'"{idn}":["{key}", "{link}"]','\n')
 # print(json.dumps(links ,indent=2))
 
-h = re.sub(r'\{0\}', title, '\n'.join(h))
+# ------------------------------- trade routes ----------------------------------------------
+wiki = "https://static.wikia.nocookie.net/nomanssky_gamepedia/images/6/64/Trade_loops_for_no_mans_sky.png"
+
+import pip3t as t
+trade_group, old_style, routes, headings = t.init_trade_routes()
+trade = {}
+for station in db:
+  if not "System Info" in db[station]: continue
+  economy = list(
+    filter(lambda x: re.match("Economy:", x),
+      db[station]["System Info"]))
+
+  if economy:
+    m = re.match('Economy: (.+) // (.+)', economy[0])
+    if m and not m.group(1) in old_style:
+      trade_type, econ_type = m.group(1), m.group(2)
+      if not trade_group[trade_type] in trade:
+        trade[trade_group[trade_type]] = {}
+
+      trade_goods = list(
+        map(lambda x: x.rstrip('+'),
+          filter(lambda x: x.endswith('+'),
+            db[station]["Buy Sell"])))
+      if trade_goods: # don't add if empty - "Bandab"
+        trade[trade_group[trade_type]][station] = trade_goods
+
+trade_routes = []
+print(json.dumps(trade,indent=2))
+digits = lambda n, c: "&hairsp;".join([f'<div class="trn {c}">{i}</div>' for i in sorted(n)])
+
+trade_routes.append(f'<div class="trc" id="Trade_Routes">')
+for major_minor in routes:
+  print('\n',major_minor)
+  trade_routes.append(f'<a class="not" href="{wiki}"><h2>{major_minor} <img src="i/linkicon1.png"></h2></a>\n')
+
+  for route in routes[major_minor]:
+    print(f'\n  {route}')
+    trade_routes.append(f'<div class="trr"><img src="i/{route[:4].lower()}_image.png"><b>{route}</b>'+
+                        f' &nbsp; {", ".join(headings[route])}\n<div class="trx">\n')
+
+    trade_routes.append(f' <div class="tr1">\n')
+    print(routes[major_minor][route])
+    for good in routes[major_minor][route]:
+      lid = inc()
+      links[f'_s{lid}'] = [f'{good}+','Trade_Routes']
+      trade_routes.append(f'  {digits([routes[major_minor][route][good]],"try")}&hairsp;<div class="ic" id="_s{lid}">{good}</div>\n')
+    trade_routes.append(f' </div>\n')
+  
+    trade_routes.append(f' <div class="tr1">\n')
+    if route in trade:
+      print(t.replace_with_rank(trade[route], routes[major_minor][route]))
+      for place,rank in t.replace_with_rank(trade[route], routes[major_minor][route]).items():
+        trade_routes.append(f'  <a class="tre trp">{place}</a>&hairsp;<div class=trk>{digits(rank,"trb")}</div>\n')
+    trade_routes.append(f' </div>\n')
+
+    trade_routes.append(f'</div></div>\n')
+trade_routes.append(f'</div>\n')
+
+
+# end trade routes
+
+h = re.sub(r'\{3\}', ''.join(trade_routes), '\n'.join(h))
+h = re.sub(r'\{0\}', title, h)
 h = re.sub(r'\{1\}', checklist, h)
 h = re.sub(r'\{2\}', json.dumps(links), h)
+
+print(json.dumps(links ,indent=2))
 
 with open(f'{title}.html','w') as outfile:
   outfile.write(h)

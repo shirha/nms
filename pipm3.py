@@ -41,9 +41,9 @@ planet_index = 0
 work_image  = np.full((500,600),240,dtype='uint8')
 const_image = {}
 for image in [
-    "mask","system","technol","salvage","contrab","avail1","avail2",
-    "small","card","snow","glyph", "visit1","visit2", "steam1","steam2",
-    "xboxx","sicon","bicon","icons","resrc1","resrc2","salt","guide"]: 
+    "mask","system","technol","salvage","contrab","avail1","avail2","small",
+    "card","snow","glyph", "visit1","visit2", "steam1","steam2","xboxx",
+    "sicon","bicon","icons","resrc1","resrc2","salt","guide","trade1","trade2"]: 
   const_image[image] = cv2.imread(f'i/{image}_image.png', cv2.IMREAD_GRAYSCALE)
 
 def log(n, *args):
@@ -374,8 +374,36 @@ def isGlyphs(imagePath,dbug,ilog,db,large_image,station):
 
 #----------------------------------------------
 
+
 def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
   global work_image
+
+  def local_trade(img):
+    # print(img.shape)
+    # cv2.imshow('trade',img)
+    # k = cv2.waitKey(0) & 0xFF
+    # if k == 27:
+    #   exit()
+
+    # if 'cached_trade' in globals():
+    #   result = cv2.matchTemplate(const_image[globals()['cached_trade']], img, cv2.TM_SQDIFF_NORMED)
+    #   mn,_,mnLoc,_ = cv2.minMaxLoc(result)
+    #   log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: {globals()["cached_trade"]}: {mn:.3f}')
+    #   return ['','+'][mn < .01]
+    # else:
+      result = cv2.matchTemplate(const_image['trade1'], img, cv2.TM_SQDIFF_NORMED)
+      trade1 = cv2.minMaxLoc(result)
+      result = cv2.matchTemplate(const_image['trade2'], img, cv2.TM_SQDIFF_NORMED)
+      trade2 = cv2.minMaxLoc(result)
+      if .01 > trade1[0] < trade2[0]:
+        globals()['cached_trade'] = 'trade1'
+        return '+'
+      else:
+        if .01 > trade2[0] < trade1[0]:    
+          globals()['cached_trade'] = 'trade2'
+          return '+'
+      return ''
+
   log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: entering... {station}')
   crop_image = large_image[167:238+25,1185:1401+179]
   result = cv2.matchTemplate(const_image['avail1'], crop_image, cv2.TM_SQDIFF_NORMED)
@@ -437,6 +465,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
     cv2.destroyWindow('tech_kiosk')
     log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: {foot_text:7s} {mn:.3f} {(MPx1,MPy1)}')
 
+  # if not re.match(r'System', foot_text): return True #sjh
   if re.match(r'Technol|System|Contrab|Salvage', foot_text):
     work_image[172:172+48,7:7+176] = np.full((48,176),240,dtype='uint8')
     cv2.putText(work_image, foot_text.capitalize(), (10,205), 0, 1.5, (0,0,0), 2)     
@@ -453,7 +482,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
     y = 0
     work_image[222:222+20,7:7+42] = np.full((20,42),240,dtype="uint8") # clear
     while y < 6 and thresh[110*y:110*y+34,78:78+34].sum() < 277000:
-      line_tech = ''
+      line_tech = 'None'
       if re.match(r'Technol|Salvage', foot_text):
         badge_image = thresh[110*y+20:110*y+40,7:27]
         therm_image = thresh[110*y+25:110*y+81,10:66]
@@ -462,7 +491,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
         work_image[222:222+56,21:21+56] = therm_image
         line_text2 = stripe(pytesseract.image_to_string(badge_image, config='--psm 10'))
 
-      # Thermal Protection Module; [X]Suspicious Hazard Protection
+      # Thermal Protection Module; [X]Suspicious Hazard Protection ₜ
       line_text = stripped(thresh[110*y:110*y+34,78:500],ilog,getframeinfo(currentframe()).lineno)
       if foot_text == "Salvage":
         salvage = line_text.split()
@@ -489,7 +518,9 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
         if not "Class Reactor" in line_text:
           class_set.add(line_tech[1])
           # if not line_tech[1] in "ABCSX": raise Exception(f'{line_text}')
-
+      else:
+        if re.match(r'System', foot_text):
+          line_text += local_trade(gray_image[110*y:110*y+110,78:500])
 
       if (re.match(r'System|Contrab', foot_text) 
       or re.match(r'Technol|Salvage', foot_text) and not re.search(r'Class Reactor',line_tech)):
@@ -497,6 +528,7 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
         #   line_text = fix[line_text]
         kiosk = {'Technol':'Technology','System':'Buy Sell', 'Salvage':'Technology','Contrab':'Buy Sell'}[foot_text]
         item = [line_tech,line_text][kiosk == 'Buy Sell']
+        # print(f'{station},{kiosk},{line_tech},{line_text},{db}')
         db[station][kiosk][[line_tech,line_text][kiosk == 'Buy Sell']] = ''
         log(ilog,f'{getframeinfo(currentframe()).lineno} Techno: {item} {["","Tech Class error"][kiosk == "Technology" and not item[1] in "ABCSX"]}')
 
