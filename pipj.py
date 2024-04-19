@@ -755,7 +755,6 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .r {margin-top: 10px;}
 .pu {font-style: italic; color: purple; padding-left: 0; display: inline-block;}
 .tc,.ib,.scp {padding:0; cursor: pointer;}
-/*.ic {display: inline-block;)*/
 .bc {cursor: pointer;}
 .ab {background-color: #E1C16E;}
 .ab,.ac {border:0;}
@@ -827,31 +826,11 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
     left: 600px;
   }
 }
-/*
-.content { 
-  position: fixed;
-  left: 50%;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  border-radius: 8px;
-  padding:0;
-}
-@media (min-width: 740px) {
-  .content {
-    left: 370px;
-  }
-}
-*/
 
 /* trade routes css */     
 
 .ic {border-radius:6px;padding:1px 6px;border: 1px solid #bbb; margin-bottom: 1px;
      background-color:#e0e0e0; cursor: pointer;}
-/*
-.trd {border-radius:6px;padding:1px 6px;border: 1px solid #bbb; margin-bottom: 1px;}
-.trg {background-color:#e0e0e0;}
-*/
 .tr1 {padding:0;}
 .tr1 div {display: inline-block;}
 .trx,.trr {padding-left:10px;}
@@ -863,6 +842,7 @@ h3 {font-size:24px;}
   text-decoration: none; margin-bottom: 1px; border: 1px solid #ccc;}
 .trk {padding:0;}
 .not {border-radius:0; padding:0; border:0;}
+.now {white-space: nowrap;}
 
 </style></head><body><div id="container">
 <div id="id01" class="modal">
@@ -1269,33 +1249,34 @@ for station in db:
       if trade_goods: # don't add if empty - "Bandab"
         trade[trade_group[trade_type]][station] = trade_goods
 
-trade_routes = []
 # print(json.dumps(trade,indent=2))
 digits = lambda n, c: "&hairsp;".join([f'<div class="trn {c}">{i}</div>' for i in sorted(n)])
+trade_routes = []
 
-trade_routes.append(f'<div class="trc" id="Trade_Routes">')
+trade_routes.append(f'<div class="trc" id="Trade_Routes">\n')
 for major_minor in routes:
   print('\n',major_minor)
-  trade_routes.append(f'<a class="not" href="{wiki}"><h2>{major_minor} <img src="i/linkicon1.png"></h2></a>\n')
+  trade_routes.append(f'\n<a class="not" href="{wiki}"><h2>{major_minor} <img src="i/linkicon1.png"></h2></a>\n\n')
 
   for route in routes[major_minor]:
     print(f'\n  {route}')
     trade_routes.append(f'<div class="trr"><img src="i/{route[:4].lower()}_image.png"><b>{route}</b>'+
                         f' &nbsp; {", ".join(headings[route])}\n<div class="trx">\n')
-
+    # goods
     trade_routes.append(f' <div class="tr1">\n')
     print(routes[major_minor][route])
     for good in routes[major_minor][route]:
-      lid = inc()
+      lid = inc() # !
       links[f'_s{lid}'] = [f'{good}+','Trade_Routes']
-      trade_routes.append(f'  {digits([routes[major_minor][route][good]],"try")}&hairsp;<div class="ic" id="_s{lid}">{good}</div>\n')
+      trade_routes.append(f'  <div class="now">{digits([routes[major_minor][route][good]],"try")}&hairsp;<div class="ic" id="_s{lid}">{good}</div></div>\n')
     trade_routes.append(f' </div>\n')
-  
+
+    # place  
     trade_routes.append(f' <div class="tr1">\n')
     if route in trade:
       print(t.replace_with_rank(trade[route], routes[major_minor][route]))
       for place,rank in t.replace_with_rank(trade[route], routes[major_minor][route]).items():
-        trade_routes.append(f'  <a class="tre trp">{place}</a>&hairsp;<div class=trk>{digits(rank,"trb")}</div>\n')
+        trade_routes.append(f'  <div class="now"><a class="tre trp">{place}</a>&hairsp;<div class=trk>{digits(rank,"trb")}</div></div>\n')
     trade_routes.append(f' </div>\n')
 
     trade_routes.append(f'</div></div>\n')
