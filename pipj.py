@@ -1218,7 +1218,7 @@ links = {}
 sid = ''
 pid = ''
 for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i), '\n'.join(h).splitlines())):
-  print('\t',i.strip())
+  # print('\t',i.strip())
   s = re.search(r'"s" id="([^"]+)',i)
   if s:
     sid = s.group(1)
@@ -1240,7 +1240,7 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i), '\n'.join(h).spl
       if m:
         idn, key, link = m.group(1), m.group(2), pid if pid else sid
         links[idn]=[key,link]
-        print(f'"{idn}":["{key}", "{link}"]','\n')
+        # print(f'"{idn}":["{key}", "{link}"]','\n')
 # print(json.dumps(links ,indent=2))
 
 # ------------------------------- trade routes ----------------------------------------------
@@ -1270,7 +1270,7 @@ for station in db:
         trade[trade_group[trade_type]][station] = trade_goods
 
 trade_routes = []
-print(json.dumps(trade,indent=2))
+# print(json.dumps(trade,indent=2))
 digits = lambda n, c: "&hairsp;".join([f'<div class="trn {c}">{i}</div>' for i in sorted(n)])
 
 trade_routes.append(f'<div class="trc" id="Trade_Routes">')
@@ -1309,7 +1309,7 @@ h = re.sub(r'\{0\}', title, h)
 h = re.sub(r'\{1\}', checklist, h)
 h = re.sub(r'\{2\}', json.dumps(links), h)
 
-print(json.dumps(links ,indent=2))
+# print(json.dumps(links ,indent=2))
 
 with open(f'{title}.html','w') as outfile:
   outfile.write(h)
