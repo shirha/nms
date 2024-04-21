@@ -13,8 +13,8 @@ import re
 import cv2
 import numpy as np
 import pytesseract
-# pytesseract.pytesseract.tesseract_cmd = r'c:\anaconda3\envs\py310_env\scripts\pytesseract.exe'
-pytesseract.pytesseract.tesseract_cmd = r'C:\Anaconda3\Library\bin\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\shirha\miniforge3\envs\opencv\Library\bin\tesseract.exe'
+
 stripe = lambda s: "".join(i for i in s if 31 < ord(i) < 127)
 
 def stripped(thresh,ilog,lineno):
@@ -355,11 +355,11 @@ def isSysInfo(imagePath,dbug,ilog,db,large_image):
     db[station]['System Info'] = sysinfo
     if station in fixsi: 
       db[station]['System Info'] = fixsi[station]
+    db[station]['Technology'] = {}
+    db[station]['Buy Sell'] = {}
 
     fix_info_fn(ilog, getframeinfo(currentframe()).lineno, db, station, "System Info")
 
-    db[station]['Technology'] = {}
-    db[station]['Buy Sell'] = {}
     planet_index = 0
     return True, station
   return False, None
@@ -899,12 +899,11 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
   sysflag = False
   if tentative not in db:
     sysflag = True
-
     db[tentative] = {}
     db[tentative]['System Info'] = sysinfo
     if tentative in fixsi: 
       db[tentative]['System Info'] = fixsi[tentative]
-    db[tentative]['Technology'] = {}
+    db[tentative]['Technology'] = {} # it's important that these two follow "Sytem Info"
     db[tentative]['Buy Sell'] = {}
   else:
     db[tentative]['System Info'] = sysinfo

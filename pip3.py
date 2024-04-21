@@ -5,13 +5,13 @@ import json
 import cv2
 import re
 import pipm3 as m
-import glob
+# import glob
 import getopt
 import time
 
 class_set = set()
-title = 'Frontiers'
-dbug = ''
+title = "Playground"
+dbug = ""
 ilog = title # '0'
 argv = sys.argv[1:] 
 
@@ -44,17 +44,19 @@ if argv:
 sysflag = False
 station = None
 beg_time = time.perf_counter()
-
-# dirs = ["normal\\normal8 orbital", "normal\\frontiers1", "normal\\normal5", "expeditions\\expeditions4", "normal\\normal6", "expeditions\\expeditions1 redux", "expeditions\\expeditions2 redux", "expeditions\\expeditions5 exobiology", "expeditions\\expeditions6 blighted", "expeditions\\expeditions7 leviathan", "expeditions\\expeditions8 polestar", "expeditions\\expeditions5 redux", "expeditions\\expeditions6 redux", "expeditions\\expeditions7 redux", "expeditions\\expeditions8 redux", "normal\\normal7", "expeditions\\expeditions9 utopia", "expeditions\\expeditions10 sigularity", "expeditions\\expeditions12 omega", "normal\\normal9", "derelict-restapi"] 
-#["normal\\normal9"]: #["normal\\playground"]: #["normal\\normal9"]: #['.']: #dirs: #["normal\\normal8 orbital"]: #["normal\\frontiers1"]: #["expeditions\\expeditions12 omega"]: #['expeditions\\expeditions7 redux']: #['expeditions\\expeditions6 redux']: #['normal\\normal8 orbital']: #['expeditions\\expeditions6 redux']: #["expeditions\\expeditions5 exobiology"]: #["normal\\frontiers1"]: #['normal\\playground']: #dirs: #filter(lambda x: title.lower() in x, dirs): # ["normal\\playground"]: #["derelict-restapi"]: #["normal\\normal9"]: #["normal\\playground"]: #["expeditions\\expeditions12 omega"]: #["normal\\normal8 omega"]: #['derelict-restapi']: #["normal\\normal9"]: #["expeditions\\expeditions9 utopia"]:  #dirs: #['orbital']: #["expeditions\\expeditions10 sigularity"]: #["normal\\normal8 orbital"]: 
-#, "expeditions\\expeditions11 voyagers" 2K
-
-dirs = {"Redux6": ["expeditions\\expeditions6 redux"],
-        "Playground": ["normal\\playground"],
-        "Frontiers": ["normal\\frontiers1"]}
+dirs = {
+  "Playground": ["normal/playground"],
+  "Expeditions": ["expeditions"],
+  "Voyagers": ["expeditions/expeditions11 voyagers 2k","normal/playground"],
+  "Frontiers": ["normal/frontiers1"],
+  "Redux6": ["expeditions/expeditions6 redux"],
+  "Orbital": ["normal/normal8 orbital"],
+  "Omega": ["expeditions/expeditions12 omega"],
+}
 
 for dir in dirs[title]: 
-  for root, dirs, files in os.walk("\\Downloads\\No Man's Sky\\" + dir):
+  for root, dirs, files in os.walk("/Downloads/No Man's Sky/" + dir):
+    if re.search('voyagers', root): continue
     parts = root.split(os.sep)
     # print(parts,os.path.basename(root))
     if re.match(r'^\d$', os.path.basename(root)) and parts[-2] == 'py': 
@@ -112,10 +114,8 @@ for dir in dirs[title]:
 data = json.dumps(db, indent = 2)
 with open(f'{title}.json', 'w') as outfile:
   outfile.write(data)
-  # json.dump(db, outfile)
 
 m.log(ilog,f'\n{data}\n')
-m.log(ilog,f'\n{db["Doludes"]["System Info"]}\n')
 m.log(ilog,f'elasped time: {time.perf_counter() - beg_time:.1f}\nclass_set: {class_set}\n')
 m.log(ilog) # close
 

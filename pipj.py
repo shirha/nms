@@ -5,7 +5,7 @@ import re
 import getopt 
 ilog = 0
 dbug = ''
-title = 'Frontiers'
+title = 'Omega'
 argv = sys.argv[1:] 
 try: 
   opts, args = getopt.getopt(argv, "f:t:d:", ["file =", "title =", "dbug ="]) 
@@ -39,7 +39,7 @@ badges = {
 pirates = set() # {"Odusha","Bandab"}
 atlas = {"Yelobarn","Yusvadbeat XII","Bandab"}
 poi = {
-  "Doriguc VII":     ['<div class="poi tr">Note:</div> Doriguc VII, a Tier 3 (Flourishing) Manufacturing economy (Construction) <img src="i/manu_image.png">, has the best Trade Route leg in Omega with a Sell route that is known.<br> &nbsp; &nbsp; You can make 2.5M units by purchasing all the Tier 5 (Vector Compressors) and Tier 4 (Holographic Crankshafts) local Trade Goods for 11.7M units and selling them to Toyabe IX, a Power Generation economy (Engineering) <img src="i/tech_image.png"><br> &nbsp; &nbsp; Even though Mazuna is also a Tier 3 economy (Affluent), there is no known Sell route for their Trade Goods. Use an Economy Scanner to find a Tier 3 Power Generation <img src="i/powe_image.png"> and Trading <img src="i/trad_image.png"> economy and improve the rest.'],
+  "Doriguc VII":     ['<div class="poi tr">Note:</div> Doriguc VII, a Tier 3 (Flourishing) Manufacturing economy (Construction) <img src="i/manu_image.png">, has the best Trade Route leg in Omega with a Sell route that is known.<br> &nbsp; &nbsp; You can make 2.5M units by purchasing all the Tier 5 (Vector Compressors) and Tier 4 (Holographic Crankshafts) local Trade Goods for 11.7M units and selling them to Toyabe IX, a Power Generation economy (Engineering) <img src="i/tech_image.png"><br> &nbsp; &nbsp; Even though Mazuna is also a Tier 3 economy (Affluent), there is no known Sell route for their Trade Goods. Use an Economy Scanner to find a Tier 3 Power Generation <img src="i/powe_image.png"> and Trading <img src="i/trad_image.png"> economy and improve the rest.<br> &nbsp; &nbsp; Space Stations have poor buy &percnt; but Freighters may be as good as Trade Outposts and easier to setup. You could probably do the whole Trade Route from a Freighter! The Galactic Trade Terminal inventory changes with each jump.'],
 
 
 

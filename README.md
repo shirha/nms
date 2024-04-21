@@ -62,3 +62,27 @@ The indentation of the web page was based on the idea of this css `div {padding-
 
 Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
 
+***
+
+'''This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
+
+Download and install Miniforge3-Windows-x86_64.exe v24.3
+(base) C:\Users\shirha>mamba create --name opencv --clone base
+(base) C:\Users\shirha>mamba activate opencv
+(opencv) C:\Users\shirha>python --version
+Python 3.10.14
+(opencv) C:\Users\shirha>mamba install libopencv opencv py-opencv
+(opencv) C:\Users\shirha>mamba install numpy
+  All requested packages already installed
+(opencv) C:\Users\shirha>mamba install tesseract
+(opencv) C:\Users\shirha>mamba install pytesseract
+(opencv) C:\Users\shirha>mamba install imutils
+
+pytesseract.pytesseract.tesseract_cmd = r'C:\Users\shirha\miniforge3\envs\opencv\Library\bin\tesseract.exe'
+'''
+
+
+
+
+
+
