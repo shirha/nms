@@ -5,7 +5,7 @@ import re
 import getopt 
 ilog = 0
 dbug = ''
-title = 'Omega'
+title = 'Frontiers'
 argv = sys.argv[1:] 
 try: 
   opts, args = getopt.getopt(argv, "f:t:d:", ["file =", "title =", "dbug ="]) 
@@ -39,6 +39,10 @@ badges = {
 pirates = set() # {"Odusha","Bandab"}
 atlas = {"Yelobarn","Yusvadbeat XII","Bandab"}
 poi = {
+  "Doriguc VII":     ['<div class="poi tr">Note:</div> Doriguc VII, a Tier 3 (Flourishing) Manufacturing economy (Construction) <img src="i/manu_image.png">, has the best Trade Route leg in Omega with a Sell route that is known.<br> &nbsp; &nbsp; You can make 2.5M units by purchasing all the Tier 5 (Vector Compressors) and Tier 4 (Holographic Crankshafts) local Trade Goods for 11.7M units and selling them to Toyabe IX, a Power Generation economy (Engineering) <img src="i/tech_image.png"><br> &nbsp; &nbsp; Even though Mazuna is also a Tier 3 economy (Affluent), there is no known Sell route for their Trade Goods. Use an Economy Scanner to find a Tier 3 Power Generation <img src="i/powe_image.png"> and Trading <img src="i/trad_image.png"> economy and improve the rest.'],
+
+
+
   "Nokyotomen":      ["Stellar Classification: F"],
   "Gejinme":         ["Stellar Classification: B"],
   "Skappe-Asoes V":  ["Stellar Classification: E"],
@@ -699,11 +703,13 @@ checklist = '''
 <div style="color:#551a8b;"><small><br>
 * Only the top class upgrades are shown in the System Summary<br>
 System Detail only shows upgrades found in System Summary<br>
+Buy Sell items with trailing '+' are Trade Route Goods<br>
 <br>
-Technology, Buy Sell, Resources and Biome are now clickable<br>
+* Technology, Buy Sell, Resources and Biome are now clickable<br>
 The top item in the popup scrolls to the top when clicked<br>
 You must click one of the popup links to dismiss the popup<br>
-You can click other clickable items while popup is visible
+You can click other clickable items while popup is visible<br>
+All navigation done with JavaScript so no back button<br>
 
 </small></div>
 <h2 style="display:none; padding-top: 8px;">Checklist -- see e12 Omega</h2>
@@ -731,6 +737,7 @@ img {height: 18px; vertical-align: middle; margin-bottom: 4px; margin-left: 4px;
 .cc {height: 24px; margin: 0; padding-left: 0;}
 .badge {display: inline-block; padding: 0;}
 .badge div {display: inline-block; padding: 0;}
+.mw {max-width: 600px;}
 .bq {font-style: italic; color: #551a8b;} /* navy;} */
 blockquote {margin: 0; padding: 0 10px; font-style: italic; color: #551a8b;} /* navy;} */
 button {font-size: 18px; padding: 2px 10px; margin-top: 15px; border-radius: 8px; border: 1px solid #222; background-color: greenyellow;}
@@ -809,7 +816,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 #id02 {background-color: rgb(224, 224, 224,0.8);}
 #al tr:nth-child(1) td {border-bottom: 1px solid #98e2e2;}
 #al {margin: 16px; background-color: white; border: 1px solid #98e2e2; border-radius: 4px;}
-#container {max-width: 1000px; padding: 0;}
+#container {max-width: 820px; padding: 0;}
 
 .content { 
   position: fixed;
@@ -837,9 +844,10 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .trr img {height: 24px; padding-right:10px;}
 .trr b {font-size:20px;}
 h3 {font-size:24px;}
-.trn {border-radius:50%;width:21px;text-align: center; border: 1px solid #bbb;padding:0;}
+.trn {min-width:21px; text-align: center; border: 1px solid #bbb; padding:0; border-radius:10px;display: inline-block;}
+.trt {min-width:21px; text-align: center; border: 1px solid #bbb; padding:0; color: #0000ee;display: inline-block;}
 .tre {white-space: nowrap; border-radius: 6px; padding: 1px 6px; cursor: pointer;
-  text-decoration: none; margin-bottom: 1px; border: 1px solid #ccc;}
+      text-decoration: none; margin-bottom: 1px; border: 1px solid #ccc;}
 .trk {padding:0;}
 .not {border-radius:0; padding:0; border:0;}
 .now {white-space: nowrap;}
@@ -850,6 +858,24 @@ h3 {font-size:24px;}
 </div>
 <div id="id02" class="content"></div>
 ''']
+
+# fix_info = {
+#   "Doludes": [
+#     {"Economy: Experimenta // Booming": "Economy: Experimental // Booming"},
+#   ],
+#   "Onrovi": [
+#     {"Flora: ": "Flora: Low"},
+#   ]
+# }
+# def log(stream, data): print(data)
+# def fix_info_fn(log, db, place_name, dict_type):
+#   if place_name in fix_info:
+#     print(f'fix_info_fn: {place_name}[{dict_type}]')
+#     for fix in fix_info[place_name]:
+#       for old, new in fix.items():
+#         db[place_name][dict_type] = [
+#           new if data == old else data for data in db[place_name][dict_type]]
+#     print(db[place_name]["System Info"])
 
 id = 0
 def inc(): 
@@ -875,12 +901,14 @@ dot    = lambda p: ('','<div class="dox yl"></div>')[p in poi and any(re.match('
 ptag   = lambda p: f'\n  <a class="pl">{p}{dot(p)}</a>'
 stag   = lambda p: f'<a class="sy">{tags(p)}</a>'
 
-with open(f'pip{ilog}.json', "r") as infile: 
+with open(f'{title}.json', "r") as infile: 
   db = json.load(infile)
 
   for s in db:
     db[s]['Technology'] = sorted(db[s]['Technology'].keys(),key=lambda x:x[3:])
     db[s]['Buy Sell'  ] = sorted(db[s]['Buy Sell'  ].keys())
+
+    # fix_info_fn(0, db, s, "System Info")
 
     # add points of interest; 
     if s in poi:
@@ -1047,10 +1075,10 @@ with open(f'pip{ilog}.json', "r") as infile:
       h.append('  </div>')
     h.append('</div>')
 h.append('''<button>Collapse All</button>
+</div> <!-- end container -->
 {3}
 {1}
 <div style="margin-top: 700px;"></div>
-</div> <!-- end container -->
 <script>
 const links={2}
 
@@ -1224,11 +1252,12 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i), '\n'.join(h).spl
 # print(json.dumps(links ,indent=2))
 
 # ------------------------------- trade routes ----------------------------------------------
-wiki = "https://static.wikia.nocookie.net/nomanssky_gamepedia/images/6/64/Trade_loops_for_no_mans_sky.png"
 
 import pip3t as t
-trade_group, old_style, routes, headings = t.init_trade_routes()
+econ_group, econ_headings, routes, econ_tiers = t.init_trade_routes()
+
 trade = {}
+place_tier = {}
 for station in db:
   if not "System Info" in db[station]: continue
   economy = list(
@@ -1237,31 +1266,41 @@ for station in db:
 
   if economy:
     m = re.match('Economy: (.+) // (.+)', economy[0])
-    if m and not m.group(1) in old_style:
-      trade_type, econ_type = m.group(1), m.group(2)
-      if not trade_group[trade_type] in trade:
-        trade[trade_group[trade_type]] = {}
+    if m: # and not m.group(1) in old_style:
+      econ_type, econ_tier = m.group(1), m.group(2)
+      if not econ_group[econ_type] in trade:
+        trade[econ_group[econ_type]] = {}
 
       trade_goods = list(
         map(lambda x: x.rstrip('+'),
           filter(lambda x: x.endswith('+'),
             db[station]["Buy Sell"])))
       if trade_goods: # don't add if empty - "Bandab"
-        trade[trade_group[trade_type]][station] = trade_goods
+        trade[econ_group[econ_type]][station] = trade_goods
+        # place_tier[station] = econ_tier
+        # econ_tiers[place_tier[place]]
+        place_tier[station] = econ_tiers[econ_tier] if econ_tier in econ_tiers else econ_tier
 
-# print(json.dumps(trade,indent=2))
+print(json.dumps(trade,indent=2))
+print(place_tier)
 digits = lambda n, c: "&hairsp;".join([f'<div class="trn {c}">{i}</div>' for i in sorted(n)])
+# def digits(n,c):
+#   print(n)
+#   return "&hairsp;".join([f'<div class="trn {c}">{i}</div>' for i in sorted(n)])
+
 trade_routes = []
 
 trade_routes.append(f'<div class="trc" id="Trade_Routes">\n')
 for major_minor in routes:
   print('\n',major_minor)
-  trade_routes.append(f'\n<a class="not" href="{wiki}"><h2>{major_minor} <img src="i/linkicon1.png"></h2></a>\n\n')
+  trade_routes.append(
+    f'\n<a class="not" href="{t.wiki}"><h2>{major_minor} <img src="i/linkicon1.png"></h2></a>\n\n')
 
   for route in routes[major_minor]:
     print(f'\n  {route}')
-    trade_routes.append(f'<div class="trr"><img src="i/{route[:4].lower()}_image.png"><b>{route}</b>'+
-                        f' &nbsp; {", ".join(headings[route])}\n<div class="trx">\n')
+    trade_routes.append(
+      f'<div class="trr"><img src="i/{route[:4].lower()}_image.png"><b>{route}</b>'+
+      f' &nbsp; {", ".join(econ_headings[route])}\n<div class="trx">\n')
     # goods
     trade_routes.append(f' <div class="tr1">\n')
     print(routes[major_minor][route])
@@ -1271,18 +1310,29 @@ for major_minor in routes:
       trade_routes.append(f'  <div class="now">{digits([routes[major_minor][route][good]],"try")}&hairsp;<div class="ic" id="_s{lid}">{good}</div></div>\n')
     trade_routes.append(f' </div>\n')
 
-    # place  
+    # station
     trade_routes.append(f' <div class="tr1">\n')
     if route in trade:
+      # print(route,trade[route])
       print(t.replace_with_rank(trade[route], routes[major_minor][route]))
-      for place,rank in t.replace_with_rank(trade[route], routes[major_minor][route]).items():
-        trade_routes.append(f'  <div class="now"><a class="tre trp">{place}</a>&hairsp;<div class=trk>{digits(rank,"trb")}</div></div>\n')
+      for station,rank in t.replace_with_rank(trade[route], routes[major_minor][route]).items():
+        trade_routes.append(
+          f'  <div class="now">'+
+          f'<a class="tre trp">{station}</a>&hairsp;'+
+          f'<div class=trt>{place_tier[station]}</div>&hairsp;'+
+        # f'<div class=trt>{econ_tiers[place_tier[place]]}</div>&hairsp;'+
+          f'<div class=trk>{digits(rank,"trb")}</div></div>\n')
     trade_routes.append(f' </div>\n')
 
     trade_routes.append(f'</div></div>\n')
+
+trade_routes.append(
+  f'<br><div><b>Legend:</b> System Top Tier <div class="trt">3</div> '+
+  f'Trade Goods Top Tier <div class="trn trb">5</div></div>\n ')
+
 trade_routes.append(f'</div>\n')
 
-
+  
 # end trade routes
 
 h = re.sub(r'\{3\}', ''.join(trade_routes), '\n'.join(h))
@@ -1291,6 +1341,9 @@ h = re.sub(r'\{1\}', checklist, h)
 h = re.sub(r'\{2\}', json.dumps(links), h)
 
 # print(json.dumps(links ,indent=2))
+
+h = re.sub('(<a class="tre trp">Doriguc VII</a>)',
+  '<a class="tre trp tr">Doriguc VII</a>',h)
 
 with open(f'{title}.html','w') as outfile:
   outfile.write(h)

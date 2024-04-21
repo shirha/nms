@@ -46,12 +46,19 @@ for image in [
     "sicon","bicon","icons","resrc1","resrc2","salt","guide","trade1","trade2"]: 
   const_image[image] = cv2.imread(f'i/{image}_image.png', cv2.IMREAD_GRAYSCALE)
 
+# def log(n, *args):
+#   global logfile
+#   if logfile is None:
+#     if os.path.exists(f'log{n}.txt'):
+#       os.remove(f'log{n}.txt')
+#     logfile = open(f'log{n}.txt', 'a')
+
 def log(n, *args):
   global logfile
   if logfile is None:
-    if os.path.exists(f'log{n}.txt'):
-      os.remove(f'log{n}.txt')
-    logfile = open(f'log{n}.txt', 'a')
+    if os.path.exists(f'{n}.log'):
+      os.remove(f'{n}.log')
+    logfile = open(f'{n}.log', 'a')
 
   if(len(args)):
     print(args[0])
@@ -68,6 +75,26 @@ si = [["Celestial Bodies ","Celestial Bodies: "],
       ["Conflict level ","Conflict level: "],
       ["vy'keen","Vy'keen"],
       ["VVy'keen","Vy'keen"]]
+
+fix_info = {
+  "Doludes": [
+    {"Economy: Experimenta // Booming": "Economy: Experimental // Booming"},
+  ],
+  "Onrovi": [
+    {"Flora: ": "Flora: Low"},
+  ]
+}
+
+def fix_info_fn(ilog, lineno, db, place_name, dict_type):
+  if place_name in fix_info:
+    log(ilog,f'{lineno} fix_info_fn:fi: {fix_info[place_name]}')
+    log(ilog,f'{lineno} fix_info_fn:b: {place_name}[{dict_type}] {db[place_name][dict_type]}')
+    for fix in fix_info[place_name]:
+      for old, new in fix.items():
+        db[place_name][dict_type] = [
+          new if data == old else data for data in db[place_name][dict_type]]
+    log(ilog,f'{lineno} fix_info_fn:a: {place_name}[{dict_type}] {db[place_name][dict_type]}')
+
 
 fixsi = {
   "Apporo II": 
@@ -328,6 +355,9 @@ def isSysInfo(imagePath,dbug,ilog,db,large_image):
     db[station]['System Info'] = sysinfo
     if station in fixsi: 
       db[station]['System Info'] = fixsi[station]
+
+    fix_info_fn(ilog, getframeinfo(currentframe()).lineno, db, station, "System Info")
+
     db[station]['Technology'] = {}
     db[station]['Buy Sell'] = {}
     planet_index = 0
@@ -627,6 +657,8 @@ def isResource(imagePath,dbug,ilog,db,large_image,station):
       if k == 27:
         exit()
 
+  fix_info_fn(ilog, getframeinfo(currentframe()).lineno, db[station], planet, "Planet Info")
+
   if 'r' in dbug:
     cv2.imshow('crop', large_image[304+MPy:304+MPy+224,135+MPx+RIx:135+MPx+RIx+305])
 
@@ -878,8 +910,11 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
     db[tentative]['System Info'] = sysinfo
     if tentative in fixsi: 
       db[tentative]['System Info'] = fixsi[tentative]
+
+  log(ilog,f'SysInfo: station= {nl.join(sysinfo)}')
+  fix_info_fn(ilog, getframeinfo(currentframe()).lineno, db, tentative, "System Info")
     
-  log(ilog,f'{getframeinfo(currentframe()).lineno} Visited: Exiting: sysinfo card')
+  # log(ilog,f'{getframeinfo(currentframe()).lineno} Visited: Exiting: sysinfo card')
   x = 0
   return True, tentative, sysflag # visited plus sicon
 

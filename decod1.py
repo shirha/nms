@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 import cv2
 
 def isGlyphs(glyph_image, decod_image):
@@ -12,4 +13,4 @@ def isGlyphs(glyph_image, decod_image):
 
 glyph_image = cv2.imread('i/glyph_image.png', cv2.IMREAD_GRAYSCALE)
 decod_image = cv2.imread('i/20240329192924_1.jpg', cv2.IMREAD_GRAYSCALE)[1015:1047,11:395]
-print(isGlyphs(glyph_image, decod_image)) # 10b8fc003906
+print(isGlyphs(glyph_image, decod_image)) # 10b8fc003906 ► NMS-Glyphs-Mono.ttf
