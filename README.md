@@ -64,7 +64,7 @@ Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Gith
 
 ***
 
-'''This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
+```This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
 
 Download and install Miniforge3-Windows-x86_64.exe v24.3
 (base) C:\Users\shirha>mamba create --name opencv --clone base
@@ -79,7 +79,7 @@ Python 3.10.14
 (opencv) C:\Users\shirha>mamba install imutils
 
 pytesseract.pytesseract.tesseract_cmd = r'C:\Users\shirha\miniforge3\envs\opencv\Library\bin\tesseract.exe'
-'''
+```
 
 
 
