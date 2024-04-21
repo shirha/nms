@@ -61,12 +61,9 @@ POI's are added using the `poi` dictionary in pipj.py. The format is html syntax
 The indentation of the web page was based on the idea of this css `div {padding-left: 10px;}` and the `json` input.
 
 Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
-
 ***
-
-```
 This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
-
+```
 Download and install Miniforge3-Windows-x86_64.exe v24.3
 (base) C:\Users\shirha>mamba create --name opencv --clone base
 (base) C:\Users\shirha>mamba activate opencv
