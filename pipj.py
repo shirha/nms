@@ -1253,7 +1253,7 @@ for i in list(filter(lambda i: re.search(r'="sy|="pl|id="_',i), '\n'.join(h).spl
 
 # ------------------------------- trade routes ----------------------------------------------
 
-import pip3t as t
+import pipt3 as t
 econ_group, econ_headings, routes, econ_tiers = t.init_trade_routes()
 
 trade = {}

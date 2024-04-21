@@ -1,0 +1,49 @@
+  py/
+    geonms-webfont.ttf
+    index.html
+    NMS-Glyphs-Mono.ttf
+    pip3.py
+    pipj.py
+    pipm3.py
+    pipt3.py
+    README.md
+    ren0.py
+    ren1.py
+    screenshot.jpg
+    0/
+      20240415080100_1.jpg isSysinfo -or- isVisited: Sysinfo
+      20240415080200_1.jpg isGlyph
+      20240415080300_1.jpg isTechno: Buy Sell | Contrab
+      ...
+      20240415080300_1.jpg isTechno: Technol | Salvage
+      ...
+      20240415080100_1.jpg isSysinfo -or- isVisited: Sysinfo
+      20240415080200_1.jpg isGlyph
+      20240415080300_1.jpg isTechno: Buy Sell | Contrab
+      ...
+      20240415080300_1.jpg isTechno: Technol | Salvage
+      ...
+    1/
+      20240415082100_1.jpg isVisited: setSystem
+      20240415082200_1.jpg isResource
+      ...
+      20240415082300_1.jpg isVisited: Biome
+      ...
+      20240415082100_1.jpg isVisited: setSystem
+      20240415082200_1.jpg isResource
+      ...
+      20240415082300_1.jpg isVisited: Biome
+      ...
+    i/
+      avail1_image.png
+      bicon_image.png
+      icons_image.png
+      sicon_image.png
+      small_image.png
+      snow_image.png
+      steam1_image.png
+      trade1_image.png
+      visit1_image.png
+      ...
+    in/
+    out/
