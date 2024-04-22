@@ -62,7 +62,7 @@ The indentation of the web page was based on the idea of this css `div {padding-
 
 Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
 
-Also, view the [Log Slideshow]{https://shirha.github.io/nms/slideshow.html}
+Also, view the [Log Slideshow](https://shirha.github.io/nms/slideshow.html)
 ***
 This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
 ```
