@@ -9,6 +9,83 @@ import pipm3 as m
 import getopt
 import time
 
+# file={
+#  r'0\20240415080100_1.jpg':
+#   {'msg':'''SysInfo: entering...
+# 322 SysInfo: mn=0.002 (9, 9) crop.shape=(135, 535)
+# SysInfo: station= Dorigue VII
+# Celestial Bodies: 5 Planets
+# Dominant Lifeform: Korvax
+# Economy: Construction // Flourishing
+# Conflict level: Stable
+# 353 fix: Dorigue VII, Doriguc VII''',
+# 'pos':[40,10]},
+
+#  r'0\20240415080200_1.jpg':
+# {'msg':'''SysInfo: entering...
+# Glyphs: entering... Doriguc VII
+# Glyphs: e:0 106202900054''',
+# 'pos':[40,10]},
+
+#  r'0\20240415080300_1.jpg':
+# {'msg':'''SysInfo: entering...
+# Visited: entering... Doriguc VII
+# 437 Techno: entering... Doriguc VII
+# 445 Techno: avail1: mn=0.002 (145, 39)
+# 485 Techno: System : mn=0.017,MPy=5,MPx=22
+# 563 Techno: Non-Stick Piston+ 
+# 563 Techno: Enormous Metal Cog+ 
+# 563 Techno: Mesh Decouplers+ 
+# 563 Techno: Holographic Crankshaft+ 
+# 563 Techno: Vector Compressors+ 
+# 563 Techno: Cobalt''',
+# 'pos':[40,10]},
+
+#  r'1\20240415082100_1.jpg':
+# {'msg':'''SysInfo: entering...
+# Visited: entering... Mazuna
+# 806 Visited: Set System: "Doriguc VII" -no card-
+# 90 Visited: exiting... (True, 'Doriguc VII', False)''',
+# 'pos':[40,10]},
+#  r'1\20240415082200_1.jpg':
+# {'msg':'''SysInfo: entering...
+# Visited: entering... Doriguc VII
+# 437 Techno: entering... Doriguc VII
+# 448 Techno: avail2: mn=1.000 (0, 0)
+# 584 Resource: entering... Doriguc VII
+# 598 Resource: resrc1: 0.007 (12, 14)
+# 631 Resource: s=Doriguc VII, i=1, p= "Tonda 93/P4"
+# 650 Resource: profile= Weather: Infrequent Blizzards
+# 650 Resource: profile= Sentinels: Low
+# 650 Resource: profile= Flora: Ample
+# 650 Resource: profile= Fauna: Rich
+# 682 Resource: 0.555 resource= Frost Crystal 
+# 682 Resource: 0.520 resource= Silver 
+# 682 Resource: 0.468 resource= Dioxite 
+# 682 Resource: 0.452 resource= Copper''',
+# 'pos':[40,10]},
+
+#  r'1\20240415082300_1.jpg':
+# {'msg':'''SysInfo: entering...
+# Visited: entering... Doriguc VII
+# 437 Techno: entering... Doriguc VII
+# 448 Techno: avail2: mn=1.000 (0, 0)
+# 584 Resource: entering... Doriguc VII
+# 598 Resource: resrc1: 0.007 (12, 14)
+# 631 Resource: s=Doriguc VII, i=2, p= "Hats 43/L7"
+# 650 Resource: profile= Weather: Perfectly Clear
+# 650 Resource: profile= Sentinels: Observant
+# 650 Resource: profile= Flora: Lacking
+# 650 Resource: profile= Fauna: Undetected
+# 682 Resource: 0.417 resource= Sodium 
+# 682 Resource: 0.532 resource= Rusted Metal 
+# 682 Resource: 0.475 resource= Copper''',
+# 'pos':[40,10]}
+# }
+
+# print(json.dumps(file,indent=3))
+# quit()
+
 class_set = set()
 title = "Playground"
 dbug = ""
@@ -52,6 +129,7 @@ dirs = {
   "Redux6": ["expeditions/expeditions6 redux"],
   "Orbital": ["normal/normal8 orbital"],
   "Omega": ["expeditions/expeditions12 omega"],
+  "Normal9": ["normal/normal9"],
 }
 
 for dir in dirs[title]: 
