@@ -61,6 +61,8 @@ POI's are added using the `poi` dictionary in pipj.py. The format is html syntax
 The indentation of the web page was based on the idea of this css `div {padding-left: 10px;}` and the `json` input.
 
 Checkout the Demo.pdf and [visit](https://shirha.github.io/expedition/) the Github Pages for this project.
+
+Also, view the [Log Slideshow]{https://shirha.github.io/nms/slideshow.html}
 ***
 This is my recent environment created with [Miniforge](https://github.com/conda-forge/miniforge) / Mamba
 ```
