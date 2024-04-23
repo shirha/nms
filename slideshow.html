@@ -6,13 +6,19 @@
 <title>Slideshow</title>
 <style>
   body::-webkit-scrollbar {display: none;}
-  body {margin:0;}
+  body {margin: 0;}
 
   #container {
+    background-color:black;
+    width: 100vw; /* Adjusted to fill the entire viewport */
+    height: 100vh; /* Adjusted to fill the entire viewport */
     margin: 0;
     padding: 0;
     overflow: hidden;
     position: relative;
+    display: flex; /* Use flexbox for centering */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
   }
 
   .chevron {
@@ -24,6 +30,7 @@
     text-align: center;
     border: 1px solid black;
     padding: 0;
+    margin: 4px;
     border-radius: 50%;
     display: inline-block;
     position: absolute;
@@ -44,34 +51,34 @@
 
   #image {
     width: 100%;
-    height: auto;
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: scale-down;
-    display: block;
-    margin: auto;
+    height: 100%;
+    object-fit: contain; /* Adjusted to cover the entire container */
   }
 
   #message {
     position: absolute;
     color: greenyellow;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: black;
     padding: 8px;
     border-radius: 8px;
-    margin: 0;
     z-index: 1;
+    margin: 0;
   }
 </style>
 </head>
 <body>
-<div id="container">
+<div id="container" class="clearfix">
   <div id="left" class="chevron">⮜</div>
   <div id="right" class="chevron">⮞</div>
   <img id="image" src="" alt="Slideshow Image">
 </div>
 <div id="log"></div>
 <script>
-
+/*
+link: https://postimg.cc/gxjw0Pjw
+direct link: https://i.postimg.cc/Bnc2MSGC/wallpaper720x1280.jpg
+removal link: https://postimg.cc/delete/RyGw83c5/99e8f6a7
+*/
 const container = document.getElementById('container');
 const img = document.getElementById('image');
 const log = document.getElementById('log');
