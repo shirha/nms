@@ -42,7 +42,7 @@ work_image  = np.full((500,600),240,dtype='uint8')
 const_image = {}
 for image in [
     "mask","system","technol","salvage","contrab","avail1","avail2","small",
-    "card","snow","glyph", "visit1","visit2", "steam1","steam2","xboxx",
+    "card","snow","glyph", "visit1","visit2", "steam1","steam2","xboxx", "blank",
     "sicon","bicon","icons","resrc1","resrc2","salt","guide","trade1","trade2"]: 
   const_image[image] = cv2.imread(f'i/{image}_image.png', cv2.IMREAD_GRAYSCALE)
 
@@ -404,7 +404,6 @@ def isGlyphs(imagePath,dbug,ilog,db,large_image,station):
 
 #----------------------------------------------
 
-
 def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
   global work_image
 
@@ -511,7 +510,11 @@ def isTechno(imagePath,dbug,ilog,db,large_image,station,class_set):
 
     y = 0
     work_image[222:222+20,7:7+42] = np.full((20,42),240,dtype="uint8") # clear
-    while y < 6 and thresh[110*y:110*y+34,78:78+34].sum() < 277000:
+    while y < 6:
+      result = cv2.matchTemplate(thresh[110*y+1:110*y+82,0:68], np.full((81,68),240,dtype="uint8"), cv2.TM_SQDIFF_NORMED)
+      mn1,_,mnLoc,_ = cv2.minMaxLoc(result)
+      if mn1 < .01: break
+
       line_tech = 'None'
       if re.match(r'Technol|Salvage', foot_text):
         badge_image = thresh[110*y+20:110*y+40,7:27]
