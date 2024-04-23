@@ -863,7 +863,7 @@ def isVisited2(imagePath,dbug,ilog,db,large_image,station):
         # card_title = f'_{card_title}_'
         db[station][card_title] = {'Planet Info':[],'Resources':[]}
       db[station][card_title]['Planet Info'].insert(0, "Biome: "+type_title)
-    print('planet type=',type_title)
+    # print('planet type=',type_title)
 
     return True, None, False
 
