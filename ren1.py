@@ -1,13 +1,15 @@
 # IMPROTANT: don't forget to clear out/0-1 first!
 import os
+import re
 import shutil
 from datetime import datetime, timedelta
 
 delta = timedelta(seconds=10)
 delta = timedelta(minutes=1)
-stime = datetime.strptime("20240415 080000", "%Y%m%d %H%M%S")
+stime = datetime.strptime("20240427 080000", "%Y%m%d %H%M%S")
 
-for directory in os.listdir('in'):
+# for directory in os.listdir('in'):
+for directory in filter(lambda d: re.match(r'^\d\d$', d), os.listdir('in')):
   directory_path = os.path.join("in", directory)
   if os.path.exists(directory_path) and os.path.isdir(directory_path):
     for filename in os.listdir(directory_path):
