@@ -3,9 +3,3 @@
 
 # Allow directory 'i'
 !/i/
-
-# Allow directory '0'
-!/0/
-
-# Allow directory '1'
-!/1/
