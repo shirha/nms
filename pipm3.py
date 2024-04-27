@@ -150,6 +150,10 @@ null_lookup = {
 }
 
 fix = {
+  # two glyphs
+  "Thfie Vi":"Thfie VI",
+
+  # omega
   "Doriguc Vili":"Doriguc VII",
   "New Egonglai":"New Eqonglai",
   "Wokin Vi":"Wokin VII",

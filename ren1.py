@@ -8,7 +8,13 @@ delta = timedelta(seconds=10)
 delta = timedelta(minutes=1)
 stime = datetime.strptime("20240427 080000", "%Y%m%d %H%M%S")
 
-# for directory in os.listdir('in'):
+# delete jpgs from 'out'
+for i in range(2):
+  filelist = [ f for f in os.listdir(os.path.join('out', str(i))) if f.endswith(".jpg") ]
+  for f in filelist:
+      os.remove(os.path.join('out', str(i), f))
+
+# copy 'in' to 'out' using last char of 'in' i.e. in/31 -> out/1
 for directory in filter(lambda d: re.match(r'^\d\d$', d), os.listdir('in')):
   directory_path = os.path.join("in", directory)
   if os.path.exists(directory_path) and os.path.isdir(directory_path):

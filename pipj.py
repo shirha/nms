@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from inspect import currentframe, getframeinfo
 import sys
 import json
@@ -5,7 +6,7 @@ import re
 import getopt 
 ilog = 0
 dbug = ''
-title = 'index0'
+title = 'Two Glyphs'
 argv = sys.argv[1:] 
 try: 
   opts, args = getopt.getopt(argv, "f:t:d:", ["file =", "title =", "dbug ="]) 
@@ -845,7 +846,7 @@ a {color:black; white-space: nowrap; border-radius: 6px; padding: 1px 6px; text-
 .trr b {font-size:20px;}
 h3 {font-size:24px;}
 .trn {min-width:21px; text-align: center; border: 1px solid #bbb; padding:0; border-radius:10px;display: inline-block;}
-.trt {min-width:21px; text-align: center; border: 1px solid #bbb; padding:0; color: #0000ee;display: inline-block;}
+.trt {min-width:21px; text-align: center; padding:0 2px; color: #0000ee; display: inline-block; /* border: 1px solid #bbb;*/}
 .tre {white-space: nowrap; border-radius: 6px; padding: 1px 6px; cursor: pointer;
       text-decoration: none; margin-bottom: 1px; border: 1px solid #ccc;}
 .trk {padding:0;}
@@ -1319,20 +1320,18 @@ for major_minor in routes:
         trade_routes.append(
           f'  <div class="now">'+
           f'<a class="tre trp">{station}</a>&hairsp;'+
-          f'<div class=trt>{place_tier[station]}</div>&hairsp;'+
-        # f'<div class=trt>{econ_tiers[place_tier[place]]}</div>&hairsp;'+
+          f'<div class=trt>{"★" * place_tier[station]}</div>&hairsp;'+
           f'<div class=trk>{digits(rank,"trb")}</div></div>\n')
     trade_routes.append(f' </div>\n')
 
     trade_routes.append(f'</div></div>\n')
 
 trade_routes.append(
-  f'<br><div><b>Legend:</b> System Top Tier <div class="trt">3</div> '+
+  f'<br><div><b>Legend:</b> System Top Tier <div class="trt">★★★</div> &nbsp; '+
   f'Trade Goods Top Tier <div class="trn trb">5</div></div>\n ')
 
 trade_routes.append(f'</div>\n')
 
-  
 # end trade routes
 
 h = re.sub(r'\{3\}', ''.join(trade_routes), '\n'.join(h))
@@ -1345,5 +1344,6 @@ h = re.sub(r'\{2\}', json.dumps(links), h)
 h = re.sub('(<a class="tre trp">Doriguc VII</a>)',
   '<a class="tre trp tr">Doriguc VII</a>',h)
 
-with open(f'{title}.html','w') as outfile:
+with open(f'{title}.html', 'w', encoding='utf-8') as outfile:
   outfile.write(h)
+

@@ -1,0 +1,1052 @@
+argv=[] ilog=Two Glyphs title=Two Glyphs dbug=
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080100_1.jpg
+SysInfo: entering...
+Visited: entering... None
+clear=0.001 (352, 32)
+828 card title= "Birdy"
+Celestial Bodies: 5 Planets // 1 Moon
+Dominant Lifeform: Korvax
+Economy: Advanced Materials // Comfortable
+Conflict level: High
+SysInfo: station= Celestial Bodies: 5 Planets // 1 Moon
+Dominant Lifeform: Korvax
+Economy: Advanced Materials // Comfortable
+Conflict level: High
+91 Visited: exiting... (True, 'Birdy', True)
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080200_1.jpg
+SysInfo: entering...
+Glyphs: entering... Birdy
+Glyphs: e:0 111111111111
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080300_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 39)
+488 Techno: System : mn=0.001,MPy=5,MPx=22
+570 Techno: Nanotube Crate+ 
+570 Techno: Self-Repairing Heridium+ 
+570 Techno: Optical Solvent+ 
+570 Techno: Unstable Plasma 
+570 Techno: Ferrite Dust 
+570 Techno: Cobalt 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080400_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 39)
+488 Techno: System : mn=0.001,MPy=5,MPx=22
+570 Techno: Dirty Bronze 
+570 Techno: Hermetic Seal 
+570 Techno: Metal Plating 
+570 Techno: Microprocessor 
+570 Techno: Wiring Loom 
+570 Techno: Dioxite 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080500_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 39)
+488 Techno: System : mn=0.001,MPy=5,MPx=22
+570 Techno: Copper 
+570 Techno: Ammonia 
+570 Techno: Tritium 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080600_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [B]Life Support 
+570 Techno: [C]Movement 
+570 Techno: [C]Shield 
+570 Techno: [A]Life Support 
+570 Techno: [A]Toxic Protection 
+570 Techno: [S]Toxic Protection 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080700_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [S]Radiation Protection 
+570 Techno: [B]Cold Protection 
+570 Techno: [B]Toxic Protection 
+570 Techno: [S]Movement 
+570 Techno: [A]Hot Protection 
+570 Techno: [B]Hot Protection 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080800_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [A]Cold Protection 
+570 Techno: [S]Life Support 
+570 Techno: [S]Shield 
+570 Techno: [B]Shield 
+570 Techno: [B]Radiation Protection 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427080900_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [C]Mining Beam 
+570 Techno: [C]Scanner 
+570 Techno: [C]Boltcaster 
+570 Techno: [B]Mining Beam 
+570 Techno: [C]Neutron Cannon 
+570 Techno: [A]Boltcaster 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081000_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [B]Plasma Launcher 
+570 Techno: [S]Mining Beam 
+570 Techno: [B]Pulse Spitter 
+570 Techno: [A]Scanner 
+570 Techno: [B]Geology Cannon 
+570 Techno: [C]Pulse Spitter 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081100_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.001 (144, 38)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [S]Scatter Blaster 
+570 Techno: [B]Neutron Cannon 
+570 Techno: [C]Geology Cannon 
+570 Techno: [A]Plasma Launcher 
+570 Techno: [A]Pulse Spitter 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081200_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 37)
+488 Techno: Technol: mn=0.009,MPy=5,MPx=21
+570 Techno: [C]Launch Thrusters 
+570 Techno: [C]Pulse Engine 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081300_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 37)
+488 Techno: Technol: mn=0.009,MPy=5,MPx=21
+570 Techno: [C]Hyperdrive 
+570 Techno: [C]Starship Shield 
+570 Techno: [S]Phase Beam 
+532 fix: Photon Cannon Medule, Photon Cannon
+570 Techno: [A]Photon Cannon 
+570 Techno: [S]Infra-Knife 
+570 Techno: [C]Phase Beam 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081400_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 37)
+488 Techno: Technol: mn=0.009,MPy=5,MPx=21
+570 Techno: [B]Photon Cannon 
+570 Techno: [A]Starship Shield 
+570 Techno: [B]Launch Thrusters 
+570 Techno: [S]Positron 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081500_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 37)
+488 Techno: Technol: mn=0.014,MPy=5,MPx=21
+570 Techno: [C]Exocraft Cannon 
+570 Techno: [C]Exocraft Engine 
+570 Techno: [C]Exocraft Laser 
+570 Techno: [C]Exocraft Boost 
+570 Techno: [C]Humboldt Drive 
+570 Techno: [C]Nautilon Cannon 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427081600_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+448 Techno: avail1: mn=0.002 (145, 37)
+488 Techno: Technol: mn=0.014,MPy=5,MPx=21
+570 Techno: [B]Minotaur Engine 
+570 Techno: [B]Minotaur Laser 
+570 Techno: [B]Minotaur Cannon 
+570 Techno: [A]Exocraft Cannon 
+570 Techno: [A]Exocraft Engine 
+570 Techno: [S]Minotaur Engine 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083000_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.377 (266, 32)
+828 card title= "Ipesce XV"
+Celestial Bodies: 4 Planets // 2 Moons
+Dominant Lifeform: Gek
+Economy: Nano-construction // Satisfactory
+Conflict level: Alarming
+SysInfo: station= Celestial Bodies: 4 Planets // 2 Moons
+Dominant Lifeform: Gek
+Economy: Nano-construction // Satisfactory
+Conflict level: Alarming
+91 Visited: exiting... (True, 'Ipesce XV', True)
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083100_1.jpg
+SysInfo: entering...
+Glyphs: entering... Ipesce XV
+Glyphs: e:0 111110111111
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083200_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+448 Techno: avail1: mn=0.002 (146, 40)
+488 Techno: System : mn=0.012,MPy=5,MPx=22
+570 Techno: Autonomous Positioning Unit+ 
+570 Techno: Decommissioned Circuits+ 
+570 Techno: Welding Soap+ 
+532 fix: lon Capacitor, Ion Capacitor
+570 Techno: Ion Capacitor+ 
+570 Techno: Ferrite Dust 
+570 Techno: Cobalt 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083300_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+448 Techno: avail1: mn=0.002 (146, 40)
+488 Techno: System : mn=0.012,MPy=5,MPx=22
+570 Techno: Lemmium 
+570 Techno: Magnetic Resonator 
+570 Techno: Microprocessor 
+570 Techno: Wiring Loom 
+570 Techno: Unstable Plasma 
+570 Techno: Metal Plating 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083400_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+448 Techno: avail1: mn=0.002 (146, 40)
+488 Techno: System : mn=0.012,MPy=5,MPx=22
+570 Techno: Dioxite 
+570 Techno: Gold 
+570 Techno: Pure Ferrite 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083500_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.001 (145, 38)
+488 Techno: Technol: mn=0.014,MPy=5,MPx=21
+570 Techno: [B]Life Support 
+570 Techno: [C]Movement 
+570 Techno: [C]Shield 
+570 Techno: [A]Life Support 
+570 Techno: [A]Toxic Protection 
+570 Techno: [S]Shield 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083600_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.001 (145, 38)
+488 Techno: Technol: mn=0.014,MPy=5,MPx=21
+570 Techno: [B]Movement 
+570 Techno: [A]Shield 
+570 Techno: [B]Underwater Protection 
+570 Techno: [B]Shield 
+570 Techno: [A]Movement 
+570 Techno: [B]Cold Protection 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083700_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.001 (145, 38)
+488 Techno: Technol: mn=0.014,MPy=5,MPx=21
+570 Techno: [S]Radiation Protection 
+570 Techno: [A]Radiation Protection 
+570 Techno: [S]Movement 
+570 Techno: [A]Cold Protection 
+570 Techno: [A]Underwater Protection 
+570 Techno: [A]Hot Protection 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083800_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.002 (145, 39)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [C]Mining Beam 
+570 Techno: [C]Scanner 
+570 Techno: [C]Boltcaster 
+570 Techno: [C]Geology Cannon 
+570 Techno: [A]Mining Beam 
+570 Techno: [A]Blaze Javelin 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427083900_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.002 (145, 39)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [S]Neutron Cannon 
+570 Techno: [C]Blaze Javelin 
+570 Techno: [A]Scanner 
+570 Techno: [B]Geology Cannon 
+570 Techno: [S]Scanner 
+570 Techno: [S]Scatter Blaster 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084000_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.002 (145, 39)
+488 Techno: Technol: mn=0.006,MPy=5,MPx=21
+570 Techno: [S]Plasma Launcher 
+570 Techno: [A]Pulse Spitter 
+570 Techno: [B]Scatter Blaster 
+570 Techno: [C]Neutron Cannon 
+570 Techno: [A]Plasma Launcher 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084100_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.000 (147, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [C]Launch Thrusters 
+570 Techno: [C]Pulse Engine 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084200_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.000 (147, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [C]Hyperdrive 
+570 Techno: [C]Starship Shield 
+570 Techno: [S]Photon Cannon 
+570 Techno: [S]Hyperdrive 
+570 Techno: [B]Positron 
+570 Techno: [A]Phase Beam 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084300_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.000 (147, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [A]Hyperdrive 
+570 Techno: [B]Pulse Engine 
+570 Techno: [B]Hyperdrive 
+570 Techno: [B]Phase Beam 
+570 Techno: [B]Launch Thrusters 
+570 Techno: [C]Cyclotron 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084400_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.000 (147, 38)
+488 Techno: Technol: mn=0.007,MPy=5,MPx=21
+570 Techno: [S]Phase Beam 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084500_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.001 (146, 38)
+488 Techno: Technol: mn=0.004,MPy=5,MPx=21
+570 Techno: [C]Exocraft Cannon 
+570 Techno: [C]Exocraft Engine 
+570 Techno: [C]Exocraft Laser 
+570 Techno: [C]Exocraft Boost 
+570 Techno: [C]Humboldt Drive 
+570 Techno: [C]Nautilon Cannon 
+
+/Downloads/No Man's Sky/derelict-restapi\py\0\20240427084600_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=0.001 (146, 38)
+488 Techno: Technol: mn=0.004,MPy=5,MPx=21
+570 Techno: [B]Minotaur Engine 
+570 Techno: [B]Minotaur Laser 
+570 Techno: [B]Minotaur Cannon 
+570 Techno: [B]Nautilon Cannon 
+570 Techno: [B]Exocraft Cannon 
+570 Techno: [A]Exocraft Boost 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427081700_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+813 Visited: Set System: "Birdy" -no card-
+91 Visited: exiting... (True, 'Birdy', False)
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427081800_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=1, p= "Aipeia Alpha"
+657 Resource: profile= Weather: Permafrost
+657 Resource: profile= Sentinels: Isolated
+657 Resource: profile= Flora: Abundant
+657 Resource: profile= Fauna: Generous
+689 Resource: 0.505 resource= Frost Crystal 
+689 Resource: 0.487 resource= Silver 
+689 Resource: 0.438 resource= Dioxite 
+689 Resource: 0.438 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427081900_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=2, p= "Rioka 49/K2"
+657 Resource: profile= Weather: Choking Clouds
+657 Resource: profile= Sentinels: Low Security
+657 Resource: profile= Flora: Twisted
+657 Resource: profile= Fauna: Frequent
+689 Resource: 0.430 resource= Fungal Mould 
+689 Resource: 0.432 resource= Magnetised Ferrite 
+689 Resource: 0.412 resource= Ammonia 
+689 Resource: 0.438 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082000_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=3, p= "Itchams IX"
+657 Resource: profile= Weather: Absent
+657 Resource: profile= Sentinels: Minimal
+657 Resource: profile= Flora: None
+657 Resource: profile= Fauna: Devoid
+689 Resource: 0.392 resource= Sodium 
+689 Resource: 0.494 resource= Rusted Metal 
+689 Resource: 0.449 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082100_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=4, p= "Audere"
+657 Resource: profile= Weather: Frequent Particle Eruptions
+657 Resource: profile= Sentinels: Remote
+657 Resource: profile= Flora: Ample
+657 Resource: profile= Fauna: Frequent
+689 Resource: 0.305 resource= Gamma Root 
+689 Resource: 0.374 resource= Sodium 
+689 Resource: 0.395 resource= Uranium 
+689 Resource: 0.438 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082200_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=5, p= "Reetwool XIV"
+657 Resource: profile= Weather: Perfectly Clear
+657 Resource: profile= Sentinels: Zealous
+657 Resource: profile= Flora: Nonexistent
+657 Resource: profile= Fauna: Empty
+689 Resource: 0.512 resource= Silver 
+689 Resource: 0.494 resource= Rusted Metal 
+689 Resource: 0.449 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082300_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+440 Techno: entering... Birdy
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Birdy
+605 Resource: resrc1: 0.004 (12, 14)
+638 Resource: s=Birdy, i=6, p= "Nemat 33/E6"
+657 Resource: profile= Weather: Withered
+657 Resource: profile= Sentinels: Observant
+657 Resource: profile= Flora: Bountiful
+657 Resource: profile= Fauna: Abundant
+689 Resource: 0.333 resource= Cactus Flesh 
+689 Resource: 0.005 resource= Salt 
+689 Resource: 0.526 resource= Pyrite 
+689 Resource: 0.438 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082400_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (323, 32)
+828 card title= "Aipeia Alpha"
+859 Visited: Set Biome: "Freezing Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082500_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (323, 32)
+828 card title= "Rioka 49/K2"
+859 Visited: Set Biome: "Toxic Horror"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082600_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (323, 32)
+828 card title= "Itchams IX"
+859 Visited: Set Biome: "Lifeless Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082700_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (323, 32)
+828 card title= "Audere"
+859 Visited: Set Biome: "Isotopic Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082800_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (225, 32)
+828 card title= "Reetwool XIV"
+859 Visited: Set Biome: "Lifeless Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427082900_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+clear=0.001 (225, 32)
+828 card title= "Nemat 33/E6"
+859 Visited: Set Biome: "Abandoned Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427084700_1.jpg
+SysInfo: entering...
+Visited: entering... Birdy
+813 Visited: Set System: "Ipesce XV" -no card-
+91 Visited: exiting... (True, 'Ipesce XV', False)
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427084800_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=1, p= "Thfie VI"
+657 Resource: profile= Weather: Invisible Jade Winds
+657 Resource: profile= Sentinels: Remote
+657 Resource: profile= Flora: Displaced
+657 Resource: profile= Fauna: Forfeited
+689 Resource: 0.002 resource= Salt 
+689 Resource: 0.412 resource= Gold 
+689 Resource: 0.460 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427084900_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=2, p= "Nismajo Gamma"
+657 Resource: profile= Weather: Inert
+657 Resource: profile= Sentinels: Malicious
+657 Resource: profile= Flora: None
+657 Resource: profile= Fauna: Undetected
+689 Resource: 0.411 resource= Sodium 
+689 Resource: 0.520 resource= Rusted Metal 
+689 Resource: 0.465 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085000_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=3, p= "Yamedi Beta"
+657 Resource: profile= Weather: Planet-Wide Radiation Storms
+657 Resource: profile= Sentinels: Spread Thin
+657 Resource: profile= Flora: Medium
+657 Resource: profile= Fauna: High
+689 Resource: 0.321 resource= Gamma Root 
+689 Resource: 0.510 resource= Silver 
+689 Resource: 0.411 resource= Uranium 
+689 Resource: 0.436 resource= Activated Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085100_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=4, p= "Big Table"
+657 Resource: profile= Weather: Bone-Stripping Acid Storms
+657 Resource: profile= Sentinels: Low
+657 Resource: profile= Flora: Infected
+657 Resource: profile= Fauna: Rare
+689 Resource: 0.455 resource= Fungal Mould 
+689 Resource: 0.003 resource= Salt 
+689 Resource: 0.423 resource= Ammonia 
+689 Resource: 0.448 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085200_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=5, p= "Doug"
+657 Resource: profile= Weather: Dangerously Hot
+657 Resource: profile= Sentinels: Require Obedience
+657 Resource: profile= Flora: Rich
+657 Resource: profile= Fauna: High
+689 Resource: 0.302 resource= Solanium 
+689 Resource: 0.450 resource= Magnetised Ferrite 
+689 Resource: 0.423 resource= Phosphorus 
+689 Resource: 0.446 resource= Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085300_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+440 Techno: entering... Ipesce XV
+451 Techno: avail2: mn=1.000 (0, 0)
+591 Resource: entering... Ipesce XV
+605 Resource: resrc1: 0.002 (12, 14)
+638 Resource: s=Ipesce XV, i=6, p= "Benjalk Ussar"
+657 Resource: profile= Weather: Intense Heatbursts
+657 Resource: profile= Sentinels: Inescapable
+657 Resource: profile= Flora: Abundant
+657 Resource: profile= Fauna: Generous
+689 Resource: 0.342 resource= Star Bulb 
+689 Resource: 0.451 resource= Magnetised Ferrite 
+689 Resource: 0.393 resource= Paraffinium 
+689 Resource: 0.436 resource= Activated Copper 
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085400_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.001 (323, 32)
+826 fix: Thfie Vi, Thfie VI
+828 card title= "Thfie VI"
+859 Visited: Set Biome: "Foaming Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085500_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.377 (259, 32)
+828 card title= "Nismajo Gamma"
+859 Visited: Set Biome: "Abandoned Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085600_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.377 (259, 32)
+828 card title= "Yamedi Beta"
+859 Visited: Set Biome: "Nuclear Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085700_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.377 (259, 32)
+828 card title= "Big Table"
+859 Visited: Set Biome: "Caustic Nightmare"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085800_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.377 (259, 32)
+828 card title= "Doug"
+859 Visited: Set Biome: "Boiling Planet"
+
+/Downloads/No Man's Sky/derelict-restapi\py\1\20240427085900_1.jpg
+SysInfo: entering...
+Visited: entering... Ipesce XV
+clear=0.378 (266, 32)
+828 card title= "Benjalk Ussar"
+859 Visited: Set Biome: "Bountiful Planet"
+
+{
+  "Birdy": {
+    "System Info": [
+      "Celestial Bodies: 5 Planets // 1 Moon",
+      "Dominant Lifeform: Korvax",
+      "Economy: Advanced Materials // Comfortable",
+      "Conflict level: High",
+      "Glyphs: 111111111111"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[A]Life Support": "",
+      "[A]Toxic Protection": "",
+      "[S]Toxic Protection": "",
+      "[S]Radiation Protection": "",
+      "[B]Cold Protection": "",
+      "[B]Toxic Protection": "",
+      "[S]Movement": "",
+      "[A]Hot Protection": "",
+      "[B]Hot Protection": "",
+      "[A]Cold Protection": "",
+      "[S]Life Support": "",
+      "[S]Shield": "",
+      "[B]Shield": "",
+      "[B]Radiation Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[B]Mining Beam": "",
+      "[C]Neutron Cannon": "",
+      "[A]Boltcaster": "",
+      "[B]Plasma Launcher": "",
+      "[S]Mining Beam": "",
+      "[B]Pulse Spitter": "",
+      "[A]Scanner": "",
+      "[B]Geology Cannon": "",
+      "[C]Pulse Spitter": "",
+      "[S]Scatter Blaster": "",
+      "[B]Neutron Cannon": "",
+      "[C]Geology Cannon": "",
+      "[A]Plasma Launcher": "",
+      "[A]Pulse Spitter": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Phase Beam": "",
+      "[A]Photon Cannon": "",
+      "[S]Infra-Knife": "",
+      "[C]Phase Beam": "",
+      "[B]Photon Cannon": "",
+      "[A]Starship Shield": "",
+      "[B]Launch Thrusters": "",
+      "[S]Positron": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[A]Exocraft Cannon": "",
+      "[A]Exocraft Engine": "",
+      "[S]Minotaur Engine": ""
+    },
+    "Buy Sell": {
+      "Nanotube Crate+": "",
+      "Self-Repairing Heridium+": "",
+      "Optical Solvent+": "",
+      "Unstable Plasma": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Dirty Bronze": "",
+      "Hermetic Seal": "",
+      "Metal Plating": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Dioxite": "",
+      "Copper": "",
+      "Ammonia": "",
+      "Tritium": ""
+    },
+    "Aipeia Alpha": {
+      "Planet Info": [
+        "Biome: Freezing Planet",
+        "Weather: Permafrost",
+        "Sentinels: Isolated",
+        "Flora: Abundant",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Frost Crystal",
+        "Silver",
+        "Dioxite",
+        "Copper"
+      ]
+    },
+    "Rioka 49/K2": {
+      "Planet Info": [
+        "Biome: Toxic Horror",
+        "Weather: Choking Clouds",
+        "Sentinels: Low Security",
+        "Flora: Twisted",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Magnetised Ferrite",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Itchams IX": {
+      "Planet Info": [
+        "Biome: Lifeless Planet",
+        "Weather: Absent",
+        "Sentinels: Minimal",
+        "Flora: None",
+        "Fauna: Devoid"
+      ],
+      "Resources": [
+        "Sodium",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Audere": {
+      "Planet Info": [
+        "Biome: Isotopic Planet",
+        "Weather: Frequent Particle Eruptions",
+        "Sentinels: Remote",
+        "Flora: Ample",
+        "Fauna: Frequent"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Sodium",
+        "Uranium",
+        "Copper"
+      ]
+    },
+    "Reetwool XIV": {
+      "Planet Info": [
+        "Biome: Lifeless Planet",
+        "Weather: Perfectly Clear",
+        "Sentinels: Zealous",
+        "Flora: Nonexistent",
+        "Fauna: Empty"
+      ],
+      "Resources": [
+        "Silver",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Nemat 33/E6": {
+      "Planet Info": [
+        "Biome: Abandoned Planet",
+        "Weather: Withered",
+        "Sentinels: Observant",
+        "Flora: Bountiful",
+        "Fauna: Abundant"
+      ],
+      "Resources": [
+        "Cactus Flesh",
+        "Salt",
+        "Pyrite",
+        "Copper"
+      ]
+    }
+  },
+  "Ipesce XV": {
+    "System Info": [
+      "Celestial Bodies: 4 Planets // 2 Moons",
+      "Dominant Lifeform: Gek",
+      "Economy: Nano-construction // Satisfactory",
+      "Conflict level: Alarming",
+      "Glyphs: 111110111111"
+    ],
+    "Technology": {
+      "[B]Life Support": "",
+      "[C]Movement": "",
+      "[C]Shield": "",
+      "[A]Life Support": "",
+      "[A]Toxic Protection": "",
+      "[S]Shield": "",
+      "[B]Movement": "",
+      "[A]Shield": "",
+      "[B]Underwater Protection": "",
+      "[B]Shield": "",
+      "[A]Movement": "",
+      "[B]Cold Protection": "",
+      "[S]Radiation Protection": "",
+      "[A]Radiation Protection": "",
+      "[S]Movement": "",
+      "[A]Cold Protection": "",
+      "[A]Underwater Protection": "",
+      "[A]Hot Protection": "",
+      "[C]Mining Beam": "",
+      "[C]Scanner": "",
+      "[C]Boltcaster": "",
+      "[C]Geology Cannon": "",
+      "[A]Mining Beam": "",
+      "[A]Blaze Javelin": "",
+      "[S]Neutron Cannon": "",
+      "[C]Blaze Javelin": "",
+      "[A]Scanner": "",
+      "[B]Geology Cannon": "",
+      "[S]Scanner": "",
+      "[S]Scatter Blaster": "",
+      "[S]Plasma Launcher": "",
+      "[A]Pulse Spitter": "",
+      "[B]Scatter Blaster": "",
+      "[C]Neutron Cannon": "",
+      "[A]Plasma Launcher": "",
+      "[C]Launch Thrusters": "",
+      "[C]Pulse Engine": "",
+      "[C]Hyperdrive": "",
+      "[C]Starship Shield": "",
+      "[S]Photon Cannon": "",
+      "[S]Hyperdrive": "",
+      "[B]Positron": "",
+      "[A]Phase Beam": "",
+      "[A]Hyperdrive": "",
+      "[B]Pulse Engine": "",
+      "[B]Hyperdrive": "",
+      "[B]Phase Beam": "",
+      "[B]Launch Thrusters": "",
+      "[C]Cyclotron": "",
+      "[S]Phase Beam": "",
+      "[C]Exocraft Cannon": "",
+      "[C]Exocraft Engine": "",
+      "[C]Exocraft Laser": "",
+      "[C]Exocraft Boost": "",
+      "[C]Humboldt Drive": "",
+      "[C]Nautilon Cannon": "",
+      "[B]Minotaur Engine": "",
+      "[B]Minotaur Laser": "",
+      "[B]Minotaur Cannon": "",
+      "[B]Nautilon Cannon": "",
+      "[B]Exocraft Cannon": "",
+      "[A]Exocraft Boost": ""
+    },
+    "Buy Sell": {
+      "Autonomous Positioning Unit+": "",
+      "Decommissioned Circuits+": "",
+      "Welding Soap+": "",
+      "Ion Capacitor+": "",
+      "Ferrite Dust": "",
+      "Cobalt": "",
+      "Lemmium": "",
+      "Magnetic Resonator": "",
+      "Microprocessor": "",
+      "Wiring Loom": "",
+      "Unstable Plasma": "",
+      "Metal Plating": "",
+      "Dioxite": "",
+      "Gold": "",
+      "Pure Ferrite": ""
+    },
+    "Thfie VI": {
+      "Planet Info": [
+        "Biome: Foaming Planet",
+        "Weather: Invisible Jade Winds",
+        "Sentinels: Remote",
+        "Flora: Displaced",
+        "Fauna: Forfeited"
+      ],
+      "Resources": [
+        "Salt",
+        "Gold",
+        "Copper"
+      ]
+    },
+    "Nismajo Gamma": {
+      "Planet Info": [
+        "Biome: Abandoned Planet",
+        "Weather: Inert",
+        "Sentinels: Malicious",
+        "Flora: None",
+        "Fauna: Undetected"
+      ],
+      "Resources": [
+        "Sodium",
+        "Rusted Metal",
+        "Copper"
+      ]
+    },
+    "Yamedi Beta": {
+      "Planet Info": [
+        "Biome: Nuclear Planet",
+        "Weather: Planet-Wide Radiation Storms",
+        "Sentinels: Spread Thin",
+        "Flora: Medium",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Gamma Root",
+        "Silver",
+        "Uranium",
+        "Activated Copper"
+      ]
+    },
+    "Big Table": {
+      "Planet Info": [
+        "Biome: Caustic Nightmare",
+        "Weather: Bone-Stripping Acid Storms",
+        "Sentinels: Low",
+        "Flora: Infected",
+        "Fauna: Rare"
+      ],
+      "Resources": [
+        "Fungal Mould",
+        "Salt",
+        "Ammonia",
+        "Copper"
+      ]
+    },
+    "Doug": {
+      "Planet Info": [
+        "Biome: Boiling Planet",
+        "Weather: Dangerously Hot",
+        "Sentinels: Require Obedience",
+        "Flora: Rich",
+        "Fauna: High"
+      ],
+      "Resources": [
+        "Solanium",
+        "Magnetised Ferrite",
+        "Phosphorus",
+        "Copper"
+      ]
+    },
+    "Benjalk Ussar": {
+      "Planet Info": [
+        "Biome: Bountiful Planet",
+        "Weather: Intense Heatbursts",
+        "Sentinels: Inescapable",
+        "Flora: Abundant",
+        "Fauna: Generous"
+      ],
+      "Resources": [
+        "Star Bulb",
+        "Magnetised Ferrite",
+        "Paraffinium",
+        "Activated Copper"
+      ]
+    }
+  }
+}
+
+elasped time: 24.1
+class_set: {'C', 'S', 'A', 'B'}
+

@@ -30,13 +30,9 @@ for opt, arg in opts:
     if 'a' in dbug: 
       dbug = 'igtrvs'
 
-# if ilog == '0' or ilog == 't':
 db = {} # {"Apporo II": {'System Info':[],'Technology':{},'Buy Sell':{}}}
-# else:
-#   with open(f'pip{int(ilog) - 1}.json', "r") as infile: 
-#     db = json.load(infile)
 
-m.log(ilog,f'argv={argv} ilog={ilog} title={title} dbug={dbug}')
+m.log(ilog,f'argv={argv} title={title} ilog={ilog} dbug={dbug}')
 if argv:
   # print(argv)
   assert argv[0].startswith('-'), "SYNTAX: python pipj.py -f 0|1|2|t -t title -d aigtrv"
@@ -53,6 +49,7 @@ dirs = {
   "Orbital": ["normal/normal8 orbital"],
   "Omega": ["expeditions/expeditions12 omega"],
   "Normal9": ["normal/normal9"],
+  "Two Glyphs": ["derelict-restapi"],
 }
 
 for dir in dirs[title]: 
