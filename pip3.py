@@ -10,7 +10,7 @@ import getopt
 import time
 
 class_set = set()
-title = "Playground"
+title = "Two Glyphs"
 dbug = ""
 ilog = title # '0'
 argv = sys.argv[1:] 

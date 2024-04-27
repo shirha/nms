@@ -5,7 +5,7 @@ import re
 import getopt 
 ilog = 0
 dbug = ''
-title = 'Omega'
+title = 'index0'
 argv = sys.argv[1:] 
 try: 
   opts, args = getopt.getopt(argv, "f:t:d:", ["file =", "title =", "dbug ="]) 
